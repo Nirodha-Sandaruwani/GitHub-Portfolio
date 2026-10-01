@@ -7,9 +7,13 @@ import numpy as np
 import pandas as pd
 from typing import Dict, Any
 
-MODEL_PATH = "model.joblib"
-FEATURES_PATH = "feature_columns.json"
-MAPPINGS_PATH = "mappings.json"
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+
+MODEL_PATH = BASE_DIR / "model.joblib"
+FEATURES_PATH = BASE_DIR / "feature_columns.json"
+MAPPINGS_PATH = BASE_DIR / "mappings.json"
 
 LOG_TARGET = True  # model trained on price_log
 
@@ -45,13 +49,16 @@ def encode(col: str, value: str) -> int:
 
 
 # ---------- API ----------
-app = FastAPI(title="Used Car Price Prediction API (Phase 6 Demo)")
-
+app = FastAPI(
+    title="Used Car Price Prediction API",
+    description="Machine learning API for predicting used-car prices.",
+    version="1.0.0",
+)
 # Optional but helpful when Streamlit runs on another port
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
