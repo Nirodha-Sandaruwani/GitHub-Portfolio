@@ -1,0 +1,82 @@
+{
+    "fuel_type": {
+        "Gasoline": 0,
+        "Flex Fuel Vehicle": 1,
+        "Biodiesel": 2,
+        "Hybrid": 3,
+        "Compressed Natural Gas": 4,
+        "Diesel": 5,
+        "Propane": 6
+    },
+    "transmission": {
+        "CVT": 0,
+        "A": 1,
+        "Dual Clutch": 2,
+        "M": 3
+    },
+    "body_type": {
+        "Van": 0,
+        "SUV / Crossover": 1,
+        "Coupe": 2,
+        "Convertible": 3,
+        "Sedan": 4,
+        "Wagon": 5,
+        "Minivan": 6,
+        "Hatchback": 7,
+        "Pickup Truck": 8
+    },
+    "engine_type": {
+        "V12 Hybrid": 0,
+        "V6": 1,
+        "W12 Flex Fuel Vehicle": 2,
+        "V8 Propane": 3,
+        "R2": 4,
+        "I2": 5,
+        "H4": 6,
+        "W12": 7,
+        "I4 Compressed Natural Gas": 8,
+        "I5": 9,
+        "W8": 10,
+        "I4 Hybrid": 11,
+        "I4 Diesel": 12,
+        "V6 Compressed Natural Gas": 13,
+        "H6": 14,
+        "V6 Hybrid": 15,
+        "W16": 16,
+        "V8 Biodiesel": 17,
+        "V12": 18,
+        "V6 Flex Fuel Vehicle": 19,
+        "I4 Flex Fuel Vehicle": 20,
+        "I4": 21,
+        "I5 Biodiesel": 22,
+        "I6 Hybrid": 23,
+        "V8": 24,
+        "V8 Diesel": 25,
+        "I5 Diesel": 26,
+        "V6 Biodiesel": 27,
+        "V8 Compressed Natural Gas": 28,
+        "I3 Hybrid": 29,
+        "I3": 30,
+        "V8 Hybrid": 31,
+        "Gasoline engine": 32,
+        "I6 Diesel": 33,
+        "V6 Diesel": 34,
+        "I6": 35,
+        "V10": 36,
+        "V8 Flex Fuel Vehicle": 37,
+        "Diesel engine": 38,
+        "H4 Hybrid": 39
+    },
+    "has_incidents": {
+        "False": 0,
+        "True": 1
+    },
+    "wheel_system": {
+        "FWD": 0,
+        "4WD": 1,
+        "AWD": 2,
+        "4X2": 3,
+        "RWD": 4
+    }
+}
+ 

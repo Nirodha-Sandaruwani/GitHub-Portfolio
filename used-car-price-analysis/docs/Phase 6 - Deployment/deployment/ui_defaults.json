@@ -1,0 +1,17 @@
+{
+  "year": 2020,
+  "combined_fuel_economy": 25.0,
+  "mileage": 4432.0,
+  "horsepower": 228.0,
+  "torque": 265.21883948671586,
+  "legroom": 80.16630453611096,
+  "maximum_seating": 5,
+  "size_of_vehicle": 457.9,
+  "major_options_count": 6.0,
+  "has_incidents": false,
+  "fuel_type": "Flex Fuel Vehicle",
+  "transmission": "M",
+  "body_type": "Wagon",
+  "engine_type": "I4 Compressed Natural Gas",
+  "wheel_system": "4WD"
+}

@@ -1,0 +1,17 @@
+[
+  "year",
+  "combined_fuel_economy",
+  "mileage",
+  "fuel_type",
+  "transmission",
+  "body_type",
+  "engine_type",
+  "horsepower",
+  "torque",
+  "legroom",
+  "maximum_seating",
+  "size_of_vehicle",
+  "has_incidents",
+  "wheel_system",
+  "major_options_count"
+]

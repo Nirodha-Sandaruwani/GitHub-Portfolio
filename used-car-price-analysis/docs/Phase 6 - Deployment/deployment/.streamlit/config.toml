@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#EA580C"              # Burnt orange accent
+backgroundColor = "#020617"           # Near-black (luxury)
+secondaryBackgroundColor = "#0F172A"  # Dark slate
+textColor = "#E5E7EB"                 # Soft light gray
+font = "sans serif"
