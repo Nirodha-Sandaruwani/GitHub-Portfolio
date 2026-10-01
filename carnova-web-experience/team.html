@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CarNova - Our Technicians</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pagestyle.css">
+
+  <!-- SCSS Build -->
+  <link rel="stylesheet" href="scss/main.css">
+
+</head>
+
+<body>
+
+  <div id="loader-wrapper">
+  <div class="multi-ring-loader">
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="ring r3"></div>
+    <div class="ring r4"></div>
+    <div class="ring r5"></div>
+
+    <div id="loader-count">0</div>
+  </div>
+</div>
+
+  <!-- BACKGROUND LAYERS -->
+  <div class="grid-bg"></div>
+  <div class="gradient-overlay"></div>
+  <div class="scanlines"></div>
+  <div class="shapes-container">
+    <div class="shape shape-circle"></div>
+    <div class="shape shape-triangle"></div>
+    <div class="shape shape-square"></div>
+  </div>
+  <div id="particles"></div>
+  <div class="rotating-rect"></div>
+
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-left">
+        <span
+          ><i class="fa-solid fa-location-dot"></i> 123 Street, Jyväskylä, Finland</span
+        >
+        <span
+          ><i class="fa-solid fa-clock"></i> Mon - Fri : 09.00 AM - 09.00
+          PM</span
+        >
+      </div>
+      <div class="top-right">
+        <a href="tel:+10123456789"
+          ><i class="fa-solid fa-phone"></i> +01 2345 6789</a
+        >
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+      HEADER / NAVBAR
+=========================================== -->
+<header id="navbar" class="site-header electric-nav">
+
+  <div class="container header-inner">
+
+    <!-- LOGO -->
+<a href="index.html" class="brand electric-logo" aria-label="CarNova Home">
+
+  <span class="brand-icon">
+    <img
+      src="img/my-logo.svg"
+      alt="CarNova Logo"
+      width="36"
+      height="36"
+      loading="eager"
+    >
+  </span>
+
+  <span class="brand-text">CARNOVA</span>
+</a>
+
+    <!-- DESKTOP NAV (unchanged) -->
+    <nav class="main-nav">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">HOME</a></li>
+        <li><a href="service.html" class="nav-link">SERVICES</a></li>
+        <li><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li class="dropdown">
+          <a class="nav-link">PAGES <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="team.html">Technicians</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- DESKTOP BUTTON -->
+    <a href="#contact" class="btn btn-quote">GET A QUOTE →</a>
+
+    <!-- MOBILE HAMBURGER -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+
+  <!-- MOBILE SLIDE-IN MENU -->
+  <nav class="mobile-nav-panel" id="mobileNav">
+    <ul class="mobile-menu">
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+
+      <li class="mobile-has-sub">
+  <div class="mobile-sub-header">
+    <span>PAGES</span>
+    <button class="sub-toggle-btn" aria-label="Toggle submenu">
+      <span class="toggle-icon">+</span>
+    </button>
+  </div>
+
+  <ul class="mobile-submenu">
+    <li><a href="team.html">Technicians</a></li>
+    <li><a href="testimonial.html">Testimonial</a></li>
+  </ul>
+</li>
+
+
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+  </nav>
+  <div class="mobile-nav-overlay" id="mobileOverlay"></div>
+
+
+</header>
+
+  <!-- PAGE BANNER -->
+  <section class="team-banner">
+    <div class="page-banner-content">
+      <h1 class="page-banner-title">Our Technicians</h1>
+      <p class="about-breadcrumb">
+          <a href="index.html"> HOME </a> <span> / </span> PAGES <span> / </span> <a href="team.html"> TECHNICIANS </a>
+    </div>
+  </section>
+
+  <!-- TECHNICIAN SECTION -->
+<section id="technicians" class="tech-section">
+
+  <div class="text-center topic-box">
+    <p class="section2-tag">// OUR TECHNICIANS //</p>
+    <h2 class="section2-title">Expert & Professional Technicians</h2>
+  </div>
+
+  <div class="tech-grid">
+
+    <!-- TECHNICIAN 1 -->
+    <div class="tech-card">
+
+      <div class="img-wrapper">
+        <img src="img/tech2.webp" alt="Michael" width="500" height="400">
+
+        <div class="square-overlay">
+          <div class="experience-text">
+            Michael has 15+ years of experience in diagnostics and electrical systems.
+          </div>
+        </div>
+      </div>
+
+      <div class="name-box">
+        <h3 class="name-title">Michael Jack</h3>
+
+        <div class="role-box">
+          <p class="role">Founder CEO</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TECHNICIAN 2 -->
+    <div class="tech-card">
+
+      <div class="img-wrapper">
+        <img src="img/tech1.webp" alt="Cathy" width="500" height="400">
+
+        <div class="square-overlay">
+          <div class="experience-text">
+            Cathy specializes in engine rebuilding, precision tuning & restoration works.
+          </div>
+        </div>
+      </div>
+
+      <div class="name-box">
+        <h3 class="name-title">Cathy Sparkman</h3>
+
+        <div class="role-box">
+          <p class="role">Main Mechanic</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TECHNICIAN 3 -->
+    <div class="tech-card">
+
+      <div class="img-wrapper">
+        <img src="img/tech3.webp" alt="Tyra" width="500" height="400">
+
+        <div class="square-overlay">
+          <div class="experience-text">
+            Tyra is an expert in suspension systems, brakes and premium detailing.
+          </div>
+        </div>
+      </div>
+
+      <div class="name-box">
+        <h3 class="name-title">Tyra Crawford</h3>
+
+        <div class="role-box">
+          <p class="role">Mechanic</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- TECH SKILLS OVERVIEW -->
+<section class="tech-skills">
+  <div class="container">
+
+    <div class="text-center topic-box">
+      <p class="section2-tag">// TECHNICAL SKILLS //</p>
+      <h2 class="section2-title">Skill Levels & Experience</h2>
+    </div>
+
+    <div class="tech-skills-grid">
+
+      <!-- LEFT PANEL – ELECTRIC LEVEL BLOCKS -->
+      <div class="skills-panel skills-panel-blocks">
+        <h3 class="skills-panel-title">Core Service Skills</h3>
+        <p class="skills-panel-sub">
+          Real performance metrics based on completed diagnostics,
+          repairs and detailing projects.
+        </p>
+
+        <!-- 95% -->
+        <div class="skill-row" data-level="95">
+          <div class="skill-label">
+            <span class="skill-name">Engine Diagnostics</span>
+            <span class="skill-percent">95%</span>
+          </div>
+          <div class="skill-blocks"></div>
+        </div>
+
+        <!-- 92% -->
+        <div class="skill-row" data-level="92">
+          <div class="skill-label">
+            <span class="skill-name">Electrical Systems</span>
+            <span class="skill-percent">92%</span>
+          </div>
+          <div class="skill-blocks"></div>
+        </div>
+
+        <!-- 88% -->
+        <div class="skill-row" data-level="88">
+          <div class="skill-label">
+            <span class="skill-name">Precision Tuning</span>
+            <span class="skill-percent">88%</span>
+          </div>
+          <div class="skill-blocks"></div>
+        </div>
+
+        <!-- 85% -->
+        <div class="skill-row" data-level="85">
+          <div class="skill-label">
+            <span class="skill-name">Suspension & Brakes</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-blocks"></div>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL – ANIME PULSE GRAPH -->
+      <div class="skills-panel skills-panel-pulse">
+        <div class="skills-pulse-header">
+          <h3 class="skills-panel-title">Years Of Hands-On Experience</h3>
+          <div class="experience-badge-15">
+            <h3>15 <span>Years</span></h3>
+            <p>Experience</p>
+          </div>
+        </div>
+
+        <div class="pulse-graph">
+          <div class="pulse-bar" data-years="8">
+            <div class="pulse-bar-inner"></div>
+            <span class="bar-years">8 yrs</span>
+            <span class="bar-label">Diagnostics</span>
+          </div>
+
+          <div class="pulse-bar" data-years="7">
+            <div class="pulse-bar-inner"></div>
+            <span class="bar-years">7 yrs</span>
+            <span class="bar-label">Electrical</span>
+          </div>
+
+          <div class="pulse-bar" data-years="6">
+            <div class="pulse-bar-inner"></div>
+            <span class="bar-years">6 yrs</span>
+            <span class="bar-label">Tuning</span>
+          </div>
+
+          <div class="pulse-bar" data-years="5">
+            <div class="pulse-bar-inner"></div>
+            <span class="bar-years">5 yrs</span>
+            <span class="bar-label">Suspension</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     DREAM TECH SCHEDULE (FINAL)
+=========================== -->
+<section class="dream-schedule" id="dream-schedule">
+  
+  <div class="text-center topic-box">
+      <p class="section2-tag">// OUR SCHEDULE //</p>
+      <h2 class="section2-title">Schedule of Technicians</h2>
+    </div>
+
+  <div class="dream-schedule-inner">
+    <div class="ds-scroll-wrapper">
+
+    <!-- HEADER -->
+    <div class="ds-header">
+
+      <!-- Technician selector -->
+      <div class="ds-tech-select">
+        <button class="ds-pill ds-tech-pill" id="dsTechButton" type="button">
+          <span class="ds-tech-avatar">
+            <img id="dsTechAvatar" src="img/tech2.webp" alt="Technician avatar" width="500" height="400">
+          </span>
+          <span id="dsTechName" class="ds-tech-name">Michael Jack</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+
+        <ul class="ds-tech-menu" id="dsTechMenu">
+          <li data-tech="michael">
+            <img src="img/tech2.webp" alt="technician avatar 1" width="500" height="400">
+            <span>Michael Jack</span>
+          </li>
+          <li data-tech="cathy">
+            <img src="img/tech1.webp" alt="technician avatar 2" width="500" height="400">
+            <span>Cathy Sparkman</span>
+          </li>
+          <li data-tech="tyra">
+            <img src="img/tech3.webp" alt="technician avatar 3" width="500" height="400">
+            <span>Tyra Crawford</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Role pill -->
+      <div class="ds-pill ds-pill-role" id="dsRole">
+        Founder CEO - Main Mechanician
+      </div>
+
+      <!-- Years pill -->
+      <div class="ds-pill ds-pill-years">
+        <span id="dsYears">15</span> Years of Experience
+      </div>
+
+    </div>
+
+    <!-- ===== MAIN STRUCTURE ===== -->
+    <div class="ds-main">
+
+      <!-- LEFT: TIME COLUMN -->
+      <div class="ds-times">
+        <!-- EMPTY CELL — SAME ROW AS DAYS -->
+        <div class="ds-time-slot ds-time-empty"></div>
+
+        <div class="ds-time-slot">8:30</div>
+        <div class="ds-time-slot">9:30</div>
+        <div class="ds-time-slot">10:30</div>
+        <div class="ds-time-slot">11:30</div>
+        <div class="ds-time-slot ds-time-lunch">12:30</div>
+        <div class="ds-time-slot">1:30</div>
+        <div class="ds-time-slot">2:30</div>
+        <div class="ds-time-slot">3:30</div>
+        <div class="ds-time-slot">4:30</div>
+        <div class="ds-time-slot">5:30</div>
+      </div>
+
+      <!-- RIGHT: DAYS + GRID -->
+      <div class="ds-right">
+
+        <!-- DAYS ROW — PERFECTLY ALIGNED WITH EMPTY CELL -->
+        <div class="ds-days">
+          <div class="ds-day-chip" data-day="mon">Monday</div>
+          <div class="ds-day-chip" data-day="tue">Tuesday</div>
+          <div class="ds-day-chip" data-day="wed">Wednesday</div>
+          <div class="ds-day-chip" data-day="thu">Thursday</div>
+          <div class="ds-day-chip" data-day="fri">Friday</div>
+          <div class="ds-day-chip" data-day="sat">Saturday</div>
+          <div class="ds-day-chip" data-day="sun">Sunday</div>
+        </div>
+
+        <!-- GRID (7 columns × 10 rows) -->
+        <div class="ds-grid" id="dsGrid">
+          <!-- JS will inject ALL BLOCKS + DAY OFF COLUMN -->
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+  <!-- ⭐ FLOATING TOOLTIP FOR AVAILABLE BLOCKS ⭐ -->
+  <div id="dsTooltip" class="ds-tooltip">Available! Book Now</div>
+
+</section>
+
+
+
+
+  <!-- FOOTER / CONTACT STRIP -->
+<footer class="carnova-footer" id="footer">
+  <div class="container footer-main">
+    
+    <!-- BRAND + TEXT + PHONE -->
+    <div class="footer-col footer-brand">
+      <a href="#home" class="footer-logo">
+        <span class="logo-icon"><i class="fa-solid fa-car-side"></i></span>
+        <span class="logo-text">CARNOVA</span>
+      </a>
+
+      <p class="footer-desc">
+        CarNova blends precision diagnostics, expert mechanics and futuristic detailing
+        to keep your ride sharp, fast and safe – every single visit.
+      </p>
+
+      <!-- 🔥 NEW DREAM PHONE NUMBER SECTION -->
+      <div class="footer-phone-dream">
+        <div class="dream-icon-circle">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+
+        <div id="footer-phone-roller" class="footer-phone-roller" aria-label="Phone Number">
+        </div>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS LEFT -->
+    <div class="footer-col footer-links">
+      <h4 class="footer-heading">Quick Links</h4>
+      <ul>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="#packages">Washing Plans</a></li>
+        <li><a href="index.html#booking">Book A Service</a></li>
+        <li><a href="team.html">Our Technicians</a></li>
+        <li><a href="about.html">About CarNova</a></li>
+      </ul>
+    </div>
+
+    <!-- QUICK LINKS RIGHT -->
+    <div class="footer-col footer-links">
+      <h4 class="footer-heading">Support</h4>
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">FAQ &amp; Help</a></li>
+        <li><a href="#">Blog / News</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- LOCATION / CONTACT INFO -->
+    <div class="footer-col footer-contact">
+      <h4 class="footer-heading">Location &amp; Contact</h4>
+      <ul class="contact-list">
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>123 Street, Jyväskylä, Finland</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:hello@carnova.example">hello@carnova.com</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-clock"></i>
+          <span>Mon – Sat: 09:00 – 21:00</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© <span id="year"></span> CarNova. All rights reserved.</p>
+
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <a href="#home" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const skillsSection = document.querySelector(".tech-skills");
+
+  if (!skillsSection) return;
+
+  // 1) Build the electric level blocks
+  const skillRows = skillsSection.querySelectorAll(".skill-row");
+  const TOTAL_BLOCKS = 20;
+
+  skillRows.forEach(row => {
+    const level = parseInt(row.dataset.level || "0", 10);
+    const blocksContainer = row.querySelector(".skill-blocks");
+    const filledBlocks = Math.round((level / 100) * TOTAL_BLOCKS);
+
+    for (let i = 0; i < TOTAL_BLOCKS; i++) {
+      const block = document.createElement("span");
+      block.className = "skill-block";
+      block.style.setProperty("--i", i);
+      if (i < filledBlocks) {
+        block.dataset.shouldFill = "true";
+      }
+      blocksContainer.appendChild(block);
+    }
+  });
+
+  // 2) Set bar heights for years of experience
+  function setBarHeights() {
+    const bars = skillsSection.querySelectorAll(".pulse-bar");
+    bars.forEach(bar => {
+      const years = parseFloat(bar.dataset.years || "1");
+      const clamped = Math.min(Math.max(years, 1), 10); // between 1 and 10
+      const inner = bar.querySelector(".pulse-bar-inner");
+      const height = 30 + clamped * 12; // px
+      inner.style.setProperty("--bar-height", height + "px");
+    });
+  }
+
+  // 3) Animate blocks when section comes into view
+  function animateBlocks() {
+    const containers = skillsSection.querySelectorAll(".skill-blocks");
+    containers.forEach(container => {
+      const blocks = container.querySelectorAll(".skill-block");
+      let activeIndex = 0;
+      const step = 55; // ms between blocks
+
+      blocks.forEach((block, index) => {
+        if (block.dataset.shouldFill === "true") {
+          setTimeout(() => {
+            block.classList.add("active");
+          }, activeIndex * step);
+          activeIndex++;
+        }
+      });
+    });
+  }
+
+  // 4) Use IntersectionObserver to trigger everything once
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          skillsSection.classList.add("in-view");
+          setBarHeights();
+          animateBlocks();
+          observer.disconnect();
+        }
+      });
+    },
+    { threshold: 0.35 }
+  );
+
+  observer.observe(skillsSection);
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const isMobile = window.innerWidth < 768;
+
+  document.querySelectorAll(".tech-card").forEach(card => {
+
+    card.addEventListener("click", (e) => {
+
+      // 🔥 If tapping on a social icon → do NOT toggle card
+      if (e.target.closest(".social-icons")) {
+        return;
+      }
+
+      // 🔥 Toggle only on mobile
+      if (isMobile) {
+        card.classList.toggle("show-social");
+      }
+
+    });
+
+  });
+
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const times = ["8:30","9:30","10:30","11:30","12:30","1:30","2:30","3:30","4:30","5:30"];
+  const days  = ["mon","tue","wed","thu","fri","sat","sun"];
+
+  /* ------------------------------------------
+     Helper: Convert "8:30-10:30" → grid rows
+  ------------------------------------------- */
+  function parseTimeRange(range) {
+    const [start, end] = range.split("-").map(s => s.trim());
+    const sIndex = times.indexOf(start);
+    const eIndex = times.indexOf(end);
+    if (sIndex === -1 || eIndex === -1 || eIndex < sIndex) {
+      return { rowStart: 1, rowSpan: 1 };
+    }
+    return { rowStart: sIndex + 1, rowSpan: (eIndex - sIndex + 1) };
+  }
+
+  /* ------------------------------------------
+     Helper: Convert "mon-wed" → grid columns
+  ------------------------------------------- */
+  function parseDayRange(range) {
+    const parts = range.split("-").map(s => s.trim());
+    const start = parts[0];
+    const end   = parts[1] || parts[0];
+    const sIndex = days.indexOf(start);
+    const eIndex = days.indexOf(end);
+    if (sIndex === -1 || eIndex === -1 || eIndex < sIndex) {
+      return { colStart: 1, colSpan: 1 };
+    }
+    return { colStart: sIndex + 1, colSpan: (eIndex - sIndex + 1) };
+  }
+
+  /* ------------------------------------------
+     SCHEDULES (unchanged)
+  ------------------------------------------- */
+  const michaelBlocks = [
+    { time:"8:30-10:30", days:"mon-tue", type:"blue", title:"Technical Control", meta:"03-TT21P / FORD\n1-Not Started" },
+    { time:"11:30-11:30", days:"mon-tue", type:"gray", title:"AVAILABLE", meta:"" },
+
+    { time:"8:30-11:30", days:"wed", type:"green", title:"Bodywork", meta:"90-AQZ-09 / FORD\n2-Pending" },
+
+    { time:"8:30-8:30", days:"thu-fri", type:"orange", title:"Tyres", meta:"" },
+    { time:"9:30-9:30", days:"thu-fri", type:"gray", title:"AVAILABLE", meta:"" },
+    { time:"10:30-11:30", days:"thu-fri", type:"orange", title:"Installation", meta:"SD-76-FB / Volkswagen\n3-Completed" },
+
+    { time:"8:30-11:30", days:"sat", type:"yellow", title:"Bodywork", meta:"7889-MXR-12 / BMW\n1-Not Started" },
+
+    { time:"12:30-12:30", days:"mon-sat", type:"gray", title:"LUNCH HOUR", meta:"" },
+
+    { time:"1:30-2:30", days:"mon-wed", type:"blue", title:"Maintenance", meta:"60-BVR-60 / Mercedes\n2-Pending" },
+    { time:"1:30-2:30", days:"thu-sat", type:"orange", title:"Technical Control", meta:"04-INR30 / Corolla\n1-Not Started" },
+
+    { time:"3:30-5:30", days:"mon-tue", type:"blue", title:"Technical Control", meta:"ZX-98-HS / Volkswgen\n1-Not Started" },
+    { time:"4:30-5:30", days:"wed-fri", type:"green", title:"Installation", meta:"5090-LMO-36 / BMW\n2-Pending" },
+
+    { time:"3:30-3:30", days:"wed-fri", type:"gray", title:"AVAILABLE", meta:"" },
+    { time:"3:30-5:30", days:"sat", type:"yellow", title:"Maintenance", meta:"80-BRS-09 / FORD\n3-Completed" }
+  ];
+
+  const cathyBlocks = [
+    { time:"8:30-9:30", days:"mon-tue", type:"blue", title:"Technical Control", meta:"04-INR30 / Corolla\n1-Not Started" },
+    { time:"10:30-11:30", days:"mon-tue", type:"blue", title:"Installation", meta:"5090-LMO-36 / BMW\n2-Pending" },
+    { time:"8:30-11:30", days:"wed", type:"green", title:"Bodywork", meta:"22-KLM-04 / Kia\n2-Pending" },
+
+    { time:"8:30-10:30", days:"thu-fri", type:"orange", title:"Technical Control", meta:"03-TTZ19 / FORD\n1-Not Started" },
+    { time:"11:30-11:30", days:"thu-fri", type:"gray", title:"AVAILABLE", meta:"" },
+
+    { time:"8:30-11:30", days:"sun", type:"yellow", title:"Bodywork", meta:"7889-MXR-12 / BMW\n1-Not Started" },
+
+    { time:"12:30-12:30", days:"mon-fri", type:"gray", title:"LUNCH HOUR", meta:"" },
+    { time:"12:30-12:30", days:"sun", type:"gray", title:"LUNCH HOUR", meta:"" },
+
+    { time:"1:30-3:30", days:"mon-tue", type:"blue", title:"Maintenance", meta:"75-HYU-45 / Hyundai\n3-Completed" },
+    { time:"4:30-4:30", days:"mon-tue", type:"gray", title:"AVAILABLE", meta:"" },
+    { time:"5:30-5:30", days:"mon-tue", type:"blue", title:"Tyres", meta:"" },
+
+    { time:"1:30-2:30", days:"wed-fri", type:"green", title:"Maintenance", meta:"60-BVR-60 / Mercedes\n2-Pending" },
+    { time:"3:30-5:30", days:"wed", type:"green", title:"Installation", meta:"5090-LMO-36 / BMW\n2-Pending" },
+    { time:"3:30-5:30", days:"thu-fri", type:"orange", title:"Technical Control", meta:"ZX-98-HS / Volkswgen\n2-Not Started" },
+
+    { time:"1:30-2:30", days:"sun", type:"yellow", title:"Technical Control", meta:"04INR30 / BMW\n1-Not Started" },
+    { time:"3:30-5:30", days:"sun", type:"yellow", title:"Maintenance", meta:"90-HGS-01 / Ford\n3-Completed" }
+  ];
+
+  const schedules = {
+    michael: {
+      avatar: "img/tech2.webp",
+      name: "Michael Jack",
+      role: "Founder CEO - Master Mechanic",
+      years: 15,
+      offDay: "sun",
+      blocks: michaelBlocks
+    },
+    cathy: {
+      avatar: "img/tech1.webp",
+      name: "Cathy Sparkman",
+      role: "Workshop Supervisor",
+      years: 12,
+      offDay: "sat",
+      blocks: cathyBlocks
+    },
+    tyra: {
+      avatar: "img/tech3.webp",
+      name: "Tyra Crawford",
+      role: "Maintenance Manager - Mechanic",
+      years: 9,
+      offDay: "sun",
+      blocks: [
+        { time:"8:30-11:30", days:"mon", type:"blue", title:"Bodywork", meta:"03-TT21P / FORD\n2-Pending" },
+        { time:"8:30-8:30", days:"tue-wed", type:"green", title:"Tyres", meta:"" },
+        { time:"9:30-9:30", days:"tue-wed", type:"gray", title:"AVAILABLE", meta:"" },
+        { time:"10:30-11:30", days:"tue-wed", type:"green", title:"Installation", meta:"SD-76-FB / Volkswagen\n3-Completed" },
+
+        { time:"8:30-10:30", days:"thu-fri", type:"orange", title:"Technical Control", meta:"7889-MXR-12 / BMW\n1-Not Started" },
+        { time:"11:30-11:30", days:"thu-fri", type:"gray", title:"AVAILABLE", meta:"" },
+
+        { time:"8:30-10:30", days:"sat", type:"yellow", title:"Bodywork", meta:"60-BVR-60 / Mercedes\n1-Not Started" },
+        { time:"11:30-11:30", days:"sat", type:"yellow", title:"Tyres", meta:"" },
+
+        { time:"12:30-12:30", days:"mon-sat", type:"gray", title:"LUNCH HOUR", meta:"" },
+
+        { time:"1:30-2:30", days:"mon-wed", type:"blue", title:"Technical Control", meta:"5090-LMO-36 / BMW\n1-Not Started" },
+        { time:"3:30-5:30", days:"mon-tue", type:"blue", title:"Technical Control", meta:"ZX-98-HS / Volkswgen\n1-Not Started" },
+
+        { time:"1:30-2:30", days:"thu-sat", type:"orange", title:"Maintenance", meta:"80-BRS-09 / FORD\n2-Pending" },
+        { time:"3:30-3:30", days:"wed-fri", type:"gray", title:"AVAILABLE", meta:"" },
+        { time:"4:30-5:30", days:"wed-fri", type:"green", title:"Installation", meta:"80-BRS-09 / FORD\n2-Pending" },
+
+        { time:"3:30-5:30", days:"sat", type:"yellow", title:"Maintenance", meta:"ABC-9067-GE / FORD\n3-Completed" }
+      ]
+    }
+  };
+
+  /* ------------------------------------------
+     DOM
+  ------------------------------------------- */
+  const gridEl = document.getElementById("dsGrid");
+  const techButton = document.getElementById("dsTechButton");
+  const techMenu = document.getElementById("dsTechMenu");
+  const techNameEl = document.getElementById("dsTechName");
+  const techAvatar = document.getElementById("dsTechAvatar");
+  const roleEl = document.getElementById("dsRole");
+  const yearsEl = document.getElementById("dsYears");
+  const dayChips = document.querySelectorAll(".ds-day-chip");
+  const tooltip = document.getElementById("dsTooltip");
+
+  function clearGrid() {
+    gridEl.querySelectorAll(".ds-task, .ds-dayoff-col").forEach(el => el.remove());
+  }
+
+  /* ------------------------------------------
+     RENDER SCHEDULE (UPDATED)
+  ------------------------------------------- */
+  function renderSchedule(key) {
+    const data = schedules[key];
+    if (!data) return;
+
+    clearGrid();
+
+    techNameEl.textContent = data.name;
+    techAvatar.src = data.avatar;
+    roleEl.textContent = data.role;
+    yearsEl.textContent = data.years;
+
+    dayChips.forEach(chip => {
+      chip.classList.toggle("is-off", chip.dataset.day === data.offDay);
+    });
+
+    if (data.offDay) {
+      const offIndex = days.indexOf(data.offDay);
+      if (offIndex !== -1) {
+        const offCol = document.createElement("div");
+        offCol.className = "ds-dayoff-col";
+        offCol.style.gridColumn = (offIndex + 1) + " / span 1";
+        offCol.innerHTML = "<span>DAY</span><span>OFF</span>";
+        gridEl.appendChild(offCol);
+      }
+    }
+
+    /* ------------------------------------------
+       Render each task block
+    ------------------------------------------- */
+    data.blocks.forEach(block => {
+      const { rowStart, rowSpan } = parseTimeRange(block.time);
+      const { colStart, colSpan } = parseDayRange(block.days);
+
+      const card = document.createElement("div");
+      card.className = "ds-task ds-task-" + block.type;
+      card.style.gridRow = `${rowStart} / span ${rowSpan}`;
+      card.style.gridColumn = `${colStart} / span ${colSpan}`;
+
+      const title = document.createElement("div");
+      title.className = "ds-task-title";
+      title.textContent = block.title;
+      card.appendChild(title);
+
+      if (block.meta) {
+        const meta = document.createElement("div");
+        meta.className = "ds-task-meta";
+        meta.textContent = block.meta;
+        card.appendChild(meta);
+      }
+
+      /* ------------------------------------------
+         AVAILABLE BLOCK → Tooltip + Click Action
+      ------------------------------------------- */
+      if (block.title.toLowerCase() === "available") {
+
+        // Show tooltip
+        card.addEventListener("mouseenter", () => {
+          tooltip.style.opacity = 1;
+        });
+
+        card.addEventListener("mousemove", (e) => {
+          tooltip.style.left = (e.clientX + 15) + "px";
+          tooltip.style.top = (e.clientY - 10) + "px";
+        });
+
+        card.addEventListener("mouseleave", () => {
+          tooltip.style.opacity = 0;
+        });
+
+        // Make clickable → Booking
+        card.style.cursor = "pointer";
+        card.addEventListener("click", () => {
+          window.location.href = "index.html#booking";
+        });
+      }
+
+      gridEl.appendChild(card);
+    });
+  }
+
+  /* ------------------------------------------
+     Tech Dropdown
+  ------------------------------------------- */
+  techButton.addEventListener("click", () => {
+    techMenu.classList.toggle("open");
+  });
+
+  techMenu.addEventListener("click", (e) => {
+    const item = e.target.closest("li[data-tech]");
+    if (!item) return;
+    renderSchedule(item.dataset.tech);
+    techMenu.classList.remove("open");
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!techButton.contains(e.target) && !techMenu.contains(e.target)) {
+      techMenu.classList.remove("open");
+    }
+  });
+
+  /* ------------------------------------------
+     Load default
+  ------------------------------------------- */
+  renderSchedule("michael");
+
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- jQuery FIRST -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<!-- GSAP (optional, but nice) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  new WOW().init();
+</script>
+
+<!-- App -->
+<script src="script.js" defer></script>
+
+</body>
+</html>

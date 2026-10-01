@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredients</title>
+    <link rel="stylesheet" href="/cards/main.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+            <!-- Sidebar Header with Curved Top-Left Corner -->
+            <header class="sidebar-header">
+                <h2>Pantry</h2>
+                <p>Select Ingredients You Have</p>
+                <div class="search-bar">
+                    <input type="text" id="ingredient-search" placeholder="Search ingredients...">
+                    <div id="search-results"></div>
+                </div>
+            </header>
+            
+            <!-- Ingredient List Section -->
+            <div class="sidebar-category">
+                <div class="sidebar-box">
+
+                    <!-- Core Essentials -->
+                    <div class="pantry-card">
+                        <div class="pantry-header">
+                            <img src="/public/image/staple_ingredents-desc.jpeg" alt="Grocery Bag Icon" class="pantry-icon1">
+                            <div class="pantry-info">
+                                <h1>Core Essentials</h1>
+                                <p>0/40 Ingredients</p>
+                            </div>
+                            <span class="dropdown-icon">˅</span>
+                        </div>
+                        <hr class="divider">
+                        <div class="ingredient-list" id="core-essentials"></div>
+                    </div>
+
+                    <!-- Vegetables -->
+                    <div class="pantry-card">
+                        <div class="pantry-header">
+                            <img src="/public/image/vegitables-desc.jpeg" alt="Grocery Bag Icon" class="pantry-icon">
+                            <div class="pantry-info">
+                                <h2>Vegetables</h2>
+                                <p>0/40 Ingredients</p>
+                            </div>
+                            <span class="dropdown-icon1">˅</span>
+                        </div>
+                        <hr class="divider">
+                        <div class="ingredient-list" id="vegetables"></div>
+                    </div>
+
+                    <!-- Fruits -->
+                    <div class="pantry-card">
+                        <div class="pantry-header">
+                            <img src="https://t4.ftcdn.net/jpg/00/65/70/65/360_F_65706597_uNm2SwlPIuNUDuMwo6stBd81e25Y8K8s.jpg" alt="Grocery Bag Icon" class="pantry-icon">
+                            <div class="pantry-info">
+                                <h2>Fruits</h2>
+                                <p>0/40 Ingredients</p>
+                            </div>
+                            <span class="dropdown-icon1">˅</span>
+                        </div>
+                        <hr class="divider">
+                        <div class="ingredient-list" id="fruits"></div>
+                    </div>
+
+                    <!-- Fish and Meats -->
+                    <div class="pantry-card">
+                        <div class="pantry-header">
+                            <img src="https://img.freepik.com/premium-photo/assorted-raw-meats-white-background-illustration_1077802-44437.jpg" alt="Grocery Bag Icon" class="pantry-icon">
+                            <div class="pantry-info">
+                                <h2>Fish and Meats</h2>
+                                <p>0/40 Ingredients</p>
+                            </div>
+                            <span class="dropdown-icon1">˅</span>
+                        </div>
+                        <hr class="divider">
+                        <div class="ingredient-list" id="meats"></div>
+                    </div>
+
+                    <!-- Spices -->
+                    <div class="pantry-card">
+                        <div class="pantry-header">
+                            <img src="https://www.spicejungle.com/wp/files/2015/10/how-to-properly-store-spices.jpg" alt="Grocery Bag Icon" class="pantry-icon2">
+                            <div class="pantry-info">
+                                <h2>Spices</h2>
+                                <p>0/40 Ingredients</p>
+                            </div>
+                            <span class="dropdown-icon1">˅</span>
+                        </div>
+                        <hr class="divider">
+                        <div class="ingredient-list" id="spices"></div>
+                    </div>
+
+                    <!-- Sweets -->
+                    <div class="pantry-card">
+                        <div class="pantry-header">
+                            <img src="https://s1.1zoom.me/big0/964/Sweets_Cake_Chocolate_White_background_Design_563125_1280x870.jpg" alt="Grocery Bag Icon" class="pantry-icon">
+                            <div class="pantry-info">
+                                <h2>Sweets</h2>
+                                <p>0/40 Ingredients</p>
+                            </div>
+                            <span class="dropdown-icon1">˅</span>
+                        </div>
+                        <hr class="divider">
+                        <div class="ingredient-list" id="sweets"></div>
+                    </div>
+
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Section -->
+        <main class="main-content">
+            <header class="content-header">
+                <h2>RecipeRider</h2>
+                <div class="search-bar2">
+                    <input type="text" placeholder="Search by food name...">
+                </div>
+            </header>
+            <div class="content-body"></div>
+        </main>
+    </div>
+    <script src="/cards/ingredients.js"></script>
+</body>
+</html>

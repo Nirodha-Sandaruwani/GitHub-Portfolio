@@ -1,0 +1,413 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(210, 210, 210);
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+nav {
+  background-color: #343A40; /* Matched dark gray background color */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 45px; /* Fixed height for the header */
+  left: 0;
+  display: flex;
+  align-items: center; /* Centers text vertically */
+  justify-content: center; /* Centers text horizontally */
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  background: linear-gradient(45deg, #ffcc00, #ff6600);
+  background-clip: text; /* Standard property for compatibility */
+  -webkit-background-clip: text; /* WebKit-specific property */
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px 5%; /* Adjusted margin to fit the new header height */
+}
+
+.image-upload-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.file-input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+#recipe-image {
+  display: inline-block;
+  padding-right: 30px; /* Space for the clear icon */
+}
+
+.clear-file {
+  display: none; /* Initially hide the button */
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: #ff4d4d; /* Red color for the icon */
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.clear-file:hover {
+  color: #ff0000; /* Darker red on hover */
+}
+
+/* Recipe card styling */
+.recipe-card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.left-column {
+  width: 55%;
+}
+
+.right-column {
+  width: 35%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #3338;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 40%;
+  margin-top: 20px;
+}
+
+#search-section {
+  margin-bottom: 20px;
+}
+
+label[for="search-box"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#search-box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+#no-recipes {
+  display: flex;
+  background-color: #FFCCCC;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+
+/* Style for the 'Select Meal Type' title */
+h4 {
+display: inline-block;
+text-align: left; /* Align text to the right */
+margin-right: 0; /* Add spacing for alignment */
+color: black; /* Match the text color */
+font-size: 15px; /* Adjust font size */
+font-weight: normal; /* Make the text non-bold */
+margin-bottom: 0px; /* Add space below the title */
+margin-top: 25px;
+}
+
+/* Wrapper for horizontal alignment */
+.diet-row-wrapper {
+display: flex; /* Align rows horizontally */
+gap: 27px; /* Space between Main Diet and Categorize Diet */
+justify-content: center; /* Center the entire row */
+align-items: flex-start; /* Align rows to the top */
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+/* Style for individual rows */
+.diet-type-row {
+display: flex; /* Align label and select horizontally */
+align-items: center; /* Align label and select vertically */
+gap: 5px; /* Space between label and select */
+}
+
+/* Label styles */
+.diet-type-row label {
+white-space: nowrap; /* Prevent label text from wrapping */
+font-size: 15px;
+}
+
+/* Select box styles */
+.long-select-1 {
+width: 200px; /* Set a consistent width for the dropdown */
+padding: 8px;
+font-size: 12px;
+border-radius: 4px;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+#recipe-description {
+height: 80px; /* Adjust to your desired height */
+}
+
+
+/* Main container with curved edges */
+.ingredients-container {
+border-radius: 15px; /* Rounded corners */
+margin-top: 10px;
+background-color: rgb(210, 210, 210);
+width: 100%; /* Adjust to full width */
+margin-bottom: 20px;
+gap: 10px;
+display: grid; /* Using grid layout */
+grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+grid-template-rows: repeat(2, 1fr); /* 2 equal-height rows */
+grid-gap: 10px; /* Spacing between the grid items */
+}
+
+/* Individual ingredient items */
+.ingredient-item {
+display: flex;
+flex-direction: column; /* Label above textarea */
+align-items: center;
+text-align: center;
+border: 1px solid #ccc; /* Inner box border */
+border-radius: 10px; /* Rounded corners for small boxes */
+background-color: #ffffff; /* Background color for individual boxes */
+padding: 10px; /* Add padding inside each box */
+height: 150px; /* Adjust the height of each box */
+}
+
+/* Ingredient labels */
+.ingredient-item label {
+font-size: 13px;
+margin-bottom: 5px; /* Spacing between label and textarea */
+}
+
+/* Textarea inside ingredient items */
+.ingredient-item textarea {
+width: 100%;
+height: 140px; /* Adjust height */
+border-radius: 5px;
+resize: none; /* Prevent resizing */
+font-size: 13px;
+margin-bottom: 0px;
+}
+
+.wholetime-section textarea {
+  margin-top: 10px;
+  height: 40px;
+}
+
+/* Apply italic style to the specific span */
+.italic-text {
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+color: #555;
+}
+
+/* Style the red star mark */
+.required {
+color: red; /* Red color for the star */
+font-size: 1.2em; /* Make the star a bit larger */
+}
+
+/* Textarea styling */
+textarea {
+width: 100%; /* Makes the text area take up full width of its parent */
+padding: 10px;
+font-size: 1rem;
+border-radius: 6px;
+border: 1px solid #ddd;
+box-sizing: border-box;
+height: 120px; /* Controls height of text area */
+resize: vertical; /* Allows vertical resizing */
+margin-bottom: 20px;
+height: 150px;
+}
+
+.meel-type {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.meel-type {
+margin-left: 14px;
+margin-top: 15px;
+margin-bottom: 0px;
+}
+
+.meel-type button{
+background-color: #f0f0f0;
+border: 1px solid #ddd;
+border-radius: 6px; /* Adjust border radius here */
+padding: 10px 9px; /* Adjust padding to reduce button size */
+font-size: 0.8em;
+color: #555; /* Change text color here */
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.meel-type button:hover {
+background-color: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+/* Food item card styles with a consistent layout */
+.food-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);   
+  width: 100%; /* Full width within the grid cell */
+  max-width: 500px; /* Ensure it fits within the column */
+  height: 150px;
+  transition: transform 0.2s ease;
+}
+
+.food-image {
+  width: 130px;
+  height: 150px;    
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.food-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.food-details h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.food-details p {
+  font-size: 0.9em;
+  color: #666;
+  margin: 3px 0;
+}
+
+.food-link {
+  margin-top: 8px;
+  font-size: 0.8em;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.food-link:hover {
+  text-decoration: underline;
+}
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 5px;
+  width: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 5px;
+  margin-right: 5%;
+  margin-left: 15px
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a;
+}
+
+
+
+.button-row {
+  display: flex; /* Align buttons horizontally */
+  align-items: center; /* Vertically align buttons */
+  gap: 5px; /* Add spacing between the buttons */
+
+}
+
+.edit-button {
+  width: 24px; /* Set the width of the edit image */
+  height: 24px; /* Set the height of the edit image */
+  cursor: pointer; /* Add pointer cursor on hover */
+  object-fit: contain; /* Ensure the image fits the container */
+  border: none; /* Remove any default border */
+  background: none; /* Remove any background styles */
+  margin-left: 58%;
+  margin-bottom: 6px;
+}
+
+.edit-button:hover {
+  background-color: #DEDEDE;
+}

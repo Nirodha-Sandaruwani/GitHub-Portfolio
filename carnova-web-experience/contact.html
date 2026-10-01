@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarNova - Contact</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Contact Page CSS -->
+  <link rel="stylesheet" href="pagestyle.css">
+
+</head>
+
+<body>
+
+  <div id="loader-wrapper">
+  <div class="multi-ring-loader">
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="ring r3"></div>
+    <div class="ring r4"></div>
+    <div class="ring r5"></div>
+
+    <div id="loader-count">0</div>
+  </div>
+</div>
+
+  <!-- BACKGROUND LAYERS -->
+  <div class="grid-bg"></div>
+  <div class="gradient-overlay"></div>
+  <div class="scanlines"></div>
+  <div class="shapes-container">
+    <div class="shape shape-circle"></div>
+    <div class="shape shape-triangle"></div>
+    <div class="shape shape-square"></div>
+  </div>
+  <div id="particles"></div>
+  <div class="rotating-rect"></div>
+
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-left">
+        <span
+          ><i class="fa-solid fa-location-dot"></i> 123 Street, Jyväskylä, Finland</span
+        >
+        <span
+          ><i class="fa-solid fa-clock"></i> Mon - Fri : 09.00 AM - 09.00
+          PM</span
+        >
+      </div>
+      <div class="top-right">
+        <a href="tel:+10123456789"
+          ><i class="fa-solid fa-phone"></i> +01 2345 6789</a
+        >
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+      HEADER / NAVBAR
+=========================================== -->
+<header id="navbar" class="site-header electric-nav">
+
+  <div class="container header-inner">
+
+    <!-- LOGO -->
+<a href="index.html" class="brand electric-logo" aria-label="CarNova Home">
+
+  <span class="brand-icon">
+    <img
+      src="img/my-logo.svg"
+      alt="CarNova Logo"
+      width="36"
+      height="36"
+      loading="eager"
+    >
+  </span>
+
+  <span class="brand-text">CARNOVA</span>
+</a>
+
+    <!-- DESKTOP NAV (unchanged) -->
+    <nav class="main-nav">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">HOME</a></li>
+        <li><a href="service.html" class="nav-link">SERVICES</a></li>
+        <li><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li class="dropdown">
+          <a class="nav-link">PAGES <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="team.html">Technicians</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="nav-link active">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- DESKTOP BUTTON -->
+    <a href="#contact" class="btn btn-quote">GET A QUOTE →</a>
+
+    <!-- MOBILE HAMBURGER -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+
+  <!-- MOBILE SLIDE-IN MENU -->
+  <nav class="mobile-nav-panel" id="mobileNav">
+    <ul class="mobile-menu">
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+
+      <li class="mobile-has-sub">
+  <div class="mobile-sub-header">
+    <span>PAGES</span>
+    <button class="sub-toggle-btn" aria-label="Toggle submenu">
+      <span class="toggle-icon">+</span>
+    </button>
+  </div>
+
+  <ul class="mobile-submenu">
+    <li><a href="team.html">Technicians</a></li>
+    <li><a href="testimonial.html">Testimonial</a></li>
+  </ul>
+</li>
+
+
+      <li><a href="contact.html" class="active">Contact</a></li>
+
+    </ul>
+  </nav>
+  <div class="mobile-nav-overlay" id="mobileOverlay"></div>
+
+
+</header>
+
+
+  <!-- PAGE BANNER -->
+  <section class="contact-banner">
+    <div class="contact-banner-content">
+      <h1 class="contact-banner-title">Contact</h1>
+      <p class="about-breadcrumb">
+          <a href="index.html"> HOME </a> <span> / </span> PAGES <span> / </span> <a href="contact.html"> CONTACT </a>
+    </div>
+  </section>
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact-section" class="section contact-query">
+    <div class="container">
+
+      <!-- TITLE -->
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <p class="section2-tag">// CONTACT US //</p>
+        <h2 class="section2-title">Contact For Any Query</h2>
+      </div>
+
+
+      <!-- CONTACT CARDS (NEW SYSTEM) -->
+      <div class="contact-cards anime-cards">
+
+        <article class="contact-card wow fadeInUp" data-wow-delay="0.1s">
+          <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="contact-card-content">
+            <h3 class="contact-card-title">// BOOKING //</h3>
+            <a href="mailto:book@example.com" class="contact-card-text">book@example.com</a>
+          </div>
+        </article>
+
+        <article class="contact-card dark-card wow fadeInUp" data-wow-delay="0.3s">
+          <div class="contact-card-icon"><i class="fa-solid fa-envelope-open"></i></div>
+          <div class="contact-card-content">
+            <h3 class="contact-card-title">// GENERAL //</h3>
+            <a href="mailto:info@example.com" class="contact-card-text">info@example.com</a>
+          </div>
+        </article>
+
+        <article class="contact-card wow fadeInUp" data-wow-delay="0.5s">
+          <div class="contact-card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+          <div class="contact-card-content">
+            <h3 class="contact-card-title">// TECHNICAL //</h3>
+             <a href="mailto:tech@example.com" class="contact-card-text">tech@example.com</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+      <!-- MAP + FORM -->
+       <section class="contact-map-dark">
+
+  <div class="container">
+      <div class="contact-grid">
+
+      <!-- MAP -->
+       <div class="contact-map">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465982.1692632731!2d23.755106757720224!3d64.39355880341756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dfb803a3c6b13%3A0xe8bbf378c6706f4c!2sFinland!5e0!3m2!1sen!2sfi!4v1700000000000"
+        width="600" height="450"
+        style="border:0;" allowfullscreen loading="lazy">
+      </iframe>
+    </div>
+
+        <!-- FORM -->
+        <div class="contact-form wow fadeInUp" data-wow-delay="0.2s">
+
+          <form id="contactForm">
+            <div class="form-two">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+            </div>
+
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Message"></textarea>
+
+            <button type="submit" class="btn1 btn-primary send-btn">
+              SEND MESSAGE
+            </button>
+          </form>
+        </div>
+
+      </div>
+      </div>
+      </section>
+
+      
+<!-- ===================== GLASSMORPHIC FAQ (OPTION A) ===================== -->
+<section class="faq-glass-section">
+
+  <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+    <p class="section2-tag">// FAQ //</p>
+    <h2 class="section2-title">Frequently Asked Questions</h2>
+  </div>
+
+  <div class="faq-glass-container">
+
+    <!-- ITEM 1 -->
+    <div class="faq-glass-item">
+      <button class="faq-glass-question">
+        How do I book a service with CarNova?
+        <span class="icon"><i class="fa-solid fa-plus"></i></span>
+      </button>
+
+      <div class="faq-glass-answer">
+        <p>
+          Select a service, choose a time slot, and confirm your booking.  
+          You will receive an instant confirmation email.
+        </p>
+      </div>
+    </div>
+
+    <!-- ITEM 2 -->
+    <div class="faq-glass-item">
+      <button class="faq-glass-question">
+        Do you offer same-day service?
+        <span class="icon"><i class="fa-solid fa-plus"></i></span>
+      </button>
+
+      <div class="faq-glass-answer">
+        <p>
+          Same-day service is available depending on technician availability.
+        </p>
+      </div>
+    </div>
+
+    <!-- ITEM 3 -->
+    <div class="faq-glass-item">
+      <button class="faq-glass-question">
+        What types of vehicles do you support?
+        <span class="icon"><i class="fa-solid fa-plus"></i></span>
+      </button>
+
+      <div class="faq-glass-answer">
+        <p>
+          We handle sedans, SUVs, luxury vehicles and most performance cars.
+        </p>
+      </div>
+    </div>
+
+    <!-- ITEM 4 -->
+    <div class="faq-glass-item">
+      <button class="faq-glass-question">
+        Can I reschedule after booking?
+        <span class="icon"><i class="fa-solid fa-plus"></i></span>
+      </button>
+
+      <div class="faq-glass-answer">
+        <p>
+          Yes, you may reschedule anytime up to 24 hours before your appointment.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="carnova-footer" id="footer">
+    <div class="container footer-main">
+
+      <!-- BRAND -->
+      <div class="footer-col footer-brand">
+        <a href="#home" class="footer-logo">
+          <span class="logo-icon"><i class="fa-solid fa-car-side"></i></span>
+          <span class="logo-text">CARNOVA</span>
+        </a>
+        <p class="footer-desc">
+          CarNova blends precision diagnostics, expert mechanics and futuristic detailing
+          to keep your ride sharp, fast and safe – every single visit.
+        </p>
+
+        <!-- 🔥 NEW DREAM PHONE NUMBER SECTION -->
+      <div class="footer-phone-dream">
+        <div class="dream-icon-circle">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+
+        <div id="footer-phone-roller"
+        class="footer-phone-roller"
+        role="region"
+        aria-label="Phone Number">
+        </div>
+
+        </div>
+      </div>
+
+      <!-- QUICK LINKS LEFT -->
+      <div class="footer-col footer-links">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="index.html#packages">Washing Plans</a></li>
+          <li><a href="index.html#booking">Book A Service</a></li>
+          <li><a href="index.html#technicians">Our Technicians</a></li>
+          <li><a href="about.html">About CarNova</a></li>
+        </ul>
+      </div>
+
+      <!-- QUICK LINKS RIGHT -->
+      <div class="footer-col footer-links">
+        <h4 class="footer-heading">Support</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">FAQ & Help</a></li>
+          <li><a href="#">Blog / News</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- LOCATION -->
+      <div class="footer-col footer-contact">
+        <h4 class="footer-heading">Location & Contact</h4>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-location-dot"></i> 123 Street, Jyväskylä, Finland</li>
+          <li><i class="fa-solid fa-envelope"></i> <a href="mailto:hello@carnova.example">hello@carnova.com</a></li>
+          <li><i class="fa-solid fa-clock"></i> Mon – Sat: 09:00 – 21:00</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© <span id="year"></span> CarNova. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#home" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+  </footer>
+
+  <!-- CONTACT SUCCESS MODAL -->
+<div id="contactSuccessModal" class="modal-overlay hidden">
+  <div class="modal-box">
+    <h2>Message Sent!</h2>
+    <p>Thank you for reaching out. We’ll reply as soon as possible.</p>
+    <button id="closeContactModal" class="btn1 btn-primary">OK</button>
+  </div>
+</div>
+
+
+</body>
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- jQuery FIRST -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <!-- GSAP (optional, but nice) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+  <script>
+  new WOW().init();
+  </script>
+
+  <!-- App -->
+  <script src="script.js" defer></script>
+
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".faq-glass-question").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const item = btn.closest(".faq-glass-item");
+      const open = item.classList.contains("active");
+
+      // close all
+      document.querySelectorAll(".faq-glass-item").forEach(i => i.classList.remove("active"));
+
+      // toggle selected
+      if (!open) item.classList.add("active");
+    });
+  });
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const contactForm = document.getElementById("contactForm");
+  const contactModal = document.getElementById("contactSuccessModal");
+  const closeBtn = document.getElementById("closeContactModal");
+
+  contactForm.addEventListener("submit", (e) => {
+    e.preventDefault(); // stop page reload
+
+    // Show Success Modal
+    contactModal.classList.remove("hidden");
+  });
+
+  closeBtn.addEventListener("click", () => {
+    contactModal.classList.add("hidden");
+  });
+
+});
+</script>
+
+
+
+</html>

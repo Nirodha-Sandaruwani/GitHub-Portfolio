@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarNova — About Us</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Owl Carousel CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script> new WOW().init(); </script>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pagestyle.css">
+
+</head>
+
+<body>
+
+  <div id="loader-wrapper">
+  <div class="multi-ring-loader">
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="ring r3"></div>
+    <div class="ring r4"></div>
+    <div class="ring r5"></div>
+
+    <div id="loader-count">0</div>
+  </div>
+</div>
+
+  <!-- 🔥 ANIMATED BACKGROUND LAYERS (SAME AS INDEX) -->
+  <div class="grid-bg"></div>
+  <div class="gradient-overlay"></div>
+  <div class="scanlines"></div>
+  <div class="shapes-container">
+    <div class="shape shape-circle"></div>
+    <div class="shape shape-triangle"></div>
+    <div class="shape shape-square"></div>
+  </div>
+  <div id="particles"></div>
+  <div class="rotating-rect"></div>
+
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-left">
+        <span
+          ><i class="fa-solid fa-location-dot"></i> 123 Street, Jyväskylä, Finland</span
+        >
+        <span
+          ><i class="fa-solid fa-clock"></i> Mon - Fri : 09.00 AM - 09.00
+          PM</span
+        >
+      </div>
+      <div class="top-right">
+        <a href="tel:+10123456789"
+          ><i class="fa-solid fa-phone"></i> +01 2345 6789</a
+        >
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+      HEADER / NAVBAR
+=========================================== -->
+<header id="navbar" class="site-header electric-nav">
+
+  <div class="container header-inner">
+
+    <!-- LOGO -->
+<a href="index.html" class="brand electric-logo" aria-label="CarNova Home">
+
+  <span class="brand-icon">
+    <img
+      src="img/my-logo.svg"
+      alt="CarNova Logo"
+      width="36"
+      height="36"
+      loading="eager"
+    >
+  </span>
+
+  <span class="brand-text">CARNOVA</span>
+</a>
+
+    <!-- DESKTOP NAV (unchanged) -->
+    <nav class="main-nav">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">HOME</a></li>
+        <li><a href="service.html" class="nav-link">SERVICES</a></li>
+        <li><a href="about.html" class="nav-link active">ABOUT</a></li>
+        <li class="dropdown">
+          <a class="nav-link">PAGES <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="team.html">Technicians</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- DESKTOP BUTTON -->
+    <a href="#contact" class="btn btn-quote">GET A QUOTE →</a>
+
+    <!-- MOBILE HAMBURGER -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+
+  <!-- MOBILE SLIDE-IN MENU -->
+  <nav class="mobile-nav-panel" id="mobileNav">
+    <ul class="mobile-menu">
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+
+      <li class="mobile-has-sub">
+  <div class="mobile-sub-header">
+    <span>PAGES</span>
+    <button class="sub-toggle-btn" aria-label="Toggle submenu">
+      <span class="toggle-icon">+</span>
+    </button>
+  </div>
+
+  <ul class="mobile-submenu">
+    <li><a href="team.html">Technicians</a></li>
+    <li><a href="testimonial.html">Testimonial</a></li>
+  </ul>
+</li>
+
+
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+  </nav>
+  <div class="mobile-nav-overlay" id="mobileOverlay"></div>
+
+
+</header>
+
+  <main>
+
+    <!-- ⭐ ABOUT PAGE BANNER -->
+    <section class="about-banner">
+      <div class="about-banner-content">
+        <h1 class="about-banner-title">About Us</h1>
+        <p class="about-breadcrumb">
+          <a href="index.html"> HOME </a> <span> / </span> PAGES <span> / </span> <a href="about.html"> ABOUT </a>
+        </p>
+
+      </div>
+    </section>
+
+    <!-- ABOUT FEATURE CARDS (Animated like car-repair carousel) -->
+    <section id="about" class="section about">
+      <div class="container about-cards about-light-theme anime-cards">
+        <article class="about-card wow fadeInUp" data-wow-delay="0.1s">
+          <div class="about-card-icon">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div class="about-card-content">
+            <h3 class="about-card-title">Quality Servicing</h3>
+            <p class="about-card-text">
+              Diam dolor diam ipsum sit amet diam et eos erat ipsum
+            </p>
+            <a href="#" class="about-card-link">Read More</a>
+          </div>
+        </article>
+
+        <article
+          class="about-card dark-card wow fadeInUp"
+          data-wow-delay="0.3s"
+        >
+          <div class="about-card-icon">
+            <i class="fa-solid fa-users-cog"></i>
+          </div>
+          <div class="about-card-content">
+            <h3 class="about-card-title">Expert Workers</h3>
+            <p class="about-card-text">
+              Diam dolor diam ipsum sit amet diam et eos erat ipsum
+            </p>
+            <a href="#" class="about-card-link">Read More</a>
+          </div>
+        </article>
+
+        <article class="about-card wow fadeInUp" data-wow-delay="0.5s">
+          <div class="about-card-icon">
+            <i class="fa-solid fa-tools"></i>
+          </div>
+          <div class="about-card-content">
+            <h3 class="about-card-title">Modern Equipment</h3>
+            <p class="about-card-text">
+              Diam dolor diam ipsum sit amet diam et eos erat ipsum
+            </p>
+            <a href="#" class="about-card-link">Read More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- ABOUT US SECTION (Electric-Xtra styled + car-repair animations) -->
+     <section id="about-us" class="section1 about-us">
+        <div class="container about-us-grid">
+    
+    <!-- LEFT SIDE: Image with overlay text (fades in like original template) -->
+     <div class="about-us-image wow fadeIn" data-wow-delay="0.1s">
+        <img src="img/aboutus.webp" alt="About CarNova" width="500" height="400">
+        <div class="experience-badge">
+            <h3>15 <span>Years</span></h3>
+            <p>Experience</p>
+        </div>
+    </div>
+
+    <!-- RIGHT SIDE: Text content -->
+     <div class="about-us-content">
+        <p class="section-tag">// ABOUT US //</p>
+        
+        <h2 class="about-us-title">
+            <span class="highlight">CarNova</span> Is The Best Place For Your Auto Care
+        </h2>
+        
+        <p class="about-us-desc">
+        We deliver cutting-edge automotive excellence, combining precision diagnostics, expert mechanics,
+        and futuristic detailing technology. Experience performance and reliability beyond expectation.
+    </p>
+    
+        <ul class="about-us-list">
+        <!-- 01: same delay pattern as car-repair template -->
+         <li class="wow fadeIn" data-wow-delay="0.1s">
+          <span class="num">01</span>
+          <div class="list-text">
+            <h4>Professional &amp; Expert</h4>
+            <p>Dedicated technicians with advanced training and OEM-level standards.</p>
+          </div>
+          </li>
+
+        <!-- 02 -->
+        <li class="wow fadeIn" data-wow-delay="0.3s">
+          <span class="num">02</span>
+          <div class="list-text">
+            <h4>Quality Servicing Center</h4>
+            <p>State-of-the-art equipment ensuring your vehicle gets the finest care.</p>
+          </div>
+        </li>
+
+        <!-- 03 -->
+        <li class="wow fadeIn" data-wow-delay="0.5s">
+          <span class="num">03</span>
+          <div class="list-text">
+            <h4>Award-Winning Workers</h4>
+            <p>Recognized for excellence in craftsmanship and customer service.</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Button fades up a bit later -->
+      <a href="#contact" class="btn btn-primary about-btn wow fadeInUp" data-wow-delay="0.7s">
+        Read More →
+      </a>
+      </div>
+
+       </div>
+    </section>
+
+
+    <!-- FACTS STRIP -->
+     <section id="facts" class="facts">
+        <div class="container facts-inner">
+            <article class="fact-item">
+                <div class="fact-icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <h2 class="fact-number" data-count="1234">0</h2>
+                <p class="fact-label">Years Experience</p>
+            </article>
+            
+            <article class="fact-item">
+                <div class="fact-icon">
+                    <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <h2 class="fact-number" data-count="1234">0</h2>
+                <p class="fact-label">Expert Technicians</p>
+            </article>
+            
+            <article class="fact-item">
+                <div class="fact-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <h2 class="fact-number" data-count="1234">0</h2>
+                <p class="fact-label">Satisfied Clients</p>
+            </article>
+            
+            <article class="fact-item">
+                <div class="fact-icon">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <h2 class="fact-number" data-count="1234">0</h2>
+                <p class="fact-label">Complete Projects</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- TECH SECTION -->
+<section id="technicians" class=" section tech-section">
+  <div class="text-center topic-box">
+    <p class="section2-tag">// OUR TECHNICIANS //</p>
+    <h2 class="section2-title">Our Expert Technicians</h2>
+  </div>
+
+  <div class="tech-grid">
+
+    <!-- 1 TECH -->
+    <div class="tech-card -full wow fadeInUp" data-wow-delay="0.1s">
+      <img src="img/tech2.webp" alt="Michael" width="500" height="400">
+
+      <div class="name-box">
+        <h3 class="name-title">Michael Jack</h3>
+
+        <div class="role-box">
+          <p class="role">Founder CEO</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 TECH -->
+    <div class="tech-card -full wow fadeInUp" data-wow-delay="0.1s">
+      <img src="img/tech1.webp" alt="Cathy" width="500" height="400">
+
+      <div class="name-box">
+        <h3 class="name-title">Cathy Sparkman</h3>
+
+        <div class="role-box">
+          <p class="role">Main Mechanic</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 TECH -->
+    <div class="tech-card -full wow fadeInUp" data-wow-delay="0.1s">
+      <img src="img/tech3.webp" alt="Tyra" width="500" height="400">
+
+      <div class="name-box">
+        <h3 class="name-title">Tyra Crawford</h3>
+
+        <div class="role-box">
+          <p class="role">Mechanic</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Testimonial section -->
+<section id="testimonials" class="testimonials section">
+  <div class="container">
+
+    <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+      <p class="section2-tag">// TESTIMONIAL //</p>
+      <h2 class="section2-title">Our Clients Say!</h2>
+    </div>
+
+    <!-- 🚨 IMPORTANT: Keep ONLY this class structure -->
+    <div class="testimonial-carousel owl-carousel">
+
+      <!-- Testimonial 1 -->
+      <div class="testimonial-item">
+        <img src="img/testimonial-1.webp" class="testi-avatar" alt="Client One" width="500" height="400">
+        <h5 class="testi-name">Client One</h5>
+        <p class="testi-role">Profession</p>
+        <div class="testimonial-text">
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit amet.</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-item">
+        <img src="img/testimonial-2.webp" class="testi-avatar" alt="Client Two" width="500" height="400">
+        <h5 class="testi-name">Client Two</h5>
+        <p class="testi-role">Profession</p>
+        <div class="testimonial-text">
+          <p>Quick and excellent work. Highly recommended!</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-item">
+        <img src="img/testimonial-3.webp" class="testi-avatar" alt="Client Three" width="500" height="400">
+        <h5 class="testi-name">Client Three</h5>
+        <p class="testi-role">Profession</p>
+        <div class="testimonial-text">
+          <p>Amazing, friendly and so professional!</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="testimonial-item">
+        <img src="img/testimonial-4.webp" class="testi-avatar" alt="Client Four" width="500" height="400">
+        <h5 class="testi-name">Client Four</h5>
+        <p class="testi-role">Profession</p>
+        <div class="testimonial-text">
+          <p>My go-to car care place every time.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- ================= NEWSLETTER SECTION ================= -->
+<section id="newsletter" class="newsletter-section">
+  <div class="container newsletter-inner">
+
+    <!-- LEFT TEXT -->
+    <div class="newsletter-text">
+      <h3 class="newsletter-title">
+        SIGN UP FOR OUR NEWSLETTER TO GET WEEKLY UPDATES<br>
+        ON EXCLUSIVE OFFERS AND DISCOUNTS!
+      </h3>
+    </div>
+
+    <!-- RIGHT FORM -->
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email..." required>
+      <button type="submit" aria-label="Subscribe">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </form>
+
+  </div>
+</section>
+
+  </main>
+
+  <!-- ⭐ FOOTER (exact same as index) -->
+   <!-- Footer -->
+  <!-- FOOTER / CONTACT STRIP -->
+<footer class="carnova-footer" id="footer">
+  <div class="container footer-main">
+    
+    <!-- BRAND + TEXT + PHONE -->
+    <div class="footer-col footer-brand">
+      <a href="#home" class="footer-logo">
+        <span class="logo-icon"><i class="fa-solid fa-car-side"></i></span>
+        <span class="logo-text">CARNOVA</span>
+      </a>
+
+      <p class="footer-desc">
+        CarNova blends precision diagnostics, expert mechanics and futuristic detailing
+        to keep your ride sharp, fast and safe – every single visit.
+      </p>
+
+       <!-- 🔥 NEW DREAM PHONE NUMBER SECTION -->
+      <div class="footer-phone-dream">
+        <div class="dream-icon-circle">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+
+        <div id="footer-phone-roller"
+        class="footer-phone-roller"
+        role="region"
+        aria-label="Phone Number">
+      </div>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS LEFT -->
+    <div class="footer-col footer-links">
+      <h4 class="footer-heading">Quick Links</h4>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#packages">Washing Plans</a></li>
+        <li><a href="#booking">Book A Service</a></li>
+        <li><a href="#technicians">Our Technicians</a></li>
+        <li><a href="#about">About CarNova</a></li>
+      </ul>
+    </div>
+
+    <!-- QUICK LINKS RIGHT -->
+    <div class="footer-col footer-links">
+      <h4 class="footer-heading">Support</h4>
+      <ul>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">FAQ &amp; Help</a></li>
+        <li><a href="#">Blog / News</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- LOCATION / CONTACT INFO -->
+    <div class="footer-col footer-contact">
+      <h4 class="footer-heading">Location &amp; Contact</h4>
+      <ul class="contact-list">
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>123 Street, Jyväskylä, Finland</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:hello@carnova.example">hello@carnova.com</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-clock"></i>
+          <span>Mon – Sat: 09:00 – 21:00</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© <span id="year"></span> CarNova. All rights reserved.</p>
+
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <a href="#home" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+</footer>
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- jQuery FIRST -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <!-- GSAP (optional, but nice) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+  <script>
+  new WOW().init();
+  </script>
+
+  <!-- App -->
+  <script src="script.js" defer></script>
+
+
+
+</body>
+</html>

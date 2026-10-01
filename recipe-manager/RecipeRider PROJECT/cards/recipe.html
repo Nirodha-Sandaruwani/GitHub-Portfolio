@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="/cards/main.css">
+</head>
+<body>
+    <div class="recipe-container">
+        <!-- Recipe Header with Background Image -->
+        <div class="recipe-header">
+            <!-- Left side: Ingredients List -->
+            <div class="header-content">
+                <div class="ingredients-header">
+                    <h2>Ingredients</h2>
+                    <ul id="header-ingredients-list">
+                        <!-- Ingredients will be dynamically inserted here -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right side: Recipe Name -->
+            <h1 class="recipe-name" id="recipe-name">Loading...</h1>
+        </div>
+
+        <!-- Recipe Content Section with Method on the Right and Food Image on the Left -->
+        <div class="recipe-content">
+            <!-- Food Image Section -->
+            <div class="food-image-section">
+                <div class="info-box">
+                    <p id="dietary-info"></p>
+                    <p id="whole-time-info"></p>
+                </div>
+                <img src="." alt="Food Image" id="recipe-image-left">
+                <p id="recipe-description" class="description-text"></p>
+            </div>
+
+            <!-- Method Section -->
+            <div class="method">
+                <h2>Instructions</h2>
+                <div class="method-box">
+                    <ol id="recipe-instructions">
+                        <!-- Instructions will be dynamically inserted here -->
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/js/recipe.js"></script>
+</body>
+</html>

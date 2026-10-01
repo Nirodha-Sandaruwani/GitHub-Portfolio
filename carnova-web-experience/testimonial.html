@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CarNova - Testimonials</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pagestyle.css">
+
+  <!-- SCSS Build -->
+  <link rel="stylesheet" href="scss/main.css">
+
+</head>
+
+<body>
+
+  <!-- ===========================
+        LOADER (SAME AS TEAM PAGE)
+  ============================ -->
+  <div id="loader-wrapper">
+    <div class="multi-ring-loader">
+      <div class="ring r1"></div>
+      <div class="ring r2"></div>
+      <div class="ring r3"></div>
+      <div class="ring r4"></div>
+      <div class="ring r5"></div>
+      <div id="loader-count">0</div>
+    </div>
+  </div>
+
+  <!-- BACKGROUND LAYERS (same as team) -->
+  <div class="grid-bg"></div>
+  <div class="gradient-overlay"></div>
+  <div class="scanlines"></div>
+  <div id="particles"></div>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-left">
+        <span><i class="fa-solid fa-location-dot"></i> 123 Street, Jyväskylä, Finland</span>
+        <span><i class="fa-solid fa-clock"></i> Mon - Fri : 09.00 AM - 09.00 PM</span>
+      </div>
+      <div class="top-right">
+        <a href="tel:+10123456789"><i class="fa-solid fa-phone"></i> +01 2345 6789</a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+      HEADER / NAVBAR
+=========================================== -->
+<header id="navbar" class="site-header electric-nav">
+
+  <div class="container header-inner">
+
+    <!-- LOGO -->
+<a href="index.html" class="brand electric-logo" aria-label="CarNova Home">
+
+  <span class="brand-icon">
+    <img
+      src="img/my-logo.svg"
+      alt="CarNova Logo"
+      width="36"
+      height="36"
+      loading="eager"
+    >
+  </span>
+
+  <span class="brand-text">CARNOVA</span>
+</a>
+
+    <!-- DESKTOP NAV (unchanged) -->
+    <nav class="main-nav">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">HOME</a></li>
+        <li><a href="service.html" class="nav-link">SERVICES</a></li>
+        <li><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li class="dropdown">
+          <a class="nav-link">PAGES <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="team.html">Technicians</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- DESKTOP BUTTON -->
+    <a href="#contact" class="btn btn-quote">GET A QUOTE →</a>
+
+    <!-- MOBILE HAMBURGER -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+
+  <!-- MOBILE SLIDE-IN MENU -->
+  <nav class="mobile-nav-panel" id="mobileNav">
+    <ul class="mobile-menu">
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+
+      <li class="mobile-has-sub">
+  <div class="mobile-sub-header">
+    <span>PAGES</span>
+    <button class="sub-toggle-btn" aria-label="Toggle submenu">
+      <span class="toggle-icon">+</span>
+    </button>
+  </div>
+
+  <ul class="mobile-submenu">
+    <li><a href="team.html">Technicians</a></li>
+    <li><a href="testimonial.html">Testimonial</a></li>
+  </ul>
+</li>
+
+
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+  </nav>
+  <div class="mobile-nav-overlay" id="mobileOverlay"></div>
+
+
+</header>
+
+  <!-- ===========================
+        PAGE BANNER
+  ============================ -->
+  <section class="testimonial-banner">
+    <div class="page-banner-content">
+      <h1 class="page-banner-title">Client Testimonials</h1>
+      <p class="about-breadcrumb">
+          <a href="index.html"> HOME </a> <span> / </span> PAGES <span> / </span> <a href="testimonial.html"> TESTIMONIALS </a>
+    </div>
+  </section>
+
+  <!-- ===========================
+        TESTIMONIAL SECTION
+  ============================ -->
+  <section class="testimonial-section">
+    <div class="container">
+
+      <div class="text-center topic-box">
+        <p class="section2-tag">// CUSTOMER REVIEWS //</p>
+        <h2 class="section2-title">What Our Clients Say</h2>
+      </div>
+
+      <div class="carnova-testimonial-grid">
+
+  <!-- 1 — Daniel Clifford (big wide top-left) -->
+  <article class="tcard daniel">
+    <div class="t-user">
+      <img src="img/testimonial-1.webp" alt="">
+      <div>
+        <h4>David Miller</h4>
+        <p>Verified Customer</p>
+      </div>
+    </div>
+
+    <h3>
+      "I received a job offer mid-course, and the skills I learned were more than worth it"
+    </h3>
+
+    <p>
+      I’ve been looking to make a transition and CarNova made everything easy. Their work was outstanding…
+    </p>
+  </article>
+
+  <!-- 2 — Jonathan Walters -->
+  <article class="tcard jonathan">
+    <div class="t-user">
+      <img src="img/testimonial-2.webp" alt="">
+      <div>
+        <h4>Jonathan Walters</h4>
+        <p>Verified Customer</p>
+      </div>
+    </div>
+
+    <h3>"The team was very supportive and kept me motivated"</h3>
+
+    <p>
+      I started as a total newbie, and now I trust CarNova with everything.
+    </p>
+  </article>
+
+  <!-- 3 — Kira Whittle (Tall right card) -->
+  <article class="tcard kira">
+    <div class="t-user">
+      <img src="img/testimonial-3.webp" alt="">
+      <div>
+        <h4>Kira Whittle</h4>
+        <p>Verified Customer</p>
+      </div>
+    </div>
+
+    <h3>"Such a life-changing experience. Highly recommended!"</h3>
+
+    <p>
+      Before joining CarNova, I struggled with unreliable mechanics. Their transparency and skill changed everything…
+    </p>
+  </article>
+
+  <!-- 4 — Jeanette Harmon -->
+  <article class="tcard jeanette">
+    <div class="t-user">
+      <img src="img/testimonial-4.webp" alt="">
+      <div>
+        <h4>Jeanette Harmon</h4>
+        <p>Verified Customer</p>
+      </div>
+    </div>
+
+    <h3>"An overall wonderful and rewarding experience"</h3>
+
+    <p>
+      Thank you for the excellent service! My car feels new again.
+    </p>
+  </article>
+
+  <!-- 5 — Patrick Abrams -->
+  <article class="tcard patrick">
+    <div class="t-user">
+      <img src="img/testimonial-user.webp" alt="">
+      <div>
+        <h4>Patrick Abrams</h4>
+        <p>Verified Customer</p>
+      </div>
+    </div>
+
+    <h3>
+      "Amazing support and expert detailing. CarNova exceeded all expectations"
+    </h3>
+
+    <p>
+      The program gave me confidence as a car owner and taught me things I never knew!
+    </p>
+  </article>
+
+</div>
+
+        
+
+    </div>
+  </section>
+
+  <!-- FOOTER / CONTACT STRIP -->
+<footer class="carnova-footer" id="footer">
+  <div class="container footer-main">
+    
+    <!-- BRAND + TEXT + PHONE -->
+    <div class="footer-col footer-brand">
+      <a href="#home" class="footer-logo">
+        <span class="logo-icon"><i class="fa-solid fa-car-side"></i></span>
+        <span class="logo-text">CARNOVA</span>
+      </a>
+
+      <p class="footer-desc">
+        CarNova blends precision diagnostics, expert mechanics and futuristic detailing
+        to keep your ride sharp, fast and safe – every single visit.
+      </p>
+
+      <!-- 🔥 NEW DREAM PHONE NUMBER SECTION -->
+      <div class="footer-phone-dream">
+        <div class="dream-icon-circle">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+
+        <div id="footer-phone-roller" class="footer-phone-roller" aria-label="Phone Number">
+        </div>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS LEFT -->
+    <div class="footer-col footer-links">
+      <h4 class="footer-heading">Quick Links</h4>
+      <ul>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="#packages">Washing Plans</a></li>
+        <li><a href="index.html#booking">Book A Service</a></li>
+        <li><a href="team.html">Our Technicians</a></li>
+        <li><a href="about.html">About CarNova</a></li>
+      </ul>
+    </div>
+
+    <!-- QUICK LINKS RIGHT -->
+    <div class="footer-col footer-links">
+      <h4 class="footer-heading">Support</h4>
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">FAQ &amp; Help</a></li>
+        <li><a href="#">Blog / News</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- LOCATION / CONTACT INFO -->
+    <div class="footer-col footer-contact">
+      <h4 class="footer-heading">Location &amp; Contact</h4>
+      <ul class="contact-list">
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>123 Street, Jyväskylä, Finland</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:hello@carnova.example">hello@carnova.com</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-clock"></i>
+          <span>Mon – Sat: 09:00 – 21:00</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© <span id="year"></span> CarNova. All rights reserved.</p>
+
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <a href="#home" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+</footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- jQuery FIRST -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<!-- GSAP (optional, but nice) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  new WOW().init();
+</script>
+
+<!-- App -->
+<script src="script.js" defer></script>
+
+</html>

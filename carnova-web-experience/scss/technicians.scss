@@ -1,0 +1,1387 @@
+@import "variables";
+@import "mixins";
+
+/* GRID */
+/* EXACT COPY OF YOUR EXAMPLE — DARK THEME COMPATIBLE */
+
+.tech-grid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+/* CARD */
+.tech-card {
+  width: 320px;
+  position: relative;
+
+}
+
+/* IMAGE WRAPPER */
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 385px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* POP-UP EXPERIENCE OVERLAY */
+.square-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 30, 60, 0.75);
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:
+    width .45s ease,
+    height .45s ease,
+    transform .45s ease,
+    border-radius .45s ease;
+  text-align: center;
+}
+
+.img-wrapper:hover .square-overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.experience-text {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity .4s ease, transform .4s ease;
+  max-width: 95%;
+}
+
+.img-wrapper:hover .experience-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* NAME BOX */
+.name-box {
+  background: linear-gradient(
+    180deg,
+    rgba(0,0,0,0.75),
+    rgba(255,94,0,0.12)
+  );
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 78%;
+  padding: 0.5rem 0.4rem;
+  text-align: center;
+  height: 90px;
+  z-index: 20;
+  overflow: hidden;
+  cursor: pointer;
+
+  .name-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+  }
+}
+
+/* ROLE + SOCIAL ICON SLIDER */
+.role-box {
+  position: relative;
+  height: 32px;
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+
+.role {
+  margin: 0;
+  font-size: 1rem;
+  color: #dcdcdc;
+  transition: transform .45s ease;
+}
+
+.social-icons {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: flex;
+  gap: 0.6rem;
+  transition: all .45s ease;
+
+  a {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .25s ease;
+
+    &:hover {
+      background: #ff5e00;
+      border-color: #ff5e00;
+    }
+  }
+}
+
+/* SLIDE BEHAVIOR */
+.name-box:hover .role {
+  transform: translateX(-120%);
+}
+
+.name-box:hover .social-icons {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tech-section {
+  margin-bottom: 4rem;   // pushes skills section down too
+  margin-top: 4.3rem;
+}
+
+/* =========================================================
+   TECHNICIANS — MOBILE RESPONSIVE OPTIMIZATION
+   ========================================================= */
+@media (max-width: 768px) {
+
+  /* SECTION SPACING */
+  .tech-section {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  /* GRID becomes stacked */
+  .tech-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem !important;
+    padding: 0 1.5rem;
+  }
+
+  /* CARD width smaller + centered */
+  .tech-card {
+    width: 100% !important;
+    max-width: 310px;
+  }
+
+  /* IMAGE shorter for mobile */
+  .img-wrapper {
+    height: 320px !important;
+    overflow: hidden;
+  }
+
+  /* EXPERIENCE OVERLAY – scale animation simplified */
+  .square-overlay {
+    padding: 18px !important;
+    font-size: 0.9rem;
+  }
+
+  .experience-text {
+    font-size: 0.88rem !important;
+    line-height: 1.45 !important;
+  }
+
+  /* NAME BOX — smaller and better positioned */
+  .name-box {
+    width: 88% !important;
+    height: 80px !important;
+    bottom: -55px !important;
+    padding: 0.6rem !important;
+
+    .name-title {
+      font-size: 1.05rem !important;
+    }
+  }
+
+  /* ROLE + SOCIALS — simplified sliding */
+  .role-box {
+    height: 30px !important;
+  }
+
+  .role {
+    font-size: 0.85rem !important;
+  }
+
+  /* SOCIAL ICONS */
+  .social-icons {
+    gap: 0.45rem !important;
+
+    a {
+      width: 24px !important;
+      height: 24px !important;
+      font-size: 11px !important;
+    }
+  }
+
+  /* TAP-TO-OPEN BEHAVIOR (since hover doesn’t exist on mobile) */
+  .tech-card.show-social .role {
+    transform: translateX(-120%);
+  }
+
+  .tech-card.show-social .social-icons {
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+
+}
+/* =========================================================
+   TECHNICIANS — TABLET VIEW (768px–1024px)
+   Clean 3-column layout + balanced scaling
+   ========================================================= */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Section safe spacing */
+  .tech-section {
+    margin-top: 2.5rem !important;
+    margin-bottom: 2.5rem !important;
+    padding: 0 1.2rem !important;
+  }
+
+  /* GRID — 3 beautiful equal cards across tablet */
+  .tech-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 2rem 1.4rem !important;
+    justify-items: center !important;
+    align-items: start !important;
+    padding: 0 1rem !important;
+  }
+
+  /* CARD — smaller but still premium */
+  .tech-card {
+    width: 100% !important;
+    max-width: 290px !important;
+    position: relative;
+  }
+
+  /* IMAGE — perfect tablet height */
+  .img-wrapper {
+    height: 310px !important;
+  }
+
+  .img-wrapper img {
+    height: 100% !important;
+    object-fit: cover;
+  }
+
+  /* EXPERIENCE OVERLAY */
+  .square-overlay {
+    padding: 22px !important;
+  }
+
+  .experience-text {
+    font-size: 0.95rem !important;
+    line-height: 1.45 !important;
+  }
+
+  /* NAME BOX — refined spacing */
+  .name-box {
+    width: 82% !important;
+    height: 85px !important;
+    bottom: -55px !important;
+    padding: 0.5rem 0.3rem !important;
+
+    .name-title {
+      font-size: 1.15rem !important;
+    }
+  }
+
+  /* ROLE AREA */
+  .role-box {
+    height: 32px !important;
+    margin-top: 0.35rem !important;
+  }
+
+  .role {
+    font-size: 0.92rem !important;
+  }
+
+  /* SOCIAL ICONS — bigger for tablet finger-click size */
+  .social-icons a {
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 12px !important;
+  }
+
+  /* SLIDE ANIMATION — stronger movement for tablet */
+  .tech-card:hover .role {
+    transform: translateX(-130%) !important;
+  }
+
+  .tech-card:hover .social-icons {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}
+
+
+/* =============================================
+   TECH SKILLS SPLIT SECTION
+============================================= */
+
+/* ✔ FIXED VERSION – clean, unified spacing */
+.tech-skills {
+  margin-top: 7rem;  
+  padding: 4rem 0 4.5rem;
+  background: linear-gradient(90deg, rgba(30, 30, 30, 0.7), rgba(0, 0, 0, 0.05));
+
+}
+
+.tech-skills-grid {
+  max-width: 1100px;
+  margin: 2.5rem auto 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: stretch;
+}
+
+/* Glass panels for both sides */
+.skills-panel {
+  @include glass-card(16px, 0.16);
+  padding: 1.8rem 2rem 2.1rem;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top left,
+      rgba(0, 176, 255, 0.16),
+      transparent 55%);
+    opacity: 0.6;
+    pointer-events: none;
+  }
+}
+
+.skills-panel-title {
+  position: relative;
+  font-family: $font-title;
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $text-light;
+  margin-bottom: 0.9rem;
+}
+
+.skills-panel-sub {
+  position: relative;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.72);
+  margin-bottom: 1.6rem;
+}
+
+/* -------------------------------
+   LEFT SIDE – ELECTRIC LEVEL BLOCKS
+-------------------------------- */
+
+.skill-row + .skill-row {
+  margin-top: 1.35rem;
+}
+
+.skill-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.88);
+
+  .skill-name {
+    font-weight: 600;
+  }
+
+  .skill-percent {
+    font-family: $font-title;
+    font-size: 0.85rem;
+    color: #00b0ff;
+  }
+}
+
+.skill-blocks {
+  display: flex;
+  gap: 0.22rem;
+  margin-top: 0.5rem;
+}
+
+.skill-block {
+  flex: 1;
+  max-width: 14px;
+  aspect-ratio: 1.1 / 1;
+  border-radius: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transform: scale(0.6);
+  opacity: 0.25;
+  transform-origin: center;
+  transition:
+    transform 0.22s ease-out,
+    background 0.22s ease-out,
+    box-shadow 0.22s ease-out,
+    opacity 0.22s ease-out;
+  transition-delay: calc(var(--i) * 0.03s);
+}
+
+.skill-block.active {
+  background: linear-gradient(135deg, #00b0ff, #25e6ff);
+  box-shadow:
+    0 0 8px rgba(0, 176, 255, 0.7),
+    0 0 18px rgba(0, 176, 255, 0.35);
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* -------------------------------
+   RIGHT SIDE – ANIME PULSE GRAPH
+-------------------------------- */
+
+.skills-pulse-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.9rem;
+}
+
+.pulse-legend {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: right;
+}
+
+.pulse-graph {
+  position: relative;
+  margin-top: 1.7rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.4rem;
+  height: 220px;
+}
+
+.pulse-bar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.pulse-bar-inner {
+  width: 18px;
+  border-radius: 500px;
+  background: linear-gradient(180deg, #00b0ff, #005680);
+  box-shadow: 0 0 14px rgba(0, 176, 255, 0.8);
+  height: 0;
+}
+
+.bar-years {
+  font-family: $font-title;
+  font-size: 0.8rem;
+  color: #00b0ff;
+}
+
+.bar-label {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.86);
+  text-align: center;
+}
+
+/* Animations for the section when visible */
+
+.tech-skills.in-view .pulse-bar-inner {
+  animation:
+    barGrow 0.9s forwards ease-out,
+    barPulse 1.7s 0.9s infinite alternate ease-in-out;
+}
+
+/* --- EXPERIENCE BADGE FOR SKILLS PANEL --- */
+.experience-badge-15 {
+  position: relative;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  padding: 1.2rem 1.3rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  width: 150px;
+  text-align: center;
+  margin-top: -0.6rem;
+}
+
+.experience-badge-15 h3 {
+  font-family: $font-title;
+  font-size: 2rem;
+  margin: 0;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.experience-badge-15 h3 span {
+  font-size: 1rem;
+  margin-left: 0.25rem;
+  color: #fff;
+}
+
+.experience-badge-15 p {
+  margin: 0.35rem 0 0;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+
+
+@keyframes barGrow {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--bar-height);
+  }
+}
+
+@keyframes barPulse {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-6px);
+  }
+}
+
+/* -------------------------------
+   RESPONSIVE
+-------------------------------- */
+
+@include respond-max(900px) {
+  .tech-skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@include respond-max(600px) {
+  .skills-panel {
+    padding: 1.5rem 1.2rem 1.8rem;
+  }
+
+  .pulse-graph {
+    height: 190px;
+    gap: 1rem;
+  }
+
+  .bar-label {
+    font-size: 0.78rem;
+  }
+}
+
+
+
+/* ============================================================
+   MOBILE OPTIMIZATION — TECH SKILLS OVERVIEW
+   ============================================================ */
+
+@media (max-width: 768px) {
+
+  .tech-skills {
+    margin-top: 4rem;
+    padding: 0.1rem 0 3rem !important;
+
+    .section2-title {
+      padding: 0 0.5rem !important;
+    }
+  }
+
+  /* Stack panels nicely */
+  .tech-skills-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.8rem !important;
+    padding: 0 0.5rem;
+  }
+
+  /* ----------------------------------------
+      LEFT PANEL — SKILL BLOCKS
+     ---------------------------------------- */
+
+  .skill-label {
+    font-size: 0.82rem;
+  }
+
+  .skill-blocks {
+    gap: 0.18rem !important;
+  }
+
+  .skill-block {
+    max-width: 10px !important;
+    transform: scale(0.55) !important;
+  }
+
+  .skill-block.active {
+    transform: scale(0.8) !important;
+  }
+
+/* ----------------------------------------
+      RIGHT PANEL — PULSE GRAPH
+     ---------------------------------------- */
+
+  .experience-badge-15 {
+    width: 120px;
+    margin: 0.5rem auto 0;
+    padding: 1rem 1rem;
+    height: 120px !important;
+  }
+
+  .experience-badge-15 h3 {
+  color: #9E9E9E !important;
+}
+
+  .experience-badge-15 h3 span {
+  color: #9E9E9E !important;
+} 
+
+ .experience-badge-15 p {
+  color: #9E9E9E !important;
+}
+
+}
+
+
+/* ============================================================
+   TECH SKILLS — TABLET OPTIMIZATION (768px–1024px)
+   Beautiful balanced two-column layout
+   ============================================================ */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Section spacing */
+  .tech-skills {
+    margin-top: 5rem !important;
+    padding: 3rem 1.5rem 4rem !important;
+  }
+
+  /* 2 panels side by side but with safe padded walls */
+  .tech-skills-grid {
+    max-width: 100% !important;
+    padding: 0 1rem !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 2rem 1.5rem !important;
+    align-items: start !important;
+  }
+
+  /* PANELS scaled slightly smaller for tablet */
+  .skills-panel {
+    padding: 1.6rem 1.6rem 2rem !important;
+    border-radius: 14px !important;
+  }
+
+  /* Titles + subtitles */
+  .skills-panel-title {
+    font-size: 1.05rem !important;
+  }
+
+  .skills-panel-sub {
+    font-size: 0.88rem !important;
+    margin-bottom: 1.4rem !important;
+  }
+
+  /* -----------------------------
+     LEFT PANEL — Skill Blocks
+     ----------------------------- */
+
+  .skill-label {
+    font-size: 0.88rem !important;
+  }
+
+  .skill-blocks {
+    gap: 0.2rem !important;
+  }
+
+  .skill-block {
+    max-width: 12px !important;
+    transform: scale(0.75) !important;
+  }
+
+  .skill-block.active {
+    transform: scale(1) !important;
+  }
+
+  /* -----------------------------
+     RIGHT PANEL — Experience Graph
+     ----------------------------- */
+
+  .pulse-graph {
+    height: 227px !important;
+    gap: 1.2rem !important;
+  }
+
+  .pulse-bar-inner {
+    width: 16px !important;
+  }
+
+  .bar-label {
+    font-size: 0.82rem !important;
+  }
+
+  .bar-years {
+    font-size: 0.75rem !important;
+  }
+
+  /* -----------------------------
+     Experience badge (15 years)
+     ----------------------------- */
+  .experience-badge-15 {
+    width: 140px !important;
+    padding: 1.1rem 1.2rem !important;
+    margin-top: -0.3rem !important;
+    border-radius: 8px !important;
+  }
+
+  .experience-badge-15 h3 {
+    font-size: 1.8rem !important;
+  }
+
+  .experience-badge-15 h3 span {
+    font-size: 0.95rem !important;
+  }
+
+  .experience-badge-15 p {
+    font-size: 0.78rem !important;
+  }
+}
+
+
+
+
+
+/* ==========================================
+   DREAM TECHNICIAN SCHEDULE — FINAL 50PX
+========================================== */
+
+$font-body: "Inter", sans-serif;
+$font-title: "Orbitron", sans-serif;
+
+/* 🌟 APPLY ORBITRON FONT TO HEADER TEXT */
+.ds-tech-name,
+.ds-pill-role,
+.ds-pill-years,
+.ds-tech-menu li span {
+  font-family: $font-title !important;   /* Orbitron */
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: none; /* keep names readable */
+  color: #ffffff;
+}
+
+.dream-schedule .section2-title {
+  color: #ffffff !important;
+}
+
+.dream-schedule {
+  padding: 4rem 0;
+  font-family: $font-body;
+  color: var(--text); /* 💬 CHANGED: using your global white text */
+
+  .dream-schedule-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    backdrop-filter: blur(14px);
+    border-radius: 16px;
+    padding: 1.8rem 2.1rem 2.4rem;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.45); /* 💬 DARK shadow */
+    border-radius: 8px;
+    padding: 1.8rem 2.1rem 2.4rem;
+  }
+
+  /* ---------------- HEADER ---------------- */
+
+  .ds-header {
+    display: grid;
+    grid-template-columns: minmax(0, 2.3fr) minmax(0, 2.6fr) minmax(0, 1.7fr);
+    gap: 0.6rem !important;
+    margin-bottom: 0.6rem !important;
+
+    > * {
+      height: 50px !important; /* UNIFIED HEIGHT */
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .ds-pill {
+    height: 50px; /* SAME HEIGHT */
+    border-radius: 16px;
+    background: rgba(255,255,255,0.06); /* DARK GLASS */
+    border: 1px solid rgba(255,255,255,0.12);
+    backdrop-filter: blur(12px);
+    color: #fff;
+    padding: 0 1.4rem;
+    font-size: 0.92rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  /* Tech Selector */
+  .ds-tech-select {
+    position: relative;
+    z-index: 50;
+  }
+
+  .ds-tech-pill {
+    background: rgba(255,255,255,0.08); /* 💬 DARK */
+    border: 1px solid rgba(255,255,255,0.12);
+    color: #fff;
+    height: 50px; /* SAME HEIGHT */
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    gap: 0.6rem !important;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  .ds-tech-pill:hover {
+    border-color: var(--accent); /* 💬 ORANGE glow */
+    box-shadow: 0 0 12px rgba(255,94,0,0.35);
+  }
+
+  .ds-tech-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 0 2px #ffffff;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .ds-pill-role {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .ds-pill-years {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: #fff;
+    font-weight: 500;
+
+    span {
+      font-family: $font-title;
+      font-weight: 800;
+      margin-right: 0.25rem;
+      color: var(--accent2); /* 💬 BLUE neon */
+    }
+  }
+
+  /* Dropdown menu (FULL FIX) */
+  .ds-tech-menu {
+    /* 💬 DARK GLASS DROPDOWN */
+    background: rgba(20,20,20,0.85);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(70px);
+    position: absolute;
+    left: 0;
+    top: calc(100% + 6px);
+    width: 100%;
+    border-radius: 16px;
+    list-style: none;
+    padding: 0.4rem 0;
+    margin: 0;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.55);
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    
+    transform: translateY(10px);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    max-height 0.35s ease,
+    visibility 0s linear 0.35s;
+
+    z-index: 9999;
+  }
+
+  .ds-tech-menu.open {
+    max-height: 260px;
+    opacity: 1;
+    visibility: visible;
+  transform: translateY(0);
+  transition-delay: 0s;
+  }
+
+  .ds-tech-menu li {
+    padding: 0.45rem 0.9rem;
+    display: flex;
+    align-items: center !important;
+    gap: 0.6rem !important;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+    img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .ds-tech-menu li:hover {
+     background: rgba(255, 94, 0, 0.18);      /* orange neon haze */
+  color: var(--accent);  
+  }
+
+
+  /* ---------------- DAYS ---------------- */
+
+  .ds-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.6rem !important;
+    margin-bottom: 0.6rem !important;
+  }
+
+  .ds-day-chip {
+    background: rgba(0, 180, 255, 0.12);
+    border: 1px solid rgba(0, 200, 255, 0.3);
+    border-radius: 16px;
+    color: #ccf7ff;
+
+
+    height: 50px; /* SAME HEIGHT */
+    border-radius: 16px;
+    padding: 0 0.5rem;
+    text-align: center;
+    font-size: 0.82rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ds-day-chip.is-off {
+    opacity: 0.4;
+  }
+
+  /* ---------------- MAIN GRID ---------------- */
+
+  .ds-main {
+    display: grid;
+    grid-template-columns: 86px 1fr;
+    gap: 0.6rem !important;
+    margin-top: 0rem !important;
+  }
+
+  .ds-right {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 0rem !important;
+  }
+
+  /* TIME COLUMN — FIXED VERSION */
+  .ds-times {
+    display: grid;
+    grid-auto-rows: 50px; /* SAME HEIGHT */
+    row-gap: 0.6rem !important;
+  }
+
+  .ds-time-slot {
+    background: rgba(0, 180, 255, 0.12);
+    border: 1px solid rgba(0, 200, 255, 0.3);
+    border-radius: 16px;
+    color: #ccf7ff;
+    height: 50px; /* SAME HEIGHT */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    font-size: 0.8rem;
+  }
+
+  .ds-time-empty {
+    background: rgba(0, 180, 255, 0.12);
+    border: 1px solid rgba(0, 200, 255, 0.3);
+  }
+
+  .ds-time-lunch {
+    background: rgba(255, 120, 0, 0.12);
+    border: 1px solid rgba(255, 150, 0, 0.30);
+    border-radius: 16px;
+    color: #ffe9cc;
+
+    font-weight: 700;
+  }
+
+  /* ---------------- SCHEDULE GRID ---------------- */
+
+  .ds-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 50px; /* SAME HEIGHT */
+    gap: 0.6rem !important;
+    position: relative;
+  }
+
+  .ds-lunch-row {
+    grid-column: 1 / -1;
+    grid-row: 5;
+    height: 50px; /* SAME HEIGHT */
+    background: #f5f6fa;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #81889b;
+  }
+
+  .ds-dayoff-col {
+    background: rgba(247, 248, 253, 0.18); 
+    backdrop-filter: blur(16px) saturate(160%);-webkit-backdrop-filter: blur(16px) saturate(160%);
+    color: #cfcfcf;
+
+    grid-row: 1 / span 10;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+    text-transform: uppercase;
+    gap: 0.12rem;
+  }
+
+  /* Center titles for single-line tasks (Tyres, AVAILABLE, Lunch Hour, etc.) */
+.ds-task:not(:has(.ds-task-meta)) {
+  text-align: center;
+  justify-content: center; /* vertically centers the title */
+}
+
+/* Center text specifically in lunch row */
+.ds-lunch-row {
+  text-align: center !important;
+}
+
+
+  /* ---------------- TASK CARDS ---------------- */
+
+  .ds-task {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+
+    color: #fff;
+    border-radius: 16px;
+    padding: 0.7rem 0.95rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.8rem;
+  }
+
+  .ds-task-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  .ds-task-meta {
+    font-size: 0.78rem;
+    color: rgba(200, 200, 210, 0.78); 
+    white-space: pre-line;
+  }
+
+  /* COLORS */
+  .ds-task-blue {
+  background: rgba(224, 240, 255, 0.30);
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+
+  .ds-task-title {
+    color: #00b2ff;
+  }
+}
+
+
+  .ds-task-green {
+  background: rgba(150, 225, 170, 0.34);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+
+  .ds-task-title {
+    color: #2dbf61
+;
+  }
+}
+
+
+  .ds-task-orange {
+  background: rgba(255, 180, 100, 0.35);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+
+  .ds-task-title {
+    color: #ff6a1a;
+  }
+}
+
+
+  .ds-task-yellow {
+  background: rgba(255, 230, 130, 0.35); 
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+
+  .ds-task-title {
+    color: #ffcd42;
+  }
+}
+
+
+  .ds-task-gray {
+    background: rgba(255,255,255,0.08);
+    color: #cfcfcf;
+  }
+
+
+  .ds-tooltip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 6px 12px;
+  background: #669df8  ;
+  color: white;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: 8px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, -120%);
+  transition: opacity 0.15s ease-out;
+  z-index: 999999;
+}
+
+
+  /* ---------------- RESPONSIVE ---------------- */
+
+  @media (max-width: 768px) {
+    .dream-schedule-inner {
+      overflow-x: auto;
+      padding: 1.3rem 1rem 1.6rem;
+    }
+
+    .ds-main {
+      min-width: 880px;
+    }
+  }
+}
+
+/* ===========================================================
+   MOBILE HEADER SCROLL FIX — CAR NOVA STYLE
+=========================================================== */
+
+@media (max-width: 768px) {
+
+  .dream-schedule .section2-tag {
+    margin-top: 1rem !important;
+  }
+
+  .dream-schedule .section2-title {
+    margin-bottom: 2.5rem !important;
+  }
+
+  /* FIXED — VALID SYNTAX */
+  .ds-header {
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr !important;
+    gap: 0.6rem;
+    min-width: 880px;
+  }
+
+  .ds-scroll-wrapper {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 0.6rem;
+  }
+}
+
+
+/* ============================================================
+   DREAM TECHNICIAN SCHEDULE — TABLET OPTIMIZATION (768–1024px)
+   Beautiful, tight, balanced pro layout
+============================================================ */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Outer section padding */
+  .dream-schedule {
+    padding: 3.2rem 0 3.6rem !important;
+  }
+
+  /* Inner container */
+  .dream-schedule-inner {
+    max-width: 92% !important;
+    padding: 1.6rem 1.5rem 2.2rem !important;
+    border-radius: 14px !important;
+  }
+
+  /* ---------------- HEADER ---------------- */
+
+  .ds-header {
+    grid-template-columns: 1fr 1fr auto !important;
+    gap: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+
+    > * {
+      height: 46px !important;
+    }
+  }
+
+  .ds-pill,
+  .ds-tech-pill,
+  .ds-pill-role,
+  .ds-pill-years {
+    height: 46px !important;
+    padding: 0 1rem !important;
+    font-size: 0.85rem !important;
+    border-radius: 14px !important;
+  }
+  .ds-pill-role, .ds-pill-years {
+    font-size:0.75rem !important ;
+  }
+
+  .ds-tech-avatar {
+    width: 28px !important;
+    height: 28px !important;
+  }
+
+  /* Dropdown menu */
+  .ds-tech-menu {
+    border-radius: 12px !important;
+    max-height: 220px !important;
+  }
+
+  .ds-tech-menu li {
+    padding: 0.4rem 0.8rem !important;
+    font-size: 0.85rem !important;
+
+    img {
+      width: 28px !important;
+      height: 28px !important;
+    }
+  }
+
+  /* ---------------- DAYS ROW ---------------- */
+
+  .ds-days {
+    gap: 0.5rem !important;
+  }
+
+  .ds-day-chip {
+    height: 46px !important;
+    font-size: 0.8rem !important;
+    border-radius: 14px !important;
+  }
+
+  /* ---------------- MAIN GRID ---------------- */
+
+  .ds-main {
+    grid-template-columns: 70px 1fr !important;
+    gap: 0.5rem !important;
+  }
+
+  /* TIME COLUMN */
+  .ds-times {
+    grid-auto-rows: 46px !important;
+    row-gap: 0.5rem !important;
+  }
+
+  .ds-time-slot,
+  .ds-time-empty,
+  .ds-time-lunch {
+    height: 46px !important;
+    border-radius: 14px !important;
+    font-size: 0.75rem !important;
+  }
+
+  /* ---------------- SCHEDULE GRID ---------------- */
+
+  .ds-grid {
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 46px !important;
+    gap: 0.5rem !important;
+  }
+
+  .ds-dayoff-col {
+    border-radius: 14px !important;
+    font-size: 0.75rem !important;
+  }
+
+  .ds-lunch-row {
+    height: 46px !important;
+    font-size: 0.85rem !important;
+    border-radius: 14px !important;
+  }
+
+  /* ---------------- TASK BLOCKS ---------------- */
+
+  .ds-task {
+    padding: 0.6rem 0.75rem !important;
+    border-radius: 14px !important;
+    font-size: 0.75rem !important;
+  }
+
+  .ds-task-title {
+    font-size: 0.85rem !important;
+  }
+
+  .ds-task-meta {
+    font-size: 0.72rem !important;
+    line-height: 1.25rem !important;
+  }
+
+  /* Tooltip smaller for tablet */
+  .ds-tooltip {
+    font-size: 0.75rem !important;
+    padding: 5px 10px !important;
+  }
+}
+
+
+
+

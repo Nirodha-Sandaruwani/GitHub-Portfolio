@@ -1,0 +1,150 @@
+[
+    {
+        "id": "1",
+        "image": "/public/image/dhal_curry.jpeg",
+        "name": "Dhal Curry",
+        "meal": "rice dishes, curries",
+        "main type": "Vegetarian",
+        "dietary": "Vegan Dish",
+        
+        "Whole Time": "Preparation and cooking time is around 30-40 minutes",
+
+        "description": "Though dhal is enjoyed widely across different cultures and adapted in various ways, its origins and primary development can be attributed to South Asian culinary traditions.",
+        
+        "ingredient": "red lentils, onion, garlic, ginger, green chili, mustard seeds, turmeric powder, cumin seeds, coriander powder, chili powder, fenugreek seeds, curry leaves, coconut milk",
+
+        
+        "recipe": "Rinse 1 cup of red lentils under cold water until the water runs clear.. In a large pot, add the lentils, 3 cups of water, and 1/2 teaspoon of turmeric powder, Bring to a boil, then reduce to a simmer and cook for 20-25 minutes or until the lentils are soft and creamy, Skim off any foam as needed.. While the lentils are cooking, heat 2 tablespoons of oil or ghee in a separate pan over medium heat, Add 1 teaspoon of mustard seeds and 1/2 teaspoon of cumin seeds, Allow them to crackle for a few seconds to release their aroma.. Add 1 finely chopped onion, 2 cloves of minced garlic, 1 inch of grated ginger, and 1-2 chopped green chilies (adjust to taste), Sauté the mixture until the onions are golden brown.. Add 1/2 teaspoon of fenugreek seeds, a handful of curry leaves, and stir well, Then add 1/2 teaspoon of chili powder, 1 teaspoon of coriander powder, and a pinch of salt, Sauté for another 1-2 minutes to let the spices infuse.. Once the lentils are cooked, add the spiced onion mixture to the pot of lentils, Stir well to combine.. Pour in 1 cup of coconut milk and bring the mixture to a gentle simmer, Cook for an additional 5-10 minutes, stirring occasionally, until the curry reaches your desired consistency.. Taste and adjust salt and spices as needed, Garnish with fresh cilantro or curry leaves if desired, and serve hot with rice or flatbread, Enjoy your dhal curry!"
+    },
+    
+    {
+        "id": "2",
+        "image":"/public/image/fastfood.jpg",
+        "name" : "Corrot",
+        "meal": "lunch",
+        "main type": "Vegetarian",
+        "dietary":"Vegan Dish",
+        "Whole Time":"All the preperation time is 2 hours",
+        "description": "Basically it's british countries base..",
+        "ingredient" : "carrot, onion",
+        "recipe" : "Carrot cut and mix with onion"
+    
+    },
+    {
+        "id": "3",
+        "image":"/public/image/dinner.jpg",
+        "name" : "sea food rice",
+        "meal": "dinner",
+        "main type": "Non-Vegetarian",
+        "dietary":"Pescatarian Dish",
+        "Whole Time":"All the preperation time is 1 hours",
+        "description": "Basically it's british countries base..",
+        "ingredient" : "fish, garlic, onion, oil, rice, tomato",
+        "recipe" : "Season the the all see foods and bake them.. And add them to cooked rice and mixed well.."
+        
+    },
+    {
+        "id": "4",
+        "meal": "breakfast",
+        "image":"/public/image/fastfood.jpg",
+        "name" : "Corrot soupe",
+        "dietary":"Pescatarian",
+        "Whole Time":"All the preperation time is 45 minutes",
+        "recipe" : "onion",
+        "ingredient" : "onion"
+        
+    },
+    {
+        "id": "5",
+        "image":"/public/image/dinner.jpg",
+        "name" : "Potato mash",
+        "dietary":"Pescatarian Dish",
+        "Whole Time":"All the preperation time is 30 minutes",
+        "recipe" : "onion",
+        "ingredient" : "onion"
+
+    },
+    {
+        "id": "6",
+        "image":"/public/image/dinner.jpg",
+        "name" : "Paste Corrot",
+        "main type": "Non-Vegetarian",
+        "dietary":"Paleo Dish",
+        "Whole Time":"All the preperation time is 1.4 hours",
+        "recipe" : "onion",
+        "ingredient" : "onion"
+    },
+    {
+        "id": "7",
+        "image":"/public/image/fastfood.jpg",
+        "name" : "Chicken",
+        "main type": "Vegetarian",
+        "dietary":"Vegen Dish",
+        "Whole Time":"All the preperation time is 50 minutes",
+        "recipe" : "onion",
+        "ingredient" : "onion"
+    },
+    {
+        "id": "8",
+        "image":"/public/image/dinner.jpg",
+        "name" : "Chicken curry",
+        "dietary":"Meet dish",
+        "Whole Time":"All the preperation time is 25 minutes",
+        "recipe" : "onion",
+        "ingredient" : "onion"
+    },
+    {
+        "id": "9",
+        "image":"/public/image/dinner.jpg",
+        "name" : "Chicken curry",
+        "dietary":"Meet dish",
+        "Whole Time":"All the preperation time is 25 minutes",
+        "recipe" : "onion with something ixed",
+        "ingredient" : "onion"
+    },
+    {
+        "id": "10",
+        "image":"/public/image/dinner.jpg",
+        "name" : "Chicken curry",
+        "dietary":"Meet dish",
+        "Whole Time":"All the preperation time is 25 minutes",
+        "recipe" : "onion",
+        "ingredient" : "onion"
+    },
+    {
+        "id": "11",
+        "image":"/public/image/dinner.jpg",
+        "name" : "Chicken curry",
+        "dietary":"Meet dish",
+        "Whole Time":"All the preperation time is 25 minutes",
+        "recipe" : "onion",
+        "ingredient" : "onion"
+    },
+    {
+        "id": "12",
+        "image":"/public/image/dinner.jpg",
+        "name" : "Chicken curry",
+        "dietary":"Meet dish",
+        "Whole Time":"All the preperation time is 25 minutes",
+        "recipe" : "onion",
+        "ingredient" : "onion"
+    },
+    {
+        "id": "13",
+        "image":"/public/image/fastfood.jpg",
+        "name" : "Been salad",
+        "dietary":"Pescatarian Dish",
+        "ingredient" : "onion",
+        "recipe" : "onion",
+        "Whole Time":"All the preperation time is 15 minutes"
+    },
+    {
+        "id": "14",
+        "image":"/public/image/dinner.jpg",
+        "name" : "Sweet Poptato curry",
+        "dietary":"Pescatarian Dish",
+        "Whole Time":"All the preperation time is 10 minutes",
+        "ingredient" : "onion",
+        "recipe" : "onion"
+    }
+]

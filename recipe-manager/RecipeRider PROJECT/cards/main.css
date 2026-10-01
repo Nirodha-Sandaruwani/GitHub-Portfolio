@@ -1,0 +1,764 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    height: 100vh;
+    background-image: url('/public/image/login-bg.jpeg');
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 25%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public//image/login-bg.jpeg');  
+}
+
+/* Sidebar Header with Background Image and Curved Bottom */
+.sidebar-header {
+    padding: 3px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.sidebar-header h2 {
+    font-size: 1.4em;
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #FF8C00,
+    1px -1px 0 #FF8C00,
+    -1px 1px 0 #FF8C00,
+    1px 1px 0 #FF8C00;
+    font-weight: 500;    
+}
+
+/* Sidebar Ingredient List styling */
+.sidebar-category  {
+    overflow: hidden;
+    margin-top: 42px;
+    padding: 20px;
+    height: calc(100vh - 100px);
+    background-color:rgb(210, 210, 210);
+    border-top-right-radius: 16px; /* Curved top-right corner for content section */
+    border-top-left-radius: 16px; /* Curved top-right corner for content section */
+}
+.sidebar-box {
+    overflow-y: auto;
+    box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+    height: 473px;
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;   
+}
+
+.sidebar-header p {
+    font-size: 11px;
+    color: #FF8C00;
+    margin-bottom: 14px;
+}
+
+.ingredient-list, .food-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.food-list {
+    margin-left: 14px;
+    margin-top: 25px;
+}
+
+.ingredient-list button, .food-list button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 6px; /* Adjust border radius here */
+    padding: 10px 9px; /* Adjust padding to reduce button size */
+    font-size: 0.8em;
+    color: #555; /* Change text color here */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ingredient-list button:hover, .food-list button:hover{
+    background-color: #e0e0e0;
+}
+
+.checkbox-container {
+    margin-left: 15px;
+}
+
+.checkbox-container p {
+    font-size: 0.8em;
+    color: #3f51b5;
+    margin-bottom: 10px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;   
+}
+
+.checkbox-item input[type="checkbox"] {
+    -webkit-appearance: none; /* Remove default checkbox styling for Webkit browsers */
+    appearance: none; /* Remove default checkbox styling */
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    cursor: pointer;
+    border: 1.5px solid #ccc; /* Set border color and width */
+    border-radius: 4px; /* Optional: rounded corners */
+    background-color: #fff; /* Background color */
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.checkbox-item input[type="checkbox"]:checked::after {
+    content: '✔'; /* Checkmark symbol */
+    font-size: 0.9em;
+    color: #3f51b5; /* Checkmark color */
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    display: block;
+}
+    
+.checkbox-item label {
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+/* Main content styling */
+.main-content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+/* Content Header with Background Image and Curved Bottom */
+.content-header {    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #FFA726;
+    height: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.content-header h2 {    
+    margin-bottom: 22px;
+    margin-top: 38px;
+    background: linear-gradient(45deg, #ffcc00, #ff6600);
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-background-clip: text; /* WebKit-specific property */
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+    
+.content-header h2:hover {
+    transform: scale(1.1);
+}
+
+.content-body, .content-1-body {
+    background-image: url('/public/image/ingredientsContent-bg.jpeg');   
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 42px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.content-1-body {
+    background-image: url('/public/image/foodlistContent-bg.jpeg');
+}
+
+.pantry-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+}
+
+.pantry-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pantry-icon {
+    width: 85px;
+    height: 65px;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+
+.pantry-icon1 {
+    width: 75px;
+    height: 60px;
+    margin-right: 5px;    
+}
+
+.pantry-icon2 {
+    width: 100px;
+    height: 65px;
+    margin-right: 5px;
+    margin-top: 30px;    
+}
+
+.pantry-info h1 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444444;
+    white-space: nowrap;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.pantry-info h2 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444444;
+    white-space: nowrap;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.pantry-info p {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.dropdown-icon {
+    font-size: 0.9em;
+    color: #333;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-bottom: 18px;    
+}
+
+.dropdown-icon1 {
+    font-size: 0.9em;
+    color: #333;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-bottom: 18px;
+    margin-top: 30px;
+}
+
+.divider {
+    margin-top: 12px;
+    border: none;
+    height: 1px;
+    background-color: #99ccff; /* Set the color of the line here */
+    border-radius: 1px;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+/* Wrapper for food items with a two-column grid layout starting from the top-left corner */
+.food-item-background {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px; /* Space between items */
+    grid-auto-rows: 150px; /* Uniform row height */
+    padding: 20px;
+    align-items: start; /* Align items to the top of each cell */
+    justify-items: start; /* Align items to the start (left) of each column */
+    width: 100%;
+    height: 490px;
+    background-image: url('/public/image/mainContent-bg.jpeg'); /* Background image for main content */
+    background-repeat: repeat; /* or repeat-x, repeat-y, no-repeat */
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow-y: auto; /* Enable scrolling if needed */
+}
+
+/* Food item card styles with a consistent layout */
+.food-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);   
+    width: 100%; /* Full width within the grid cell */
+    max-width: 500px; /* Ensure it fits within the column */
+    height: 150px;
+    transition: transform 0.2s ease;
+}
+
+.food-image {
+    width: 130px;
+    height: 150px;    
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.food-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.food-details h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.food-details p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 3px 0;
+}
+
+.food-link {
+    margin-top: 8px;
+    font-size: 0.8em;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.food-link:hover {
+    text-decoration: underline;
+}
+
+/* Full-width container for the recipe */
+.recipe-container {
+    max-width: 100vw;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Recipe header with background image, title, and ingredients */
+.recipe-header {
+    position: relative;
+    background-image: url('/public/image/header-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    display: flex;
+    height: 200px;
+    max-height: 200px;
+}
+
+/* Recipe name on the right */
+.recipe-name {
+    font-weight: bold;
+    text-align: right;
+    font-size: 2.8em; /* Larger font size for emphasis */
+    font-weight: bold;
+    color: transparent;
+    background: linear-gradient(45deg, #FF7E00, #FFBB33);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    -webkit-text-fill-color: transparent;
+    padding: 20px 0;
+    font-family: 'Georgia', serif; /* Elegant font family for a classic look */
+    letter-spacing: 2px; /* Extra spacing for readability */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block; 
+    margin-right: 110px;
+}
+
+/* Ingredients list within the header */
+.ingredients-header {
+    margin-top: 5px;
+    overflow-y: auto;
+}
+
+.ingredients-header h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+/* Responsive Ingredients list for multiple columns */
+#header-ingredients-list {
+    list-style-type: disc;
+    padding-left: 40px;
+    display: grid;
+    gap: 5px;
+    max-width: 800px;
+    max-height: 300px;
+    margin-bottom: 20px;
+    grid-template-rows: repeat(4, auto); /* Fixed to 5 rows */
+    grid-auto-flow: column; /* Flow into columns after 5 rows */
+    column-gap: 35px;
+}
+
+#header-ingredients-list li {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Recipe content section: align image on the left and method on the right */
+.recipe-content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -16px;
+}
+
+/* Food image section with stacked content */
+.food-image-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DCDCDC;
+    height: 470px; /* Adjust height to fit content */
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    max-width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+    overflow-y: auto;
+}
+
+#dietary-info {
+    font-style: italic; /* Italicize the font */
+    font-weight: bold; /* Make it bold for emphasis, if desired */
+    color: #555; /* Adjust color as needed */
+    font-size: 16px;
+}
+
+/* Info box container for "Dietary" and "Whole Time" */
+.info-box {
+    padding: 8px;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #333;
+    text-align: left;
+    width: 100%; /* Full width within container */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for each information item within the info box */
+.info-box .info-item {
+    margin: 5px 0;
+}
+
+.info-box p {
+    margin: 10px 0; /* Adjust spacing as needed */
+}
+
+/* Food image styling */
+.food-image-section img {
+    width: 100%;
+    height: auto;
+    
+    object-fit: cover;
+    max-width: 350px;
+    
+}
+
+/* Description text below the image */
+.description-text {
+    font-size: 0.8em;
+    text-align: left;
+    padding: 8px;
+    font-style: italic; /* Italicize the font */
+    color: #333; /* Adjust color as needed */
+    width: 100%; /* Full width within container */
+    margin-top: 12px;
+}
+
+/* Method section styling */
+.method {
+    flex: 2;
+    padding: 20px;
+    background-image: url('/public/image/mainContent-bg.jpeg');
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    max-width: 80%;
+    z-index: 1;
+    position: relative;
+    max-height: 450px; /* Set a maximum height */
+    height: 450px;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+/* Method heading styling */
+.method h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #404040;
+}
+
+/* Remove static height for the line, so it can be dynamically set */
+.vertical-line {
+    position: absolute;
+    left: 45px; /* Align vertical line */
+    width: 2px;
+    background-color: rgb(160, 160, 160); /* Line color */
+    z-index: -1; /* Ensure it stays behind the list items */
+    margin-top: 4px;
+}
+
+/* Styling for the list and each step */
+.method ol {
+    list-style: none;
+    padding-left: 33px;
+    counter-reset: step-counter;
+}
+
+/* Circle and number positioning */
+.method li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-left: 30px;    
+    line-height: 1.6;
+    font-size: 1em;
+    color: #333;
+}
+
+.method li::before {
+    content: '';
+    position: absolute;
+    left: -45px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgb(160, 160, 160);
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+.step-number {
+    font-weight: 505;
+    color: #333;
+    margin-right: 10px;
+    display: inline-block;
+    width: 10px;
+    text-align: right;
+}
+
+.step-text {
+    flex: 1;
+}
+
+/* Search Bar Styling */
+.search-bar input {
+    padding: 13px;
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #ddd;
+    width: 88%; /* Adjust width as needed */
+    font-size: 0.9em;
+    outline: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease; /* Smooth transition for focus effect */
+}
+
+.search-bar input:focus {
+    box-shadow: 0px 4px 8px rgba(0, 128, 255, 0.2); /* Slightly highlight on focus */
+    border: 1px solid white; /* Highlighted border color on focus */
+}
+
+/* Suggestion List Styling */
+#search-results {
+    position: absolute;
+    margin-top: 0;
+    left: 7%; /* Adjust to align with the search bar width */
+    width: 86%; /* Same width as search bar */
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white; /* Set background color */
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    z-index: 1000;
+}
+/* Individual Suggestion Item with Left Border */
+.search-result-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search-result-item:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}
+
+/* Plus Icon Styling */
+.plus-icon {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Ingredient Name and Add Text Styling */
+.ingredient-name {
+    flex-grow: 1;
+    font-size: 14px;
+    color: #333;
+}
+
+.add-text {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Active item styling */
+.search-result-item.active {
+    background-color: #e0e0e0; /* Highlight color */
+    color: #333;
+}
+
+/* Search Bar Styling */
+.search-bar2 input {
+    padding: 13px;
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #ddd;
+    width: 95%; /* Adjust width as needed */
+    font-size: 0.9em;
+    outline: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease; /* Smooth transition for focus effect */
+}
+
+.search-bar2 input:focus {
+    box-shadow: 0px 4px 8px rgba(0, 128, 255, 0.2); /* Slightly highlight on focus */
+    border: 1px solid white; /* Highlighted border color on focus */
+}
+
+/* Overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it covers all other content */
+}
+
+/* Popup Message */
+.popup-message {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    height: 28%;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Title */
+.popup-message h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Message Text */
+.popup-message p {
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    color: #666;
+    font-family: Arial, sans-serif;
+}
+
+/* OK Button */
+.popup-message button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #b3d9ff; /* Blue color for OK button */
+    color: #007bff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    float: right; /* Align button to the right */
+}
+
+.popup-message button:hover {
+    background-color: #5a9eff;
+}
+
+.long-select {
+    width: 92%;
+    padding: 8px;
+    font-size: 12px; 
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light gray border */
+    /* Centering */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 20px;
+}
+
+.small-pa {
+    display: block;  /* or inline if using <span> */
+    font-size: 11px; /* Adjust font size as needed */
+    color: #666;     /* Optional: change text color */
+    margin-left: 12px;
+    margin-bottom: 15px;
+    
+}

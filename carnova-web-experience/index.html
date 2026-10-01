@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>CarNova</title>
+
+  <meta name="description" content="CarNova is a premium car service and detailing platform offering diagnostics, repairs, washing plans, and online booking.">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Owl Carousel CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+
+  <!-- Swiper CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- FLATPICKR (Date + Time Picker) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+  <!-- Animate.css -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <link rel="stylesheet" href="print.css" media="print">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+<div id="loader-wrapper">
+  <div class="multi-ring-loader">
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="ring r3"></div>
+    <div class="ring r4"></div>
+    <div class="ring r5"></div>
+
+    <div id="loader-count">0</div>
+  </div>
+</div>
+
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Electric Xtra–style animated background layers -->
+  <div class="grid-bg"></div>
+  <div class="gradient-overlay"></div>
+  <div class="scanlines"></div>
+  <div class="shapes-container">
+    <div class="shape shape-circle"></div>
+    <div class="shape shape-triangle"></div>
+    <div class="shape shape-square"></div>
+  </div>
+  <div id="particles"></div>
+  <div class="rotating-rect"></div>
+
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-left">
+        <span
+          ><i class="fa-solid fa-location-dot"></i> 123 Street, Jyväskylä, Finland </span
+        >
+        <span
+          ><i class="fa-solid fa-clock"></i> Mon - Fri : 09.00 AM - 09.00
+          PM</span
+        >
+      </div>
+      <div class="top-right">
+        <a href="tel:+10123456789"
+          ><i class="fa-solid fa-phone"></i> +01 2345 6789</a
+        >
+        <a href="#" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#"  aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"  aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"  aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+      HEADER / NAVBAR
+=========================================== -->
+<header id="navbar" class="site-header electric-nav">
+
+  <div class="container header-inner">
+
+    <!-- LOGO -->
+<a href="index.html" class="brand electric-logo" aria-label="CarNova Home">
+
+  <span class="brand-icon">
+    <img
+      src="img/my-logo.svg"
+      alt="CarNova Logo"
+      width="36"
+      height="36"
+      loading="eager"
+    >
+  </span>
+
+  <span class="brand-text">CARNOVA</span>
+</a>
+
+
+    <!-- DESKTOP NAV (unchanged) -->
+    <nav class="main-nav" aria-label="Primary navigation">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">HOME</a></li>
+        <li><a href="service.html" class="nav-link">SERVICES</a></li>
+        <li><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li class="dropdown">
+          <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">PAGES <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="team.html">Technicians</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <!-- DESKTOP BUTTON -->
+    <a href="brochure.pdf" download class="btn btn-quote">GET A QUOTE →</a>
+
+
+    <!-- MOBILE HAMBURGER -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+
+  <!-- MOBILE SLIDE-IN MENU -->
+  <nav class="mobile-nav-panel" id="mobileNav">
+    <ul class="mobile-menu">
+
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+
+      <li class="mobile-has-sub">
+  <div class="mobile-sub-header">
+    <span>PAGES</span>
+    <button class="sub-toggle-btn"  type="button" aria-label="Toggle submenu">
+      <span class="toggle-icon">+</span>
+    </button>
+  </div>
+
+  <ul class="mobile-submenu">
+    <li><a href="team.html">Technicians</a></li>
+    <li><a href="testimonial.html">Testimonial</a></li>
+  </ul>
+</li>
+
+
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+  </nav>
+  <div class="mobile-nav-overlay" id="mobileOverlay"></div>
+
+
+</header>
+
+
+
+  <main id="main">
+    <!-- HERO (Electric Xtra text + car-repair swipe background) -->
+    <section id="home" class="hero">
+      <div class="hero-bg hero-bg-current"></div>
+      <div class="hero-bg hero-bg-next"></div>
+
+      <button class="hero-nav hero-prev" aria-label="Previous slide">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <button class="hero-nav hero-next" aria-label="Next slide">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-tag">// CAR SERVICING //</p>
+          <div class="hero-content">
+            <div class="text-rotator">
+              <!-- Slide 1 -->
+              <div
+                class="text-set active"
+                data-bg-type="image"
+                data-bg="img/bg2.webp"
+                data-car="img/mercedes.webp"
+              >
+                <h1 class="glitch-text" data-text="HERE's CARNOVA">
+                  HERE'S CARNOVA
+                </h1>
+                <p class="subtitle">
+                  Qualified car repair service center focused on power, safety
+                  and perfection.
+                </p>
+              </div>
+
+              <!-- Slide 2 -->
+              <div
+                class="text-set"
+                data-bg-type="plain"
+                data-bg=""
+                data-car="img/audi.webp"
+              >
+                <h1 class="glitch-text" data-text="CLEANING TIME">
+                  CLEANING TIME
+                </h1>
+                <p class="subtitle">
+                  Computer diagnostics, ECU tuning and advanced fault detection
+                  for modern vehicles.
+                </p>
+              </div>
+
+              <!-- Slide 3 -->
+              <div
+                class="text-set"
+                data-bg-type="image"
+                data-bg="img/bg3.webp"
+                data-car="img/bmw.webp"
+              >
+                <h1 class="glitch-text" data-text="SERVICE DREAM">
+                  SERVICE DREAM
+                </h1>
+                <p class="subtitle">
+                  Detailing, paint and collision repair with showroom-level
+                  finish and shine.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary"  id="heroLearnBtn"> Learn More <i class="fa-solid fa-arrow-right"></i
+            ></a>
+            <a href="#contact" class="btn btn-outline">Book Now</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <img
+          id="heroCar"
+          src="img/mercedes.webp"
+          alt="Premium car"
+          width="600"
+          height="300"
+          class="hero-car-img car-enter">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT FEATURE CARDS (Animated like car-repair carousel) -->
+    <section id="about" class="section about">
+      <div class="container about-cards about-light-theme anime-cards">
+        <article class="about-card wow fadeInUp" data-wow-delay="0.1s">
+          <div class="about-card-icon">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div class="about-card-content">
+            <h2 class="about-card-title">Quality Servicing</h2>
+            <p class="about-card-text">
+              Diam dolor diam ipsum sit amet diam et eos erat ipsum
+            </p>
+            <a href="#" class="about-card-link">Read More</a>
+          </div>
+        </article>
+
+        <article
+          class="about-card dark-card wow fadeInUp"
+          data-wow-delay="0.3s"
+        >
+          <div class="about-card-icon">
+            <i class="fa-solid fa-users-cog"></i>
+          </div>
+          <div class="about-card-content">
+            <h2 class="about-card-title">Expert Workers</h2>
+            <p class="about-card-text">
+              Diam dolor diam ipsum sit amet diam et eos erat ipsum
+            </p>
+            <a href="#" class="about-card-link">Read More</a>
+          </div>
+        </article>
+
+        <article class="about-card wow fadeInUp" data-wow-delay="0.5s">
+          <div class="about-card-icon">
+            <i class="fa-solid fa-tools"></i>
+          </div>
+          <div class="about-card-content">
+            <h2 class="about-card-title">Modern Equipment</h2>
+            <p class="about-card-text">
+              Diam dolor diam ipsum sit amet diam et eos erat ipsum
+            </p>
+            <a href="#" class="about-card-link">Read More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT US SECTION (Electric-Xtra styled + car-repair animations) -->
+<section id="about-us" class="section1 about-us">
+
+  <div class="container about-us-grid">
+
+    <!-- ⭐ MOBILE-ONLY TITLE BLOCK (desktop will hide this via CSS) -->
+    <div class="about-mobile-title">
+      <p class="section-tag">// ABOUT US //</p>
+
+      <h2 class="about-us-title">
+        <span class="highlight">CarNova</span> Is The Best Place For Your Auto Care
+      </h2>
+    </div>
+    <!-- END MOBILE TITLE -->
+
+
+    <!-- LEFT SIDE: Image -->
+    <div class="about-us-image wow fadeIn" data-wow-delay="0.1s">
+      <img src="img/aboutus.webp" alt="About CarNova" width="500" height="400" loading="lazy">
+      <div class="experience-badge">
+        <h3>15 <span>Years</span></h3>
+        <p>Experience</p>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE: Text content (desktop title stays here) -->
+    <div class="about-us-content">
+
+      <!-- DESKTOP TITLE (hidden on mobile via CSS) -->
+      <p class="section-tag">// ABOUT US //</p>
+
+      <h2 class="about-us-title">
+        <span class="highlight">CarNova</span> Is The Best Place For Your Auto Care
+      </h2>
+
+      <p class="about-us-desc">
+        We deliver cutting-edge automotive excellence, combining precision diagnostics,
+        expert mechanics, and futuristic detailing technology. Experience performance 
+        and reliability beyond expectation.
+      </p>
+
+      <ul class="about-us-list">
+        <li class="wow fadeIn" data-wow-delay="0.1s">
+          <span class="num">01</span>
+          <div class="list-text">
+            <h4>Professional &amp; Expert</h4>
+            <p>Dedicated technicians with advanced training and OEM-level standards.</p>
+          </div>
+        </li>
+
+        <li class="wow fadeIn" data-wow-delay="0.3s">
+          <span class="num">02</span>
+          <div class="list-text">
+            <h4>Quality Servicing Center</h4>
+            <p>State-of-the-art equipment ensuring your vehicle gets the finest care.</p>
+          </div>
+        </li>
+
+        <li class="wow fadeIn" data-wow-delay="0.5s">
+          <span class="num">03</span>
+          <div class="list-text">
+            <h4>Award-Winning Workers</h4>
+            <p>Recognized for excellence in craftsmanship and customer service.</p>
+          </div>
+        </li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary about-btn wow fadeInUp" data-wow-delay="0.7s">
+        Read More →
+      </a>
+
+    </div> <!-- END RIGHT CONTENT -->
+
+  </div> <!-- END GRID -->
+
+</section>
+
+
+    <!-- FACTS STRIP -->
+     <section id="facts" class="facts">
+        <div class="container facts-inner">
+            <article class="fact-item">
+                <div class="fact-icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <h2 class="fact-number" data-count="15">0</h2>
+                <p class="fact-label">Years Experience</p>
+            </article>
+            
+            <article class="fact-item">
+                <div class="fact-icon">
+                    <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <h2 class="fact-number" data-count="3">0</h2>
+                <p class="fact-label">Expert Technicians</p>
+            </article>
+            
+            <article class="fact-item">
+                <div class="fact-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <h2 class="fact-number" data-count="1234">0</h2>
+                <p class="fact-label">Satisfied Clients</p>
+            </article>
+            
+            <article class="fact-item">
+                <div class="fact-icon">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+                <h2 class="fact-number" data-count="1234">0</h2>
+                <p class="fact-label">Complete Projects</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+<section id="services" class="section services">
+  <div class="container">
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+      <p class="section2-tag">// OUR SERVICES //</p>
+      <h2 class="section2-title">Explore Our Services</h2>
+    </div>
+
+    <div class="services-grid wow fadeInUp" data-wow-delay="0.3s">
+      <!-- LEFT SIDE TABS -->
+      <div class="services-tabs">
+        <button class="service-tab active" data-tab="tab1" aria-label="Diagnostic service">
+          <i class="fa-solid fa-car-side"></i>
+          <span>Diagnostic Test</span>
+        </button>
+        <button class="service-tab" data-tab="tab2" aria-label="Engine Servicing">
+          <i class="fa-solid fa-car"></i>
+          <span>Engine Servicing</span>
+        </button>
+        <button class="service-tab" data-tab="tab3" aria-label="Tires Replacement">
+          <i class="fa-solid fa-gear"></i>
+          <span>Tires Replacement</span>
+        </button>
+        <button class="service-tab" data-tab="tab4" aria-label="Oil Changing">
+          <i class="fa-solid fa-oil-can"></i>
+          <span>Oil Changing</span>
+        </button>
+      </div>
+
+      <!-- RIGHT SIDE CONTENT -->
+      <div class="services-content">
+        <div class="service-pane active" id="tab1">
+          <div class="service-layout">
+            <div class="service-img">
+              <img src="img/serv1.webp" alt="Diagnostic Test" width="500" height="400" loading="lazy">
+            </div>
+            <div class="service-text">
+              <h3>15 Years Of Experience In Auto Servicing</h3>
+              <p>Deliver expert maintenance for every vehicle. Each service improves performance, safety, and comfort. Skilled technicians with modern tools keep your car reliable and ready for the road.</p>
+              <ul>
+                <li><i class="fa fa-check"></i> Quality Servicing</li>
+                <li><i class="fa fa-check"></i> Expert Workers</li>
+                <li><i class="fa fa-check"></i> Modern Equipment</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-pane" id="tab2">
+          <div class="service-layout">
+            <div class="service-img">
+              <img src="img/serv2.webp" alt="Engine Servicing" width="500" height="400" loading="lazy">
+            </div>
+            <div class="service-text">
+              <h3>15 Years Of Experience In Engine Servicing</h3>
+              <p>Advanced engine tuning and precision care for maximum efficiency. We optimize power, smoothness, and fuel performance with expert diagnostics and genuine OEM standards.</p>
+              <ul>
+                <li><i class="fa fa-check"></i> Precision Engine Check</li>
+                <li><i class="fa fa-check"></i> OEM Parts Only</li>
+                <li><i class="fa fa-check"></i> Warranty Certified</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-pane" id="tab3">
+          <div class="service-layout">
+            <div class="service-img">
+              <img src="img/serv3.webp" alt="Tires Replacement" width="500" height="400" loading="lazy">
+            </div>
+            <div class="service-text">
+              <h3>Premium Tires Replacement & Balancing</h3>
+              <p>Premium tire fitting and balance for smoother, safer drives. We use trusted brands and precision tools to enhance grip, handling, and overall driving comfort.</p>
+              <ul>
+                <li><i class="fa fa-check"></i> Branded Tires</li>
+                <li><i class="fa fa-check"></i> Laser Alignment</li>
+                <li><i class="fa fa-check"></i> Pressure Calibration</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-pane" id="tab4">
+          <div class="service-layout">
+            <div class="service-img">
+              <img src="img/serv4.webp" alt="Oil Changing" width="500" height="400" loading="lazy">
+            </div>
+            <div class="service-text">
+              <h3>Advanced Oil Changing & Fluid Check</h3>
+              <p>Premium oil and fluid service to protect your engine’s life. Using advanced synthetic blends and eco filters, we ensure smooth performance and long-lasting reliability.</p>
+              <ul>
+                <li><i class="fa fa-check"></i> Premium Oil Options</li>
+                <li><i class="fa fa-check"></i> Filter Replacement</li>
+                <li><i class="fa fa-check"></i> Performance Boost</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES SECTION -->
+<section id="packages" class="section packages-section">
+  <div class="container">
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+      <p class="section2-tag">// WASHING PLAN //</p>
+      <h2 class="section2-title">Choose Your Plan</h2>
+    </div>
+
+    <!-- Swiper Wrapper -->
+    <div class="packages-wrapper">
+      <div class="swiper packages-swiper wow fadeInUp" data-wow-delay="0.3s">
+        <div class="swiper-wrapper">
+          
+          <!-- 1️⃣ Basic -->
+          <div class="swiper-slide">
+            <div class="package-card">
+              <h3 class="package-title">Basic Cleaning</h3>
+              <div class="package-price">$<span>25</span>.99</div>
+              <ul class="package-features">
+                <li class="active"><i class="fa fa-check"></i> Seats Washing</li>
+                <li class="active"><i class="fa fa-check"></i> Vacuum Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Exterior Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Interior Wet Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Window Wiping</li>
+              </ul>
+              <a href="#" class="btn btn-outline">Book Now</a>
+            </div>
+          </div>
+
+          <!-- 2️⃣ Premium -->
+          <div class="swiper-slide">
+            <div class="package-card featured">
+              <h3 class="package-title premium-fade">Premium Cleaning</h3>
+              <div class="package-price">$<span>100</span>.99</div>
+              <ul class="package-features">
+                <li class="active"><i class="fa fa-check"></i> Seats Washing</li>
+                <li class="active"><i class="fa fa-check"></i> Vacuum Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Exterior Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Interior Wet Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Window Wiping</li>
+              </ul>
+              <a href="#" class="btn1 btn-primary">Book Now</a>
+            </div>
+          </div>
+
+          <!-- 3️⃣ Complex -->
+          <div class="swiper-slide">
+            <div class="package-card">
+              <h3 class="package-title">Complex Cleaning</h3>
+              <div class="package-price">$<span>49</span>.99</div>
+              <ul class="package-features">
+                <li class="active"><i class="fa fa-check"></i> Seats Washing</li>
+                <li class="active"><i class="fa fa-check"></i> Vacuum Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Exterior Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Interior Wet Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Window Wiping</li>
+              </ul>
+              <a href="#" class="btn btn-outline">Book Now</a>
+            </div>
+          </div>
+
+          <!-- 4️⃣ Total Car Care -->
+          <div class="swiper-slide">
+            <div class="package-card">
+              <h3 class="package-title">Total Car Care</h3>
+              <div class="package-price">$<span>25</span>.99</div>
+              <ul class="package-features">
+                <li class="active"><i class="fa fa-check"></i> Seats Washing</li>
+                <li class="active"><i class="fa fa-check"></i> Vacuum Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Exterior Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Interior Wet Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Window Wiping</li>
+              </ul>
+              <a href="#" class="btn btn-outline">Book Now</a>
+            </div>
+          </div>
+
+          <!-- 5️⃣ Performance Enhancement -->
+          <div class="swiper-slide">
+            <div class="package-card featured">
+              <h3 class="package-title premium-fade">Performance Enhancement</h3>
+              <div class="package-price">$<span>200</span>.99</div>
+              <ul class="package-features">
+                <li class="active"><i class="fa fa-check"></i> Seats Washing</li>
+                <li class="active"><i class="fa fa-check"></i> Vacuum Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Exterior Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Interior Wet Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Window Wiping</li>
+              </ul>
+              <a href="#" class="btn1 btn-primary">Book Now</a>
+            </div>
+          </div>
+
+          <!-- 6️⃣ Performance Enhancements -->
+          <div class="swiper-slide">
+            <div class="package-card">
+              <h3 class="package-title">Performance Enhancements</h3>
+              <div class="package-price">$<span>25</span>.99</div>
+              <ul class="package-features">
+                <li class="active"><i class="fa fa-check"></i> Seats Washing</li>
+                <li class="active"><i class="fa fa-check"></i> Vacuum Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Exterior Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Interior Wet Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Window Wiping</li>
+              </ul>
+              <a href="#" class="btn btn-outline">Book Now</a>
+            </div>
+          </div>
+                    <!-- 1️⃣ Basic -->
+          <div class="swiper-slide">
+            <div class="package-card">
+              <h3 class="package-title">Basic Cleaning</h3>
+              <div class="package-price">$<span>25</span>.99</div>
+              <ul class="package-features">
+                <li class="active"><i class="fa fa-check"></i> Seats Washing</li>
+                <li class="active"><i class="fa fa-check"></i> Vacuum Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Exterior Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Interior Wet Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Window Wiping</li>
+              </ul>
+              <a href="#" class="btn btn-outline">Book Now</a>
+            </div>
+          </div>
+
+          <!-- 2️⃣ Premium -->
+          <div class="swiper-slide">
+            <div class="package-card featured">
+              <h3 class="package-title premium-fade">Premium Cleaning</h3>
+              <div class="package-price">$<span>300</span>.99</div>
+              <ul class="package-features">
+                <li class="active"><i class="fa fa-check"></i> Seats Washing</li>
+                <li class="active"><i class="fa fa-check"></i> Vacuum Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Exterior Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Interior Wet Cleaning</li>
+                <li><i class="fa fa-xmark"></i> Window Wiping</li>
+              </ul>
+              <a href="#" class="btn1 btn-primary">Book Now</a>
+            </div>
+          </div>
+
+          <!-- 3️⃣ Complex -->
+          <div class="swiper-slide">
+            <div class="package-card">
+              <h3 class="package-title">Complex Cleaning</h3>
+              <div class="package-price">$<span>49</span>.99</div>
+              <ul class="package-features">
+                <li class="active"><i class="fa fa-check"></i> Seats Washing</li>
+                <li class="active"><i class="fa fa-check"></i> Vacuum Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Exterior Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Interior Wet Cleaning</li>
+                <li class="active"><i class="fa fa-check"></i> Window Wiping</li>
+              </ul>
+              <a href="#" class="btn btn-outline">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ✅ Swiper Navigation + Pagination INSIDE swiper -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING SECTION -->
+<section id="booking" class="booking-full">
+  <div class="booking-overlay">
+    <div class="booking-container">
+
+      <!-- LEFT SIDE -->
+      <div class="booking-left">
+        <h2>Certified and Award Winning Car Repair Service Provider</h2>
+        <p>
+          We offer premium diagnostics, performance upgrades, maintenance and detailing.
+          Choose your preferred service below and complete your booking in seconds.
+        </p>
+      </div>
+
+      <!-- RIGHT SIDE (FORM CARD) -->
+      <div class="booking-right wow zoomIn" data-wow-delay="0.3s">
+        <h2>Book For A Service</h2>
+
+        <!-- BUTTON GROUP -->
+        <div class="booking-btn-group" id="serviceTypeButtons">
+          <button type="button" class="bbtn active" data-type="all">All</button>
+          <button type="button" class="bbtn" data-type="sedan">Sedan</button>
+          <button type="button" class="bbtn" data-type="suv">SUV</button>
+          <button type="button" class="bbtn" data-type="luxury">Luxury</button>
+        </div>
+
+        <form>
+          <div class="form-grid">
+
+            <input type="text" placeholder="Your Name" aria-label="Your name" required>
+            <input type="email" placeholder="Your Email" aria-label="Email address" required>
+
+            <!-- DYNAMIC SERVICE SELECT -->
+            <select id="serviceSelect" aria-label="Select a service" required>
+              <option value="">Select A Service</option>
+            </select>
+
+            <!-- NEW CUSTOM DATE+TIME PICKER -->
+            <input 
+              type="text"
+              id="datetime"
+              placeholder="Select Date & Time"
+              aria-label="Select date and time"
+              required
+            >
+
+            <textarea placeholder="Special Request (optional)" aria-label="Special request"></textarea>
+
+            <button type="submit" class="btn1 btn-primary">Book Now</button>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TECH SECTION -->
+<section id="technicians" class=" section tech-section">
+  <div class="text-center topic-box">
+    <p class="section2-tag">// OUR TECHNICIANS //</p>
+    <h2 class="section2-title">Our Expert Technicians</h2>
+  </div>
+
+  <div class="tech-grid">
+
+    <!-- 1 TECH -->
+    <div class="tech-card -full wow fadeInUp" data-wow-delay="0.1s">
+      <img src="img/tech2.webp" alt="Michael" width="500" height="400" loading="lazy">
+
+      <div class="name-box">
+        <h3 class="name-title">Michael Jack</h3>
+
+        <div class="role-box">
+          <p class="role">Founder CEO</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 TECH -->
+    <div class="tech-card -full wow fadeInUp" data-wow-delay="0.1s">
+      <img src="img/tech1.webp" alt="Cathy" width="500" height="400" loading="lazy">
+
+      <div class="name-box">
+        <h3 class="name-title">Cathy Sparkman</h3>
+
+        <div class="role-box">
+          <p class="role">Main Mechanic</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 TECH -->
+    <div class="tech-card -full wow fadeInUp" data-wow-delay="0.1s">
+      <img src="img/tech3.webp" alt="Tyra" width="500" height="400" loading="lazy">
+
+      <div class="name-box">
+        <h3 class="name-title">Tyra Crawford</h3>
+
+        <div class="role-box">
+          <p class="role">Mechanic</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Testimonial section -->
+<section id="testimonials" class="testimonials section">
+  <div class="container">
+
+    <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+      <p class="section2-tag">// TESTIMONIAL //</p>
+      <h2 class="section2-title">Our Clients Say!</h2>
+    </div>
+
+    <!-- 🚨 IMPORTANT: Keep ONLY this class structure -->
+    <div class="testimonial-carousel owl-carousel">
+
+      <!-- Testimonial 1 -->
+      <div class="testimonial-item">
+        <img src="img/testimonial-1.webp" class="testi-avatar" alt="Client One" width="500" height="400" loading="lazy">
+        <h5 class="testi-name">Client One</h5>
+        <p class="testi-role">Profession</p>
+        <div class="testimonial-text">
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit amet.</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-item">
+        <img src="img/testimonial-2.webp" class="testi-avatar" alt="Client Two" width="500" height="400" loading="lazy">
+        <h5 class="testi-name">Client Two</h5>
+        <p class="testi-role">Profession</p>
+        <div class="testimonial-text">
+          <p>Quick and excellent work. Highly recommended!</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-item">
+        <img src="img/testimonial-3.webp" class="testi-avatar" alt="Client Three" width="500" height="400" loading="lazy">
+        <h5 class="testi-name">Client Three</h5>
+        <p class="testi-role">Profession</p>
+        <div class="testimonial-text">
+          <p>Amazing, friendly and so professional!</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="testimonial-item">
+        <img src="img/testimonial-4.webp" class="testi-avatar" alt="Client Four" width="500" height="400" loading="lazy">
+        <h5 class="testi-name">Client Four</h5>
+        <p class="testi-role">Profession</p>
+        <div class="testimonial-text">
+          <p>My go-to car care place every time.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ================= NEWSLETTER SECTION ================= -->
+<section id="newsletter" class="newsletter-section">
+  <div class="container newsletter-inner">
+
+    <!-- LEFT TEXT -->
+    <div class="newsletter-text">
+      <h3 class="newsletter-title">
+        SIGN UP FOR OUR NEWSLETTER TO GET WEEKLY UPDATES<br>
+        ON EXCLUSIVE OFFERS AND DISCOUNTS!
+      </h3>
+    </div>
+
+    <!-- RIGHT FORM -->
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email..." required>
+      <button type="submit" aria-label="Subscribe">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+
+  <!-- Footer -->
+  <!-- FOOTER / CONTACT STRIP -->
+<footer class="carnova-footer" id="footer">
+  <div class="container footer-main">
+    
+    <!-- BRAND + TEXT + PHONE -->
+    <div class="footer-col footer-brand">
+      <a href="#home" class="footer-logo">
+        <span class="logo-icon"><i class="fa-solid fa-car-side"></i></span>
+        <span class="logo-text">CARNOVA</span>
+      </a>
+
+      <p class="footer-desc">
+        CarNova blends precision diagnostics, expert mechanics and futuristic detailing
+        to keep your ride sharp, fast and safe – every single visit.
+      </p>
+
+       <!-- 🔥 NEW DREAM PHONE NUMBER SECTION -->
+      <div class="footer-phone-dream">
+        <div class="dream-icon-circle">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+
+        <div id="footer-phone-roller"
+        class="footer-phone-roller"
+        role="region"
+        aria-label="Phone Number">
+      </div>
+
+      </div>
+    </div>
+
+    <!-- QUICK LINKS LEFT -->
+    <div class="footer-col footer-links">
+      <h4 class="footer-heading">Quick Links</h4>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#packages">Washing Plans</a></li>
+        <li><a href="#booking">Book A Service</a></li>
+        <li><a href="#technicians">Our Technicians</a></li>
+        <li><a href="#about">About CarNova</a></li>
+      </ul>
+    </div>
+
+    <!-- QUICK LINKS RIGHT -->
+    <div class="footer-col footer-links">
+      <h4 class="footer-heading">Support</h4>
+      <ul>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">FAQ &amp; Help</a></li>
+        <li><a href="#">Blog / News</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- LOCATION / CONTACT INFO -->
+    <div class="footer-col footer-contact">
+      <h4 class="footer-heading">Location &amp; Contact</h4>
+      <ul class="contact-list">
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>123 Street, Jyväskylä, Finland</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:hello@carnova.example">hello@carnova.com</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-clock"></i>
+          <span>Mon – Sat: 09:00 – 21:00</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© <span id="year"></span> CarNova. All rights reserved.</p>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <a href="#home" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- jQuery FIRST -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<!-- GSAP (optional, but nice) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  new WOW().init();
+</script>
+
+<!-- App -->
+<script src="script.js" defer></script>
+
+<!-- PRINT-ONLY BOOKING CONFIRMATION -->
+<div id="bookingPrintArea" class="print-area">
+  <h1>Booking Confirmation</h1>
+  <p><strong>Name:</strong> <span id="printName"></span></p>
+  <p><strong>Email:</strong> <span id="printEmail"></span></p>
+  <p><strong>Service:</strong> <span id="printService"></span></p>
+  <p><strong>Date & Time:</strong> <span id="printDateTime"></span></p>
+  <p><strong>Special Request:</strong> <span id="printMessage"></span></p>
+
+  <p style="margin-top:20px; font-weight:bold;">
+    Thank you for booking with CarNova.
+  </p>
+</div>
+
+</body>
+
+</html>

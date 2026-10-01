@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="/AddRecipeForm/addRecipe.css">
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="navbar-brand">RecipeRider</a>
+    </nav>
+    <div class="container">
+      <div class="left-column">
+        <h3>Add Recipe</h3>
+        <form id="add-recipe-form">
+          <label for="recipe-name">Name: <span class="required">*</span></label>
+          <input type="text" id="recipe-name" required>
+          <br>
+          
+          <!-- Wrapper for horizontal alignment -->
+          <p>
+            <span class="italic-text">
+              (Please select a diet plan from the available options, as it is a required field to complete the recipe.)
+              <span class="required">*</span>
+            </span>
+          </p>
+          <div class="diet-row-wrapper">
+            <!-- Main Diet Type -->
+            <div class="diet-type-row">
+              <label for="mainDietType">Main Diet Type:</label>
+              <select name="mainDietType" id="mainDietType" class="long-select-1">
+                <option value="">Select here</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="non-vegetarian">Non-Vegetarian</option>
+              </select>
+            </div>
+            <!-- Categorize Diet Type -->
+            <div class="diet-type-row">
+              <label for="categorizedDietType">Categorize Diet Type:</label>
+              <select name="categorizedDietType" id="categorizedDietType" class="long-select-1">
+                <option value="">Select here</option>
+                <option value="Vegan">Vegan</option>
+                <option value="Pescatarian">Pescatarian</option>
+                <option value="Paleo">Paleo</option>
+                <option value="Keto">Keto</option>
+              </select>
+            </div>
+          </div>
+          <br>
+
+          <h4>Select Meal Type: <span class="required">*</span></h4>
+          <!-- Meal Type Buttons Section -->
+          <div class="meel-type">
+            <button type="button">Basics</button>
+            <button type="button">Rice Dishes</button>
+            <button type="button">Sauces</button>
+            <button type="button">Breakfast</button>
+            <button type="button">Lunch</button>
+            <button type="button">Dinner</button>
+            <button type="button">Appetizer</button>
+            <button type="button">Desserts</button>
+            <button type="button">Fast Foods</button>
+            <button type="button">+Others</button>
+          </div>
+          <br>
+          <!-- Hidden Input Field for Meal -->
+           <input type="hidden" id="meal" name="meal" value="">
+
+          <!-- Updated Ingredients Section with Categorized Boxes -->
+          <h4>Ingredients: <span class="italic-text">(Place them in the correct fields.)</span> <span class="required">*</span></h4>
+          <div class="ingredients-container">
+            <div class="ingredient-item">
+              <label for="vegetables">Vegetables</label>
+              <textarea id="vegetables" rows="3" placeholder="Enter here..."></textarea>
+            </div>
+            <div class="ingredient-item">
+              <label for="fruits">Fruits</label>
+              <textarea id="fruits" rows="3" placeholder="Enter here..."></textarea>
+            </div>
+            <div class="ingredient-item">
+              <label for="meat">Meat</label>
+              <textarea id="meat" rows="3" placeholder="Enter here..."></textarea>
+            </div>
+            <div class="ingredient-item">
+              <label for="spices">Spices</label>
+              <textarea id="spices" rows="3" placeholder="Enter here..."></textarea>
+            </div>
+            <div class="ingredient-item">
+              <label for="essentials">Core Essentials</label>
+              <textarea id="essentials" rows="3" placeholder="Enter here..."></textarea>
+            </div>
+            <div class="ingredient-item">
+              <label for="sweets">Sweets</label>
+              <textarea id="sweets" rows="3" placeholder="Enter here..."></textarea>
+            </div>
+          </div>
+
+          <div class="description-section">
+            <label for="recipe-description">Description: <span class="required">*</span></label>
+            <textarea id="recipe-description" rows="3" placeholder="Write here which country based on that recipe..." required></textarea>
+          </div>
+        
+          <label for="recipe-steps">Recipe: <span class="required">*</span></label>
+          <textarea id="recipe-steps" rows="5" placeholder="Enter here step by step..." required></textarea>
+          <br>
+
+        <div class="wholetime-section">
+          <label for="wholeTime">Preparation Time: <span class="required">*</span></label>
+          <textarea id="wholeTime" rows="5" placeholder="Enter here whole time..." required></textarea>
+        </div>
+          <br>
+        
+          <!-- Image Upload Section -->
+          <div class="image-upload-container">
+            <label for="recipe-image">Image: <span class="required">*</span></label>
+            <div class="file-input-wrapper">
+              <input type="file" id="recipe-image" name="image" accept="image/*" required>
+              <button type="button" class="clear-file" id="clear-file">⛒</button>
+            </div>
+          </div>
+        
+          <button type="submit">Add Recipe</button>
+        </form>
+      </div>
+      <div class="right-column">
+        <div id="search-section">
+          <h3>Recipes List</h3>
+          <label for="search-box">Find a Recipe:</label>
+          <input type="text" id="search-box" placeholder="Enter Food Name to Search...">
+        </div>
+        <div id="recipe-list"></div>
+        <div id="no-recipes">You have no recipes.</div>
+      </div>
+    </div>
+    <script src="/AddRecipeForm/addRecipe.js"></script>
+  </body>
+</html>

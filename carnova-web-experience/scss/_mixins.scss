@@ -1,0 +1,69 @@
+// scss/_mixins.scss
+@import "variables";
+
+// Flex center helper
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Simple glass-morphism card
+@mixin glass-card($radius: $radius-soft, $bg-alpha: 0.12) {
+  background: rgba(255, 255, 255, $bg-alpha);
+  backdrop-filter: blur(10px);
+  border-radius: $radius;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: $shadow-soft;
+}
+
+// Reusable page banner (for About, Services, Technicians…)
+@mixin page-banner($bg-image) {
+  position: relative;
+  width: 100%;
+  height: 38vh;
+  background: url(#{$bg-image}) center/cover no-repeat;
+  @include flex-center;
+  text-align: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: $overlay-dark;
+    backdrop-filter: blur(2px);
+  }
+
+  .page-banner-content {
+    position: relative;
+    z-index: 3;
+  }
+
+  .page-banner-title {
+    color: $text-light;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: $font-title;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .page-breadcrumb {
+    color: $text-light;
+    opacity: 0.85;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+
+    span {
+      color: $accent;
+      padding: 0 5px;
+    }
+  }
+}
+
+// Simple responsive helper
+@mixin respond-max($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}

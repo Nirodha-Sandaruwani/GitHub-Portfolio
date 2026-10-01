@@ -1,0 +1,232 @@
+@charset "UTF-8";
+.testimonial-section {
+  padding: 5rem 0 2.5rem;
+  /* --- GRID POSITIONING EXACTLY LIKE IMAGE --- */
+  /* --- BASE CARD STYLES --- */
+  /* USER HEADER */
+  /* --- INDIVIDUAL COLORS (CarNova Theme Upgrade) --- */
+  /* Daniel = Purple-Blue */
+  /* Jonathan = Soft navy */
+  /* Kira = light purple card */
+  /* Jeanette = White card */
+  /* Patrick = Dark navy */
+  /* RESPONSIVE */
+}
+.testimonial-section .carnova-testimonial-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
+  /* Fix row proportions to match reference */
+  grid-auto-rows: minmax(220px, auto);
+}
+.testimonial-section .daniel {
+  grid-area: daniel;
+}
+.testimonial-section .jonathan {
+  grid-area: jonathan;
+}
+.testimonial-section .kira {
+  grid-area: kira;
+}
+.testimonial-section .jeanette {
+  grid-area: jeanette;
+}
+.testimonial-section .patrick {
+  grid-area: patrick;
+}
+.testimonial-section .tcard {
+  border-radius: 14px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.07);
+  -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+  color: #eee;
+}
+.testimonial-section .tcard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 32px rgba(0, 0, 0, 0.45);
+}
+.testimonial-section .tcard h3 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+.testimonial-section .tcard p {
+  opacity: 0.85;
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+.testimonial-section .t-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.testimonial-section .t-user img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+.testimonial-section .t-user h4 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+.testimonial-section .t-user p {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+.testimonial-section .daniel {
+  background: linear-gradient(135deg, #4b3bff, #6f56ff);
+  color: #fff;
+}
+.testimonial-section .jonathan {
+  background: linear-gradient(135deg, #445577, #5e7594);
+}
+.testimonial-section .kira {
+  background: linear-gradient(135deg, #e3e6ff, #f4f5ff);
+  color: #222;
+}
+.testimonial-section .kira p {
+  color: #555;
+}
+.testimonial-section .jeanette {
+  background: #c9e4fa;
+  color: #222;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+.testimonial-section .jeanette p {
+  color: #555;
+}
+.testimonial-section .patrick {
+  background: linear-gradient(135deg, #232c42, #1b2235);
+}
+@media (max-width: 992px) {
+  .testimonial-section .carnova-testimonial-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "daniel daniel" "jonathan kira" "jeanette patrick" "kira kira";
+  }
+}
+@media (max-width: 600px) {
+  .testimonial-section .carnova-testimonial-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: "daniel" "jonathan" "kira" "jeanette" "patrick";
+  }
+}
+
+/* ============================================================
+   SUPER POLISHED MOBILE OPTIMIZATION — CARNOVA TESTIMONIAL GRID
+   ============================================================ */
+@media (max-width: 600px) {
+  .testimonial-section {
+    padding: 3.5rem 0 4rem !important;
+  }
+  .testimonial-section .section2-tag {
+    margin-top: 2rem !important;
+  }
+  .carnova-testimonial-grid {
+    grid-template-columns: 1fr !important;
+    grid-template-areas: "daniel" "jonathan" "kira" "jeanette" "patrick";
+    gap: 1rem !important;
+    padding: 0 1rem !important; /* side padding to avoid full-width edge touch */
+  }
+  /* Each card */
+  .tcard {
+    padding: 1.3rem 1.2rem !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35) !important;
+  }
+  .tcard h3 {
+    font-size: 1.05rem !important;
+    line-height: 1.4 !important;
+    margin: 0.6rem 0 0.8rem !important;
+  }
+  .tcard p {
+    font-size: 0.85rem !important;
+    line-height: 1.45 !important;
+    opacity: 0.9 !important;
+  }
+  /* User Info */
+  .t-user {
+    gap: 0.7rem !important;
+  }
+  .t-user img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .t-user h4 {
+    font-size: 0.92rem !important;
+  }
+  .t-user p {
+    font-size: 0.72rem !important;
+  }
+  /* Spacing adjustments per card for perfect visual rhythm */
+  .daniel,
+  .jonathan,
+  .kira,
+  .jeanette,
+  .patrick {
+    margin-bottom: 0.3rem !important;
+  }
+  /* Make Kira’s tall card comfortable */
+  .kira {
+    padding-bottom: 1.5rem !important;
+    padding-top: 1.5rem !important;
+  }
+}
+/* ============================================================
+   PERFECT TABLET OPTIMIZATION (600px – 992px)
+   Mini Desktop Layout for iPad / Tab Devices
+   ============================================================ */
+@media (max-width: 992px) and (min-width: 601px) {
+  .testimonial-section {
+    padding: 4rem 0 5rem !important;
+  }
+  .carnova-testimonial-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.4rem !important;
+    /* More balanced tablet arrangement */
+    grid-template-areas: "daniel daniel" "jonathan kira" "jeanette patrick" "kira kira";
+    padding: 0 1.5rem !important;
+  }
+  /* Tablet cards = medium padding, medium radius */
+  .tcard {
+    padding: 1.6rem 1.4rem !important;
+    border-radius: 14px !important;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35) !important;
+  }
+  .tcard h3 {
+    font-size: 1.2rem !important;
+    margin: 0.8rem 0 1rem !important;
+    line-height: 1.35 !important;
+  }
+  .tcard p {
+    font-size: 0.92rem !important;
+    line-height: 1.52 !important;
+  }
+  /* Tablet user header */
+  .t-user {
+    gap: 0.9rem !important;
+  }
+  .t-user img {
+    width: 44px !important;
+    height: 44px !important;
+  }
+  .t-user h4 {
+    font-size: 1rem !important;
+  }
+  .t-user p {
+    font-size: 0.78rem !important;
+  }
+  /* Kira card needs soft balancing on tablets */
+  .kira {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+}/*# sourceMappingURL=testimonial.css.map */

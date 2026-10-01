@@ -1,0 +1,26 @@
+[
+    {
+        "category": "Core Essentials",
+        "ingredients": ["egg", "butter", "cheese", "pasta", "spaghetti", "noodle", "olive oil", "rice", "flour", "breadcrumbs", "cornflour", "coconut milk", "milk"]
+    },
+    {
+        "category": "Vegetables",
+        "ingredients": ["tomato", "potato", "onion", "carrot", "bell pepper", "broccoli", "cucumber", "green beans", "mushroom", "sweet corn", "radish", "pumpkin", "leek", "beetroot", "asparagus", "butter beans", "sweet potatoes", "green peppers"]
+    },
+    {
+        "category": "Fruits",
+        "ingredients": ["apple", "banana", "orange", "watermelon", "mango", "peach"]
+    },
+    {
+        "category": "Fish and Meats",
+        "ingredients": ["chicken", "pork", "beef", "lamb", "mutton", "tuna", "salmon"]
+    },
+    {
+        "category": "Spices",
+        "ingredients": ["chili powder", "chili flakes", "turmeric", "pepper", "salt", "oregano"]
+    },
+    {
+        "category": "Sweets",
+        "ingredients": ["chocolate", "icing sugar", "honey"]
+    }
+]

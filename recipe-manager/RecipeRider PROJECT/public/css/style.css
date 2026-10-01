@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(210, 210, 210);
+}
+
+.card {
+    background-color: rgb(240, 240, 240);
+    font-size: 14px;
+    
+}
+.card-custom-height{
+    height: 290px;
+}
+
+.card-img-top {
+    margin-bottom: 2px; /* Reduced space below the image */
+    height: 200px;
+}
+
+.card-body {
+    padding-top: 8px; /* Reduce top padding to bring title closer to the image */
+    padding-bottom: 8px; /* Optional: adjust bottom padding as needed */
+}
+
+.card-title {
+    margin-bottom: 4px; /* Keep a small space between title and text */
+    font-size: 17px;
+}
+
+
+.main {
+    height: auto;
+
+   
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 45vh;
+    width: 100%;
+
+    
+}
+
+.caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    width: 70%;
+    margin-left: 300px;
+    font-size: 26px;
+}
+
+
+.caption-p {
+    font-size: 18px;
+}
+
+.carousel-caption {
+    margin-top: -43px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+#category, #food {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-food-list {
+    width: 80%;
+    height: 800px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+}
+
+.btn-add-food {
+    width: 150px !important;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.navbar {
+    height: 45px; /* Set desired height */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    background: linear-gradient(45deg, #ffcc00, #ff6600);
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-background-clip: text; /* WebKit-specific property */
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+    line-height: 45px; /* Set line-height to center content vertically */
+    font-size: 0.9rem; /* Adjust font size */
+}
+
+
+
+
+
+
+/* Move carousel indicators down */
+.carousel-indicators {
+    margin-bottom: 7px; /* Adjust this value to move the indicators further down */
+}
+
+
+
+
+
+.dropdown-menu {
+    font-size: 15px;
+    background-color: white; /* White background for the box */
+    border: 1px solid #ddd; /* Light border for subtle definition */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 5px 0; /* Space inside the box */
+    width: auto; /* Ensures it adjusts to content */
+    height: auto;
+}
+
+.dropdown-item {
+    transition: background-color 0.2s;
+    outline: none; /* Remove the default outline on focus */
+}
+
+/* Hover effect for mouse interactions */
+.dropdown-item:hover {
+    background-color: lightgray; /* Hover color */
+    width: 96%; /* Adjust width for centered effect */
+    margin: 0 auto; /* Center the highlight */
+    border-radius: 4px;
+}
+
+/* Remove outline when using keyboard navigation */
+.dropdown-item:focus {
+    outline: none;
+    background-color: lightgray; /* Optional: Add same hover color on focus for consistency */
+    border-radius: 4px; /* Keep rounded corners on focus */
+    width: 96%;
+    margin: 0 auto; /* Center the highlight */
+
+}
+
+
+
+.container{
+    margin-top: 2.0rem; /* Adjust as needed for a middle-ground between Bootstrap 4 and 5 spacing */
+
+}

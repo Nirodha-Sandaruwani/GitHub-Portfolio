@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food List</title>
+    <link rel="stylesheet" href="/cards/main.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <h2>Food List</h2>
+                <p>Select Category</p>
+                <div class="search-bar">
+                    <input type="text" id="food-search" placeholder="Search food...">
+                    <div id="search-results"></div>
+                </div>
+            </header>
+            
+            <!-- Food Category Section -->
+            <div class="sidebar-category">
+                <div class="sidebar-box">
+
+                    <div class="small-pa">
+                        Changing Dietary choices resets any favorite food Category selected.
+                    </div>
+
+                    <select name="dietType" id="dietType" class="long-select">
+                        <option value="all">None</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="non-vegetarian">Non-Vegetarian</option>
+                    </select>
+
+                    <div class="checkbox-container">
+                        <p>Please select your diet plan.</p>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="vegan" name="diet">
+                            <label for="vegan">Vegan</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="pescatarian" name="diet">
+                            <label for="pescatarian">Pescatarian</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="paleo" name="diet">
+                            <label for="paleo">Paleo</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="keto" name="diet">
+                            <label for="keto">Keto</label>
+                        </div>
+                    </div>
+
+                    <!-- Category Buttons -->
+                    <div class="food-list">
+                        <!-- Buttons will be dynamically loaded here from categoryButtons.json -->
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Section -->
+        <main class="main-content">
+            <header class="content-header">
+                <h2>RecipeRider</h2>
+                <div class="search-bar2">
+                    <input type="text" placeholder="Search by food name...">
+                </div>
+            </header>
+            <div class="content-1-body"></div>
+        </main>
+    </div>
+    <script src="/cards/foodlist.js"></script>
+</body>
+</html>

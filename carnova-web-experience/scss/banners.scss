@@ -1,0 +1,41 @@
+// scss/banners.scss
+@import "variables";
+@import "mixins";
+
+/* -----------------------------------
+   TECHNICIANS PAGE BANNER
+----------------------------------- */
+.team-banner {
+  // Corrected image path
+  @include page-banner("../img/bg3.webp");
+
+  // Custom height for team page
+  height: 32vh;
+
+  @include respond-max(768px) {
+    height: 28vh;
+
+    .page-banner-title {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+/* -----------------------------------
+   TESTIMONIAL PAGE BANNER
+----------------------------------- */
+.testimonial-banner {
+  // Corrected image path
+  @include page-banner("../img/bg2.webp");
+
+  // Custom height for team page
+  height: 32vh;
+
+  @include respond-max(768px) {
+    height: 28vh;
+
+    .page-banner-title {
+      font-size: 2.2rem;
+    }
+  }
+}
