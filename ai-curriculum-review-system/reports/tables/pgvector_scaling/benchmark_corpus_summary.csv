@@ -1,0 +1,6 @@
+benchmark_corpus_size,row_count,unique_benchmark_ids,unique_original_course_codes,replicated_rows
+50,50,50,50,0
+75,75,75,50,25
+100,100,100,50,50
+125,125,125,50,75
+150,150,150,50,100

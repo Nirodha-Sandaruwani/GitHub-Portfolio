@@ -1,0 +1,2 @@
+mixed_discard_pair_count,mixed_discard_positive_count,mixed_discard_negative_count,ai_predicted_positive_count,ai_predicted_negative_count,true_positive_count,true_negative_count,false_positive_count,false_negative_count
+525,4,521,8,517,4,517,4,0

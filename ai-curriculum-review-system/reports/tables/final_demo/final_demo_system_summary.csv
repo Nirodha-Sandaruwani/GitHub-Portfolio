@@ -1,0 +1,11 @@
+metric,value
+course_count,50.0
+embedding_dimension,3072.0
+pair_count,1225.0
+above_threshold_pair_count,31.0
+locked_threshold,0.6737841964
+embedding_generation_seconds,1.4452977180480957
+mean_similarity,0.4579616992327632
+median_similarity,0.4436492621898651
+p95_similarity,0.6194462418556212
+max_similarity,0.8457255363464355

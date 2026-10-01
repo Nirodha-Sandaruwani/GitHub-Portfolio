@@ -1,0 +1,526 @@
+pair_id,split,course_unit_code_1,course_name_1,course_unit_code_2,course_name_2,review_notes,human_binary,ai_binary,similarity_score,error_type
+TE00BR86__TE00CS89,mixed_discard,TE00BR86,Back-End Development,TE00CS89,Databases,,0,0,0.5493935346603394,correct
+TE00BR86__TT00CD76,mixed_discard,TE00BR86,Back-End Development,TT00CD76,Scripting and Automatization,,0,0,0.4267081022262573,correct
+TE00BR86__TT00CD81,mixed_discard,TE00BR86,Back-End Development,TT00CD81,Databases,,0,0,0.46988290548324585,correct
+TE00BR86__TT00CD86,mixed_discard,TE00BR86,Back-End Development,TT00CD86,Cyber Security,,0,0,0.4531932771205902,correct
+TE00BR86__TT00CD87,mixed_discard,TE00BR86,Back-End Development,TT00CD87,Information Security Technologies,,0,0,0.47095394134521484,correct
+TE00BR86__TT00CD88,mixed_discard,TE00BR86,Back-End Development,TT00CD88,Hardening,,0,0,0.4801151156425476,correct
+TE00BR86__TT00CD92,mixed_discard,TE00BR86,Back-End Development,TT00CD92,Mobile Project,,0,0,0.5156474113464355,correct
+TE00BR86__TT00CD98,mixed_discard,TE00BR86,Back-End Development,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.3186784088611603,correct
+TE00BR86__TT00CE03,mixed_discard,TE00BR86,Back-End Development,TT00CE03,Deep Learning,,0,0,0.43437111377716064,correct
+TE00BR86__TT00CE06,mixed_discard,TE00BR86,Back-End Development,TT00CE06,Machine Learning Project,,0,0,0.41246944665908813,correct
+TE00BR86__TT00CE09,mixed_discard,TE00BR86,Back-End Development,TT00CE09,Auditing and Penetration Testing,,0,0,0.4453638792037964,correct
+TE00BR86__TT00CE11,mixed_discard,TE00BR86,Back-End Development,TT00CE11,Data Security Controls,,0,0,0.4441244602203369,correct
+TE00BR86__TT00CE14,mixed_discard,TE00BR86,Back-End Development,TT00CE14,Malware Analysis,,0,0,0.39450639486312866,correct
+TE00BR86__TT00CE16,mixed_discard,TE00BR86,Back-End Development,TT00CE16,Reverse Engineering,,0,0,0.4616434574127197,correct
+TE00BR86__TT00CE28,mixed_discard,TE00BR86,Back-End Development,TT00CE28,Core Networks,,0,0,0.4569602608680725,correct
+TE00CN56__TE00CS89,mixed_discard,TE00CN56,Internet Networks and Security,TE00CS89,Databases,,0,0,0.4843711853027344,correct
+TE00CN56__TT00CD76,mixed_discard,TE00CN56,Internet Networks and Security,TT00CD76,Scripting and Automatization,,0,0,0.4171901345252991,correct
+TE00CN56__TT00CD81,mixed_discard,TE00CN56,Internet Networks and Security,TT00CD81,Databases,,0,0,0.4157400131225586,correct
+TE00CN56__TT00CD86,mixed_discard,TE00CN56,Internet Networks and Security,TT00CD86,Cyber Security,,0,0,0.6733318567276001,correct
+TE00CN56__TT00CD87,mixed_discard,TE00CN56,Internet Networks and Security,TT00CD87,Information Security Technologies,,0,1,0.6837022304534912,false_positive
+TE00CN56__TT00CD88,mixed_discard,TE00CN56,Internet Networks and Security,TT00CD88,Hardening,,0,0,0.5562154054641724,correct
+TE00CN56__TT00CD92,mixed_discard,TE00CN56,Internet Networks and Security,TT00CD92,Mobile Project,,0,0,0.453285276889801,correct
+TE00CN56__TT00CD98,mixed_discard,TE00CN56,Internet Networks and Security,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.30966082215309143,correct
+TE00CN56__TT00CE03,mixed_discard,TE00CN56,Internet Networks and Security,TT00CE03,Deep Learning,,0,0,0.4261910617351532,correct
+TE00CN56__TT00CE06,mixed_discard,TE00CN56,Internet Networks and Security,TT00CE06,Machine Learning Project,,0,0,0.3798195719718933,correct
+TE00CN56__TT00CE09,mixed_discard,TE00CN56,Internet Networks and Security,TT00CE09,Auditing and Penetration Testing,,0,0,0.6086611747741699,correct
+TE00CN56__TT00CE11,mixed_discard,TE00CN56,Internet Networks and Security,TT00CE11,Data Security Controls,,0,0,0.6207026243209839,correct
+TE00CN56__TT00CE14,mixed_discard,TE00CN56,Internet Networks and Security,TT00CE14,Malware Analysis,,0,0,0.44534558057785034,correct
+TE00CN56__TT00CE16,mixed_discard,TE00CN56,Internet Networks and Security,TT00CE16,Reverse Engineering,,0,0,0.46524229645729065,correct
+TE00CN56__TT00CE28,mixed_discard,TE00CN56,Internet Networks and Security,TT00CE28,Core Networks,,0,0,0.6076980829238892,correct
+TE00CS88__TE00CS89,mixed_discard,TE00CS88,Introduction to Programming,TE00CS89,Databases,,0,0,0.5047459602355957,correct
+TE00CS88__TT00CD76,mixed_discard,TE00CS88,Introduction to Programming,TT00CD76,Scripting and Automatization,,0,0,0.42069709300994873,correct
+TE00CS88__TT00CD81,mixed_discard,TE00CS88,Introduction to Programming,TT00CD81,Databases,,0,0,0.4990542232990265,correct
+TE00CS88__TT00CD86,mixed_discard,TE00CS88,Introduction to Programming,TT00CD86,Cyber Security,,0,0,0.45601826906204224,correct
+TE00CS88__TT00CD87,mixed_discard,TE00CS88,Introduction to Programming,TT00CD87,Information Security Technologies,,0,0,0.4426562488079071,correct
+TE00CS88__TT00CD88,mixed_discard,TE00CS88,Introduction to Programming,TT00CD88,Hardening,,0,0,0.41869375109672546,correct
+TE00CS88__TT00CD92,mixed_discard,TE00CS88,Introduction to Programming,TT00CD92,Mobile Project,,0,0,0.5220097303390503,correct
+TE00CS88__TT00CD98,mixed_discard,TE00CS88,Introduction to Programming,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.36685341596603394,correct
+TE00CS88__TT00CE03,mixed_discard,TE00CS88,Introduction to Programming,TT00CE03,Deep Learning,,0,0,0.4318753182888031,correct
+TE00CS88__TT00CE06,mixed_discard,TE00CS88,Introduction to Programming,TT00CE06,Machine Learning Project,,0,0,0.43295377492904663,correct
+TE00CS88__TT00CE09,mixed_discard,TE00CS88,Introduction to Programming,TT00CE09,Auditing and Penetration Testing,,0,0,0.4157060384750366,correct
+TE00CS88__TT00CE11,mixed_discard,TE00CS88,Introduction to Programming,TT00CE11,Data Security Controls,,0,0,0.4048016667366028,correct
+TE00CS88__TT00CE14,mixed_discard,TE00CS88,Introduction to Programming,TT00CE14,Malware Analysis,,0,0,0.42900532484054565,correct
+TE00CS88__TT00CE16,mixed_discard,TE00CS88,Introduction to Programming,TT00CE16,Reverse Engineering,,0,0,0.5150245428085327,correct
+TE00CS88__TT00CE28,mixed_discard,TE00CS88,Introduction to Programming,TT00CE28,Core Networks,,0,0,0.38312679529190063,correct
+TE00CS89__TT00CD70,mixed_discard,TE00CS89,Databases,TT00CD70,Data Networks,,0,0,0.43596431612968445,correct
+TE00CS89__TT00CD71,mixed_discard,TE00CS89,Databases,TT00CD71,Linux Basics,,0,0,0.4452817142009735,correct
+TE00CS89__TT00CD72,mixed_discard,TE00CS89,Databases,TT00CD72,Servers and containers,,0,0,0.4438308775424957,correct
+TE00CS89__TT00CD75,mixed_discard,TE00CS89,Databases,TT00CD75,Windows Basics,,0,0,0.45485222339630127,correct
+TE00CS89__TT00CD77,mixed_discard,TE00CS89,Databases,TT00CD77,Basics of Programming,,0,0,0.4454892575740814,correct
+TE00CS89__TT00CD78,mixed_discard,TE00CS89,Databases,TT00CD78,Frontend Programming,,0,0,0.41550832986831665,correct
+TE00CS89__TT00CD79,mixed_discard,TE00CS89,Databases,TT00CD79,Basics of Web Development,,0,0,0.4397807717323303,correct
+TE00CS89__TT00CD80,mixed_discard,TE00CS89,Databases,TT00CD80,JavaScript Programming,,0,0,0.41198238730430603,correct
+TE00CS89__TT00CD83,mixed_discard,TE00CS89,Databases,TT00CD83,Data Structures and Algorithms,,0,0,0.48477697372436523,correct
+TE00CS89__TT00CD84,mixed_discard,TE00CS89,Databases,TT00CD84,Data analytics and artificial intelligence,,0,0,0.49292880296707153,correct
+TE00CS89__TT00CD85,mixed_discard,TE00CS89,Databases,TT00CD85,Backend Programming,,0,0,0.4581483006477356,correct
+TE00CS89__TT00CD90,mixed_discard,TE00CS89,Databases,TT00CD90,Software Design,,0,0,0.5176044702529907,correct
+TE00CS89__TT00CD91,mixed_discard,TE00CS89,Databases,TT00CD91,Object Oriented Programming,,0,0,0.4075537323951721,correct
+TE00CS89__TT00CD93,mixed_discard,TE00CS89,Databases,TT00CD93,Android Application Development,,0,0,0.39868131279945374,correct
+TE00CS89__TT00CD94,mixed_discard,TE00CS89,Databases,TT00CD94,Mobile Application Development,,0,0,0.43364107608795166,correct
+TE00CS89__TT00CD96,mixed_discard,TE00CS89,Databases,TT00CD96,Graphics Programming,,0,0,0.34174585342407227,correct
+TE00CS89__TT00CD99,mixed_discard,TE00CS89,Databases,TT00CD99,Data Sources and Data Preprocessing,,0,0,0.401991605758667,correct
+TE00CS89__TT00CE00,mixed_discard,TE00CS89,Databases,TT00CE00,Data Analysis and Visualization,,0,0,0.4313908815383911,correct
+TE00CS89__TT00CE01,mixed_discard,TE00CS89,Databases,TT00CE01,Machine Learning: Classification Methods,,0,0,0.3860176205635071,correct
+TE00CS89__TT00CE02,mixed_discard,TE00CS89,Databases,TT00CE02,Machine Learning: Regression Methods,,0,0,0.372761070728302,correct
+TE00CS89__TT00CE05,mixed_discard,TE00CS89,Databases,TT00CE05,Data Analytics Project,,0,0,0.4321911633014679,correct
+TE00CS89__TT00CE12,mixed_discard,TE00CS89,Databases,TT00CE12,Security Operations Center,,0,0,0.39384394884109497,correct
+TE00CS89__TT00CE17,mixed_discard,TE00CS89,Databases,TT00CE17,Web Application Security Testing,,0,0,0.39176470041275024,correct
+TE00CS89__TT00CE20,mixed_discard,TE00CS89,Databases,TT00CE20,Local Area Networks,,0,0,0.4019184112548828,correct
+TE00CS89__TT00CE21,mixed_discard,TE00CS89,Databases,TT00CE21,Cloud Architectures and Platforms,,0,0,0.43725913763046265,correct
+TE00CS89__TT00CE25,mixed_discard,TE00CS89,Databases,TT00CE25,Windows Infrastructure,,0,0,0.4500802457332611,correct
+TE00CS89__TT00CK80,mixed_discard,TE00CS89,Databases,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.3619760274887085,correct
+TE00CS89__TT00DB42,mixed_discard,TE00CS89,Databases,TT00DB42,Data Structures and Algorithms,,0,0,0.5677622556686401,correct
+TE00CS89__TT00DS35,mixed_discard,TE00CS89,Databases,TT00DS35,Introduction to Networks,,0,0,0.30060070753097534,correct
+TE00CS89__TT00DS61,mixed_discard,TE00CS89,Databases,TT00DS61,Object-Oriented Programming with Python,,0,0,0.38634389638900757,correct
+TE00CS89__TT00DS73,mixed_discard,TE00CS89,Databases,TT00DS73,Front-End Development,,0,0,0.4026203453540802,correct
+TE00CS89__TT00DS75,mixed_discard,TE00CS89,Databases,TT00DS75,Mobile Application Development,,0,0,0.44562822580337524,correct
+TT00CD70__TT00CD76,mixed_discard,TT00CD70,Data Networks,TT00CD76,Scripting and Automatization,,0,0,0.4531884789466858,correct
+TT00CD70__TT00CD81,mixed_discard,TT00CD70,Data Networks,TT00CD81,Databases,,0,0,0.4582827091217041,correct
+TT00CD70__TT00CD86,mixed_discard,TT00CD70,Data Networks,TT00CD86,Cyber Security,,0,0,0.5781020522117615,correct
+TT00CD70__TT00CD87,mixed_discard,TT00CD70,Data Networks,TT00CD87,Information Security Technologies,,0,0,0.5642862915992737,correct
+TT00CD70__TT00CD88,mixed_discard,TT00CD70,Data Networks,TT00CD88,Hardening,,0,0,0.5290825366973877,correct
+TT00CD70__TT00CD92,mixed_discard,TT00CD70,Data Networks,TT00CD92,Mobile Project,,0,0,0.40714383125305176,correct
+TT00CD70__TT00CD98,mixed_discard,TT00CD70,Data Networks,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.3486500382423401,correct
+TT00CD70__TT00CE03,mixed_discard,TT00CD70,Data Networks,TT00CE03,Deep Learning,,0,0,0.50151526927948,correct
+TT00CD70__TT00CE06,mixed_discard,TT00CD70,Data Networks,TT00CE06,Machine Learning Project,,0,0,0.43040215969085693,correct
+TT00CD70__TT00CE09,mixed_discard,TT00CD70,Data Networks,TT00CE09,Auditing and Penetration Testing,,0,0,0.49375075101852417,correct
+TT00CD70__TT00CE11,mixed_discard,TT00CD70,Data Networks,TT00CE11,Data Security Controls,,0,0,0.5722306966781616,correct
+TT00CD70__TT00CE14,mixed_discard,TT00CD70,Data Networks,TT00CE14,Malware Analysis,,0,0,0.41855791211128235,correct
+TT00CD70__TT00CE16,mixed_discard,TT00CD70,Data Networks,TT00CE16,Reverse Engineering,,0,0,0.42755502462387085,correct
+TT00CD70__TT00CE28,mixed_discard,TT00CD70,Data Networks,TT00CE28,Core Networks,"Both cover routing protocols (OSPF, BGP), network design, and WAN connectivity as core content.",1,1,0.7439413070678711,correct
+TT00CD71__TT00CD76,mixed_discard,TT00CD71,Linux Basics,TT00CD76,Scripting and Automatization,,0,0,0.6362694501876831,correct
+TT00CD71__TT00CD81,mixed_discard,TT00CD71,Linux Basics,TT00CD81,Databases,,0,0,0.5103394985198975,correct
+TT00CD71__TT00CD86,mixed_discard,TT00CD71,Linux Basics,TT00CD86,Cyber Security,,0,0,0.5580567121505737,correct
+TT00CD71__TT00CD87,mixed_discard,TT00CD71,Linux Basics,TT00CD87,Information Security Technologies,,0,0,0.49006232619285583,correct
+TT00CD71__TT00CD88,mixed_discard,TT00CD71,Linux Basics,TT00CD88,Hardening,,0,0,0.5115944147109985,correct
+TT00CD71__TT00CD92,mixed_discard,TT00CD71,Linux Basics,TT00CD92,Mobile Project,,0,0,0.3695128560066223,correct
+TT00CD71__TT00CD98,mixed_discard,TT00CD71,Linux Basics,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.3880836069583893,correct
+TT00CD71__TT00CE03,mixed_discard,TT00CD71,Linux Basics,TT00CE03,Deep Learning,,0,0,0.4281330704689026,correct
+TT00CD71__TT00CE06,mixed_discard,TT00CD71,Linux Basics,TT00CE06,Machine Learning Project,,0,0,0.39226680994033813,correct
+TT00CD71__TT00CE09,mixed_discard,TT00CD71,Linux Basics,TT00CE09,Auditing and Penetration Testing,,0,0,0.48211830854415894,correct
+TT00CD71__TT00CE11,mixed_discard,TT00CD71,Linux Basics,TT00CE11,Data Security Controls,,0,0,0.5370782017707825,correct
+TT00CD71__TT00CE14,mixed_discard,TT00CD71,Linux Basics,TT00CE14,Malware Analysis,,0,0,0.4593806266784668,correct
+TT00CD71__TT00CE16,mixed_discard,TT00CD71,Linux Basics,TT00CE16,Reverse Engineering,,0,0,0.46907341480255127,correct
+TT00CD71__TT00CE28,mixed_discard,TT00CD71,Linux Basics,TT00CE28,Core Networks,,0,0,0.4374805688858032,correct
+TT00CD72__TT00CD76,mixed_discard,TT00CD72,Servers and containers,TT00CD76,Scripting and Automatization,,0,0,0.5577923059463501,correct
+TT00CD72__TT00CD81,mixed_discard,TT00CD72,Servers and containers,TT00CD81,Databases,,0,0,0.49769699573516846,correct
+TT00CD72__TT00CD86,mixed_discard,TT00CD72,Servers and containers,TT00CD86,Cyber Security,,0,0,0.5510506629943848,correct
+TT00CD72__TT00CD87,mixed_discard,TT00CD72,Servers and containers,TT00CD87,Information Security Technologies,,0,0,0.4946111738681793,correct
+TT00CD72__TT00CD88,mixed_discard,TT00CD72,Servers and containers,TT00CD88,Hardening,,0,0,0.5321716666221619,correct
+TT00CD72__TT00CD92,mixed_discard,TT00CD72,Servers and containers,TT00CD92,Mobile Project,,0,0,0.388974666595459,correct
+TT00CD72__TT00CD98,mixed_discard,TT00CD72,Servers and containers,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.4003107249736786,correct
+TT00CD72__TT00CE03,mixed_discard,TT00CD72,Servers and containers,TT00CE03,Deep Learning,,0,0,0.46466463804244995,correct
+TT00CD72__TT00CE06,mixed_discard,TT00CD72,Servers and containers,TT00CE06,Machine Learning Project,,0,0,0.43735235929489136,correct
+TT00CD72__TT00CE09,mixed_discard,TT00CD72,Servers and containers,TT00CE09,Auditing and Penetration Testing,,0,0,0.4415247440338135,correct
+TT00CD72__TT00CE11,mixed_discard,TT00CD72,Servers and containers,TT00CE11,Data Security Controls,,0,0,0.5609335899353027,correct
+TT00CD72__TT00CE14,mixed_discard,TT00CD72,Servers and containers,TT00CE14,Malware Analysis,,0,0,0.40548014640808105,correct
+TT00CD72__TT00CE16,mixed_discard,TT00CD72,Servers and containers,TT00CE16,Reverse Engineering,,0,0,0.3989541232585907,correct
+TT00CD72__TT00CE28,mixed_discard,TT00CD72,Servers and containers,TT00CE28,Core Networks,,0,0,0.5061849355697632,correct
+TT00CD75__TT00CD76,mixed_discard,TT00CD75,Windows Basics,TT00CD76,Scripting and Automatization,,0,0,0.626083493232727,correct
+TT00CD75__TT00CD81,mixed_discard,TT00CD75,Windows Basics,TT00CD81,Databases,,0,0,0.4935900568962097,correct
+TT00CD75__TT00CD86,mixed_discard,TT00CD75,Windows Basics,TT00CD86,Cyber Security,,0,0,0.5662715435028076,correct
+TT00CD75__TT00CD87,mixed_discard,TT00CD75,Windows Basics,TT00CD87,Information Security Technologies,,0,0,0.5544396638870239,correct
+TT00CD75__TT00CD88,mixed_discard,TT00CD75,Windows Basics,TT00CD88,Hardening,,0,0,0.5754779577255249,correct
+TT00CD75__TT00CD92,mixed_discard,TT00CD75,Windows Basics,TT00CD92,Mobile Project,,0,0,0.42520755529403687,correct
+TT00CD75__TT00CD98,mixed_discard,TT00CD75,Windows Basics,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.3312716484069824,correct
+TT00CD75__TT00CE03,mixed_discard,TT00CD75,Windows Basics,TT00CE03,Deep Learning,,0,0,0.42172718048095703,correct
+TT00CD75__TT00CE06,mixed_discard,TT00CD75,Windows Basics,TT00CE06,Machine Learning Project,,0,0,0.3904784917831421,correct
+TT00CD75__TT00CE09,mixed_discard,TT00CD75,Windows Basics,TT00CE09,Auditing and Penetration Testing,,0,0,0.5040572881698608,correct
+TT00CD75__TT00CE11,mixed_discard,TT00CD75,Windows Basics,TT00CE11,Data Security Controls,,0,0,0.5685553550720215,correct
+TT00CD75__TT00CE14,mixed_discard,TT00CD75,Windows Basics,TT00CE14,Malware Analysis,,0,0,0.4822366237640381,correct
+TT00CD75__TT00CE16,mixed_discard,TT00CD75,Windows Basics,TT00CE16,Reverse Engineering,,0,0,0.47104060649871826,correct
+TT00CD75__TT00CE28,mixed_discard,TT00CD75,Windows Basics,TT00CE28,Core Networks,,0,0,0.43432480096817017,correct
+TT00CD76__TT00CD77,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD77,Basics of Programming,,0,0,0.55641108751297,correct
+TT00CD76__TT00CD78,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD78,Frontend Programming,,0,0,0.3944259583950043,correct
+TT00CD76__TT00CD79,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD79,Basics of Web Development,,0,0,0.4417150616645813,correct
+TT00CD76__TT00CD80,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD80,JavaScript Programming,,0,0,0.4994686543941498,correct
+TT00CD76__TT00CD83,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD83,Data Structures and Algorithms,,0,0,0.39969176054000854,correct
+TT00CD76__TT00CD84,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD84,Data analytics and artificial intelligence,,0,0,0.46020227670669556,correct
+TT00CD76__TT00CD85,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD85,Backend Programming,,0,0,0.4677656888961792,correct
+TT00CD76__TT00CD90,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD90,Software Design,,0,0,0.39540717005729675,correct
+TT00CD76__TT00CD91,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD91,Object Oriented Programming,,0,0,0.4663658142089844,correct
+TT00CD76__TT00CD93,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD93,Android Application Development,,0,0,0.443645179271698,correct
+TT00CD76__TT00CD94,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD94,Mobile Application Development,,0,0,0.4341580867767334,correct
+TT00CD76__TT00CD96,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD96,Graphics Programming,,0,0,0.40499168634414673,correct
+TT00CD76__TT00CD99,mixed_discard,TT00CD76,Scripting and Automatization,TT00CD99,Data Sources and Data Preprocessing,,0,0,0.3809638023376465,correct
+TT00CD76__TT00CE00,mixed_discard,TT00CD76,Scripting and Automatization,TT00CE00,Data Analysis and Visualization,,0,0,0.43543195724487305,correct
+TT00CD76__TT00CE01,mixed_discard,TT00CD76,Scripting and Automatization,TT00CE01,Machine Learning: Classification Methods,,0,0,0.4035256505012512,correct
+TT00CD76__TT00CE02,mixed_discard,TT00CD76,Scripting and Automatization,TT00CE02,Machine Learning: Regression Methods,,0,0,0.3891661763191223,correct
+TT00CD76__TT00CE05,mixed_discard,TT00CD76,Scripting and Automatization,TT00CE05,Data Analytics Project,,0,0,0.41983088850975037,correct
+TT00CD76__TT00CE12,mixed_discard,TT00CD76,Scripting and Automatization,TT00CE12,Security Operations Center,,0,0,0.43079885840415955,correct
+TT00CD76__TT00CE17,mixed_discard,TT00CD76,Scripting and Automatization,TT00CE17,Web Application Security Testing,,0,0,0.4753730595111847,correct
+TT00CD76__TT00CE20,mixed_discard,TT00CD76,Scripting and Automatization,TT00CE20,Local Area Networks,,0,0,0.44099366664886475,correct
+TT00CD76__TT00CE21,mixed_discard,TT00CD76,Scripting and Automatization,TT00CE21,Cloud Architectures and Platforms,,0,0,0.5039916634559631,correct
+TT00CD76__TT00CE25,mixed_discard,TT00CD76,Scripting and Automatization,TT00CE25,Windows Infrastructure,,0,0,0.556777834892273,correct
+TT00CD76__TT00CK80,mixed_discard,TT00CD76,Scripting and Automatization,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.36981791257858276,correct
+TT00CD76__TT00DB42,mixed_discard,TT00CD76,Scripting and Automatization,TT00DB42,Data Structures and Algorithms,,0,0,0.3460756540298462,correct
+TT00CD76__TT00DS35,mixed_discard,TT00CD76,Scripting and Automatization,TT00DS35,Introduction to Networks,,0,0,0.3631319999694824,correct
+TT00CD76__TT00DS61,mixed_discard,TT00CD76,Scripting and Automatization,TT00DS61,Object-Oriented Programming with Python,,0,0,0.4488738179206848,correct
+TT00CD76__TT00DS73,mixed_discard,TT00CD76,Scripting and Automatization,TT00DS73,Front-End Development,,0,0,0.37780964374542236,correct
+TT00CD76__TT00DS75,mixed_discard,TT00CD76,Scripting and Automatization,TT00DS75,Mobile Application Development,,0,0,0.36829817295074463,correct
+TT00CD77__TT00CD81,mixed_discard,TT00CD77,Basics of Programming,TT00CD81,Databases,,0,0,0.5726437568664551,correct
+TT00CD77__TT00CD86,mixed_discard,TT00CD77,Basics of Programming,TT00CD86,Cyber Security,,0,0,0.5551646947860718,correct
+TT00CD77__TT00CD87,mixed_discard,TT00CD77,Basics of Programming,TT00CD87,Information Security Technologies,,0,0,0.4892677068710327,correct
+TT00CD77__TT00CD88,mixed_discard,TT00CD77,Basics of Programming,TT00CD88,Hardening,,0,0,0.4907149076461792,correct
+TT00CD77__TT00CD92,mixed_discard,TT00CD77,Basics of Programming,TT00CD92,Mobile Project,,0,0,0.5425872802734375,correct
+TT00CD77__TT00CD98,mixed_discard,TT00CD77,Basics of Programming,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.49182483553886414,correct
+TT00CD77__TT00CE03,mixed_discard,TT00CD77,Basics of Programming,TT00CE03,Deep Learning,,0,0,0.5475627183914185,correct
+TT00CD77__TT00CE06,mixed_discard,TT00CD77,Basics of Programming,TT00CE06,Machine Learning Project,,0,0,0.4847216308116913,correct
+TT00CD77__TT00CE09,mixed_discard,TT00CD77,Basics of Programming,TT00CE09,Auditing and Penetration Testing,,0,0,0.47736918926239014,correct
+TT00CD77__TT00CE11,mixed_discard,TT00CD77,Basics of Programming,TT00CE11,Data Security Controls,,0,0,0.5176545977592468,correct
+TT00CD77__TT00CE14,mixed_discard,TT00CD77,Basics of Programming,TT00CE14,Malware Analysis,,0,0,0.46063047647476196,correct
+TT00CD77__TT00CE16,mixed_discard,TT00CD77,Basics of Programming,TT00CE16,Reverse Engineering,,0,0,0.5216994285583496,correct
+TT00CD77__TT00CE28,mixed_discard,TT00CD77,Basics of Programming,TT00CE28,Core Networks,,0,0,0.4498133063316345,correct
+TT00CD78__TT00CD81,mixed_discard,TT00CD78,Frontend Programming,TT00CD81,Databases,,0,0,0.429818332195282,correct
+TT00CD78__TT00CD86,mixed_discard,TT00CD78,Frontend Programming,TT00CD86,Cyber Security,,0,0,0.4415201246738434,correct
+TT00CD78__TT00CD87,mixed_discard,TT00CD78,Frontend Programming,TT00CD87,Information Security Technologies,,0,0,0.4510177969932556,correct
+TT00CD78__TT00CD88,mixed_discard,TT00CD78,Frontend Programming,TT00CD88,Hardening,,0,0,0.45733144879341125,correct
+TT00CD78__TT00CD92,mixed_discard,TT00CD78,Frontend Programming,TT00CD92,Mobile Project,,0,0,0.5509294271469116,correct
+TT00CD78__TT00CD98,mixed_discard,TT00CD78,Frontend Programming,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.3504452705383301,correct
+TT00CD78__TT00CE03,mixed_discard,TT00CD78,Frontend Programming,TT00CE03,Deep Learning,,0,0,0.43579113483428955,correct
+TT00CD78__TT00CE06,mixed_discard,TT00CD78,Frontend Programming,TT00CE06,Machine Learning Project,,0,0,0.40587860345840454,correct
+TT00CD78__TT00CE09,mixed_discard,TT00CD78,Frontend Programming,TT00CE09,Auditing and Penetration Testing,,0,0,0.3977658748626709,correct
+TT00CD78__TT00CE11,mixed_discard,TT00CD78,Frontend Programming,TT00CE11,Data Security Controls,,0,0,0.42273491621017456,correct
+TT00CD78__TT00CE14,mixed_discard,TT00CD78,Frontend Programming,TT00CE14,Malware Analysis,,0,0,0.3463071286678314,correct
+TT00CD78__TT00CE16,mixed_discard,TT00CD78,Frontend Programming,TT00CE16,Reverse Engineering,,0,0,0.3933056890964508,correct
+TT00CD78__TT00CE28,mixed_discard,TT00CD78,Frontend Programming,TT00CE28,Core Networks,,0,0,0.4687962532043457,correct
+TT00CD79__TT00CD81,mixed_discard,TT00CD79,Basics of Web Development,TT00CD81,Databases,,0,0,0.510353684425354,correct
+TT00CD79__TT00CD86,mixed_discard,TT00CD79,Basics of Web Development,TT00CD86,Cyber Security,,0,0,0.49159878492355347,correct
+TT00CD79__TT00CD87,mixed_discard,TT00CD79,Basics of Web Development,TT00CD87,Information Security Technologies,,0,0,0.4473157525062561,correct
+TT00CD79__TT00CD88,mixed_discard,TT00CD79,Basics of Web Development,TT00CD88,Hardening,,0,0,0.4612320065498352,correct
+TT00CD79__TT00CD92,mixed_discard,TT00CD79,Basics of Web Development,TT00CD92,Mobile Project,,0,0,0.5288667678833008,correct
+TT00CD79__TT00CD98,mixed_discard,TT00CD79,Basics of Web Development,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.342472106218338,correct
+TT00CD79__TT00CE03,mixed_discard,TT00CD79,Basics of Web Development,TT00CE03,Deep Learning,,0,0,0.4259336590766907,correct
+TT00CD79__TT00CE06,mixed_discard,TT00CD79,Basics of Web Development,TT00CE06,Machine Learning Project,,0,0,0.40877091884613037,correct
+TT00CD79__TT00CE09,mixed_discard,TT00CD79,Basics of Web Development,TT00CE09,Auditing and Penetration Testing,,0,0,0.4404599666595459,correct
+TT00CD79__TT00CE11,mixed_discard,TT00CD79,Basics of Web Development,TT00CE11,Data Security Controls,,0,0,0.4429553151130676,correct
+TT00CD79__TT00CE14,mixed_discard,TT00CD79,Basics of Web Development,TT00CE14,Malware Analysis,,0,0,0.403128981590271,correct
+TT00CD79__TT00CE16,mixed_discard,TT00CD79,Basics of Web Development,TT00CE16,Reverse Engineering,,0,0,0.4204927384853363,correct
+TT00CD79__TT00CE28,mixed_discard,TT00CD79,Basics of Web Development,TT00CE28,Core Networks,,0,0,0.42370396852493286,correct
+TT00CD80__TT00CD81,mixed_discard,TT00CD80,JavaScript Programming,TT00CD81,Databases,,0,0,0.4887746572494507,correct
+TT00CD80__TT00CD86,mixed_discard,TT00CD80,JavaScript Programming,TT00CD86,Cyber Security,,0,0,0.4703574478626251,correct
+TT00CD80__TT00CD87,mixed_discard,TT00CD80,JavaScript Programming,TT00CD87,Information Security Technologies,,0,0,0.43759268522262573,correct
+TT00CD80__TT00CD88,mixed_discard,TT00CD80,JavaScript Programming,TT00CD88,Hardening,,0,0,0.43251776695251465,correct
+TT00CD80__TT00CD92,mixed_discard,TT00CD80,JavaScript Programming,TT00CD92,Mobile Project,,0,0,0.5200334191322327,correct
+TT00CD80__TT00CD98,mixed_discard,TT00CD80,JavaScript Programming,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.40292787551879883,correct
+TT00CD80__TT00CE03,mixed_discard,TT00CD80,JavaScript Programming,TT00CE03,Deep Learning,,0,0,0.4612327218055725,correct
+TT00CD80__TT00CE06,mixed_discard,TT00CD80,JavaScript Programming,TT00CE06,Machine Learning Project,,0,0,0.4502021074295044,correct
+TT00CD80__TT00CE09,mixed_discard,TT00CD80,JavaScript Programming,TT00CE09,Auditing and Penetration Testing,,0,0,0.4149288833141327,correct
+TT00CD80__TT00CE11,mixed_discard,TT00CD80,JavaScript Programming,TT00CE11,Data Security Controls,,0,0,0.4378172755241394,correct
+TT00CD80__TT00CE14,mixed_discard,TT00CD80,JavaScript Programming,TT00CE14,Malware Analysis,,0,0,0.4304317235946655,correct
+TT00CD80__TT00CE16,mixed_discard,TT00CD80,JavaScript Programming,TT00CE16,Reverse Engineering,,0,0,0.42428427934646606,correct
+TT00CD80__TT00CE28,mixed_discard,TT00CD80,JavaScript Programming,TT00CE28,Core Networks,,0,0,0.37950778007507324,correct
+TT00CD81__TT00CD83,mixed_discard,TT00CD81,Databases,TT00CD83,Data Structures and Algorithms,,0,0,0.5586463809013367,correct
+TT00CD81__TT00CD84,mixed_discard,TT00CD81,Databases,TT00CD84,Data analytics and artificial intelligence,,0,0,0.5137007236480713,correct
+TT00CD81__TT00CD85,mixed_discard,TT00CD81,Databases,TT00CD85,Backend Programming,,0,0,0.5143177509307861,correct
+TT00CD81__TT00CD90,mixed_discard,TT00CD81,Databases,TT00CD90,Software Design,,0,0,0.4971093237400055,correct
+TT00CD81__TT00CD91,mixed_discard,TT00CD81,Databases,TT00CD91,Object Oriented Programming,,0,0,0.5095652341842651,correct
+TT00CD81__TT00CD93,mixed_discard,TT00CD81,Databases,TT00CD93,Android Application Development,,0,0,0.5125720500946045,correct
+TT00CD81__TT00CD94,mixed_discard,TT00CD81,Databases,TT00CD94,Mobile Application Development,,0,0,0.4968656301498413,correct
+TT00CD81__TT00CD96,mixed_discard,TT00CD81,Databases,TT00CD96,Graphics Programming,,0,0,0.4292958974838257,correct
+TT00CD81__TT00CD99,mixed_discard,TT00CD81,Databases,TT00CD99,Data Sources and Data Preprocessing,,0,0,0.44143420457839966,correct
+TT00CD81__TT00CE00,mixed_discard,TT00CD81,Databases,TT00CE00,Data Analysis and Visualization,,0,0,0.47710302472114563,correct
+TT00CD81__TT00CE01,mixed_discard,TT00CD81,Databases,TT00CE01,Machine Learning: Classification Methods,,0,0,0.4318552613258362,correct
+TT00CD81__TT00CE02,mixed_discard,TT00CD81,Databases,TT00CE02,Machine Learning: Regression Methods,,0,0,0.4148440957069397,correct
+TT00CD81__TT00CE05,mixed_discard,TT00CD81,Databases,TT00CE05,Data Analytics Project,,0,0,0.447709858417511,correct
+TT00CD81__TT00CE12,mixed_discard,TT00CD81,Databases,TT00CE12,Security Operations Center,,0,0,0.3858392834663391,correct
+TT00CD81__TT00CE17,mixed_discard,TT00CD81,Databases,TT00CE17,Web Application Security Testing,,0,0,0.43560701608657837,correct
+TT00CD81__TT00CE20,mixed_discard,TT00CD81,Databases,TT00CE20,Local Area Networks,,0,0,0.44053277373313904,correct
+TT00CD81__TT00CE21,mixed_discard,TT00CD81,Databases,TT00CE21,Cloud Architectures and Platforms,,0,0,0.482526957988739,correct
+TT00CD81__TT00CE25,mixed_discard,TT00CD81,Databases,TT00CE25,Windows Infrastructure,,0,0,0.4472748339176178,correct
+TT00CD81__TT00CK80,mixed_discard,TT00CD81,Databases,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.4571092128753662,correct
+TT00CD81__TT00DB42,mixed_discard,TT00CD81,Databases,TT00DB42,Data Structures and Algorithms,,0,0,0.521327793598175,correct
+TT00CD81__TT00DS35,mixed_discard,TT00CD81,Databases,TT00DS35,Introduction to Networks,,0,0,0.2926747798919678,correct
+TT00CD81__TT00DS61,mixed_discard,TT00CD81,Databases,TT00DS61,Object-Oriented Programming with Python,,0,0,0.41841793060302734,correct
+TT00CD81__TT00DS73,mixed_discard,TT00CD81,Databases,TT00DS73,Front-End Development,,0,0,0.40207934379577637,correct
+TT00CD81__TT00DS75,mixed_discard,TT00CD81,Databases,TT00DS75,Mobile Application Development,,0,0,0.4193612337112427,correct
+TT00CD83__TT00CD86,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CD86,Cyber Security,,0,0,0.4910982847213745,correct
+TT00CD83__TT00CD87,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CD87,Information Security Technologies,,0,0,0.45738619565963745,correct
+TT00CD83__TT00CD88,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CD88,Hardening,,0,0,0.4169609546661377,correct
+TT00CD83__TT00CD92,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CD92,Mobile Project,,0,0,0.4191267788410187,correct
+TT00CD83__TT00CD98,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.5282418727874756,correct
+TT00CD83__TT00CE03,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CE03,Deep Learning,,0,0,0.4978027939796448,correct
+TT00CD83__TT00CE06,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CE06,Machine Learning Project,,0,0,0.44935473799705505,correct
+TT00CD83__TT00CE09,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CE09,Auditing and Penetration Testing,,0,0,0.4105418026447296,correct
+TT00CD83__TT00CE11,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CE11,Data Security Controls,,0,0,0.48318833112716675,correct
+TT00CD83__TT00CE14,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CE14,Malware Analysis,,0,0,0.5014348030090332,correct
+TT00CD83__TT00CE16,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CE16,Reverse Engineering,,0,0,0.4916389584541321,correct
+TT00CD83__TT00CE28,mixed_discard,TT00CD83,Data Structures and Algorithms,TT00CE28,Core Networks,,0,0,0.45656055212020874,correct
+TT00CD84__TT00CD86,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CD86,Cyber Security,,0,0,0.5125985145568848,correct
+TT00CD84__TT00CD87,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CD87,Information Security Technologies,,0,0,0.49720221757888794,correct
+TT00CD84__TT00CD88,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CD88,Hardening,,0,0,0.4146822690963745,correct
+TT00CD84__TT00CD92,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CD92,Mobile Project,,0,0,0.47470998764038086,correct
+TT00CD84__TT00CD98,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.5633046627044678,correct
+TT00CD84__TT00CE03,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CE03,Deep Learning,,0,0,0.6029247045516968,correct
+TT00CD84__TT00CE06,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CE06,Machine Learning Project,,0,0,0.6715835928916931,correct
+TT00CD84__TT00CE09,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CE09,Auditing and Penetration Testing,,0,0,0.4386134743690491,correct
+TT00CD84__TT00CE11,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CE11,Data Security Controls,,0,0,0.47196316719055176,correct
+TT00CD84__TT00CE14,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CE14,Malware Analysis,,0,0,0.5011774897575378,correct
+TT00CD84__TT00CE16,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CE16,Reverse Engineering,,0,0,0.47948843240737915,correct
+TT00CD84__TT00CE28,mixed_discard,TT00CD84,Data analytics and artificial intelligence,TT00CE28,Core Networks,,0,0,0.3697052597999573,correct
+TT00CD85__TT00CD86,mixed_discard,TT00CD85,Backend Programming,TT00CD86,Cyber Security,,0,0,0.5121166706085205,correct
+TT00CD85__TT00CD87,mixed_discard,TT00CD85,Backend Programming,TT00CD87,Information Security Technologies,,0,0,0.4559080898761749,correct
+TT00CD85__TT00CD88,mixed_discard,TT00CD85,Backend Programming,TT00CD88,Hardening,,0,0,0.49972769618034363,correct
+TT00CD85__TT00CD92,mixed_discard,TT00CD85,Backend Programming,TT00CD92,Mobile Project,,0,0,0.5149297714233398,correct
+TT00CD85__TT00CD98,mixed_discard,TT00CD85,Backend Programming,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.400733083486557,correct
+TT00CD85__TT00CE03,mixed_discard,TT00CD85,Backend Programming,TT00CE03,Deep Learning,,0,0,0.5003584623336792,correct
+TT00CD85__TT00CE06,mixed_discard,TT00CD85,Backend Programming,TT00CE06,Machine Learning Project,,0,0,0.46760672330856323,correct
+TT00CD85__TT00CE09,mixed_discard,TT00CD85,Backend Programming,TT00CE09,Auditing and Penetration Testing,,0,0,0.44010284543037415,correct
+TT00CD85__TT00CE11,mixed_discard,TT00CD85,Backend Programming,TT00CE11,Data Security Controls,,0,0,0.4846029281616211,correct
+TT00CD85__TT00CE14,mixed_discard,TT00CD85,Backend Programming,TT00CE14,Malware Analysis,,0,0,0.40708351135253906,correct
+TT00CD85__TT00CE16,mixed_discard,TT00CD85,Backend Programming,TT00CE16,Reverse Engineering,,0,0,0.4437902569770813,correct
+TT00CD85__TT00CE28,mixed_discard,TT00CD85,Backend Programming,TT00CE28,Core Networks,,0,0,0.5199795961380005,correct
+TT00CD86__TT00CD90,mixed_discard,TT00CD86,Cyber Security,TT00CD90,Software Design,,0,0,0.4877430200576782,correct
+TT00CD86__TT00CD91,mixed_discard,TT00CD86,Cyber Security,TT00CD91,Object Oriented Programming,,0,0,0.44946998357772827,correct
+TT00CD86__TT00CD93,mixed_discard,TT00CD86,Cyber Security,TT00CD93,Android Application Development,,0,0,0.46067535877227783,correct
+TT00CD86__TT00CD94,mixed_discard,TT00CD86,Cyber Security,TT00CD94,Mobile Application Development,,0,0,0.49326395988464355,correct
+TT00CD86__TT00CD96,mixed_discard,TT00CD86,Cyber Security,TT00CD96,Graphics Programming,,0,0,0.4371197819709778,correct
+TT00CD86__TT00CD99,mixed_discard,TT00CD86,Cyber Security,TT00CD99,Data Sources and Data Preprocessing,,0,0,0.4227744936943054,correct
+TT00CD86__TT00CE00,mixed_discard,TT00CD86,Cyber Security,TT00CE00,Data Analysis and Visualization,,0,0,0.45550188422203064,correct
+TT00CD86__TT00CE01,mixed_discard,TT00CD86,Cyber Security,TT00CE01,Machine Learning: Classification Methods,,0,0,0.4314274191856384,correct
+TT00CD86__TT00CE02,mixed_discard,TT00CD86,Cyber Security,TT00CE02,Machine Learning: Regression Methods,,0,0,0.36159735918045044,correct
+TT00CD86__TT00CE05,mixed_discard,TT00CD86,Cyber Security,TT00CE05,Data Analytics Project,,0,0,0.4254385232925415,correct
+TT00CD86__TT00CE12,mixed_discard,TT00CD86,Cyber Security,TT00CE12,Security Operations Center,,0,0,0.634621262550354,correct
+TT00CD86__TT00CE17,mixed_discard,TT00CD86,Cyber Security,TT00CE17,Web Application Security Testing,,0,0,0.6572762727737427,correct
+TT00CD86__TT00CE20,mixed_discard,TT00CD86,Cyber Security,TT00CE20,Local Area Networks,,0,0,0.5229110717773438,correct
+TT00CD86__TT00CE21,mixed_discard,TT00CD86,Cyber Security,TT00CE21,Cloud Architectures and Platforms,,0,0,0.5532515645027161,correct
+TT00CD86__TT00CE25,mixed_discard,TT00CD86,Cyber Security,TT00CE25,Windows Infrastructure,,0,0,0.5408673286437988,correct
+TT00CD86__TT00CK80,mixed_discard,TT00CD86,Cyber Security,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.42313718795776367,correct
+TT00CD86__TT00DB42,mixed_discard,TT00CD86,Cyber Security,TT00DB42,Data Structures and Algorithms,,0,0,0.439900279045105,correct
+TT00CD86__TT00DS35,mixed_discard,TT00CD86,Cyber Security,TT00DS35,Introduction to Networks,,0,0,0.4717317223548889,correct
+TT00CD86__TT00DS61,mixed_discard,TT00CD86,Cyber Security,TT00DS61,Object-Oriented Programming with Python,,0,0,0.4502061605453491,correct
+TT00CD86__TT00DS73,mixed_discard,TT00CD86,Cyber Security,TT00DS73,Front-End Development,,0,0,0.41372185945510864,correct
+TT00CD86__TT00DS75,mixed_discard,TT00CD86,Cyber Security,TT00DS75,Mobile Application Development,,0,0,0.4107218384742737,correct
+TT00CD87__TT00CD90,mixed_discard,TT00CD87,Information Security Technologies,TT00CD90,Software Design,,0,0,0.5078051090240479,correct
+TT00CD87__TT00CD91,mixed_discard,TT00CD87,Information Security Technologies,TT00CD91,Object Oriented Programming,,0,0,0.42356762290000916,correct
+TT00CD87__TT00CD93,mixed_discard,TT00CD87,Information Security Technologies,TT00CD93,Android Application Development,,0,0,0.41344523429870605,correct
+TT00CD87__TT00CD94,mixed_discard,TT00CD87,Information Security Technologies,TT00CD94,Mobile Application Development,,0,0,0.4979722499847412,correct
+TT00CD87__TT00CD96,mixed_discard,TT00CD87,Information Security Technologies,TT00CD96,Graphics Programming,,0,0,0.39187192916870117,correct
+TT00CD87__TT00CD99,mixed_discard,TT00CD87,Information Security Technologies,TT00CD99,Data Sources and Data Preprocessing,,0,0,0.35036155581474304,correct
+TT00CD87__TT00CE00,mixed_discard,TT00CD87,Information Security Technologies,TT00CE00,Data Analysis and Visualization,,0,0,0.4182254672050476,correct
+TT00CD87__TT00CE01,mixed_discard,TT00CD87,Information Security Technologies,TT00CE01,Machine Learning: Classification Methods,,0,0,0.42884689569473267,correct
+TT00CD87__TT00CE02,mixed_discard,TT00CD87,Information Security Technologies,TT00CE02,Machine Learning: Regression Methods,,0,0,0.3715221583843231,correct
+TT00CD87__TT00CE05,mixed_discard,TT00CD87,Information Security Technologies,TT00CE05,Data Analytics Project,,0,0,0.4101572036743164,correct
+TT00CD87__TT00CE12,mixed_discard,TT00CD87,Information Security Technologies,TT00CE12,Security Operations Center,,0,0,0.6179234385490417,correct
+TT00CD87__TT00CE17,mixed_discard,TT00CD87,Information Security Technologies,TT00CE17,Web Application Security Testing,,0,0,0.6450742483139038,correct
+TT00CD87__TT00CE20,mixed_discard,TT00CD87,Information Security Technologies,TT00CE20,Local Area Networks,,0,0,0.5353836417198181,correct
+TT00CD87__TT00CE21,mixed_discard,TT00CD87,Information Security Technologies,TT00CE21,Cloud Architectures and Platforms,,0,0,0.5469415783882141,correct
+TT00CD87__TT00CE25,mixed_discard,TT00CD87,Information Security Technologies,TT00CE25,Windows Infrastructure,,0,0,0.5707269310951233,correct
+TT00CD87__TT00CK80,mixed_discard,TT00CD87,Information Security Technologies,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.3919634222984314,correct
+TT00CD87__TT00DB42,mixed_discard,TT00CD87,Information Security Technologies,TT00DB42,Data Structures and Algorithms,,0,0,0.45168906450271606,correct
+TT00CD87__TT00DS35,mixed_discard,TT00CD87,Information Security Technologies,TT00DS35,Introduction to Networks,,0,0,0.452515184879303,correct
+TT00CD87__TT00DS61,mixed_discard,TT00CD87,Information Security Technologies,TT00DS61,Object-Oriented Programming with Python,,0,0,0.38684093952178955,correct
+TT00CD87__TT00DS73,mixed_discard,TT00CD87,Information Security Technologies,TT00DS73,Front-End Development,,0,0,0.39042434096336365,correct
+TT00CD87__TT00DS75,mixed_discard,TT00CD87,Information Security Technologies,TT00DS75,Mobile Application Development,,0,0,0.41910701990127563,correct
+TT00CD88__TT00CD90,mixed_discard,TT00CD88,Hardening,TT00CD90,Software Design,,0,0,0.45185387134552,correct
+TT00CD88__TT00CD91,mixed_discard,TT00CD88,Hardening,TT00CD91,Object Oriented Programming,,0,0,0.4378795623779297,correct
+TT00CD88__TT00CD93,mixed_discard,TT00CD88,Hardening,TT00CD93,Android Application Development,,0,0,0.429047167301178,correct
+TT00CD88__TT00CD94,mixed_discard,TT00CD88,Hardening,TT00CD94,Mobile Application Development,,0,0,0.48149436712265015,correct
+TT00CD88__TT00CD96,mixed_discard,TT00CD88,Hardening,TT00CD96,Graphics Programming,,0,0,0.3975881338119507,correct
+TT00CD88__TT00CD99,mixed_discard,TT00CD88,Hardening,TT00CD99,Data Sources and Data Preprocessing,,0,0,0.36972299218177795,correct
+TT00CD88__TT00CE00,mixed_discard,TT00CD88,Hardening,TT00CE00,Data Analysis and Visualization,,0,0,0.3874446749687195,correct
+TT00CD88__TT00CE01,mixed_discard,TT00CD88,Hardening,TT00CE01,Machine Learning: Classification Methods,,0,0,0.43492892384529114,correct
+TT00CD88__TT00CE02,mixed_discard,TT00CD88,Hardening,TT00CE02,Machine Learning: Regression Methods,,0,0,0.4083939790725708,correct
+TT00CD88__TT00CE05,mixed_discard,TT00CD88,Hardening,TT00CE05,Data Analytics Project,,0,0,0.38647764921188354,correct
+TT00CD88__TT00CE12,mixed_discard,TT00CD88,Hardening,TT00CE12,Security Operations Center,,0,0,0.49569669365882874,correct
+TT00CD88__TT00CE17,mixed_discard,TT00CD88,Hardening,TT00CE17,Web Application Security Testing,,0,0,0.6253561973571777,correct
+TT00CD88__TT00CE20,mixed_discard,TT00CD88,Hardening,TT00CE20,Local Area Networks,,0,0,0.48441416025161743,correct
+TT00CD88__TT00CE21,mixed_discard,TT00CD88,Hardening,TT00CE21,Cloud Architectures and Platforms,,0,0,0.5277160406112671,correct
+TT00CD88__TT00CE25,mixed_discard,TT00CD88,Hardening,TT00CE25,Windows Infrastructure,,0,0,0.5858824253082275,correct
+TT00CD88__TT00CK80,mixed_discard,TT00CD88,Hardening,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.3457193672657013,correct
+TT00CD88__TT00DB42,mixed_discard,TT00CD88,Hardening,TT00DB42,Data Structures and Algorithms,,0,0,0.3997737169265747,correct
+TT00CD88__TT00DS35,mixed_discard,TT00CD88,Hardening,TT00DS35,Introduction to Networks,,0,0,0.4260086119174957,correct
+TT00CD88__TT00DS61,mixed_discard,TT00CD88,Hardening,TT00DS61,Object-Oriented Programming with Python,,0,0,0.3932427763938904,correct
+TT00CD88__TT00DS73,mixed_discard,TT00CD88,Hardening,TT00DS73,Front-End Development,,0,0,0.42339596152305603,correct
+TT00CD88__TT00DS75,mixed_discard,TT00CD88,Hardening,TT00DS75,Mobile Application Development,,0,0,0.41134345531463623,correct
+TT00CD90__TT00CD92,mixed_discard,TT00CD90,Software Design,TT00CD92,Mobile Project,,0,0,0.5837460160255432,correct
+TT00CD90__TT00CD98,mixed_discard,TT00CD90,Software Design,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.3526957631111145,correct
+TT00CD90__TT00CE03,mixed_discard,TT00CD90,Software Design,TT00CE03,Deep Learning,,0,0,0.42788761854171753,correct
+TT00CD90__TT00CE06,mixed_discard,TT00CD90,Software Design,TT00CE06,Machine Learning Project,,0,0,0.47902899980545044,correct
+TT00CD90__TT00CE09,mixed_discard,TT00CD90,Software Design,TT00CE09,Auditing and Penetration Testing,,0,0,0.5238802433013916,correct
+TT00CD90__TT00CE11,mixed_discard,TT00CD90,Software Design,TT00CE11,Data Security Controls,,0,0,0.4714423418045044,correct
+TT00CD90__TT00CE14,mixed_discard,TT00CD90,Software Design,TT00CE14,Malware Analysis,,0,0,0.4324844181537628,correct
+TT00CD90__TT00CE16,mixed_discard,TT00CD90,Software Design,TT00CE16,Reverse Engineering,,0,0,0.5103786587715149,correct
+TT00CD90__TT00CE28,mixed_discard,TT00CD90,Software Design,TT00CE28,Core Networks,,0,0,0.4914502501487732,correct
+TT00CD91__TT00CD92,mixed_discard,TT00CD91,Object Oriented Programming,TT00CD92,Mobile Project,,0,0,0.4920898377895355,correct
+TT00CD91__TT00CD98,mixed_discard,TT00CD91,Object Oriented Programming,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.41180819272994995,correct
+TT00CD91__TT00CE03,mixed_discard,TT00CD91,Object Oriented Programming,TT00CE03,Deep Learning,,0,0,0.47610411047935486,correct
+TT00CD91__TT00CE06,mixed_discard,TT00CD91,Object Oriented Programming,TT00CE06,Machine Learning Project,,0,0,0.46121060848236084,correct
+TT00CD91__TT00CE09,mixed_discard,TT00CD91,Object Oriented Programming,TT00CE09,Auditing and Penetration Testing,,0,0,0.3999762237071991,correct
+TT00CD91__TT00CE11,mixed_discard,TT00CD91,Object Oriented Programming,TT00CE11,Data Security Controls,,0,0,0.437031626701355,correct
+TT00CD91__TT00CE14,mixed_discard,TT00CD91,Object Oriented Programming,TT00CE14,Malware Analysis,,0,0,0.42166921496391296,correct
+TT00CD91__TT00CE16,mixed_discard,TT00CD91,Object Oriented Programming,TT00CE16,Reverse Engineering,,0,0,0.4352399706840515,correct
+TT00CD91__TT00CE28,mixed_discard,TT00CD91,Object Oriented Programming,TT00CE28,Core Networks,,0,0,0.4089653491973877,correct
+TT00CD92__TT00CD93,mixed_discard,TT00CD92,Mobile Project,TT00CD93,Android Application Development,Mobile project course versus Android implementation course; strong domain relation but not enough repeated core curriculum.,0,1,0.6885857582092285,false_positive
+TT00CD92__TT00CD94,mixed_discard,TT00CD92,Mobile Project,TT00CD94,Mobile Application Development,Mobile project course versus mobile application development course; project application rather than substantial content redundancy.,0,1,0.8309781551361084,false_positive
+TT00CD92__TT00CD96,mixed_discard,TT00CD92,Mobile Project,TT00CD96,Graphics Programming,,0,0,0.42712295055389404,correct
+TT00CD92__TT00CD99,mixed_discard,TT00CD92,Mobile Project,TT00CD99,Data Sources and Data Preprocessing,,0,0,0.3380246162414551,correct
+TT00CD92__TT00CE00,mixed_discard,TT00CD92,Mobile Project,TT00CE00,Data Analysis and Visualization,,0,0,0.3993491232395172,correct
+TT00CD92__TT00CE01,mixed_discard,TT00CD92,Mobile Project,TT00CE01,Machine Learning: Classification Methods,,0,0,0.3994271159172058,correct
+TT00CD92__TT00CE02,mixed_discard,TT00CD92,Mobile Project,TT00CE02,Machine Learning: Regression Methods,,0,0,0.3617919385433197,correct
+TT00CD92__TT00CE05,mixed_discard,TT00CD92,Mobile Project,TT00CE05,Data Analytics Project,,0,0,0.5348862409591675,correct
+TT00CD92__TT00CE12,mixed_discard,TT00CD92,Mobile Project,TT00CE12,Security Operations Center,,0,0,0.43087244033813477,correct
+TT00CD92__TT00CE17,mixed_discard,TT00CD92,Mobile Project,TT00CE17,Web Application Security Testing,,0,0,0.49638831615448,correct
+TT00CD92__TT00CE20,mixed_discard,TT00CD92,Mobile Project,TT00CE20,Local Area Networks,,0,0,0.40496060252189636,correct
+TT00CD92__TT00CE21,mixed_discard,TT00CD92,Mobile Project,TT00CE21,Cloud Architectures and Platforms,,0,0,0.4557558298110962,correct
+TT00CD92__TT00CE25,mixed_discard,TT00CD92,Mobile Project,TT00CE25,Windows Infrastructure,,0,0,0.43669161200523376,correct
+TT00CD92__TT00CK80,mixed_discard,TT00CD92,Mobile Project,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.41110485792160034,correct
+TT00CD92__TT00DB42,mixed_discard,TT00CD92,Mobile Project,TT00DB42,Data Structures and Algorithms,,0,0,0.4244062006473541,correct
+TT00CD92__TT00DS35,mixed_discard,TT00CD92,Mobile Project,TT00DS35,Introduction to Networks,,0,0,0.2869758605957031,correct
+TT00CD92__TT00DS61,mixed_discard,TT00CD92,Mobile Project,TT00DS61,Object-Oriented Programming with Python,,0,0,0.4700099229812622,correct
+TT00CD92__TT00DS73,mixed_discard,TT00CD92,Mobile Project,TT00DS73,Front-End Development,,0,0,0.5327636003494263,correct
+TT00CD92__TT00DS75,mixed_discard,TT00CD92,Mobile Project,TT00DS75,Mobile Application Development,"Mobile project course versus mobile development course; adjacent and practical, but not enough repeated teaching content.",0,1,0.787621021270752,false_positive
+TT00CD93__TT00CD98,mixed_discard,TT00CD93,Android Application Development,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.4089018702507019,correct
+TT00CD93__TT00CE03,mixed_discard,TT00CD93,Android Application Development,TT00CE03,Deep Learning,,0,0,0.5086205005645752,correct
+TT00CD93__TT00CE06,mixed_discard,TT00CD93,Android Application Development,TT00CE06,Machine Learning Project,,0,0,0.48497381806373596,correct
+TT00CD93__TT00CE09,mixed_discard,TT00CD93,Android Application Development,TT00CE09,Auditing and Penetration Testing,,0,0,0.4116818308830261,correct
+TT00CD93__TT00CE11,mixed_discard,TT00CD93,Android Application Development,TT00CE11,Data Security Controls,,0,0,0.41658100485801697,correct
+TT00CD93__TT00CE14,mixed_discard,TT00CD93,Android Application Development,TT00CE14,Malware Analysis,,0,0,0.4790215492248535,correct
+TT00CD93__TT00CE16,mixed_discard,TT00CD93,Android Application Development,TT00CE16,Reverse Engineering,,0,0,0.4475395679473877,correct
+TT00CD93__TT00CE28,mixed_discard,TT00CD93,Android Application Development,TT00CE28,Core Networks,,0,0,0.3392277956008911,correct
+TT00CD94__TT00CD98,mixed_discard,TT00CD94,Mobile Application Development,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.3987102210521698,correct
+TT00CD94__TT00CE03,mixed_discard,TT00CD94,Mobile Application Development,TT00CE03,Deep Learning,,0,0,0.46732354164123535,correct
+TT00CD94__TT00CE06,mixed_discard,TT00CD94,Mobile Application Development,TT00CE06,Machine Learning Project,,0,0,0.4651091992855072,correct
+TT00CD94__TT00CE09,mixed_discard,TT00CD94,Mobile Application Development,TT00CE09,Auditing and Penetration Testing,,0,0,0.45964062213897705,correct
+TT00CD94__TT00CE11,mixed_discard,TT00CD94,Mobile Application Development,TT00CE11,Data Security Controls,,0,0,0.42887675762176514,correct
+TT00CD94__TT00CE14,mixed_discard,TT00CD94,Mobile Application Development,TT00CE14,Malware Analysis,,0,0,0.4661949872970581,correct
+TT00CD94__TT00CE16,mixed_discard,TT00CD94,Mobile Application Development,TT00CE16,Reverse Engineering,,0,0,0.4475378096103668,correct
+TT00CD94__TT00CE28,mixed_discard,TT00CD94,Mobile Application Development,TT00CE28,Core Networks,,0,0,0.38809263706207275,correct
+TT00CD96__TT00CD98,mixed_discard,TT00CD96,Graphics Programming,TT00CD98,Mathematical Foundations of Machine Learning,,0,0,0.4366534650325775,correct
+TT00CD96__TT00CE03,mixed_discard,TT00CD96,Graphics Programming,TT00CE03,Deep Learning,,0,0,0.474480539560318,correct
+TT00CD96__TT00CE06,mixed_discard,TT00CD96,Graphics Programming,TT00CE06,Machine Learning Project,,0,0,0.45812180638313293,correct
+TT00CD96__TT00CE09,mixed_discard,TT00CD96,Graphics Programming,TT00CE09,Auditing and Penetration Testing,,0,0,0.38147538900375366,correct
+TT00CD96__TT00CE11,mixed_discard,TT00CD96,Graphics Programming,TT00CE11,Data Security Controls,,0,0,0.38312166929244995,correct
+TT00CD96__TT00CE14,mixed_discard,TT00CD96,Graphics Programming,TT00CE14,Malware Analysis,,0,0,0.4271219074726105,correct
+TT00CD96__TT00CE16,mixed_discard,TT00CD96,Graphics Programming,TT00CE16,Reverse Engineering,,0,0,0.4685520529747009,correct
+TT00CD96__TT00CE28,mixed_discard,TT00CD96,Graphics Programming,TT00CE28,Core Networks,,0,0,0.39683598279953003,correct
+TT00CD98__TT00CD99,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CD99,Data Sources and Data Preprocessing,,0,0,0.47631508111953735,correct
+TT00CD98__TT00CE00,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CE00,Data Analysis and Visualization,,0,0,0.5473651885986328,correct
+TT00CD98__TT00CE01,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CE01,Machine Learning: Classification Methods,"Mathematical foundations support ML methods, but foundation-versus-application is not substantial curricular overlap.",0,0,0.5862994194030762,correct
+TT00CD98__TT00CE02,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CE02,Machine Learning: Regression Methods,"Mathematical foundations support regression methods, but enabling theory is not the same as repeated course content.",0,0,0.5666894912719727,correct
+TT00CD98__TT00CE05,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CE05,Data Analytics Project,,0,0,0.4636164903640747,correct
+TT00CD98__TT00CE12,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CE12,Security Operations Center,,0,0,0.2871740162372589,correct
+TT00CD98__TT00CE17,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CE17,Web Application Security Testing,,0,0,0.36461400985717773,correct
+TT00CD98__TT00CE20,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CE20,Local Area Networks,,0,0,0.3410179615020752,correct
+TT00CD98__TT00CE21,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CE21,Cloud Architectures and Platforms,,0,0,0.40096110105514526,correct
+TT00CD98__TT00CE25,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CE25,Windows Infrastructure,,0,0,0.28709375858306885,correct
+TT00CD98__TT00CK80,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.6083276271820068,correct
+TT00CD98__TT00DB42,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00DB42,Data Structures and Algorithms,,0,0,0.43092793226242065,correct
+TT00CD98__TT00DS35,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00DS35,Introduction to Networks,,0,0,0.24869583547115326,correct
+TT00CD98__TT00DS61,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00DS61,Object-Oriented Programming with Python,,0,0,0.4476843774318695,correct
+TT00CD98__TT00DS73,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00DS73,Front-End Development,,0,0,0.3356584906578064,correct
+TT00CD98__TT00DS75,mixed_discard,TT00CD98,Mathematical Foundations of Machine Learning,TT00DS75,Mobile Application Development,,0,0,0.3762047290802002,correct
+TT00CD99__TT00CE03,mixed_discard,TT00CD99,Data Sources and Data Preprocessing,TT00CE03,Deep Learning,,0,0,0.45695850253105164,correct
+TT00CD99__TT00CE06,mixed_discard,TT00CD99,Data Sources and Data Preprocessing,TT00CE06,Machine Learning Project,,0,0,0.5205172300338745,correct
+TT00CD99__TT00CE09,mixed_discard,TT00CD99,Data Sources and Data Preprocessing,TT00CE09,Auditing and Penetration Testing,,0,0,0.3268049657344818,correct
+TT00CD99__TT00CE11,mixed_discard,TT00CD99,Data Sources and Data Preprocessing,TT00CE11,Data Security Controls,,0,0,0.43791663646698,correct
+TT00CD99__TT00CE14,mixed_discard,TT00CD99,Data Sources and Data Preprocessing,TT00CE14,Malware Analysis,,0,0,0.4103343188762665,correct
+TT00CD99__TT00CE16,mixed_discard,TT00CD99,Data Sources and Data Preprocessing,TT00CE16,Reverse Engineering,,0,0,0.3860098123550415,correct
+TT00CD99__TT00CE28,mixed_discard,TT00CD99,Data Sources and Data Preprocessing,TT00CE28,Core Networks,,0,0,0.3122280538082123,correct
+TT00CE00__TT00CE03,mixed_discard,TT00CE00,Data Analysis and Visualization,TT00CE03,Deep Learning,,0,0,0.5270660519599915,correct
+TT00CE00__TT00CE06,mixed_discard,TT00CE00,Data Analysis and Visualization,TT00CE06,Machine Learning Project,,0,0,0.5907886624336243,correct
+TT00CE00__TT00CE09,mixed_discard,TT00CE00,Data Analysis and Visualization,TT00CE09,Auditing and Penetration Testing,,0,0,0.358049213886261,correct
+TT00CE00__TT00CE11,mixed_discard,TT00CE00,Data Analysis and Visualization,TT00CE11,Data Security Controls,,0,0,0.4752090871334076,correct
+TT00CE00__TT00CE14,mixed_discard,TT00CE00,Data Analysis and Visualization,TT00CE14,Malware Analysis,,0,0,0.5365750193595886,correct
+TT00CE00__TT00CE16,mixed_discard,TT00CE00,Data Analysis and Visualization,TT00CE16,Reverse Engineering,,0,0,0.4226926565170288,correct
+TT00CE00__TT00CE28,mixed_discard,TT00CE00,Data Analysis and Visualization,TT00CE28,Core Networks,,0,0,0.33340132236480713,correct
+TT00CE01__TT00CE03,mixed_discard,TT00CE01,Machine Learning: Classification Methods,TT00CE03,Deep Learning,,0,0,0.5671262145042419,correct
+TT00CE01__TT00CE06,mixed_discard,TT00CE01,Machine Learning: Classification Methods,TT00CE06,Machine Learning Project,,0,0,0.6387262940406799,correct
+TT00CE01__TT00CE09,mixed_discard,TT00CE01,Machine Learning: Classification Methods,TT00CE09,Auditing and Penetration Testing,,0,0,0.37736600637435913,correct
+TT00CE01__TT00CE11,mixed_discard,TT00CE01,Machine Learning: Classification Methods,TT00CE11,Data Security Controls,,0,0,0.4535578787326813,correct
+TT00CE01__TT00CE14,mixed_discard,TT00CE01,Machine Learning: Classification Methods,TT00CE14,Malware Analysis,,0,0,0.4221019148826599,correct
+TT00CE01__TT00CE16,mixed_discard,TT00CE01,Machine Learning: Classification Methods,TT00CE16,Reverse Engineering,,0,0,0.37558019161224365,correct
+TT00CE01__TT00CE28,mixed_discard,TT00CE01,Machine Learning: Classification Methods,TT00CE28,Core Networks,,0,0,0.3385089039802551,correct
+TT00CE02__TT00CE03,mixed_discard,TT00CE02,Machine Learning: Regression Methods,TT00CE03,Deep Learning,,0,0,0.510863184928894,correct
+TT00CE02__TT00CE06,mixed_discard,TT00CE02,Machine Learning: Regression Methods,TT00CE06,Machine Learning Project,,0,0,0.5623917579650879,correct
+TT00CE02__TT00CE09,mixed_discard,TT00CE02,Machine Learning: Regression Methods,TT00CE09,Auditing and Penetration Testing,,0,0,0.33096927404403687,correct
+TT00CE02__TT00CE11,mixed_discard,TT00CE02,Machine Learning: Regression Methods,TT00CE11,Data Security Controls,,0,0,0.39005064964294434,correct
+TT00CE02__TT00CE14,mixed_discard,TT00CE02,Machine Learning: Regression Methods,TT00CE14,Malware Analysis,,0,0,0.41550400853157043,correct
+TT00CE02__TT00CE16,mixed_discard,TT00CE02,Machine Learning: Regression Methods,TT00CE16,Reverse Engineering,,0,0,0.4101354479789734,correct
+TT00CE02__TT00CE28,mixed_discard,TT00CE02,Machine Learning: Regression Methods,TT00CE28,Core Networks,,0,0,0.30971163511276245,correct
+TT00CE03__TT00CE05,mixed_discard,TT00CE03,Deep Learning,TT00CE05,Data Analytics Project,,0,0,0.4668858051300049,correct
+TT00CE03__TT00CE12,mixed_discard,TT00CE03,Deep Learning,TT00CE12,Security Operations Center,,0,0,0.33760517835617065,correct
+TT00CE03__TT00CE17,mixed_discard,TT00CE03,Deep Learning,TT00CE17,Web Application Security Testing,,0,0,0.42814111709594727,correct
+TT00CE03__TT00CE20,mixed_discard,TT00CE03,Deep Learning,TT00CE20,Local Area Networks,,0,0,0.45746347308158875,correct
+TT00CE03__TT00CE21,mixed_discard,TT00CE03,Deep Learning,TT00CE21,Cloud Architectures and Platforms,,0,0,0.49580663442611694,correct
+TT00CE03__TT00CE25,mixed_discard,TT00CE03,Deep Learning,TT00CE25,Windows Infrastructure,,0,0,0.3792893588542938,correct
+TT00CE03__TT00CK80,mixed_discard,TT00CE03,Deep Learning,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.41916027665138245,correct
+TT00CE03__TT00DB42,mixed_discard,TT00CE03,Deep Learning,TT00DB42,Data Structures and Algorithms,,0,0,0.4421096444129944,correct
+TT00CE03__TT00DS35,mixed_discard,TT00CE03,Deep Learning,TT00DS35,Introduction to Networks,,0,0,0.3755532205104828,correct
+TT00CE03__TT00DS61,mixed_discard,TT00CE03,Deep Learning,TT00DS61,Object-Oriented Programming with Python,,0,0,0.46349650621414185,correct
+TT00CE03__TT00DS73,mixed_discard,TT00CE03,Deep Learning,TT00DS73,Front-End Development,,0,0,0.4364688992500305,correct
+TT00CE03__TT00DS75,mixed_discard,TT00CE03,Deep Learning,TT00DS75,Mobile Application Development,,0,0,0.425637811422348,correct
+TT00CE05__TT00CE06,mixed_discard,TT00CE05,Data Analytics Project,TT00CE06,Machine Learning Project,"Both are AI/DA related projects, same content exists, but not fully overlap",1,1,0.7784754633903503,correct
+TT00CE05__TT00CE09,mixed_discard,TT00CE05,Data Analytics Project,TT00CE09,Auditing and Penetration Testing,,0,0,0.3818037509918213,correct
+TT00CE05__TT00CE11,mixed_discard,TT00CE05,Data Analytics Project,TT00CE11,Data Security Controls,,0,0,0.44887596368789673,correct
+TT00CE05__TT00CE14,mixed_discard,TT00CE05,Data Analytics Project,TT00CE14,Malware Analysis,,0,0,0.468600332736969,correct
+TT00CE05__TT00CE16,mixed_discard,TT00CE05,Data Analytics Project,TT00CE16,Reverse Engineering,,0,0,0.39294180274009705,correct
+TT00CE05__TT00CE28,mixed_discard,TT00CE05,Data Analytics Project,TT00CE28,Core Networks,,0,0,0.32921767234802246,correct
+TT00CE06__TT00CE12,mixed_discard,TT00CE06,Machine Learning Project,TT00CE12,Security Operations Center,,0,0,0.3703880310058594,correct
+TT00CE06__TT00CE17,mixed_discard,TT00CE06,Machine Learning Project,TT00CE17,Web Application Security Testing,,0,0,0.4223814010620117,correct
+TT00CE06__TT00CE20,mixed_discard,TT00CE06,Machine Learning Project,TT00CE20,Local Area Networks,,0,0,0.4115287959575653,correct
+TT00CE06__TT00CE21,mixed_discard,TT00CE06,Machine Learning Project,TT00CE21,Cloud Architectures and Platforms,,0,0,0.4758620858192444,correct
+TT00CE06__TT00CE25,mixed_discard,TT00CE06,Machine Learning Project,TT00CE25,Windows Infrastructure,,0,0,0.4030740559101105,correct
+TT00CE06__TT00CK80,mixed_discard,TT00CE06,Machine Learning Project,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.39443162083625793,correct
+TT00CE06__TT00DB42,mixed_discard,TT00CE06,Machine Learning Project,TT00DB42,Data Structures and Algorithms,,0,0,0.41357743740081787,correct
+TT00CE06__TT00DS35,mixed_discard,TT00CE06,Machine Learning Project,TT00DS35,Introduction to Networks,,0,0,0.2980092763900757,correct
+TT00CE06__TT00DS61,mixed_discard,TT00CE06,Machine Learning Project,TT00DS61,Object-Oriented Programming with Python,,0,0,0.5528011322021484,correct
+TT00CE06__TT00DS73,mixed_discard,TT00CE06,Machine Learning Project,TT00DS73,Front-End Development,,0,0,0.4538843035697937,correct
+TT00CE06__TT00DS75,mixed_discard,TT00CE06,Machine Learning Project,TT00DS75,Mobile Application Development,,0,0,0.5599515438079834,correct
+TT00CE09__TT00CE12,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00CE12,Security Operations Center,,0,0,0.5562248229980469,correct
+TT00CE09__TT00CE17,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00CE17,Web Application Security Testing,"Both cover offensive security testing, vulnerability discovery, and exploitation-oriented assessment work.",1,1,0.6928657293319702,correct
+TT00CE09__TT00CE20,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00CE20,Local Area Networks,,0,0,0.4684664011001587,correct
+TT00CE09__TT00CE21,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00CE21,Cloud Architectures and Platforms,,0,0,0.47393524646759033,correct
+TT00CE09__TT00CE25,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00CE25,Windows Infrastructure,,0,0,0.5124503374099731,correct
+TT00CE09__TT00CK80,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.33211347460746765,correct
+TT00CE09__TT00DB42,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00DB42,Data Structures and Algorithms,,0,0,0.3984818756580353,correct
+TT00CE09__TT00DS35,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00DS35,Introduction to Networks,,0,0,0.3933935761451721,correct
+TT00CE09__TT00DS61,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00DS61,Object-Oriented Programming with Python,,0,0,0.3918960690498352,correct
+TT00CE09__TT00DS73,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00DS73,Front-End Development,,0,0,0.3827251195907593,correct
+TT00CE09__TT00DS75,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00DS75,Mobile Application Development,,0,0,0.4175317585468292,correct
+TT00CE11__TT00CE12,mixed_discard,TT00CE11,Data Security Controls,TT00CE12,Security Operations Center,,0,0,0.6215265989303589,correct
+TT00CE11__TT00CE17,mixed_discard,TT00CE11,Data Security Controls,TT00CE17,Web Application Security Testing,,0,0,0.6486443281173706,correct
+TT00CE11__TT00CE20,mixed_discard,TT00CE11,Data Security Controls,TT00CE20,Local Area Networks,,0,0,0.509710967540741,correct
+TT00CE11__TT00CE21,mixed_discard,TT00CE11,Data Security Controls,TT00CE21,Cloud Architectures and Platforms,,0,0,0.5452885031700134,correct
+TT00CE11__TT00CE25,mixed_discard,TT00CE11,Data Security Controls,TT00CE25,Windows Infrastructure,,0,0,0.5729045867919922,correct
+TT00CE11__TT00CK80,mixed_discard,TT00CE11,Data Security Controls,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.387035608291626,correct
+TT00CE11__TT00DB42,mixed_discard,TT00CE11,Data Security Controls,TT00DB42,Data Structures and Algorithms,,0,0,0.43265143036842346,correct
+TT00CE11__TT00DS35,mixed_discard,TT00CE11,Data Security Controls,TT00DS35,Introduction to Networks,,0,0,0.45255130529403687,correct
+TT00CE11__TT00DS61,mixed_discard,TT00CE11,Data Security Controls,TT00DS61,Object-Oriented Programming with Python,,0,0,0.428322434425354,correct
+TT00CE11__TT00DS73,mixed_discard,TT00CE11,Data Security Controls,TT00DS73,Front-End Development,,0,0,0.3885011374950409,correct
+TT00CE11__TT00DS75,mixed_discard,TT00CE11,Data Security Controls,TT00DS75,Mobile Application Development,,0,0,0.37152451276779175,correct
+TT00CE12__TT00CE14,mixed_discard,TT00CE12,Security Operations Center,TT00CE14,Malware Analysis,,0,0,0.4905622899532318,correct
+TT00CE12__TT00CE16,mixed_discard,TT00CE12,Security Operations Center,TT00CE16,Reverse Engineering,,0,0,0.42346012592315674,correct
+TT00CE12__TT00CE28,mixed_discard,TT00CE12,Security Operations Center,TT00CE28,Core Networks,,0,0,0.5110485553741455,correct
+TT00CE14__TT00CE17,mixed_discard,TT00CE14,Malware Analysis,TT00CE17,Web Application Security Testing,,0,0,0.5967682600021362,correct
+TT00CE14__TT00CE20,mixed_discard,TT00CE14,Malware Analysis,TT00CE20,Local Area Networks,,0,0,0.39308011531829834,correct
+TT00CE14__TT00CE21,mixed_discard,TT00CE14,Malware Analysis,TT00CE21,Cloud Architectures and Platforms,,0,0,0.4271376132965088,correct
+TT00CE14__TT00CE25,mixed_discard,TT00CE14,Malware Analysis,TT00CE25,Windows Infrastructure,,0,0,0.4223710596561432,correct
+TT00CE14__TT00CK80,mixed_discard,TT00CE14,Malware Analysis,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.3790774345397949,correct
+TT00CE14__TT00DB42,mixed_discard,TT00CE14,Malware Analysis,TT00DB42,Data Structures and Algorithms,,0,0,0.4309718608856201,correct
+TT00CE14__TT00DS35,mixed_discard,TT00CE14,Malware Analysis,TT00DS35,Introduction to Networks,,0,0,0.3277381360530853,correct
+TT00CE14__TT00DS61,mixed_discard,TT00CE14,Malware Analysis,TT00DS61,Object-Oriented Programming with Python,,0,0,0.4516812264919281,correct
+TT00CE14__TT00DS73,mixed_discard,TT00CE14,Malware Analysis,TT00DS73,Front-End Development,,0,0,0.39229273796081543,correct
+TT00CE14__TT00DS75,mixed_discard,TT00CE14,Malware Analysis,TT00DS75,Mobile Application Development,,0,0,0.45755428075790405,correct
+TT00CE16__TT00CE17,mixed_discard,TT00CE16,Reverse Engineering,TT00CE17,Web Application Security Testing,,0,0,0.5477806925773621,correct
+TT00CE16__TT00CE20,mixed_discard,TT00CE16,Reverse Engineering,TT00CE20,Local Area Networks,,0,0,0.39693212509155273,correct
+TT00CE16__TT00CE21,mixed_discard,TT00CE16,Reverse Engineering,TT00CE21,Cloud Architectures and Platforms,,0,0,0.47357791662216187,correct
+TT00CE16__TT00CE25,mixed_discard,TT00CE16,Reverse Engineering,TT00CE25,Windows Infrastructure,,0,0,0.42537161707878113,correct
+TT00CE16__TT00CK80,mixed_discard,TT00CE16,Reverse Engineering,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.4096517562866211,correct
+TT00CE16__TT00DB42,mixed_discard,TT00CE16,Reverse Engineering,TT00DB42,Data Structures and Algorithms,,0,0,0.471948504447937,correct
+TT00CE16__TT00DS35,mixed_discard,TT00CE16,Reverse Engineering,TT00DS35,Introduction to Networks,,0,0,0.32420241832733154,correct
+TT00CE16__TT00DS61,mixed_discard,TT00CE16,Reverse Engineering,TT00DS61,Object-Oriented Programming with Python,,0,0,0.4265033006668091,correct
+TT00CE16__TT00DS73,mixed_discard,TT00CE16,Reverse Engineering,TT00DS73,Front-End Development,,0,0,0.4409674406051636,correct
+TT00CE16__TT00DS75,mixed_discard,TT00CE16,Reverse Engineering,TT00DS75,Mobile Application Development,,0,0,0.443733811378479,correct
+TT00CE17__TT00CE28,mixed_discard,TT00CE17,Web Application Security Testing,TT00CE28,Core Networks,,0,0,0.3911394476890564,correct
+TT00CE20__TT00CE28,mixed_discard,TT00CE20,Local Area Networks,TT00CE28,Core Networks,"Both cover backbone and LAN networking protocols, routing, and network design as core content.",1,1,0.690693199634552,correct
+TT00CE21__TT00CE28,mixed_discard,TT00CE21,Cloud Architectures and Platforms,TT00CE28,Core Networks,,0,0,0.5569226741790771,correct
+TT00CE25__TT00CE28,mixed_discard,TT00CE25,Windows Infrastructure,TT00CE28,Core Networks,,0,0,0.5109187960624695,correct
+TT00CE28__TT00CK80,mixed_discard,TT00CE28,Core Networks,TT00CK80,Mathematical Basics of Graphics Programming,,0,0,0.3664436936378479,correct
+TT00CE28__TT00DB42,mixed_discard,TT00CE28,Core Networks,TT00DB42,Data Structures and Algorithms,,0,0,0.4087229371070862,correct
+TT00CE28__TT00DS35,mixed_discard,TT00CE28,Core Networks,TT00DS35,Introduction to Networks,,0,0,0.5978235006332397,correct
+TT00CE28__TT00DS61,mixed_discard,TT00CE28,Core Networks,TT00DS61,Object-Oriented Programming with Python,,0,0,0.36416709423065186,correct
+TT00CE28__TT00DS73,mixed_discard,TT00CE28,Core Networks,TT00DS73,Front-End Development,,0,0,0.42910295724868774,correct
+TT00CE28__TT00DS75,mixed_discard,TT00CE28,Core Networks,TT00DS75,Mobile Application Development,,0,0,0.34127068519592285,correct

@@ -1,0 +1,2729 @@
+[
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Data Networks",
+    "course_unit_code": "TT00CD70",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Pasi Hyytiäinen"
+    ],
+    "objective": [
+      "You learn the structure and protocols of data networks used by computers and other end devices.",
+      "You know the principles of planning a data network.",
+      "You are familiar with protocols and data transmission principles used on the Internet.",
+      "You know the layers of the OSI model and identify the technologies and protocols used on each layer.",
+      "You can design a local area network using switches, routers, workstations, and servers.",
+      "You are able to design cabling, switching topology, and routing scheme to run the data network.",
+      "You know the different devices used on a network, such as switches, routers, firewalls, and wireless base stations.",
+      "You can change, handle, and save the configuration used in network devices.",
+      "You know how local area networks interconnect to one another through wide area networks."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the main modeling methods of data networks.",
+        "You have knowledge and understanding of data networks and their effects.",
+        "You know the basic principles of network design and how to configure network devices."
+      ],
+      "engineering_practice": [
+        "You can apply data network skills to communication between devices."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes": [],
+    "content": [
+    "In this course, you will learn the principles of network structure and protocol design, as well as the principles of Internet communication.",
+    "You will master the layers of the OSI model and be able to design and implement local area networks using switches, routers and servers.",
+    "You will learn how to design cabling and routing plans and how to handle network equipment configurations.",
+    "You will also understand how to efficiently connect local area networks to backbone networks.",
+    "The contents stated through the OSI model:",
+    "Layer 1: physical cabling (copper, fiber), wireless local area networks, basic modulations in data transfer, and devices.",
+    "Layer 2: Ethernet switching, network segmentation (VLANs), loop detection (Spanning Tree), and MAC addressing.",
+    "Layer 3: IPv4 and IPv6 addressing, subnetting, routing (Static, OSPF and BGP), DHCP, and ARP.",
+    "Layer 4: TCP and UDP.",
+    "Layers 5 to 7: SSH, HTTP, DNS, and SMTP.",
+    "In addition, best practices in network design and configuration management are covered in the course."
+  ],
+    "prerequisites": [
+      "Linux Basics"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows the theory on network protocols sufficiently and is able to recognize some sections of existing solutions. The student can design and implement few parts of a small-scale network infrastructure based on given requirement specification.",
+        "2": "The student knows the theory on network protocols satisfactorily and is able to recognize existing solutions. The student can design and implement some parts of a small-scale network infrastructure based on given requirement specification.",
+        "3": "The student has good knowledge of the theory on network protocols and is able to analyze existing solutions. The student is able to design and implement most parts of a network infrastructure based on given requirement specification.",
+        "4": "The student masters the theory on network protocols very well and is able to analyze existing solutions. The student is able to plan and implement almost all parts of a network infrastructure based on given requirement specification.",
+        "5": "The student has excellent command of the theory on network protocols and is able to analyze existing solutions and create new solutions. The student is able to design and implement all parts of a large-scale network infrastructure based on given requirement specification."
+      },
+      "pass_fail_criteria": "The student has sufficient knowledge of the theory on network protocols and is able to recognize some sections of existing solutions. The student can design and implement few parts of a small-scale network infrastructure based on given requirement specification."
+    }
+  },
+
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Linux Basics",
+    "course_unit_code": "TT00CD71",
+    "credits": 4,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Juho Pekki",
+      "Teemu Siikaniemi"
+    ],
+    "objective": [
+      "After completing the course, you will understand the most important concepts of the Linux operating system (Linux OS) and know how to work with and manage the operating system using a text-based user interface.",
+      "After completing the course you can explain the key concepts of the Linux operating system and use basic commands and auxiliary programs given from the command line. You can manage the filesystem, user accounts and groups and understand the importance of access rights management. You can use package management systems to install and update software. You can monitor and manage system processes and services. You can solve common problems and troubleshoot using log files and network tools."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand the key concepts and architecture of the Linux operating system. You understand the importance of managing user accounts and groups."
+      ],
+      "engineering_practice": [
+        "You know how to manage the key functions of the Linux system and use command-line tools. You know how to manage the filesystem and user account permissions. You know how to install and update software and manage system processes and services."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes": [],
+    "content": [
+      "In this course, you will learn how to effectively manage the Linux operating system using a text-based interface. You will understand key concepts and be able to use basic command line commands and utilities. You will learn how to manage the file system, user accounts and groups, and install and update software using package management systems. You will also be able to monitor system processes, solve common problems and troubleshoot using log files and network tools.",
+      "Structure of filesystem",
+      "Basic commands of the filesystem",
+      "Access permissions",
+      "Auxiliary programs and tools",
+      "Package management",
+      "Process management",
+      "User management"
+    ],
+    "prerequisites": [],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You are familiar with the basic concepts of the Linux operating system and can use basic commands. You know how to create user groups, add users to them, and modify file and directory permissions at a basic level.",
+        "2": "You understand the meaning of permissions and you are able to apply permissions in the management of filesystems. You know how to use simple command-line tools and auxiliary programs to perform tasks.",
+        "3": "You know how to use groups to restrict access and manage user permissions. You understand the basics of package management and know how to install and update software. You know how to use various commands proficiently.",
+        "4": "You know how to use groups to restrict access and manage user permissions effectively. You know how to use various commands proficiently. You understand the importance of process management and can manage active processes and services. You know how to schedule basic tasks using system tools.",
+        "5": "You know how to comprehensively apply user groups and permission management, and combine various command-line tools to increase productivity. You know how to manage processes and various services comprehensively and effectively. You know how to schedule complex tasks using system tools. You know how to identify system problems using log files, documentation, and online resources."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Servers and containers",
+    "course_unit_code": "TT00CD72",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Juho Pekki",
+      "Teemu Siikaniemi"
+    ],
+    "objective": [
+      "You understand the fundamental types and functions of servers. You understand the key concepts of various services offered by cloud computing. You are able to distinguish between various cloud service models and can utilize basic cloud services.",
+      "You comprehend the core principles of virtualization. You can differentiate between the types of virtualization and hypervisors and are proficient in setting up and managing virtual machines. You understand the key concepts of containerization. You understand the architecture and various components of container platforms, and you are able to build, run, and manage containers.",
+      "You understand the need for managing containerized applications at scale and are familiar with orchestration tools, which help in deploying, scaling, and managing containerized applications. You understand concepts related to container networking and persistent storage, and can implement solutions in these areas within a containerized environment. You recognize the importance of security measures in container deployments."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand the fundamental types and functions of servers. You are able to distinguish between various cloud service models. You understand the core principles of virtualization, containerization, and orchestration, and recognize their use cases. You understand concepts related to container networking, persistent storage, and security."
+      ],
+      "engineering_practice": [
+        "You are able to utilize basic cloud services and create virtual machines. You are able to build, run, and manage containers, and use orchestration tools to deploy, scale, and manage containerized applications."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the basic concepts of servers and cloud computing, and differentiate between different cloud service models. You will master the principles of virtualisation and be able to create and manage virtual machines and containers. You will learn how to use orchestration tools to manage containers and understand the principles of container networking and persistent storage. You will also understand the importance of information security in the use of containers and be able to implement related solutions.",
+      "Servers",
+      "Cloud service models",
+      "Virtualization",
+      "Container technology",
+      "Container orchestration"
+    ],
+    "prerequisites": [
+      "Linux Basics",
+      "Data Networks",
+      "Databases"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You are to some extent familiar with the basic concepts of the servers and virtualization and know how to create your own virtual machines. You know how to manage single containers and create simple container images.",
+        "2": "You have satisfactory understanding of the basic concepts of the servers and virtualization and know how to create your own virtual machines. You know how to manage stacks of multiple containers satisfactorily and create simple container images.",
+        "3": "You have a good understanding of the basic concepts of the servers and virtualization and know how to create your own virtual machines. You know how to effectively manage stacks of multiple containers and create container images tailored to specific needs.",
+        "4": "You have a proficient understanding of the basic concepts of the servers and virtualization and know how to create your own virtual machines. You know how to excellently manage stacks of multiple containers and create container images tailored to specific needs.",
+        "5": "You master the basic concepts of the servers and virtualization and know how to create your own virtual machines. You master how to manage stacks of multiple containers and create container images tailored to specific needs."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Windows Basics",
+    "course_unit_code": "TT00CD75",
+    "credits": 4,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Esa Hintikka"
+    ],
+    "objective": [
+      "You understand and know how to use Windows management tools and resource monitoring tools. You are able to diagnose and solve the most common problems on a Windows workstation. You know how to set access rights and manage information security in a Windows environment."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the key basic features and tools of the Windows operating system."
+      ],
+      "engineering_practice": [
+        "You know how to manage the most important functions of the Windows system. You know how to manage the file system and user account rights. You know how to install and update software and manage system processes and services."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course you will learn how to use Windows management tools and monitoring tools effectively. You will be able to diagnose and solve common problems on Windows workstations. You will learn how to set permissions and manage security in a Windows environment. This course will give you the skills to manage Windows workstations in a professional and secure way.",
+      "Windows file system and disk management",
+      "Management of users and access rights",
+      "Device management",
+      "Management of networks",
+      "Security features",
+      "Management of processes and services",
+      "Management of operating system events",
+      "Troubleshooting and problem solving techniques in Windows environment",
+      "Windows registry"
+    ],
+    "prerequisites": [],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know the basic features of the Windows operating system and know how to use some management and monitoring tools. There are shortcomings in troubleshooting and problem solving.",
+        "2": "You know the basic features of the Windows operating system and know how to use most of the key management and monitoring tools. You can perform basic troubleshooting and problem solving, but you may need guidance in more complex situations.",
+        "3": "You have a deep understanding of the operation of the Windows operating system and know how to make versatile use of management and monitoring tools. Problem solving and troubleshooting work is performed independently in the most common situations.",
+        "4": "You know how to effectively manage and monitor a Windows workstation, take into account information security practices, and troubleshoot even more complex problems.",
+        "5": "You have an excellent command of using and managing the Windows operating system. You know how to analyze and solve even more challenging problems independently, and you demonstrate a deep understanding of the management and monitoring tools of the Windows operating system."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Basics of Programming",
+    "course_unit_code": "TT00CD77",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Esa Salmikangas",
+      "Pasi Hyytiäinen"
+    ],
+    "objective": [
+      "You know the most essential concepts of programming and understand the basic theory. You know how to make small interactive programs. You know how to apply programming in solving practical problems."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You are familiar with device interfaces and understand the basic ideology of programming."
+      ],
+      "engineering_practice": [
+        "You know how to apply programming skills to communication between devices"
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the main concepts and basic theory of programming, and you will be able to create small interactive programs. You will understand device interfaces and the basic ideology of programming, which will help you apply programming to solve practical problems. You will also learn how to apply programming skills to communication between devices. This course will give you a strong foundation in programming and engineering solutions.",
+      "Git version control",
+      "basic use of the application development tool, debugging",
+      "variables, variable types, constants",
+      "functions, subroutines",
+      "strings and their processing",
+      "list, arrays, collections",
+      "data structures: struct, class, object",
+      "sequential structure, branching structure, repeating structure",
+      "exception handling",
+      "file processing"
+    ],
+    "prerequisites": [
+      "It is recommended that participants have fundamental IT skills."
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know the concepts and basic theory of programming to some extent. You can implement some simple programs. You have only completed a part of the course assignments .",
+        "2": "You mainly know programming concepts and basic theory. You can implement some small programs using this knowledge. You have completed most of the course assignments.",
+        "3": "You know and understand well the concepts and possibilities of programming. You can apply your knowledge to the solutions of practical tasks. You have completed most of the course assignments. You have made a small-scale working program on a topic of your choice.",
+        "4": "You demonstrate a broader knowledge and understanding of the concepts and possibilities of programming. You have completed the course assignments. You have made a working program on a topic of your choice.",
+        "5": "You demonstrate extensive knowledge and understanding of programming concepts and possibilities. You have completed all the assignments of the course. You have made a broad and functional program solving some practical need on your chosen topic."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Frontend Programming",
+    "course_unit_code": "TT00CD78",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Pasi Manninen"
+    ],
+    "objective": [
+      "You know and understand the possibilities of different application frameworks to implement web applications that works in the web browser, respond and scale to different user needs. You understand the Full Stack application development in the client side. You are able to design and implement scalable web applications with application frameworks. You can load and show external data in your web application."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the possibilities of different application frameworks and know how to apply them to implement web applications"
+      ],
+      "engineering_practice": [
+        "You know how to apply programming skills to communication between devices"
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course you will learn how to use different application frameworks to implement web applications that scale to different needs. You will understand the principles of implementing a full stack application in terms of the user interface layer and be able to design responsive web applications. You will learn how to use external data as part of your application and apply programming skills for device-to-device communication. This course will give you the skills to create modern and scalable web applications.",
+      "SPA application architecture",
+      "JSX markup and development process",
+      "Application state and lifecycle",
+      "Component properties and events",
+      "Using external service interfaces and data visualization",
+      "Advanced communication between components",
+      "Routing between pages",
+      "Application publishing"
+    ],
+    "prerequisites": [
+      "Basics of Programming",
+      "Web Technologies",
+      "JavaScript Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know and understand the prospects of the selected web application framework programming; however, to produce an application with the technology causes difficulties. You have only completed a part of the course assignments. You are able to plan and create a small-scale web application, which uses external data weakly.",
+        "2": "You know and understand the programming possibilities of the web application framework you have chosen, and you know how to apply your knowledge to solutions for practical tasks. You have completed the most important assignments of the course. You know how to apply your skills in the chosen field of technology and implement a web application that utilizes external information.",
+        "3": "You are able to analyse the prospects of the selected web application framework programming and create a web application, which uses external data acceptably. You have completed most of the course assignments. Your research task topic is conventional. The documentation attached to the research task describes the introduction, configuration, structure, and implementation of the application. You are able to analyse your own choices in a seminar presentation.",
+        "4": "You are able to assess the programming prospects of the selected web application framework and can create a web application that uses external data comprehensively. You have completed almost all the assignments of the course. Your research task topic is demanding. The documentation attached to the research task describes the introduction, configuration, structure, implementation, and release of the web application extensively. You are able to assess and validate your own solutions in a seminar presentation. You master responsible project work and the high-quality documentation related to it.",
+        "5": "You are able to assess the programming prospects of the selected web application framework critically and can create a web application that uses external data widely. You have completed all the course assignments. Your research task topic is challenging and extensive. The documentation attached to the research assignment describes the introduction, configuration, structure, implementation, release, and testing of the used technology extensively and flawlessly. You are able to assess and validate your own choices critically in a seminar presentation. You master responsible project work and the high-quality documentation related to it."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Basics of Web Development",
+    "course_unit_code": "TT00CD79",
+    "credits": 4,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Kari Niemi"
+    ],
+    "objective": [
+      "In the course, you familiarise yourself with the basics of creating websites following good practices. After attending the course, you are able to define, plan and implement a standard and valid website, taking into account the target group using HTML and CSS technologies."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the web development process and its different stages as well as the definition of the target group."
+      ],
+      "engineering_practice": [
+        "You know the HTML5 standard and CSS style design and are able to create standard-compliant websites designed for the target group using basic techniques."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the basics and good practices of website design. By the end of the course, you will be able to define, design and implement a standard and valid website using HTML and CSS techniques, taking into account the needs of the target audience. You will be familiar with the different stages of the web development process and be able to apply HTML5 and CSS styling in practice. This course will enable you to create professional and targeted websites.",
+      "Basics and documentation of website definition and design (e.g. synopsis, structure diagram, layout plan, testing, etc.).",
+      "Website development process",
+      "Website Structure Syntax (HTML5)",
+      "Designing the layout of the page with styles (CSS)",
+      "Validation and accessibility considering different browsers",
+      "Publishing to the Internet on a web server"
+    ],
+    "prerequisites": [
+      "ICT Skills"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know Web standards and style design and how to produce a simple, valid and accessible website, taking the target group into account to some extent.",
+        "2": "You understand Web standards and style design and can produce a valid and accessible website, taking the target group into account to some extent. The course assignment is documented but limited.",
+        "3": "You know the HTML standard and style design and you know how to produce a valid and accessible website taking into account the target group. The course assignment is documented in accordance with the requirements.",
+        "4": "You master the HTML standard and style design and know how to produce a functional, valid and accessible site, and for the most part, the target group has been taken into account. The documentation of the course assignment is thorough and error-free.",
+        "5": "You have a comprehensive mastery of Web standards and style design and know how to produce an attractive (composition, graphics, colors, fonts, etc.), valid and accessible website, taking the target group into account in depth. The documentation of the course assignment is comprehensive, thorough, and error-free."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "JavaScript Programming",
+    "course_unit_code": "TT00CD80",
+    "credits": 3,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Ari Rantala"
+    ],
+    "objective": [
+      "You know and understand the possibilities of the JavaScript language for implementing programs to be executed by a web browser. You know how to design and implement small web applications that can be run in a web browser using JavaScript."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the possibilities of the JavaScript programming language to implement web applications and you understand the basic ideology of their operation"
+      ],
+      "engineering_practice": [
+        "You know how to apply programming knowledge to communication between web applications"
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn how to exploit the potential of the JavaScript language to implement web applications. You will be able to design and implement small applications that run in a web browser and meet today's needs. You will understand the basic ideology of JavaScript and be able to apply your programming skills to communicate between web applications. This course will give you the skills to create interactive and functional web applications.",
+      "A web browser as a programming environment",
+      "Basic features of the JavaScript language",
+      "Variables, constants and objects",
+      "Functions, anonymous functions, call back functions and arrow functions",
+      "DOM structure and manipulations",
+      "JSON, Promise and Fetch API"
+    ],
+    "prerequisites": [
+      "Basics of Programming", 
+      "Basics of Web Development"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know and understand the programming possibilities of JavaScript language and the tools to work with. You have completed only a part of the assignments. You are able to plan and create a small-scale web application.",
+        "2": "You know how to design and implement a web application that utilizes the most important content of the course. You have completed the most important assignments of the course.",
+        "3": "You know how to design and implement a web application that utilizes most of the course content. You have completed most of the assignments in the course.",
+        "4": "You know and understand the programming possibilities of the Javascript language well, and you know how to apply your knowledge to the solutions of practical tasks. You have completed almost all course assignments. Your research task topic is conventional. The documentation attached to the research task describes the introduction, configuration, structure, and implementation of the application. You are able to analyse your own choices in a seminar presentation.",
+        "5": "You are able to assess the prospects of JavaScript language and you know how to apply your knowledge to solutions of practical tasks very well. Your research task topic is challenging and extensive. Your research assignment is comprehensively and clearly documented. You are able to assess and validate your own choices critically."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Databases",
+    "course_unit_code": "TT00CD81",
+    "credits": 3,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Ari Rantala"
+    ],
+    "objective": [
+      "You know the basic concepts of databases, you understand the generic structure of database system and its operational principle, you can read and create a database description based on the assignment, and you know the basics of SQL."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the basic structures and concepts of databases."
+      ],
+      "engineering_practice": [
+        "You know how to search for, modify and supplement information stored in the database using database queries."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course you will learn the basic concepts of databases and understand the structure and principles of a database system. You will master the basics of the SQL language and be able to read and write database descriptions as required. You will learn how to retrieve, edit and complete information stored in a database using database queries. This course will give you a strong foundation in database management and use in practical applications.",
+      "Basic concepts related to databases",
+      "Database design with conceptual analysis",
+      "Basics of SQL including database queries and database management"
+    ],
+    "prerequisites": [],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You are able to design and implement a simple database by creating a connection between at least two tables using basic and reference keys and make simple queries with SQL. You have only completed a part of the course exercises.",
+        "2": "You are able to design and implement a database and make basic queries with SQL. The assignment documentation contains at the very least a database description. You have completed the most focal exercises of the course.",
+        "3": "The database completed as assignment has been designed and implemented almost flawlessly and the student's command of SQL is versatile. You have completed the most part of the exercises in the course.",
+        "4": "You are able to design and implement a database where the choices have been justified. You have a comprehensive understanding of SQL basic commands. The documentation of the assignment is thorough and the given presentation has been fluent. You have completed almost all course exercises.",
+        "5": "You are able to design and implement database in which the content of the course has been widely applied. The choices have been justified and the metadata saved. You are able to use SQL in demanding data retrieval tasks. The database documentation is extensive and understandable as well as well composed and fluently presented. You are able to critically assess your competence in your solutions."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Data Structures and Algorithms",
+    "course_unit_code": "TT00CD83",
+    "credits": 3,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Juha Peltomäki"
+    ],
+    "objective": [
+      "The course provides a strong foundation for knowing and analyzing algorithms and data structures. You will learn search and sorting algorithms and abstract data structures, such as lists, tables, queues, and stacks."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the key concepts related to algorithms and their implementation. You know the most central abstract data structures."
+      ],
+      "engineering_practice": [
+        "You know how to choose the data structures suitable for the implementation of the algorithm. You know how to evaluate the implementation and efficiency of an algorithm."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "This course will give you a strong foundation in the knowledge and analysis of algorithms and data structures. You will learn about key search and ordering algorithms and abstract data structures such as lists, tables, queues and stacks. You will be able to select the appropriate data structures for an algorithm implementation and evaluate their performance. This course will give you the skills to solve complex problems efficiently and creatively.",
+      "algorithm types",
+      "efficiency classification and analysis of algorithms",
+      "search and sorting algorithms",
+      "abstract data structures",
+      "lists and arrays",
+      "queue and stack",
+      "linked list",
+      "trees"
+    ],
+    "prerequisites": [
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know the algorithm concept. You recognize abstract data structures. You know how to implement an algorithm with some data structure.",
+        "2": "You know concepts related to algorithms and their implementation. You know the most common linear data structures. You know how to implement an algorithm with some data structure. You can evaluate the implementation of a simple algorithm.",
+        "3": "You know the key concepts related to algorithms and their implementation. You are familiar with the most central abstract data structures. You can implement the algorithm with the selected data structure. You know how to evaluate algorithm implementation and measure efficiency.",
+        "4": "You know the concepts related to algorithms and their implementation. You are familiar with the operating principles of abstract data structures. You recognize the data structures that are well suited to the implementation of the algorithm. You can analyze the implementation and efficiency of the algorithm.",
+        "5": "You know the concepts related to algorithms and their implementation. You can recommend abstract data structures suitable for the problem. You know how to choose the data structures best suited to the implementation of the algorithm. You know how to analyze the implementation of the algorithm and, if necessary, improve its efficiency."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Data analytics and artificial intelligence",
+    "course_unit_code": "TT00CD84",
+    "credits": 4,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Antti Häkkinen"
+    ],
+    "objective": [
+      "In the course, you will get an overview of the methods, possibilities and applications of data analytics and artificial intelligence, as well as the most common programming environments and libraries used in them."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand the key concepts of data analytics and artificial intelligence. In addition, you will recognize the different stages of data processing and the libraries suitable for them."
+      ],
+      "engineering_practice": [
+        "You know how to choose libraries suitable for different stages of data analytics and machine learning and use them as part of data processing."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "This course will give you a comprehensive overview of the methods, possibilities and applications of data analytics and artificial intelligence. You will learn to understand the key concepts and identify the different stages of data processing and the libraries that can be used for them. You will be able to select and use libraries suitable for the different stages of data analytics and machine learning in practical data processing. This course will enable you to apply data analytics and artificial intelligence methods in a variety of situations.",
+      "Data sources",
+      "Data analysis",
+      "Data visualisation",
+      "Machine learning"
+    ],
+    "prerequisites": [
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know the basic concepts of data analytics and artificial intelligence superficially. You know how to use some methods as part of data processing.",
+        "2": "You know the key concepts of data analytics and artificial intelligence. You know how to apply your knowledge at a basic level in data processing problems.",
+        "3": "You understand the key concepts and basic principles of data analytics and artificial intelligence. You know how to apply your knowledge consistently and successfully in most data processing situations.",
+        "4": "You have a deep understanding of the key concepts and methods of data analytics and artificial intelligence. You know how to apply your information effectively and analyze the results even in more demanding data processing problems.",
+        "5": "You have an excellent command of the concepts of data analytics and artificial intelligence and combine information from different sources seamlessly. You can apply your knowledge effectively and analyze the results clearly and critically even in more demanding data processing problems."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Backend Programming",
+    "course_unit_code": "TT00CD85",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Teemu Siikaniemi"
+    ],
+    "objective": [
+      "You will be introduced to the basics of backend application development, including the features and operating principles of the most common server frameworks. You will learn important areas such as database integration, error handling, API design, and the fundamentals of user management. You will also delve into testing practices and the publication of applications."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand the fundamental principles and key technologies of backend application development. You are familiar with and understand the programming capabilities and limitations of the chosen backend application framework."
+      ],
+      "engineering_practice": [
+        "You demonstrate the ability to design, develop, and maintain functional backend applications. You can implement backend applications that communicate efficiently with databases and other services. You show the ability to test and publish backend applications and are aware of security considerations. You are able to assess the suitability of the chosen technology for different projects and situations."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the basics of backend application development and learn how to use the most common server frameworks. You will learn how to integrate databases, handle errors, design API interfaces and manage users. You'll also delve deeper into testing practices and application publishing, taking security considerations into account. This course will give you the skills to design, develop and maintain efficient and secure backend applications.",
+      "Backend frameworks",
+      "Server-side programming patterns and practices",
+      "Data storage",
+      "Data validation and sanitization",
+      "Error handling and debugging",
+      "User authentication and authorization",
+      "Session management",
+      "Testing backend applications",
+      "Deployment",
+      "Advanced API design"
+    ],
+    "prerequisites": [
+      "Basics of Programming", 
+      "Web Technologies", 
+      "JavaScript Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know and understand the capabilities of the selected backend framework. You have only completed a part of the course exercises. You can plan and create a small-scale backend application that communicates with a database in a limited way.",
+        "2": "You know and understand the programming possibilities of the backend application framework you have chosen, and you know how to apply your knowledge to solutions to practical tasks. You have completed the most important exercises of the course. You know how to apply your skills in the chosen field of technology and implement a backend application that communicates with a database.",
+        "3": "You can analyse the capabilities of the selected backend framework and create a backend application which communicates with a database or other services proficiently. You have taken security considerations into account. You have completed most of the course exercises.",
+        "4": "You can assess the capabilities of the selected backend framework and create a backend application that communicates with a database and external services comprehensively. Your application includes authentication and role-based authorization. You have completed almost all the tasks of the course. Your research task topic is conventional. The documentation attached to the research task describes the introduction, configuration, structure, implementation, and release of the backend application extensively. You can analyze your own solutions in a seminar presentation.",
+        "5": "You can assess the capabilities of the selected backend framework critically and create a backend application that communicates with databases and external services comprehensively. You have completed all the course assignments. Your research task topic is challenging and extensive. The documentation attached to the research assignment describes extensively and faultlessly the introduction, configuration, structure, implementation, release, and testing of the used technology . You can assess and validate your own choices critically in a seminar presentation."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Cyber Security",
+    "course_unit_code": "TT00CD86",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Jarmo Viinikanoja",
+      "Jarmo Nevala"
+    ],
+    "objective": [
+      "You will master the most central areas related to cyber security: concepts (e.g. confidentiality, integrity and availability), standards and legislation (e.g. data protection, protection levels). You understand how these are applicable in personal, social and organizational cyber security. You will get to know technical methods that can be used to protect systems, detect flaws and ensure data integrity, for example. You know the security mechanisms used in data transfer in relation to reliability and availability, as well as the operating principles and effects of malware and vulnerabilities."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the basic principles of cyber security and information security. You understand the importance of these in personal, social and organizational cyber security and how to protect yourself, detect flaws and ensure data integrity"
+      ],
+      "engineering_practice": [
+        "You can analyze threats related to cyber security by applying practice and theory and identifying these"
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the key concepts, standards and legislation of cybersecurity and how to apply them to personal, societal and organisational cybersecurity. You will learn technical methods to protect systems, detect vulnerabilities and ensure data integrity. You will learn about the security mechanisms used in data transmission, the principles and effects of malware and vulnerabilities. This course will equip you to analyse and manage cyber security threats effectively.",
+      "Introduction to Cyber Security",
+      "Social cyber security",
+      "Legislation, data protection",
+      "Personal cyber security",
+      "Risk management",
+      "Malware, threats and vulnerabilities",
+      "Organizational cyber security"
+    ],
+    "prerequisites": [
+      "Linux Basics",
+      "Data Networks"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands the basic concepts of cyber security and related theory. The student knows how to use cyber security tools with assistance.",
+        "2": "The student knows and understands the basic concepts of cyber security and the related theory. The student knows how to use cyber security tools in a controlled manner.",
+        "3": "The student knows and understands the basic concepts of cyber security and the related theory in a versatile way. The student knows how to use cyber security tools.",
+        "4": "The student knows and understands the concepts of cyber security and the related theory in a versatile way. The student knows how to use cyber security tools in an advanced manner.",
+        "5": "The student knows and understands the concepts of cyber security and the related theory excellently. The student knows how to use and select suitable cyber security tools in an advanced manner, and is able to use new tools independently."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Information Security Technologies",
+    "course_unit_code": "TT00CD87",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Jarmo Nevala",
+      "Jarmo Viinikanoja"
+    ],
+    "objective": [
+      "The student knows different information security techniques and is able to apply them. The student knows and understands the uses of various information security technologies, as well as the opportunities they bring."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You will know the basic methods of protection by applying theory and practice. You understand the importance of these in ensuring IT infrastructure and business continuity."
+      ],
+      "engineering_practice": [
+        "You can analyze methods related to information security technologies applying practice and theory and identifying them."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn to know and apply different security technologies and understand their uses and potential. You will master basic security techniques and understand their importance in ensuring IT infrastructure and business continuity. You will be able to analyse security technologies and apply them in practice. This course will equip you to ensure effective and proactive security.",
+      "The course includes the different areas of information security technologies and commonly used techniques and equipment as well as their roles in ensuring IT infrastructure and business continuity.",
+      "Communication management and monitoring",
+      "Identifying vulnerabilities",
+      "Securing data transmission"
+    ],
+    "prerequisites": [
+      "Data Networks",
+      "Cyber Security",
+      "Linux Basics"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands the basic concepts of information security technologies and related theory. The student knows how to use the tools used in information security technology with assistance.",
+        "2": "The student knows and understands the basic concepts of information security technologies and the related theory. The student knows how to use the tools used in information security technology in a controlled manner.",
+        "3": "The student knows and understands the basic concepts of information security technologies and the related theory in a versatile way. The student knows how to use the tools used in information security technology.",
+        "4": "The student knows and understands the concepts of information security technologies and the related theory in a versatile way. The student knows how to use the tools used in information security technology in an advanced manner.",
+        "5": "Excellent 5: The student knows and understands the concepts of information security technologies and the related theory excellently. The student knows how to use and select appropriate tools used in information security technology in an advanced manner and is able to use new tools independently."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Web Application Security Testing",
+    "course_unit_code": "TT00CE17",
+    "credits": 5,
+    "teaching_language": [
+      "English",
+      "Finnish"
+    ],
+    "responsible_person": [
+      "Jarmo Viinikanoja",
+      "Joonatan Ovaska"
+    ],
+    "objective": [
+      "The student learns to understand the most common causes related to the security of web applications, learns to use tools and methods for detecting and exploiting common web applications and knows how to propose corrections to the risks found."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the basic methods related to the security of web applications by applying theory and practice. You understand their importance when you implement analysis for web applications."
+      ],
+      "engineering_practice": [
+        "You can analyze the security of web applications using related methods applying practice and theory."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn to understand the root causes of common web application security issues and use tools and methods to detect and exploit vulnerabilities in web applications. You will be able to provide remediation suggestions for identified risks. You will understand the basic methods related to web application security and their importance in analysis. The course equips you with the skills to analyze web application security in both practical and theoretical contexts.",
+      "This course deals with applied cyber security. We go through common web application vulnerabilities through several practical exercises, using mostly real examples.",
+      "We deal with various weaknesses related to web applications, such as identification of authentication, input validation, and configuration errors.",
+      "We discuss the current trends in the cyber security environment and their effects on the network.",
+      "OWASP TOP 10",
+      "Bug Bounty"
+    ],
+    "prerequisites": [
+      "Cyber Security",
+      "Linux Basics"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands the basic concepts and theory related to the security of web applications. The student is able to use the tools needed to test the security of web applications with assistance. The student knows that risks related to the security of web applications affect users of web applications in many areas.",
+        "2": "The student knows and understands the basic concepts related to the security of web applications and the related theory. The student knows how to use the tools needed to test the security of web applications in a guided manner. The student knows that the risks related to the security of web applications and their effects on web application users are multifaceted.",
+        "3": "The student knows and understands the basic concepts related to the security of web applications and the related theory in a versatile way. The student knows how to use the tools needed to test the security of web applications. The student knows the risks related to the security of web applications and their effects on web application users in various fields.",
+        "4": "The student knows and understands the concepts related to the security of web applications and the related theory in a versatile way. The student knows how to use the tools needed to test the security of web applications in an advanced manner. The student knows the risks related to the security of web applications and their effects on multidisciplinary web application users and other stakeholders.",
+        "5": "The student knows and understands the concepts related to the security of web applications and the related theory excellently. The student knows how to use the tools needed to test the security of web applications in an advanced manner, and is able to use new tools independently. The student knows and understands the risks related to the security of web applications and their multidisciplinary effects on web application users and other stakeholders."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Software Design",
+    "course_unit_code": "TT00CD90",
+    "credits": 4,
+    "teaching_language": [
+      "Finnish"
+    ],
+    "responsible_person": [
+      "Marko Rintamäki"
+    ],
+    "objective": [
+      "After completing the course, you will learn the principles, methods and tools of software engineering. The primary goal is to strengthen the definition and service design skills and to teach how to document the customer's needs in such a way that they are useful for the product development team. You will learn to use the commonly used UML (Unified Modeling Language) description language. The UML description method is introduced to the most common uses, such as use case (Use Case), sequence diagram (Sequence Diagram), state machine description (State Chart) or deployment diagram (Deployment Diagram). To help with the definition, the use of so-called MockUp tool is learned."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "The student knows how to define software solutions that meet the requirements and take into account the limitations.",
+        "The student knows how to follow professional, ethical and legal principles in software design."
+      ],
+      "engineering_practice": [
+        "The student knows how to analyze software requirements and form the basis for implementing a software package.",
+        "The student knows how to choose and use well-known software design methods, tools and standards.",
+        "The student knows how to clearly document and communicate the software design process and solutions."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[
+        "The student can evaluate the results of software engineering and their effects on society, environment and safety."
+      ],
+      "communication_and_teamwork": [
+        "The student knows how to work independently and in a group in software design projects.",
+        "The student is able to share information between different parties using description methods suitable for the purpose."
+      ],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the principles, methods, and tools of software design. The primary goal is to strengthen your skills in requirements specification and service design, and to teach you how to document customer needs in a way that is useful for the product development team. You will learn to use the UML (Unified Modeling Language) and become familiar with common methods such as use case, sequence, state chart, and deployment diagrams. Additionally, you will learn to use MockUp tools to aid in requirements specification.",
+      "During the course, you will learn to understand how software design is part of software production. You will identify the tasks related to the initial phase of the software life cycle, such as definition and analysis of software requirements, selection of the software implementation method and the impact of different interfaces on the design. You will also learn to document the design using common description methods. You will learn to use tools suitable for software design support. You will learn to consider different standards, good practices and ethical issues in design."
+    ],
+    "prerequisites": [
+      "Data Networks",
+      "Databases",
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student must master the concepts and methods related to defining the software. Students are familiar with individual imaging methods. The student understands the importance of requirements definition as part of the software production process.",
+        "2": "The student satisfactorily masters the concepts related to the definition of software and understands the general goals of software engineering in the software production process. The student knows how to describe the functionalities of small-scale software and prepare a simple specification of requirements based on these.",
+        "3": "The student has a good command of the concepts and taught methods related to software engineering. The student knows how to use methods for software design and, if necessary, can produce a comprehensive requirements definition for a small software.",
+        "4": "The student has a good command of the concepts related to the definition of software and understands the importance of software design as part of the software production process. The student knows how to define the needs and features set for the software, and prepare a comprehensive requirements definition based on these.",
+        "5": "The student has an excellent command of the various concepts and methods related to the definition and design of software and understands the importance of design as part of the software production process. The student knows how to define a small information system and can take into account different perspectives in the definition, such as the end user, technology and business. The student is able to prepare a comprehensive definition of requirements, taking into account different perspectives."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Object Oriented Programming",
+    "course_unit_code": "TT00CD91",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Esa Salmikangas",
+      "Pasi Manninen"
+    ],
+    "objective": [
+      "You know how to design and document classes and objects and the interaction between them. You know how to program in an object-oriented programming language using classes and objects. You know how to apply object-oriented programming to solving practical problems."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand the basic ideology of object-oriented programming."
+      ],
+      "engineering_practice": [
+        "You can apply object-oriented programming knowledge in applications."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn to design and document classes and objects, as well as their interactions. You will program using an object-oriented programming language, utilizing classes and objects, and apply object-oriented programming to solve practical problems. You will understand the fundamental ideology of object-oriented programming and be able to apply your object-oriented programming skills in applications.",
+      "basics of object-oriented programming",
+      "defining and designing classes",
+      "object description language (UML)",
+      "object state and life cycle management",
+      "encapsulation",
+      "polymorphism",
+      "inheritance",
+      "aggregation",
+      "interfaces",
+      "collection classes",
+      "unit testing of classes"
+    ],
+    "prerequisites": [
+      "Basics of Programming",
+      "Data Structures and Algorithms"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know the concepts and basic theory of object-oriented programming to some extent. You can design, document and implement some simple class structures. You can implement some small programs using an object-oriented programming language. You have only completed a part of the course exercises.",
+        "2": "You know the concepts and basic theory of object-oriented programming for the most part. You know how to plan, document and implement standard class structures. You mainly know the object-oriented programming language, and you can use it to implement some small programs that fulfill practical needs. You have completed the most essential exercises of the course.",
+        "3": "You know and understand well the concepts and possibilities of object-oriented programming. You can apply your knowledge to the solutions of practical tasks. You have completed most of the exercises in the course.",
+        "4": "You master a broader knowledge and understanding of the concepts and possibilities of object-oriented programming. You can apply your knowledge to the solutions of practical tasks. You have completed almost all the tasks of the course.",
+        "5": "You master extensive knowledge and understanding of the concepts and possibilities of object-oriented programming. You can apply your knowledge to the solutions of practical tasks in an exemplary manner. You have completed all the tasks of the course."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Mathematical Basics of Graphics Programming",
+    "course_unit_code": "TT00CK80",
+    "credits": 2,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Ville Arvio"
+    ],
+    "objective": [
+      "In the course, you will familiarize yourself with the mathematics that is the basis of 2D and 3D graphics programming: vectors and matrices. After attending the course, you will know and understand the notation, basic concepts and operations of vectors and matrices. You understand the importance of vectors and matrices as the mathematical basis of 2D and 3D graphics programming, recognize their potential uses and know how to use vector and matrix calculations in simple graphics programming applications."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "Information and understanding of the natural scientific and mathematical principles of information and communication technology. Knowledge and understanding of the engineering sciences underlying one's field of specialization at a level that enables the achievement of other program outcomes, including an understanding of future requirements in one's field"
+      ],
+      "engineering_practice": [
+        "Understanding of applicable techniques and methods and their limitations"
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the mathematical foundations of 2D and 3D graphics programming, including vectors and matrices. By the end of the course, you will understand the significance of these concepts and be able to apply them in practical graphics programming. You will gain the skills to use vector and matrix calculations in simple applications and recognize their potential uses. This course provides a solid foundation for further studies and a career in graphics programming.",
+      "Concept of vector, basic operations of vectors, dot and cross product, definition of line and plane using vectors, concept of matrix, basic operations of matrices, determinant, inverse matrix, transformation matrices (rotation, scaling, transfer), orthogonal matrix, homogeneous coordinates, transformations between coordinate systems. Applications of concepts and operations, especially in 2D and 3D graphics programming."
+    ],
+    "prerequisites": [
+      "Math1 Equations",
+      "Math2 Functions",
+      "Math4 Discrete Mathematics"
+    ],
+    "assessment": {
+      "grading_scale": "Pass/Fail",
+      "criteria": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "pass_fail_criteria": "Passed: You know notations related to vectors and matrices. You understand the concepts of vector and matrix and know how to calculate basic calculations of vectors and matrices. You understand the importance of vector and matrix calculations in graphics programming and know how to apply vector and matrix calculations in simple applications in the field."
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Android Application Development",
+    "course_unit_code": "TT00CD93",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Pasi Manninen"
+    ],
+    "objective": [
+      "You understand the basic concepts related to Android programming and the most important stages of application development in the Android environment. After attending this course, you will be able to apply Android programming skills when implementing applications for various Android-based devices."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the basic methods of Android programming by applying theory and practice. You understand their significance when implementing an Android application."
+      ],
+      "engineering_practice": [
+        "You can analyze methods related to Android application development, applying practice and theory."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the basic concepts of Android programming and the key stages of application development in the Android environment. By the end of the course, you will be able to apply your Android programming skills to develop applications for various Android-based devices. You will understand the fundamental methods of Android programming and their significance in practical applications. This course equips you with the ability to analyze and apply Android application development methods in practice.",
+      "Introduction to Android application development and programming",
+      "Using an Android Studio",
+      "Design an application UI",
+      "Android messaging system with intents",
+      "Loading and displaying an external data",
+      "Using an Architecture Components",
+      "Using a Google Maps",
+      "Save data to local device",
+      "Get started with Jetpack Compose"
+    ],
+    "prerequisites": [
+      "Basics of Programming", 
+      "Object Oriented Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know and understand the programming possibilities with Android technology; however, to produce an application with the technology causes difficulties. You have only completed a part of the course assignments. You are able to plan and create a small-scale mobile application based on Android technology.",
+        "2": "You know and understand the programming possibilities of Android technology and can apply your knowledge to solutions for practical tasks. You have done the most important assignments of the course. You can apply your skills in the field of the chosen technology and implement a mobile application with Android technology.",
+        "3": "You know and understand well the programming possibilities of Android technology and you know how to apply your knowledge to solutions for practical tasks. You have completed almost all assignments in the course. You can analyze the possibilities of the chosen technology and create a mobile application with multiple views using Android technology.",
+        "4": "You demonstrate broader knowledge and understanding of the programming possibilities of Android technology and know how to apply your knowledge to solutions for practical tasks. You have completed almost all the assignments of the course. You know how to evaluate and justify the possibilities of your chosen technology and how to create an application with Android technology that is error-free and attractive.",
+        "5": "You demonstrate extensive knowledge and understanding of the programming possibilities of Android technology, and you know how to apply your knowledge to solutions of practical tasks in an exemplary manner. You have completed all assignments of the course. You know how to critically evaluate the possibilities of the chosen technology and create an application with Android technology that is dynamic and attractive."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Mobile Application Development",
+    "course_unit_code": "TT00CD94",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Pasi Manninen"
+    ],
+    "objective": [
+      "You understand the basic concepts related to mobile programming and master the different stages of mobile application development. After attending this course, you are able to apply different mobile technologies when implementing applications that work on different devices using web technologies."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the basic methods of mobile programming by applying theory and practice. You understand the importance of these when you implement applications for end devices using different web technologies."
+      ],
+      "engineering_practice": [
+        "You can analyze methods related to mobile application development, applying practice and theory."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the basic concepts of mobile programming and master the various stages of mobile application development. By the end of the course, you will be able to apply different mobile technologies to develop applications that work on various devices using web technologies. You will understand the fundamental methods of mobile programming and their significance in practical applications. This course equips you with the ability to analyze and apply mobile application development methods in practice.",
+      "Thinking from an idea to a mobile application",
+      "Presentation of different mobile technologies",
+      "Setting up a programming environment",
+      "Designing mobile applications",
+      "Implementation of mobile applications using selected modern web technologies",
+      "Publishing applications"
+    ],
+    "prerequisites": [
+      "Basics of Programming", 
+      "Web Technologies", 
+      "JavaScript Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know and understand the programming possibilities for different mobile technologies; however, to produce an application with the technology causes difficulties. You have only completed a part of the course assignments. You are able to plan and create a small-scale mobile application based on modern web technologies.",
+        "2": "You know and understand the programming possibilities of different mobile technologies and can apply your knowledge to solutions for practical tasks. You have completed the most essential assignments of the course. You can apply your skills to the field of the chosen technology and implement a mobile application with modern web technologies.",
+        "3": "You know and understand well the programming possibilities of different mobile technologies, and you know how to apply your knowledge to solutions for practical tasks. You have completed most of the assignments in the course. You can analyze the possibilities of the chosen technology and create a mobile application with multiple views using modern web technologies.",
+        "4": "You demonstrate broader knowledge and understanding of the programming possibilities of different mobile technologies and know how to apply your knowledge to solutions for practical tasks. You have completed almost all the assignments of the course. You know how to evaluate and justify the possibilities of your chosen technology and you know how to create an error-free and attractive mobile application with modern web technologies .",
+        "5": "You demonstrate extensive knowledge and understanding of the programming possibilities of different mobile technologies and you know how to apply your knowledge to solutions of practical tasks in an exemplary manner. You have completed all the assignments of the course. You know how to critically evaluate the possibilities of the chosen technology and create a dynamic and attractive mobile application with modern web technologies ."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Mobile Project",
+    "course_unit_code": "TT00CD92",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Pasi Manninen"
+    ],
+    "objective": [
+      "You understand the steps involved in developing a mobile application. After attending this course, you will be able to apply your chosen technology to the design and implementation of a larger mobile application. You understand responsible work and know how to work as a project member."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You will know the basic methods of mobile application development by applying theory and practice. You will understand their importance when you choose a technology for planning and implementing a mobile application."
+      ],
+      "engineering_practice": [
+        "You can analyze methods related to mobile application development by applying practice and theory."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[
+        "The student knows how to work independently and in a group in project work. The student is able to share information between different parties"
+      ],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the stages of mobile application development and how to apply your chosen technology to design and implement a larger mobile application. By the end of the course, you will understand the importance of responsible work practices and be able to function effectively as a project team member. You will understand the fundamental methods of mobile application development and their significance in technology selection. This course equips you with the ability to analyze and apply mobile application development methods and work both independently and in a team.",
+      "Together with your team, you prepare a planned documentation related to the mobile application, which includes the application's goals, use cases, UI mock ups, object and data model plans, possible data connections to external data storages, and you schedule the weekly goals as tasks. You participate in making the final report on the project and giving a seminar presentation."
+    ],
+    "prerequisites": [
+      "Basics of Programming", 
+      "Object Oriented Programming", 
+      "Web Technologies", 
+      "JavaScript Programming", 
+      "Android Application Development", 
+      "Mobile Application Development"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know and understand the phases of the project work related to a mobile project and the related documentation. You know how to work as a member of a group and implement a small-scale mobile application. The documentation related to the project has remained limited. You have participated in preparing the project documentation and giving a seminar presentation.",
+        "2": "You know and understand the phases of the project work related to the mobile project and the related documentation. The documentation related to the design presents a description of the application's user interface, the application's architecture, and connections to external data storages. The documentation is partially incomplete and confusing. You have participated in preparing the project documentation and giving a seminar presentation.",
+        "3": "You manage the phases of the project work related to the mobile project and the related documentation well. The documentation related to the design presents the description of the application's user interface, the application's architecture, and connections to external data repositories. The prepared documentation describes well the sub-phases of the project and is clearly structured in terms of content. The process related to the project has been managed well. You can analyze your own choices in the seminar presentation of the project.",
+        "4": "You manage responsible project work and the related high-quality documentation. You know how to work in a group and implement a mobile application based on plans and implement a mobile application based on plans, making extensive use of the chosen technology. The compiled documentation contains information about the user interface design of the mobile application, the architecture related to the application's programming, and interfaces to external systems. The implemented application works flawlessly on various end devices. The project process has been continuous and progressed throughout the project. You can evaluate and validate your own solutions in a seminar presentation.",
+        "5": "You manage responsible project work and high-quality documentation related to the mobile project. You know how to work in a group and implement a mobile application based on plans, utilizing the selected technology in a very versatile way. The compiled documentation contains comprehensive and error-free information about the design of the mobile application's user interface, the architecture related to the application's programming, and connections to external systems. The implemented application has been tested, and it works flawlessly on various devices. The project process has been continuous and constantly evolving throughout the project. You can critically evaluate and validate your own solutions in the seminar presentation."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Graphics Programming",
+    "course_unit_code": "TT00CD96",
+    "credits": 5,
+    "teaching_language": [
+      "English"
+    ],
+    "responsible_person": [
+      "Jani Immonen"
+    ],
+    "objective": [
+      "In the Graphics Programming Course, you learn the basics of real-time 3D graphics and programmable pipeline programming. The course aims to provide students with a comprehensive understanding of computer graphics, including how to develop and implement 3D graphics applications that are both visually appealing and interactive.",
+      "Throughout the course, you learn about the key concepts of computer graphics, such as geometric transformations, shading models, and rasterization. You will also learn how to program graphics pipelines using modern, high-level graphics APIs such as OpenGL and Vulkan, and how to utilize modern graphics hardware to render 3D scenes in real-time.",
+      "In addition, the course covers fundamental topics such as lighting, texturing, and object-oriented graphics programming, enabling you to develop complex, visually rich 3D applications. You also gain an understanding of how to use graphics frameworks and libraries to accelerate the development of your 3D graphics applications."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [],
+      "engineering_practice": [],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval": []
+    },
+    "learning_outcomes": [
+      "Throughout the course, you work on hands-on programming assignments, creating your own 3D graphics applications and learning to debug and optimize your code.",
+      "By the end of the course, you have a deep understanding of real-time 3D graphics and the skills needed to develop and deploy high-performance graphics applications."
+    ],
+    "content": [
+      "In this course, you will learn the basics of real-time 3D graphics and programmable pipeline programming. The course aims to provide a comprehensive understanding of computer graphics, teaching you how to develop and implement visually appealing and interactive 3D graphics applications. You will learn key concepts such as geometric transformations, shading models, and rasterization, and how to program graphics pipelines using modern graphics APIs like OpenGL and Vulkan. The course also covers lighting, texturing, and object-oriented graphics programming, enabling you to develop complex, visually rich 3D applications. Additionally, you will gain an understanding of using graphics frameworks and libraries to accelerate your application development.",
+      "The course covers modern graphics programming using OpenGL. The course discusses topics such OpenGL Shading Language (GLSL) and modern OpenGL programming pipeline."
+    ],
+    "prerequisites": [
+      "Basics of Programming", 
+      "Data Structures and Algorithms", 
+      "Object Oriented Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You are familiar with the basic topics discussed during the course. You are able to write programs using OpenGL with assistance and use existing shaders written in GLSL.",
+        "2": "You understand the most basic topics discussed during the course, however, you struggle to utilize this knowledge. You are not able to search for relevant information independently. You are able to write programs using OpenGL but use mostly existing shaders written in GLSL.",
+        "3": "You understand the most important topics discussed during the course and are able to utilize this knowledge in the most basic cases. You are able to utilize information about the discussed topics. You are able to write simple programs using OpenGL and simple shaders using GLSL.",
+        "4": "You understand the most important topics discussed during the course and are able to utilize this knowledge in most common cases. You are able to search and understand information about the discussed topics. You are able to write using OpenGL and shaders using GLSL.",
+        "5": "You understand all topics discussed during the course and are able to use them in an innovative manner even in challenging situations. You are able to search and utilize information about the discussed topics independently. You are able to write programs using OpenGL and complex shaders using GLSL."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Mathematical Foundations of Machine Learning",
+    "course_unit_code": "TT00CD98",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Harri Varpanen"
+    ],
+    "objective": [
+      "The course gives you a strong foundation in the mathematical concepts that are essential for the application of machine learning algorithms and methods. You master the basics of probability and the concept of randomness. You master the key concepts and methods of linear algebra, statistics and combinatorics. You can use and apply libraries to solve mathematical problems."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You have knowledge and understanding of the principles of machine learning algorithms and methods. You understand the importance of probability and randomness in machine learning"
+      ],
+      "engineering_practice": [
+        "You can apply probability calculation and randomness to machine learning methods in practice"
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will gain a strong foundation in mathematical concepts essential for applying machine learning algorithms and methods. You will learn the basics of probability calculus and the concept of randomness, as well as master key concepts and methods in linear algebra, statistics, and combinatorics. By the end of the course, you will be able to use and apply libraries to solve mathematical problems. This course equips you with the skills to apply probability calculus and randomness to machine learning methods in practice.",
+      "Probability",
+      "Linear algebra",
+      "Statistics",
+      "Combinatorics",
+      "Numerical computation"
+    ],
+    "prerequisites": [
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You are partially familiar with the mathematical foundations of machine learning. You know the basic concepts of probability. You know the basics of linear algebra and statistics. You can use the NumPy library.",
+        "2": "You know the mathematical basics of machine learning.You know the basics of probability and the concept of randomness.You know some of the most central concepts and methods of linear algebra and statistics.You can use the NumPy library to solve some mathematical problems.",
+        "3": "You know the mathematical basics of machine learning.You know the basics of probability and the concept of randomness.You know the concepts and methods of linear algebra and statistics.You can use the NumPy library to solve well-defined mathematical problems.",
+        "4": "You have a good understanding of the mathematical principles of machine learning and can analyze the obtained results.You master the basics of probability and the concept of randomness.You know the key concepts and methods of linear algebra, statistics and combinatorics.You can apply the NumPy library to solve mathematical problems.",
+        "5": "You can apply the mathematical principles of machine learning and analyze and interpret the results obtained.You have an excellent command of the basics of probability and the concept of randomness.You master the key concepts and methods of linear algebra, statistics and combinatorics.You are able to apply the NumPy library to a wide range of mathematical problems, and understand the differences between the various approaches."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Data Sources and Data Preprocessing",
+    "course_unit_code": "TT00CD99",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Antti Häkkinen"
+    ],
+    "objective": [
+      "Data preprocessing is an essential part of data analytics and machine learning projects. As part of the pre-processing, you will learn about collecting data from different sources and combining them into an entity according to the goals. In addition, you will get to know the data pre-processing methods applied to the collected data."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand different data sources and their special features and limitations."
+      ],
+      "engineering_practice": [
+        "You know how to plan and implement data pre-processing, taking into account the special characteristics of data sources. You are able to identify, analyze and correct data quality problems and apply knowledge and technology to new problems in the area of data preprocessing."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the importance of data preprocessing in data analytics and machine learning projects. You will explore how to collect data from various sources and combine them into a cohesive dataset that meets your objectives. Additionally, you will learn to apply different data preprocessing methods to the collected data. By the end of the course, you will be able to design and implement data preprocessing processes, identify and correct data quality issues, and apply your knowledge and techniques to new challenges in data preprocessing.",
+      "Data sources",
+      "Data exploration and enrichment",
+      "Handling of missing values",
+      "Data cleaning and transformations",
+      "Data scaling"
+    ],
+    "prerequisites": [
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You understand the basics of data sources and data preprocessing. You recognize the most important structural characteristics of different data sources. You identify the most common data quality problems, but the solutions may be incomplete.",
+        "2": "You will recognize the most important structural features of different data sources and the basic methods of data preprocessing. You know how to solve simple data quality problems and use basic tools for data preprocessing.",
+        "3": "You have a understanding of the differences between data sources and the challenges of data preprocessing. You are able to independently apply learned knowledge and use versatile different tools for data preprocessing. You can also identify and process data sources containing incomplete data.",
+        "4": "You can critically evaluate different data sources and their suitability for different purposes. You can independently and creatively solve complex data preprocessing problems and integrate different data sources. You are able to combine relevant data from selected data sources and formulate incomplete data partially in accordance with the objectives.",
+        "5": "You manage various data sources and data pre-processing aspects in a wide-ranging and in-depth manner. You are able to apply the learned knowledge as part of more demanding solutions in data preprocessing. You know how to combine different methods and tools to achieve more demanding solutions. You are able to combine relevant data from selected data sources and formulate incomplete data, according to the goals."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Data Analysis and Visualization",
+    "course_unit_code": "TT00CE00",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Juha Peltomäki"
+    ],
+    "objective": [
+      "Data analysis and visualization are needed in solutions to both data-based and machine learning problems. You get to know statistical methods, clean and pre-process data, and visualize data. You learn data analysis and visualization in practical applications."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand the implementation methods of data preprocessing."
+      ],
+      "engineering_practice": [
+        "You can use statistical analysis methods. You can present data in an understandable way and draw conclusions from the results of the analysis. You can choose diagram types suitable for certain data and present the data visually."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the importance of data analysis and visualization in solving data-driven and machine learning problems. You will explore statistical methods, clean and preprocess data, and visualize it. By the end of the course, you will be able to analyze and visualize data in practical applications, choose appropriate chart types, and present data clearly. This course equips you with the skills to draw conclusions from analysis results and apply statistical analysis methods in practice.",
+      "Data analysis methods",
+      "Filtering and sorting data",
+      "Data cleaning and preprocessing indexing",
+      "Data visualization",
+      "Creating Diagram",
+      "Statistics",
+      "Correlation",
+      "Cross tabulation",
+      "Creating the data analysis"
+    ],
+    "prerequisites": [
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know the basics of data preprocessing. You know some statistical analysis methods. You know how to present data. You know different types of diagrams.",
+        "2": "You know how to pre-process data. You know statistical analysis methods. You know how to present data in different ways. You can produce some types of diagrams.",
+        "3": "You know data preprocessing. You know how to use and apply some statistical analysis methods. You can present data in an understandable way, and draw concise conclusions from the results. You can produce different types of diagrams.",
+        "4": "You know how to preprocess data and compare the obtained results. You know how to use and analyze statistical analysis methods. You can present data in an understandable way and draw conclusions from the results. You can produce different types of diagrams.",
+        "5": "You know how to preprocess data and interpret the obtained results. You can interpret the results of statistical analysis methods. You can present data comprehensibly and draw conclusions from the results critically. You can choose the most appropriate diagram types for the data and justify your choices."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Machine Learning: Classification Methods",
+    "course_unit_code": "TT00CE01",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Juha Peltomäki",
+      "Mika Rantonen"
+    ],
+    "objective": [
+      "Machine learning classification methods are often applied in practical problems. You will get to know the basics of machine learning, splitting data to the training and test data and evaluate the accuracy of the model. You also learn about the application of machine learning methods to various business problems."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know different supervised and unsupervised learning methods."
+      ],
+      "engineering_practice": [
+        "You know the principles of machine learning. You know how to use different classification methods and apply them to business problems. You know how to analyze the results of machine learning methods."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn to apply machine learning classification methods to practical problems. You will explore the basics of machine learning, data splitting into training and test sets, and model accuracy evaluation. You will also learn to apply machine learning methods to various business problems. By the end of the course, you will be able to use different classification methods, analyze their results, and apply your knowledge in practice.",
+      "Basic principles of machine learning",
+      "Supervised and unsupervised learning methods",
+      "Division of the data set into teaching and test data",
+      "Assessment of model accuracy",
+      "Different classification methods: KNN (K-nearest Neighbor) random forest",
+      "Support Vector Machine",
+      "Principal Component Analysis (PCA)",
+      "K-Means clustering"
+    ],
+    "prerequisites": [
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know the main principles of machine learning. You recognize some learning methods. You know how to use some classification methods. You know how to produce results from machine learning methods.",
+        "2": "You know the main principles of machine learning. You recognize different learning methods. You know how to use different classification methods. You can interpret the most common results of machine learning methods.",
+        "3": "You know the principles of machine learning. You recognize supervised and unsupervised learning methods. You know how to apply different classification methods. You know how to use the results of machine learning methods.",
+        "4": "You know the principles of machine learning. You can distinguish between different supervised and unsupervised learning methods. You can apply classification methods to a given business problem and compare the results obtained. You know how to analyze the results of machine learning methods.",
+        "5": "You can explain the principles of machine learning. You can recommend the use of various supervised and unsupervised learning methods for a specific business problem. You can apply classification methods to various business problems and interpret the results obtained. You can analyze and justify the results given by machine learning methods."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Machine Learning: Regression Methods",
+    "course_unit_code": "TT00CE02",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Juha Peltomäki",
+      "Mika Rantonen"
+    ],
+    "objective": [
+      "Regression models can be used to predict numerical values for new observations. You get to know different regression methods and know how to compare their results and analyze the performance of the model. You also familiarize yourself with the methods of calculating error terms in regression analysis."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand different regression methods and how to apply these to business problems."
+      ],
+      "engineering_practice": [
+        "You know how to use and apply different regression methods. You know how to use different regression models, and you know how to compare their results and analyze the performance of the model. You know the most common methods of calculating error terms in regression analysis."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn to predict numerical values for new observations using regression models. You will explore various regression methods, compare their results, and analyze model performance. You will also learn the methods for calculating error terms in regression analysis. By the end of the course, you will be able to apply regression methods to business applications and analyze their results in practice.",
+      "Basic concepts of regression analysis",
+      "Overview of regression methods",
+      "Linear regression",
+      "Nonlinear regression",
+      "Logistic regression",
+      "Random Forest regression method",
+      "Interpretation of regression analysis results",
+      "Assessment of model accuracy"
+    ],
+    "prerequisites": [
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know some regression methods. You can use simple regression models. You know some way of calculating error terms in regression analysis.",
+        "2": "You know and find different regression methods. You know how to use some regression models. You know some methods of calculating error terms in regression analysis.",
+        "3": "You know how to use different regression methods. You know how to use some regression models and measure the performance of the model. You know the most common methods of calculating error terms in regression analysis.",
+        "4": "You can apply and compare different regression methods. You know how to use different regression models, and you know how to compare their results and analyze the performance of the model. You know the most common methods of calculating error terms in regression analysis and make conclusions based on the results.",
+        "5": "You can recommend and justify suitable regression methods for specific business problems. You know how to use different regression models, and you know how to interpret their results and how to interpret the performance of the model. You can explain the methods of calculating error terms in regression analysis and change the implementation based on the results."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Deep Learning",
+    "course_unit_code": "TT00CE03",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Juha Peltomäki",
+      "Mika Rantonen"
+    ],
+    "objective": [
+      "Deep learning uses deep neural networks to solve complex problems. You understand the basics of deep learning, including the theory and applications of neural networks. You learn to use deep learning libraries and implement different architectures of neural networks."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the basics of deep learning, including the theory of neural networks."
+      ],
+      "engineering_practice": [
+        "You know how to use deep learning libraries. You know how to use different architectures of deep neural networks. You know how to apply deep learning in different application domains, such as image recognition and natural language processing."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the fundamentals of deep learning and how to use deep neural networks to solve complex problems. You will gain an understanding of the theory and applications of neural networks. You will learn to use deep learning libraries and implement various neural network architectures. By the end of the course, you will be able to apply deep learning to different application areas, such as image recognition and natural language processing.",
+      "Basic theory of deep learning",
+      "Perceptron",
+      "Deep learning libraries: TensorFlow and Keras",
+      "The theory of neural networks",
+      "Architectures of neural networks",
+      "Advanced deep learning methods",
+      "Applications of deep neural networks (image recognition, NLP)"
+    ],
+    "prerequisites": [
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You only know the basics of deep learning. You know how to use some deep learning libraries. You know how to make a simple neural network architecture. You know how to use deep learning in a precisely defined problem.",
+        "2": "You know the basics of deep learning. You know how to use some deep learning libraries. You recognize some architectures of deep neural networks. You know how to use deep learning in some application domains.",
+        "3": "You know the basics of deep learning. You know how to use some deep learning libraries. You know how to use some deep neural network architectures. You know how to use deep learning in different application domains.",
+        "4": "You know the basics of deep learning and the theory of neural networks. You know how to use and compare deep learning libraries. You know how to use deep neural network architectures and analyze the obtained results. You know how to apply deep learning in different application domains.",
+        "5": "You can explain the basics of deep learning and the theory of neural networks. You know how to choose the most appropriate deep learning libraries with justification. You know how to use deep neural network architectures suitable for the given business problems. You know how to apply deep learning and justify the obtained results in different application domains."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Data Analytics Project",
+    "course_unit_code": "TT00CE05",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Antti Häkkinen",
+      "Juha Peltomäki"
+    ],
+    "objective": [
+      "The project offers an opportunity to gain valuable experience in project management, data processing, development of machine learning models, and clear presentation of project results. The goal is to develop project working skills and apply the skills in data analytics projects."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand how a data analytics project is implemented."
+      ],
+      "engineering_practice": [
+        "You gain valuable experience in project management, data processing, development of machine learning models and clear presentation of results. You know how to plan a project, collect and clean data, and analyze and report project results."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[
+        "You can apply your skills in different areas of the project, which helps to develop your project working skills."
+      ],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will gain valuable experience in project management, data handling, machine learning model development, and clear presentation of project results. The goal is to enhance your project work skills and apply your knowledge in data analytics projects. By the end of the course, you will understand how to execute a data analytics project, plan the project, collect and clean data, and analyze and report the results. This course equips you with the ability to work effectively in various aspects of a project and develop your project work skills.",
+      "Project management and workflow",
+      "Data processing in the project",
+      "Using statistical methods",
+      "EDA (Exploratory data analysis)",
+      "Advanced, interactive visualization methods",
+      "Reporting and presentation of results"
+    ],
+    "prerequisites": [],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know how to work in one of the areas of the project. You know other aspects of the project. You know how to handle data. You can report some project results.",
+        "2": "You can apply your skills in some areas of the project and work in a group. You know the areas of the project. You know how to collect and clean data. You can interpret and report some project results.",
+        "3": "You can apply your skills in different areas of the project and work in a group. You know how to plan aspects of the project. You know how to collect and clean data and illustrate the results. You can illustrate and report project results.",
+        "4": "You can apply your skills in different areas of the project and work smoothly in a group. You know how to plan a project. You know how to collect and clean data and draw conclusions from the results. You can analyze and report the results of the project taking into account the business problem.",
+        "5": "You can apply your skills in different areas of the project and, if necessary, lead a team. You know how to plan a project based on a business problem. You know how to collect and clean data and explain the results. In the report, you can explain the results of the project based on the business problem."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Machine Learning Project",
+    "course_unit_code": "TT00CE06",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Juha Peltomäki",
+      "Antti Häkkinen"
+    ],
+    "objective": [
+      "The project offers an opportunity to design and implement an artificial intelligence project where you can apply machine learning and deep learning methods to practical business applications. The goal is to develop project working skills and apply the skills in machine learning projects."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand how a data-driven project using machine learning and deep learning is implemented."
+      ],
+      "engineering_practice": [
+        "You get practical experience with artificial intelligence applications and project management. You know how to apply machine learning methods in a practical project. You can analyze and report project results."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[
+        "You know how to plan and implement an artificial intelligence project and work in a project team."
+      ],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will have the opportunity to design and implement an AI project, applying machine learning and deep learning methods to practical business applications. The goal is to enhance your project work skills and apply your knowledge in machine learning projects. By the end of the course, you will understand how to execute a data-driven project using machine learning and deep learning, and be able to design and implement an AI project while working effectively in a project team. You will gain practical experience in AI applications and project management, apply machine learning methods in practical projects, and analyze and report project results.",
+      "Design and implementation of the application project",
+      "Project management and resource management",
+      "Application of machine learning and deep learning methods",
+      "Reporting and presentation of results"
+    ],
+    "prerequisites": [
+      "Basics of Programming"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know how to work in one of the areas of an artificial intelligence project. You are familiar with machine learning methods. You can report some project results.",
+        "2": "You can apply your skills in the areas of the artificial intelligence project and work in a group. You know how to use a machine learning method. You can interpret and report some project results.",
+        "3": "You can apply your skills in the areas of an artificial intelligence project and work in a project team. You know how to apply machine learning methods. You can interpret and report project results.",
+        "4": "You can apply your skills in different areas of an artificial intelligence project and perform development work in the project team. You can apply several machine learning methods and draw conclusions from the results. You can analyze and report project results.",
+        "5": "You can apply your skills in different areas of an artificial intelligence project and lead a project team and justify your solutions. You can apply machine learning methods to solve business problems and interpret the results. In the report, you can explain the results of the project based on the business problem."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Cyber Security Management",
+    "course_unit_code": "TT00CE07",
+    "credits": 4,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Jarmo Nevala"
+    ],
+    "objective": [
+      "The student understands the importance, principles and requirements of cyber security and information security management systems in organizations and society. The student knows the content, structure and scope of the ISO/IEC 27000 series of standards and its use in the planning, implementation and evaluation of cyber security management.",
+      "The student knows how to choose and implement information security management methods in different areas, such as information security policy, personnel security, physical security, communication security and procurement security. The student knows how to manage information security risks systematically and effectively in different phases, such as risk identification, assessment, processing and monitoring.",
+      "The student knows how to develop and use information security metrics and reporting in monitoring and improving information security management. The student knows the process and requirements of information security auditing and certification and know how to prepare for them appropriately."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "The student can explain the key concepts, principles and standards of cyber security and their importance for organizations and society."
+      ],
+      "engineering_practice": [
+        "The student knows how to plan, implement and maintain a cyber security management system in accordance with the ISO 27000 standard."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[
+        "The student can assess the current state of an organization's cyber security and identify its strengths, weaknesses, opportunities and threats. The student knows how to solve problems and challenges related to cyber security creatively and innovatively using different methods and tools."
+      ],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the significance, principles, and requirements of cybersecurity and information security management systems in organizations and society. You will understand the content of the ISO/IEC 27000 series and how to apply it in the planning, implementation, and evaluation of cybersecurity management. You will learn to select and implement security management measures across various areas and manage security risks systematically and effectively. The course equips you with the skills to develop and use security metrics and reporting, and to prepare for security audits and certifications.",
+      "The course deals with the concepts, principles, standards, methods and tools of cyber security and their application to practical situations. The course particularly looks into the ISO 27000 standard, which is an international reference framework for information security management systems.",
+      "The ISO2700x family of standards and other related frameworks",
+      "Cyber security management system and requirements (management commitment, context definition, policy formulation, role and responsibilities definition, risk assessment and handling, goal setting, resource acquisition, operational planning and implementation, performance evaluation, continuous improvement)",
+      "Management of configurations, management of events, management of protected objects, management of threats and management of risks"
+    ],
+    "prerequisites": [
+      "Cyber Security"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student is able to understand the significance and content of cyber security related to some service processes to some extent. The student is able to design some management processes for a data secure service in a group when instructed.",
+        "2": "The student is able to understand the main parts of the significance and content of cyber security in the context of some key service processes. The student is able to design some of the most essential cyber-secure service management processes in a group.",
+        "3": "The student is able to understand the significance and content of cyber security in the most common service management context. The student is able to design in a group the management of a cyber secure service with its most essential parts including the most important processes.",
+        "4": "The student is able to understand the significance and content of cyber security in the service management context. The student is able to design the management of a cyber secure service with all necessary parts. The student reflects on their learning.",
+        "5": "The student is able to understand the significance and content of cyber security extensively in the context of service management. The student is able to design a concept for cyber secure service management considering all its essential parts with almost no guidance. The student reflects on their learning realistically."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Basics of Cyber Security Exercises",
+    "course_unit_code": "TT00CE08",
+    "credits": 3,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Pasi Hyytiäinen"
+    ],
+    "objective": [
+      "You master the most essential areas related to the planning and preparation of a cyber security exercise: concepts, used implementation methods and structural issues related to the general exercise. You know how to design an exercise model suitable for the company's personnel."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "The student can identify and analyze cyber security threats, vulnerabilities and risks in various operating environments. The student knows how to plan and evaluate cyber security solutions and measures in accordance with technical, organizational and legal requirements."
+      ],
+      "engineering_practice": [
+        "The student knows how to plan a cyber security exercise and act as a cyber security expert and partner with different stakeholders and communicate cyber security clearly and effectively."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn to design and prepare for cybersecurity exercises, including key concepts, implementation methods, and structural aspects. You will be able to create suitable training models for company personnel and identify and analyze cybersecurity threats, vulnerabilities, and risks. You will understand how to plan and evaluate cybersecurity solutions in accordance with technical, organizational, and legal requirements. The course equips you with the skills to act as a cybersecurity expert and collaborator with various stakeholders, and to communicate cybersecurity issues clearly and effectively.",
+      "Cyber security exercise concepts and training models",
+      "Exercise planning",
+      "Objectives, content, format and schedule of the exercise",
+      "Preparation of the exercise: roles, tasks, scenarios, materials",
+      "Exercise monitoring and evaluation: feedback collection, analysis and reporting.",
+      "Presentation and sharing of exercise results and learning",
+      "Acting in training in different roles (organizer, defender, attacker)."
+    ],
+    "prerequisites": [
+      "Cyber Security", 
+      "Information Security Technologies"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student understands some of the theoretical background of cyber security exercises. The student is able to plan and implement some technical information systems in the cyber security exercise. The student takes part in planning of the cyber security exercise in a group.",
+        "2": "The student understands the theoretical background of cyber security exercises. The student is able to plan and implement the technical installations of the information systems in the cyber security exercise. The student plans a cyber security exercise for an organization as member of a group.",
+        "3": "The student understands versatilely the theoretical background of cyber security exercises. The student is able to plan and implement technical installations of information systems in a cyber security exercise. The student plans a comprehensive cyber security exercise for an organization in a group.",
+        "4": "The student understands in-depth the theoretical background of cyber security exercises. The student is able to plan and implement thoroughly the technical installations of information systems in a cyber security exercise. The student plans thoroughly a cyber security exercise for an organization in a group.",
+        "5": "The student shows extraordinary understanding of the theoretical background of cyber security exercises. The student can exceptionally well design and implement the technical installations of information systems in a cyber security exercise. The student plans a superb cyber security exercise for an organization in a group."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Auditing and Penetration Testing",
+    "course_unit_code": "TT00CE09",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Joonatan Ovaska"
+    ],
+    "objective": [
+      "After completing the course, the student knows the general assessment and auditing criteria used in safety testing. The student also knows how to apply safety testing methods, techniques, and tools in practice. In addition, the student masters the basic concepts and implementation criteria of safety testing."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You will know the basic methods of penetration testing by applying theory and practice. You will understand their significance when performing the audit."
+      ],
+      "engineering_practice": [
+        "You can analyze methods related to auditing and penetration testing, applying practice and theory."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[
+        "You understand the multidimensional nature of auditing and its impact on the environment being tested, as well as understand the auditor's great responsibility in this. You recognize that the field is constantly developing and changing, and you are ready to develop with it."
+      ],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[
+        "You know how to plan and carry out tests in the environment, interpret documents, other input data and results, and evaluate the correctness of measurements, and work in the device environment safely and following good practices."
+      ]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the basic concepts and implementation criteria of security testing, as well as general evaluation and audit principles. You will be able to practically apply security testing methods, techniques, and tools. You will understand the basic methods of penetration testing and their importance in auditing. The course equips you with the skills to analyze methods related to auditing and penetration testing, and to work safely and effectively in a device environment.",
+      "The course teaches the basics of auditing as well as security testing both from the point of view of auditing and more generally. The course focuses on practical skills and theoretical foundation, which is indispensable in modern security.",
+      "During the course the participants get an in-depth perspective to security testing and auditing, thus learning practical skills and theoretical foundation and practices for protection of their organisations from security risks and vulnerabilities.",
+      "Penetration testing / Security testing",
+      "Auditing",
+      "Standards, practices, processes and frameworks"
+    ],
+    "prerequisites": [
+      "Linux Basics",
+      "Cyber Security",
+      "Data Networks"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands the basic concepts and theory related to auditing and penetration testing. The student can use the tools needed for information security testing with assistance. The student knows about the criteria needed for auditing and that they affect the target companies in many areas. The student is able to participate and communicate as part of the audit team with assistance.",
+        "2": "The student knows and understands the basic concepts and theory related to auditing and penetration testing. The student knows how to use the tools needed for information security testing with instruction. The student knows about the criteria needed for auditing and that they affect the target companies in many areas. The student is able to participate and communicate as part of the audit team with guidance.",
+        "3": "The student knows and understands the basic concepts of auditing and penetration testing and the related theory in a versatile way. The student knows how to use the tools needed for information security testing. The student knows about the criteria needed for auditing and how they affect the target companies in various fields. The student is able to participate and communicate as part of the audit team.",
+        "4": "The student knows and understands auditing and penetration testing concepts and related theory in a versatile way. The student knows how to use the tools needed for information security testing in an advanced manner. The student knows and understands audit criteria and how they affect target companies and their stakeholders in a multidisciplinary way. The student is able to participate and communicate, either alone or as part of the audit team.",
+        "5": "The student knows and understands auditing and penetration testing concepts and related theory excellently. The student knows how to use and select suitable tools for information security testing in an advanced manner. The student knows and understands the audit criteria and how they affect the target companies and their stakeholders, both indirectly and directly. The student can participate and communicate as part of the audit team or be in charge of the audit team."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Data Security Controls",
+    "course_unit_code": "TT00CE11",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Jarmo Viinikanoja"
+    ],
+    "objective": [
+      "The student learns to know the main categories of information security controls and to understand their importance from the security point of view. The student learns aspects of protection based on information security controls. The student implements various information security controls to protect the company's critical IT systems."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the basic methods of information security controls by applying theory and practice. You understand their importance when you implement defenses for the company."
+      ],
+      "engineering_practice": [
+        "You can analyze methods related to information security controls applying practice and theory."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn to identify the main categories of security controls and understand their significance from a security perspective. You will explore protection strategies based on security controls and implement various controls to safeguard the critical IT systems of a company. You will understand the basic methods of security controls and their importance in implementing protections. The course equips you with the skills to analyze methods related to security controls and apply them in practice.",
+      "After completing this course you know how to implement information security controls and understand their importance from the point of view of protecting the company.",
+      "Information security controls related to advanced firewalls",
+      "Event monitoring and logging systems",
+      "Web application layer firewalls",
+      "Utilization of threat information"
+    ],
+    "prerequisites": [
+      "Cyber Security",
+      "Information Security Technologies",
+      "Data Networks",
+      "Linux Basics",
+      "Windows Administration"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands the basic concepts of information security controls and the related theory. The student knows how to use information security control tools with assistance.",
+        "2": "The student knows and understands the basic concepts of information security controls and the related theory. The student knows how to use information security control tools with guidance.",
+        "3": "The student knows and understands the basic concepts of information security controls and the related theory in a versatile way. The student knows how to use information security control tools.",
+        "4": "The student knows and understands the concepts of information security controls and the related theory in a versatile way. The student knows how to use information security control tools in an advanced manner.",
+        "5": "The student knows and understands the concepts of information security controls and the related theory excellently. The student knows how to use and select suitable information security control tools in an advanced manner and is able to use new tools independently."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Security Operations Center",
+    "course_unit_code": "TT00CE12",
+    "credits": 5,
+    "teaching_language": [
+      "English",
+      "Finnish"
+    ],
+    "responsible_person": [
+      "Heikki Järvinen"
+    ],
+    "objective": [
+      "The student controls the most important aspects related to the functionality of cyber security centers (Security Operations Center): organizational models, functionalities and technical environments. The student understands the process of deviation management in cyber security centers and utilizes the tools used in the analysis and management of deviations. The student can communicate about the progress of the deviation management process within the team and report on it to target groups. The student knows how to extract cyber threat information (Indicator of Compromise, IoC) from a report and use a tool for sharing cyber threat information. In addition, he knows how to use cyber threat information to investigate anomalies. The student knows how to produce cyber threat information about deviations handled by the cyber security center."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "The student masters the most central aspects related to the functionality of cyber security centers: organizational models, functionalities, processes, and technical environments. The student knows the types of cyber threat information and what they are used for."
+      ],
+      "engineering_practice": [
+        "The student knows how to work in the cyber security center as part of the process and use tools to investigate deviations. In addition, the student can extract threat information from reports and investigated deviations. The student knows how to use them to find out deviations. He also knows how to use a tool for sharing cyber threat information."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[
+        "The student can tell about the deviation management situation within the cyber security center and report the situation to outsiders. In addition, the student knows how to convey essential threat information within the cyber security center and to convey new information to outsiders."
+      ],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the key aspects of Security Operations Center (SOC) functionalities, including organizational models, operations, and technical environments. You will understand the incident management process and use the necessary tools for analysis and management. You will learn to communicate the progress of incident management within the team and report to relevant stakeholders. Additionally, you will be able to extract and utilize threat intelligence (Indicators of Compromise, IoCs) in incident resolution and use tools designed for sharing threat intelligence.",
+      "The purpose and nature of cyber security centers",
+      "Deviation management process",
+      "Technical tools for handling anomalies and cyber threat information",
+      "Principles, types and usability of cyber threat information in the operation of cyber security centers"
+    ],
+    "prerequisites": [
+      "Cyber Security",
+      "Information Security Technologies"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands the basic concepts of cyber security centers and related theory and processes. The student knows how to use the tools of cyber security centers with assistance. The student knows how to use communication and reporting tools in a controlled manner. The student knows how to communicate issues related to anomaly management and cyber threat information.",
+        "2": "The student knows and understands the basic concepts of cyber security centers and the related theory and processes. The student knows how to use the tools of cyber security centers in a guided manner. The student knows how to use communication and reporting tools. The student knows how to communicate issues related to anomaly management and cyber threat information.",
+        "3": "The student knows and understands the basic concepts of cyber security centers and the related theory and processes in a versatile way. The student knows how to use the tools of cyber security centers. The student knows how to use communication and reporting tools in accordance with the instructions. The student can communicate essential issues related to anomaly management and cyber threat information.",
+        "4": "The student knows and understands the concepts of cyber security centers and the related theory and processes in a versatile way. The student knows how to use the tools of cyber security centers in an advanced manner. The student knows how to use communication and reporting tools in accordance with the instructions. The student can communicate essential issues related to anomaly management and cyber threat information.",
+        "5": "The student knows and understands the concepts of cyber security centers and the related theory and processes excellently. The student knows how to use and select suitable cyber security center tools in an advanced manner and is able to use new tools independently. The student knows how to use communication and reporting tools in accordance with the instructions. The student knows how to clearly communicate essential issues related to anomaly management and cyber threat information."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Hardening",
+    "course_unit_code": "TT00CD88",
+    "credits": 5,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Jarmo Viinikanoja",
+      "Pasi Hyytiäinen"
+    ],
+    "objective": [
+      "The student knows and is able to apply different hardening methods. The student knows and understands the uses of different hardening methods, as well as the opportunities they provide."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You will know the basic hardening methods by applying theory and practice. You understand their importance in ensuring IT infrastructure and business continuity."
+      ],
+      "engineering_practice":[],
+      "applying_technology_to_practice": [
+        "You know how to analyze hardening methods by applying practice and theory and recognizing them."
+      ],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course you will learn about and apply different curing methods and understand their uses and potential. You will master basic hardening techniques and understand their importance in ensuring IT infrastructure and business continuity. You will be able to analyse hardening methods and apply them in practice. This course will equip you to improve the security and reliability of systems.",
+      "The course includes the different areas of hardening and commonly used technologies and applications, as well as their roles in ensuring IT infrastructure and business continuity.",
+      "Going through hardening from the physical level up to the web application level",
+      "Windows, Linux, Virtualization",
+      "Methods to apply hardening practices applied at different levels",
+      "In practice, hardening of different objects"
+    ],
+    "prerequisites": [
+      "Data Networks",
+      "Cyber Security",
+      "Linux Basics"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands the basic concepts of hardening and the related theory. The student knows how to use the tools used in hardening with assistance.",
+        "2": "The student knows and understands the basic concepts of hardening and the related theory. The student knows how to use the tools used in hardening in a controlled manner.",
+        "3": "The student knows and understands the basic concepts of hardening and the related theory in a versatile way. The student knows how to use the tools used in hardening.",
+        "4": "The student knows and understands the concepts of hardening and the related theory in a versatile way. The student knows how to use the tools used in hardening in an advanced manner.",
+        "5": "The student knows and understands the concepts of hardening and the related theory excellently. The student knows how to use and select suitable tools for hardening in an advanced manner and is able to use new tools independently."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Malware Analysis",
+    "course_unit_code": "TT00CE14",
+    "credits": 4,
+    "teaching_language": [
+      "English",
+      "Finnish"
+    ],
+    "responsible_person": [
+      "Joonatan Ovaska"
+    ],
+    "objective": [
+      "The course focuses on the analysis of malware, emphasizing dynamic analysis methods and tools. Students will learn to identify and examine malicious software. Students will also gain proficiency in essential malware analysis tools, enabling them to effectively assess malware behavior and potential threats. The goal is to learn tools and methods to analyze malware behavior and to be able to draw some conclusions about what the malware does relatively quickly. Students will gain understanding on how malware is capable of using OS executables."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You know the basic methods of malware analysis by applying theory and practice. You understand their importance when you perform malware analysis."
+      ],
+      "engineering_practice": [
+        "You can analyze and identify methods related to malware applying practice and theory."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "This course focuses on malware analysis with an emphasis on dynamic analysis methods and tools. You will learn to identify and investigate malware, gaining proficiency in key analysis tools to effectively assess malware behavior and potential threats. The goal is to learn tools and methods for analyzing malware behavior and to draw conclusions about malware operations quickly. You will also understand how malware can exploit operating system executables.",
+      "The course content encompasses a range of topics related to malware analysis. Students will delve into:",
+      "Dynamic analysis methods",
+      "Malware identification techniques",
+      "Indicators of Compromises (IOC)s",
+      "Sandboxing",
+      "The course also covers debugging skills and provides hands-on experience with various malware analysis tools."
+    ],
+    "prerequisites": [
+      "Data Structures and Algorithms",
+      "Basics of Programming",
+      "Auditing and Penetration Testing"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands the basic concepts of malware analysis and related theory. The student knows how to use the tools used in malware analysis with assistance.",
+        "2": "The student knows and understands the basic concepts of malware analysis and the related theory. The student knows how to utilize the tools used in malware analysis in a guided manner.",
+        "3": "The student knows and understands the basic concepts of malware analysis and the related theory in a comprehensive way. The student knows how to use the tools used in malware analysis.",
+        "4": "The student knows and understands the concepts of malware analysis and the related theory in a comprehensive way. The student knows how to use the tools used in malware analysis in an advanced manner.",
+        "5": "The student knows and understands the concepts of malware analysis and the related theory excellently. The student knows how to use and select appropriate tools used in malware analysis in an advanced manner and is able to use new tools independently."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Reverse Engineering",
+    "course_unit_code": "TT00CE16",
+    "credits": 5,
+    "teaching_language": [
+      "English",
+      "Finnish"
+    ],
+    "responsible_person": [
+      "Joonatan Ovaska"
+    ],
+    "objective": [
+      "After completing the course, the student understands the basic concepts of reverse engineering and is able to analyze and disassemble programs of the x86 architecture. The student also learns something about other architectures in use. The student understands both static and dynamic analysis and identifies the key factors between the two. The course also provides an insight into program structure, compiled code, and the necessary tools in the field of reverse engineering."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You will know the basic methods of reverse engineering by applying theory and practice. You will understand the meaning of these when you implement reverse engineering."
+      ],
+      "engineering_practice": [
+        "You can analyze methods related to reverse engineering applying practice and theory"
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the basic concepts of reverse engineering and how to analyze and decompile programs for the x86 architecture. You will also gain some knowledge of other architectures in use. You will understand both static and dynamic analysis and recognize the key factors between them. The course provides insights into program structure, compiled code, and the necessary tools in the field of reverse engineering.",
+      "Understanding of x86 architecture and other architectures",
+      "Static analysis of the code of already compiled programs via disassembly",
+      "Executable file formats",
+      "System calls (system calls) and interrupts (interrupts)",
+      "Win 32API and related system calls",
+      "Use of tools suitable for reverse engineering"
+    ],
+    "prerequisites": [
+      "Data Structures and Algorithms",
+      "Basics of Programming",
+      "Auditing and Penetration Testing"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands the basic concepts of reverse engineering and the related theory. The student knows how to use the tools used in reverse engineering with assistance.",
+        "2": "The student knows and understands the basic concepts of reverse engineering and the related theory. The student knows how to use the tools used in reverse engineering in a guided manner.",
+        "3": "The student knows and understands the basic concepts of reverse engineering and the related theory in a versatile way. The student knows how to use the tools used in reverse engineering.",
+        "4": "The student knows and understands the concepts of reverse engineering and the related theory in a versatile way. The student knows how to use the tools used in reverse engineering in an advanced manner.",
+        "5": "The student knows and understands the concepts of reverse engineering and the related theory excellently. The student knows how to use appropriate tools used in reverse engineering in an advanced manner and is able to use new tools independently."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Windows Infrastructure",
+    "course_unit_code": "TT00CE25",
+    "credits": 4,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Antti Häkkinen",
+      "Jussi Ahonen"
+    ],
+    "objective": [
+      "You learn to plan and implement Windows infrastructure according to the assignment as well as to monitor and maintain its functions and services. You also learn how to connect the environment to other information systems. You will learn to implement and plan a Windows environment in practice and understand its functions and services."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "You understand the key features and architecture of a Windows server."
+      ],
+      "engineering_practice": [
+        "You know how to manage and configure services in the Windows environment. You know and are able to apply group policies in a Windows environment. You know how to connect Windows workstations to a Windows environment."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn to design and implement a Windows infrastructure according to given requirements, as well as monitor and maintain its functions and services. You will also learn to integrate the environment with other information systems and understand the practical aspects of Windows environment functions and services. You will understand the key features and architecture of Windows servers and be able to manage and configure services within a Windows environment. The course equips you with the skills to apply group policies and connect Windows workstations to the Windows environment.",
+      "Windows server basics, installation and configuration",
+      "Management and configuration of services",
+      "Management and utilisation of the Active Directory service",
+      "Management of group policies",
+      "Management of Windows workstations and information security",
+      "Basics of information security and best practices in Windows"
+    ],
+    "prerequisites": [
+      "Windows Basics",
+      "Data Networks"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "You know the basic features of a Windows server and have familiarized yourself with group policies. Your management and integration skills are limited.",
+        "2": "You know how to deploy and configure a Windows server and manage simple group policies. You are able to integrate workstations at a basic level.",
+        "3": "You manage the basic functions of a Windows server, you know more about managing group policies and smoothly integrate Windows workstations into a Windows environment.",
+        "4": "You can effectively manage a more complex Windows environment. The in-depth management of group policies is smooth, and you have taken information security well into account.",
+        "5": "You have excellent command of various aspects of the Windows environment, including complex group policies, service optimization, and environmental security."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "JAMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Cloud Architectures and Platforms",
+    "course_unit_code": "TT00CE21",
+    "credits": 4,
+    "teaching_language": [
+      "Finnish",
+      "English"
+    ],
+    "responsible_person": [
+      "Juho Pekki"
+    ],
+    "objective": [
+      "You will learn the basic principles of cloud-based architecture design. You know the cloud models, the actors and the technologies included in them, and what is the difference between the different cloud models. You know how to implement a cloud platform, and you know the essential technologies for it."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [
+        "The student is familiar with the major cloud service providers and is able to use their best-known services."
+      ],
+      "engineering_practice": [
+        "The student masters the theoretical aspects of cloud services: concepts, structures, used technical implementation methods and different cloud service models. In addition, the student masters the basics of planning and recognizes the advantages and disadvantages of different service models."
+      ],
+      "applying_technology_to_practice":[],
+      "multidisciplinary_competence":[],
+      "communication_and_teamwork":[],
+      "investigations_and_information_retrieval":[]
+    },
+    "learning_outcomes":[],
+    "content": [
+      "In this course, you will learn the basic principles of cloud-based architecture design and understand different cloud models, providers, and associated technologies. You will be able to distinguish between various cloud models and deploy a cloud platform, understanding the essential technologies involved. You will grasp the concepts, structures, and technical implementations of cloud services and be able to design cloud services by leveraging the advantages and disadvantages of different service models. The course equips you with the skills to use the most well-known services of major cloud providers.",
+      "Advantages/disadvantages of cloud services",
+      "Cloud service models",
+      "Cloud service platforms",
+      "Use of cloud services"
+    ],
+    "prerequisites": [
+      "Linux Basics",
+      "Data Networks"
+    ],
+    "assessment": {
+      "grading_scale": "1-5",
+      "criteria": {
+        "1": "The student knows and understands basic concepts of cloud services and related theory. The student is able to use cloud services with assistance.",
+        "2": "The student knows and understands the basic concepts of cloud services and related theory. The student is able to use cloud services with guidance.",
+        "3": "The student has a versatile understanding of the basic concepts of cloud services and the related theory. The student is able to use cloud services.",
+        "4": "The student has a versatile understanding of the basic concepts of cloud services and the related theory. The student is able to use cloud services at an advanced level.",
+        "5": "The student masters the basic concepts of cloud services and the related theory. The student knows how to use and select appropriate cloud services tools in an advanced manner and is capable of independently adopting new cloud services."
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+  {
+    "institution": "Turku AMK",
+    "degree_programme": "Information and Communication Technology",
+    "course_name": "Introduction to Networks",
+    "course_unit_code": "TT00DS35",
+    "credits": 5,
+    "teaching_language": [
+      "English"
+    ],
+    "responsible_person": [],
+    "objective": [
+      "Configure switches and end devices to provide access to local and remote network resources.",
+      "Explain how physical and data link layer protocols support the operation of Ethernet in a switched network.",
+      "Configure routers to enable end-to-end connectivity between remote devices.",
+      "Create IPv4 and IPv6 addressing schemes and verify network connectivity between devices.",
+      "Explain how the upper layers of the OSI model support network applications.",
+      "Use security best practices to configure a small network.",
+      "Troubleshoot connectivity in a small network."
+    ],
+    "competences": {
+      "knowledge_and_understanding": [],
+      "engineering_practice": [],
+      "applying_technology_to_practice": [],
+      "multidisciplinary_competence": [],
+      "communication_and_teamwork": [],
+      "investigations_and_information_retrieval": []
+    },
+    "learning_outcomes": [],
+    "content": [
+      "CCNAv7 Introduction to Networks (ITN) course introduces students to networking architectures, models, protocols, and components. These components facilitate the connection of users, devices, applications and data through the internet and across modern computer networks. By the end of the course, students can perform basic configurations for routers and switches to build simple local area networks (LANs) that integrate IP addressing schemes and foundational network security."
+    ],
+    "prerequisites": [
+      "Internet Networks and Security (5051215) or equal skill."
+    ],
+    "assessment": {
+      "grading_scale": "",
+      "criteria": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "pass_fail_criteria": ""
+    }
+  },
+{
+  "institution": "Turku AMK",
+  "degree_programme": "Information and Communication Technology",
+  "course_name": "Introduction to Programming",
+  "course_unit_code": "TE00CS88",
+  "credits": 5,
+  "teaching_language": [],
+  "responsible_person": [],
+  "objective": [
+    "After completing the course, the student will be able to describe the program flow on a diagram.",
+    "After completing the course, the student will be able to discuss the choice of an applicable solution model.",
+    "After completing the course, the student will be able to define basic concepts related to programming such as source code, compiler, variable and type.",
+    "After completing the course, the student will be able to read and understand the finished program code.",
+    "After completing the course, the student will be able to utilize selection and loop structures.",
+    "After completing the course, the student will be able to use exception handling mechanisms.",
+    "After completing the course, the student will be able to design and implement simple application programs, and document and test them."
+  ],
+  "competences": {
+    "knowledge_and_understanding": [],
+    "engineering_practice": [],
+    "applying_technology_to_practice": [],
+    "multidisciplinary_competence": [],
+    "communication_and_teamwork": [],
+    "investigations_and_information_retrieval": []
+  },
+  "learning_outcomes": [],
+  "content": [
+    "structure of software application",
+    "different development environments",
+    "reception of input data required in the program",
+    "processing of data on the program in order to solve the given problem",
+    "presentation of result",
+    "data variables and data types, simple data structures",
+    "functions and parameters",
+    "conditional clauses and loops",
+    "exceptions",
+    "file handling",
+    "testing and documentation of the program"
+  ],
+  "prerequisites": [],
+  "assessment": {
+    "grading_scale": "",
+    "criteria": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "pass_fail_criteria": ""
+  }
+},
+{
+  "institution": "Turku AMK",
+  "degree_programme": "Information and Communication Technology",
+  "course_name": "Internet Networks and Security",
+  "course_unit_code": "TE00CN56",
+  "credits": 5,
+  "teaching_language": [
+    "Finnish",
+    "English"
+  ],
+  "responsible_person": [],
+  "objective": [
+    "After completing the course the student:",
+    "can name the devices and services used to support communications in data networks and the Internet",
+    "is able to set up PC device connection to a network and solve common connection problems with relevant tools",
+    "understands IP addressing and private addresses in LAN networks",
+    "is familiar with network protocol stack model",
+    "can use virtual machine on own computer",
+    "can name and explain the basic principles of information security",
+    "is familiar with information security risk management and vulnerabilities",
+    "can understand the importance of information security for the Internet and operations in organizations and society",
+    "understands privacy principles on personal level"
+  ],
+  "competences": {
+    "knowledge_and_understanding": [],
+    "engineering_practice": [],
+    "applying_technology_to_practice": [],
+    "multidisciplinary_competence": [],
+    "communication_and_teamwork": [],
+    "investigations_and_information_retrieval": []
+  },
+  "learning_outcomes": [],
+  "content": [
+    "network terminology and protocols",
+    "IP-addressing and subnetting",
+    "building Wireless and Wired Local Area Network",
+    "building a Connected Network",
+    "network devices hardware and software",
+    "basic principles of information security",
+    "use and importance of information security for operations in organization",
+    "basic principles of privavy on personal level"
+  ],
+  "prerequisites": [],
+  "assessment": {
+    "grading_scale": "",
+    "criteria": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "pass_fail_criteria": ""
+  }
+},
+{
+  "institution": "Turku AMK",
+  "degree_programme": "Information and Communication Technology",
+  "course_name": "Databases",
+  "course_unit_code": "TE00CS89",
+  "credits": 5,
+  "teaching_language": [
+    "Finnish",
+    "English"
+  ],
+  "responsible_person": [],
+  "objective": [
+    "After completing the course the student can:",
+    "understand different types of databases and evaluate their feasibility for different purposes.",
+    "plan and implement a database based on requirements and search and modify data in the database",
+    "use at least one well-known database management system",
+    "can describe database management tasks"
+  ],
+  "competences": {
+    "knowledge_and_understanding": [],
+    "engineering_practice": [],
+    "applying_technology_to_practice": [],
+    "multidisciplinary_competence": [],
+    "communication_and_teamwork": [],
+    "investigations_and_information_retrieval": []
+  },
+  "learning_outcomes": [],
+  "content": [
+    "Different types of databases",
+    "Definition, planning and implementation of databases",
+    "SQL basics",
+    "Database administration in DBMS"
+  ],
+  "prerequisites": [],
+  "assessment": {
+    "grading_scale": "",
+    "criteria": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "pass_fail_criteria": ""
+  }
+},
+{
+  "institution": "Turku AMK",
+  "degree_programme": "Information and Communication Technology",
+  "course_name": "Linux and Virtualization",
+  "course_unit_code": "TT00BM58",
+  "credits": 5,
+  "teaching_language": [
+    "English"
+  ],
+  "responsible_person": [],
+  "objective": [
+    "After completing the course the student:",
+    "is familiar with Linux-based system use",
+    "understands the concepts of virtual machines",
+    "is able to install programs and modify settings",
+    "can implement system security improvements"
+  ],
+  "competences": {
+    "knowledge_and_understanding": [],
+    "engineering_practice": [],
+    "applying_technology_to_practice": [],
+    "multidisciplinary_competence": [],
+    "communication_and_teamwork": [],
+    "investigations_and_information_retrieval": []
+  },
+  "learning_outcomes": [],
+  "content": [
+    "using Linux as an operating system",
+    "virtual machine usage",
+    "program installation and management",
+    "enhancing system security"
+  ],
+  "prerequisites": [],
+  "assessment": {
+    "grading_scale": "",
+    "criteria": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "pass_fail_criteria": ""
+  }
+},
+{
+  "institution": "Turku AMK",
+  "degree_programme": "Information and Communication Technology",
+  "course_name": "Object-Oriented Programming with Python",
+  "course_unit_code": "TT00DS61",
+  "credits": 5,
+  "teaching_language": [
+    "Finnish",
+    "English"
+  ],
+  "responsible_person": [],
+  "objective": [
+    "After completing the course, the student can:",
+    "Analyze problems in terms of objects, responsibilities, and relationships.",
+    "Design coherent, reusable, modular, and maintainable code.",
+    "Model real-world domains, implement class hierarchies, and apply key concepts such as encapsulation, composition, inheritance, and polymorphism.",
+    "Apply computational thinking skills such as abstraction, decomposition, and iterative refinement when designing and implementing object-oriented solutions.",
+    "Use AIaugmented development tools responsibly to support code exploration, generate test ideas, and improve solutions, while critically evaluating and validating all AIproduced code.",
+    "By the end of the course, students can design and implement small-scale object-oriented systems, communicate design decisions clearly, and apply both traditional and AI-supported development workflows in a controlled and pedagogically meaningful way."
+  ],
+  "competences": {
+    "knowledge_and_understanding": [],
+    "engineering_practice": [],
+    "applying_technology_to_practice": [],
+    "multidisciplinary_competence": [],
+    "communication_and_teamwork": [],
+    "investigations_and_information_retrieval": []
+  },
+  "learning_outcomes": [],
+  "content": [
+    "The course introduces the fundamentals of object-oriented programming concepts and object-oriented thinking and problem-solving using Python. Students learn to design coherent and reusable classes, model real-world domains, and implement various OOP programming techniques. Students practice computational thinking and systemic design by developing small-scale software applications and reasoning about program behavior through testing and refactoring. The course also integrates responsible AI-augmented development, where AI tools support exploration and testing while students maintain full responsibility for validation and correctness.",
+    "1. Foundations & Communication between Objects",
+    "Classes, objects, attributes, methods, encapsulation, inheritance, polymorphism, class hierarchies, inter-object communication, and principles of coherent object design.",
+    "2. UML Diagrams",
+    "Using UML models such as class diagrams, sequence diagrams, and use case diagrams to support design, communication and documentation.",
+    "3. Software Development Process and Methods",
+    "Phases of software development: planning, implementation, testing, refactoring, clean code practices, and documentation for small-scale applications. Introduction to modular design and incremental improvement.",
+    "4. Principles AI augmented development",
+    "Responsive and responsible use of AI copilots to support code exploration, generate or refine test ideas, scaffold designs, and review code, combined with systematic human evaluation, validation, and interpretation of AI-produced suggestions."
+  ],
+  "prerequisites": [
+    "Introduction to Programming or equivalent programming skills"
+  ],
+  "assessment": {
+    "grading_scale": "",
+    "criteria": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "pass_fail_criteria": ""
+  }
+},
+{
+  "institution": "Turku AMK",
+  "degree_programme": "Information and Communication Technology",
+  "course_name": "Front-End Development",
+  "course_unit_code": "TT00DS73",
+  "credits": 5,
+  "teaching_language": [
+    "English",
+    "Finnish"
+  ],
+  "responsible_person": [],
+  "objective": [
+    "After completing the course, the student can:",
+    "Describe the core concepts, application areas and execution environments of modern front end development technologies.",
+    "Apply contemporary front end programming practices and utilize libraries, frameworks or component-based tools effectively.",
+    "Search for technical information efficiently to improve programming skills and solve front end development problems.",
+    "Use a variety of professional development tools, including AI assisted tools, to support coding, debugging, accessibility checks, documentation and workflow management.",
+    "Design and implement modular, maintainable front-end applications using appropriate programming languages, libraries and frameworks.",
+    "Work proactively and responsibly as a member of a front-end development project team, applying good collaboration practices and version control workflows."
+  ],
+  "competences": {
+    "knowledge_and_understanding": [],
+    "engineering_practice": [],
+    "applying_technology_to_practice": [],
+    "multidisciplinary_competence": [],
+    "communication_and_teamwork": [],
+    "investigations_and_information_retrieval": []
+  },
+  "learning_outcomes": [],
+  "content": [
+    "The course focuses on modern front-end development, introducing foundational concepts, tools and programming practices needed to build interactive and maintainable user interfaces. Learning combines exercises, tool use and teamwork with current front-end technologies. AI is integrated as a supportive tool throughout the course.",
+    "1. Front End Programming Fundamentals",
+    "Syntax and Core Language Concepts",
+    "Fundamental programming constructs, data types, expressions and control structures in a front end programming language.",
+    "Working with Data",
+    "Handling strings, objects and arrays or other common collections, and applying data manipulation techniques.",
+    "Functions and Modular Code",
+    "Function design, modularization, scope and closures, and structuring applications into reusable units.",
+    "Error Handling",
+    "Detecting, analyzing and handling runtime errors; debugging principles and tools.",
+    "DOM and Event Driven Programming",
+    "Interacting with UI elements, manipulating the document structure and implementing event-based functionality.",
+    "Modules and Code Organization",
+    "Managing imports and exports and organizing modular application architecture.",
+    "Asynchronous Programming",
+    "Techniques for handling asynchronous operations and coordinating UI updates.",
+    "Tools",
+    "Using professional development tools such as linters, bundlers, testing tools, version control systems and AI assisted tools for code generation support, refactoring suggestions, debugging hints, accessibility checks and documentation drafts.",
+    "2. Component Based Front End Development (Lectures and Teamwork)",
+    "Component Based Architecture",
+    "Principles of building applications using components, independent of any specific framework.",
+    "UI Structure and Templates",
+    "Using declarative or template-based syntax to describe UI hierarchies and layout patterns.",
+    "State and Data Flow",
+    "Managing state within components and across applications; applying best practices for predictable data flow.",
+    "Application Modularization",
+    "Structuring applications into reusable, maintainable components and modules; separation of concerns.",
+    "Tools and Development Workflow",
+    "Using framework specific and general-purpose tools for development and debugging. Leveraging AI enhanced utilities to generate component scaffolds, analyze code quality, identify issues and support design decisions.",
+    "Team Based Application Development",
+    "Developing a component based front-end application in teams, applying version control workflows, code reviews, issue tracking and responsible AI use guidelines"
+  ],
+  "prerequisites": [],
+  "assessment": {
+    "grading_scale": "",
+    "criteria": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "pass_fail_criteria": ""
+  }
+},
+{
+  "institution": "Turku AMK",
+  "degree_programme": "Information and Communication Technology",
+  "course_name": "Mobile Application Development",
+  "course_unit_code": "TT00DS75",
+  "credits": 5,
+  "teaching_language": [
+    "English"
+  ],
+  "responsible_person": [],
+  "objective": [
+    "After completing the course, the student can:",
+    "Implement a mobile application according to given requirements.",
+    "Program efficiently as part of a development team using professional tools and workflows.",
+    "Reuse code and utilize libraries, frameworks and application platforms to support development.",
+    "Write code based on UML diagrams or implement features from user stories.",
+    "Understand and apply common software design patterns in mobile application development.",
+    "Use AI-assisted tools responsibly to support mobile development tasks such as ideation, code generation support, debugging, documentation and testing."
+  ],
+  "competences": {
+    "knowledge_and_understanding": [],
+    "engineering_practice": [],
+    "applying_technology_to_practice": [],
+    "multidisciplinary_competence": [],
+    "communication_and_teamwork": [],
+    "investigations_and_information_retrieval": []
+  },
+  "learning_outcomes": [],
+  "content": [
+    "The course focuses on designing and implementing mobile applications using modern programming practices, tools and frameworks.",
+    "1. Mobile Application Assignment",
+    "Planning and implementing a mobile application for an assigned task, using both manual and AI-assisted approaches for ideation and structure.",
+    "2. Mobile Programming Languages and Features",
+    "Exploring suitable programming languages, tools and mobile-specific features required for the application.",
+    "3. Design Patterns in Mobile Development",
+    "Learning and applying design patterns relevant to mobile applications, with AI-assisted examples to compare implementation alternatives.",
+    "4. Professional Development Tools",
+    "Using industry-standard coding tools, IDEs, version control systems and AI-supported tools for code generation, refactoring suggestions, debugging hints and documentation support.",
+    "5. Code Reuse and Framework Utilization",
+    "Reusing existing code and utilizing libraries, frameworks and platforms to accelerate development. Leveraging AI tools to explore documentation, assess library suitability and support integration tasks.",
+    "6. Team-Based Mobile Application Development",
+    "Developing a mobile application collaboratively in a team environment, practising structured workflows, shared coding practices and responsible AI use as part of teamwork and communication."
+  ],
+  "prerequisites": [],
+  "assessment": {
+    "grading_scale": "",
+    "criteria": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "pass_fail_criteria": ""
+  }
+},
+{
+  "institution": "Turku AMK",
+  "degree_programme": "Information and Communication Technology",
+  "course_name": "Data Structures and Algorithms",
+  "course_unit_code": "TT00DB42",
+  "credits": 5,
+  "teaching_language": [],
+  "responsible_person": [],
+  "objective": [
+    "After completing the course the student can:",
+    "explain the most common data structures",
+    "apply the most common data structures and algorithms connected to the use of these structures",
+    "evaluate the efficiency of algorithms."
+  ],
+  "competences": {
+    "knowledge_and_understanding": [],
+    "engineering_practice": [],
+    "applying_technology_to_practice": [],
+    "multidisciplinary_competence": [],
+    "communication_and_teamwork": [],
+    "investigations_and_information_retrieval": []
+  },
+  "learning_outcomes": [],
+  "content": [
+    "lists, stacks, queues, trees, graphs and hash tables",
+    "analysing and evaluating algorithms",
+    "designing algorithms",
+    "sorting methods",
+    "search algorithms"
+  ],
+  "prerequisites": [
+    "Introduction to Programming, or equivalent programming skills"
+  ],
+  "assessment": {
+    "grading_scale": "",
+    "criteria": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "pass_fail_criteria": ""
+  }
+},
+{
+  "institution": "Turku AMK",
+  "degree_programme": "Information and Communication Technology",
+  "course_name": "Back-End Development",
+  "course_unit_code": "TE00BR86",
+  "credits": 5,
+  "teaching_language": [
+    "English"
+  ],
+  "responsible_person": [],
+  "objective": [
+    "After completing the course the student can:",
+    "Knows the main alternatives technologies on the server-side in developing web applications.",
+    "Masters one server-side scripting language and can use some important libraries.",
+    "Understands the basics of web application architectures.",
+    "Can use a content management system or an application framework in implementing a web application.",
+    "Can use efficient tools in server-side scripting."
+  ],
+  "competences": {
+    "knowledge_and_understanding": [],
+    "engineering_practice": [],
+    "applying_technology_to_practice": [],
+    "multidisciplinary_competence": [],
+    "communication_and_teamwork": [],
+    "investigations_and_information_retrieval": []
+  },
+  "learning_outcomes": [],
+  "content": [
+    "Learning a server-side scripting language.",
+    "Introduction to web application architectures.",
+    "Integrating a database server to a web application.",
+    "Using a content management system or an application framework in implementing a web application.",
+    "Tools for server-side scripting.",
+    "Implementing a small scale web application."
+  ],
+  "prerequisites": [],
+  "assessment": {
+    "grading_scale": "",
+    "criteria": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": ""
+    },
+    "pass_fail_criteria": ""
+  }
+}
+]

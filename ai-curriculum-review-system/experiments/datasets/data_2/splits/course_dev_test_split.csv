@@ -1,0 +1,51 @@
+course_unit_code,course_name,institution,split
+TT00CD71,Linux Basics,JAMK,dev
+TT00CD76,Scripting and Automatization,JAMK,dev
+TT00CD78,Frontend Programming,JAMK,dev
+TT00CD79,Basics of Web Development,JAMK,dev
+TT00CD80,JavaScript Programming,JAMK,dev
+TT00CD81,Databases,JAMK,dev
+TT00CD83,Data Structures and Algorithms,JAMK,dev
+TT00CD85,Backend Programming,JAMK,dev
+TT00CD86,Cyber Security,JAMK,dev
+TT00CD87,Information Security Technologies,JAMK,dev
+TT00CD88,Hardening,JAMK,dev
+TT00CD90,Software Design,JAMK,dev
+TT00CD91,Object Oriented Programming,JAMK,dev
+TT00CD93,Android Application Development,JAMK,dev
+TT00CD94,Mobile Application Development,JAMK,dev
+TT00CD96,Graphics Programming,JAMK,dev
+TT00CD98,Mathematical Foundations of Machine Learning,JAMK,dev
+TT00CD99,Data Sources and Data Preprocessing,JAMK,dev
+TT00CE01,Machine Learning: Classification Methods,JAMK,dev
+TT00CE02,Machine Learning: Regression Methods,JAMK,dev
+TT00CE07,Cyber Security Management,JAMK,dev
+TT00CE08,Basics of Cyber Security Exercises,JAMK,dev
+TT00CE09,Auditing and Penetration Testing,JAMK,dev
+TT00CE11,Data Security Controls,JAMK,dev
+TT00CE12,Security Operations Center,JAMK,dev
+TT00CE14,Malware Analysis,JAMK,dev
+TT00CE16,Reverse Engineering,JAMK,dev
+TT00CE17,Web Application Security Testing,JAMK,dev
+TT00CK80,Mathematical Basics of Graphics Programming,JAMK,dev
+TE00CS88,Introduction to Programming,Turku AMK,dev
+TE00CS89,Databases,Turku AMK,dev
+TT00DB42,Data Structures and Algorithms,Turku AMK,dev
+TT00DS61,Object-Oriented Programming with Python,Turku AMK,dev
+TT00DS73,Front-End Development,Turku AMK,dev
+TT00DS75,Mobile Application Development,Turku AMK,dev
+TT00CD70,Data Networks,JAMK,test
+TT00CD72,Servers and containers,JAMK,test
+TT00CD75,Windows Basics,JAMK,test
+TT00CD77,Basics of Programming,JAMK,test
+TT00CD84,Data analytics and artificial intelligence,JAMK,test
+TT00CD92,Mobile Project,JAMK,test
+TT00CE00,Data Analysis and Visualization,JAMK,test
+TT00CE03,Deep Learning,JAMK,test
+TT00CE05,Data Analytics Project,JAMK,test
+TT00CE06,Machine Learning Project,JAMK,test
+TT00CE21,Cloud Architectures and Platforms,JAMK,test
+TT00CE25,Windows Infrastructure,JAMK,test
+TE00CN56,Internet Networks and Security,Turku AMK,test
+TT00BM58,Linux and Virtualization,Turku AMK,test
+TT00DS35,Introduction to Networks,Turku AMK,test

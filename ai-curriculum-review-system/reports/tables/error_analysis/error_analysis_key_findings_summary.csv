@@ -1,0 +1,11 @@
+finding,value
+Primary recommended configuration,openai_text-embedding-3-large | enriched | cosine | max_f1
+Locked threshold,0.673784
+Development positive success rate,85.00%
+Development negative success rate,99.83%
+Test positive success rate,62.50%
+Test negative success rate,100.00%
+Total disagreement count,7
+False positive count,1
+False negative count,6
+Most common false-negative reason,security_overlap (2)

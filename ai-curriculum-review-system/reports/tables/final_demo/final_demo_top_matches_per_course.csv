@@ -1,0 +1,501 @@
+source_course_unit_code,source_course_name,matched_course_unit_code,matched_course_name,similarity_score,overlap_flag,match_rank,final_locked_threshold
+TE00BR86,Back-End Development,TT00CD85,Backend Programming,0.7586131691932678,1,1,0.6737841964
+TE00BR86,Back-End Development,TT00DS73,Front-End Development,0.6658197641372681,0,2,0.6737841964
+TE00BR86,Back-End Development,TT00CD78,Frontend Programming,0.6156879663467407,0,3,0.6737841964
+TE00BR86,Back-End Development,TT00CD79,Basics of Web Development,0.5890481472015381,0,4,0.6737841964
+TE00BR86,Back-End Development,TT00CD94,Mobile Application Development,0.5572006702423096,0,5,0.6737841964
+TE00BR86,Back-End Development,TE00CS89,Databases,0.5493776202201843,0,6,0.6737841964
+TE00BR86,Back-End Development,TT00CD80,JavaScript Programming,0.5427125096321106,0,7,0.6737841964
+TE00BR86,Back-End Development,TT00CE17,Web Application Security Testing,0.522451639175415,0,8,0.6737841964
+TE00BR86,Back-End Development,TT00CD92,Mobile Project,0.5156623721122742,0,9,0.6737841964
+TE00BR86,Back-End Development,TT00DS75,Mobile Application Development,0.5147679448127747,0,10,0.6737841964
+TE00CN56,Internet Networks and Security,TT00CD70,Data Networks,0.7062230706214905,1,1,0.6737841964
+TE00CN56,Internet Networks and Security,TT00CD87,Information Security Technologies,0.6836251020431519,1,2,0.6737841964
+TE00CN56,Internet Networks and Security,TT00CD86,Cyber Security,0.6732928156852722,0,3,0.6737841964
+TE00CN56,Internet Networks and Security,TT00CE20,Local Area Networks,0.6288841962814331,0,4,0.6737841964
+TE00CN56,Internet Networks and Security,TT00DS35,Introduction to Networks,0.6229244470596313,0,5,0.6737841964
+TE00CN56,Internet Networks and Security,TT00CE11,Data Security Controls,0.6206526160240173,0,6,0.6737841964
+TE00CN56,Internet Networks and Security,TT00CE28,Core Networks,0.6092613935470581,0,7,0.6737841964
+TE00CN56,Internet Networks and Security,TT00CE09,Auditing and Penetration Testing,0.6086369156837463,0,8,0.6737841964
+TE00CN56,Internet Networks and Security,TT00CE25,Windows Infrastructure,0.5720616579055786,0,9,0.6737841964
+TE00CN56,Internet Networks and Security,TT00CE12,Security Operations Center,0.5573242902755737,0,10,0.6737841964
+TE00CS88,Introduction to Programming,TT00CD77,Basics of Programming,0.7308268547058105,1,1,0.6737841964
+TE00CS88,Introduction to Programming,TT00DB42,Data Structures and Algorithms,0.6125127077102661,0,2,0.6737841964
+TE00CS88,Introduction to Programming,TT00CD91,Object Oriented Programming,0.5668979287147522,0,3,0.6737841964
+TE00CS88,Introduction to Programming,TT00DS61,Object-Oriented Programming with Python,0.5637205839157104,0,4,0.6737841964
+TE00CS88,Introduction to Programming,TT00CD96,Graphics Programming,0.5622329115867615,0,5,0.6737841964
+TE00CS88,Introduction to Programming,TT00CD83,Data Structures and Algorithms,0.5601721405982971,0,6,0.6737841964
+TE00CS88,Introduction to Programming,TT00CD90,Software Design,0.5545207262039185,0,7,0.6737841964
+TE00CS88,Introduction to Programming,TT00CD93,Android Application Development,0.5479124784469604,0,8,0.6737841964
+TE00CS88,Introduction to Programming,TT00DS75,Mobile Application Development,0.5413033366203308,0,9,0.6737841964
+TE00CS88,Introduction to Programming,TT00CD80,JavaScript Programming,0.5373607873916626,0,10,0.6737841964
+TE00CS89,Databases,TT00CD81,Databases,0.7464207410812378,1,1,0.6737841964
+TE00CS89,Databases,TT00DB42,Data Structures and Algorithms,0.5674231052398682,0,2,0.6737841964
+TE00CS89,Databases,TE00BR86,Back-End Development,0.5493776202201843,0,3,0.6737841964
+TE00CS89,Databases,TT00CD90,Software Design,0.5175473093986511,0,4,0.6737841964
+TE00CS89,Databases,TE00CS88,Introduction to Programming,0.504610002040863,0,5,0.6737841964
+TE00CS89,Databases,TT00CD84,Data analytics and artificial intelligence,0.4928932189941406,0,6,0.6737841964
+TE00CS89,Databases,TT00CD87,Information Security Technologies,0.49131321907043457,0,7,0.6737841964
+TE00CS89,Databases,TT00CD83,Data Structures and Algorithms,0.4845680892467499,0,8,0.6737841964
+TE00CS89,Databases,TE00CN56,Internet Networks and Security,0.4842231273651123,0,9,0.6737841964
+TE00CS89,Databases,TT00CD92,Mobile Project,0.4744029641151428,0,10,0.6737841964
+TT00CD70,Data Networks,TT00CE20,Local Area Networks,0.7830042839050293,1,1,0.6737841964
+TT00CD70,Data Networks,TT00CE28,Core Networks,0.7449620962142944,1,2,0.6737841964
+TT00CD70,Data Networks,TT00DS35,Introduction to Networks,0.7189512848854065,1,3,0.6737841964
+TT00CD70,Data Networks,TE00CN56,Internet Networks and Security,0.7062230706214905,1,4,0.6737841964
+TT00CD70,Data Networks,TT00CE21,Cloud Architectures and Platforms,0.5929883718490601,0,5,0.6737841964
+TT00CD70,Data Networks,TT00CD86,Cyber Security,0.5781020522117615,0,6,0.6737841964
+TT00CD70,Data Networks,TT00CE11,Data Security Controls,0.5722306966781616,0,7,0.6737841964
+TT00CD70,Data Networks,TT00CD87,Information Security Technologies,0.564119815826416,0,8,0.6737841964
+TT00CD70,Data Networks,TT00CE25,Windows Infrastructure,0.5613484382629395,0,9,0.6737841964
+TT00CD70,Data Networks,TT00CD72,Servers and containers,0.5613064765930176,0,10,0.6737841964
+TT00CD71,Linux Basics,TT00CD75,Windows Basics,0.687749981880188,1,1,0.6737841964
+TT00CD71,Linux Basics,TT00CD76,Scripting and Automatization,0.6362694501876831,0,2,0.6737841964
+TT00CD71,Linux Basics,TT00CD77,Basics of Programming,0.5663483738899231,0,3,0.6737841964
+TT00CD71,Linux Basics,TT00CD72,Servers and containers,0.5610851645469666,0,4,0.6737841964
+TT00CD71,Linux Basics,TT00CD86,Cyber Security,0.5580567121505737,0,5,0.6737841964
+TT00CD71,Linux Basics,TT00CE25,Windows Infrastructure,0.5376915335655212,0,6,0.6737841964
+TT00CD71,Linux Basics,TT00CE11,Data Security Controls,0.5370782017707825,0,7,0.6737841964
+TT00CD71,Linux Basics,TT00CE21,Cloud Architectures and Platforms,0.515602707862854,0,8,0.6737841964
+TT00CD71,Linux Basics,TT00CD88,Hardening,0.5115944147109985,0,9,0.6737841964
+TT00CD71,Linux Basics,TT00CD81,Databases,0.5103394985198975,0,10,0.6737841964
+TT00CD72,Servers and containers,TT00CE21,Cloud Architectures and Platforms,0.6744142770767212,1,1,0.6737841964
+TT00CD72,Servers and containers,TT00CD70,Data Networks,0.5613064765930176,0,2,0.6737841964
+TT00CD72,Servers and containers,TT00CD71,Linux Basics,0.5610851645469666,0,3,0.6737841964
+TT00CD72,Servers and containers,TT00CE11,Data Security Controls,0.5609335899353027,0,4,0.6737841964
+TT00CD72,Servers and containers,TT00CE25,Windows Infrastructure,0.5604740381240845,0,5,0.6737841964
+TT00CD72,Servers and containers,TT00CD76,Scripting and Automatization,0.5577923059463501,0,6,0.6737841964
+TT00CD72,Servers and containers,TT00CD86,Cyber Security,0.5510506629943848,0,7,0.6737841964
+TT00CD72,Servers and containers,TT00CD85,Backend Programming,0.5390158891677856,0,8,0.6737841964
+TT00CD72,Servers and containers,TT00CD88,Hardening,0.5321716666221619,0,9,0.6737841964
+TT00CD72,Servers and containers,TT00CD77,Basics of Programming,0.5159834027290344,0,10,0.6737841964
+TT00CD75,Windows Basics,TT00CE25,Windows Infrastructure,0.7381158471107483,1,1,0.6737841964
+TT00CD75,Windows Basics,TT00CD71,Linux Basics,0.687749981880188,1,2,0.6737841964
+TT00CD75,Windows Basics,TT00CD76,Scripting and Automatization,0.626083493232727,0,3,0.6737841964
+TT00CD75,Windows Basics,TT00CD77,Basics of Programming,0.5815012454986572,0,4,0.6737841964
+TT00CD75,Windows Basics,TT00CD88,Hardening,0.5754779577255249,0,5,0.6737841964
+TT00CD75,Windows Basics,TT00CE11,Data Security Controls,0.5685553550720215,0,6,0.6737841964
+TT00CD75,Windows Basics,TT00CD86,Cyber Security,0.5662715435028076,0,7,0.6737841964
+TT00CD75,Windows Basics,TT00CD87,Information Security Technologies,0.5544102191925049,0,8,0.6737841964
+TT00CD75,Windows Basics,TE00CN56,Internet Networks and Security,0.5271077752113342,0,9,0.6737841964
+TT00CD75,Windows Basics,TT00CE17,Web Application Security Testing,0.5241056680679321,0,10,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CD71,Linux Basics,0.6362694501876831,0,1,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CD75,Windows Basics,0.626083493232727,0,2,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CD72,Servers and containers,0.5577923059463501,0,3,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CE25,Windows Infrastructure,0.556777834892273,0,4,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CD77,Basics of Programming,0.55641108751297,0,5,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CE11,Data Security Controls,0.5235714912414551,0,6,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CD88,Hardening,0.5228176116943359,0,7,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CD86,Cyber Security,0.5053042769432068,0,8,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CE21,Cloud Architectures and Platforms,0.5039916634559631,0,9,0.6737841964
+TT00CD76,Scripting and Automatization,TT00CD80,JavaScript Programming,0.4994686543941498,0,10,0.6737841964
+TT00CD77,Basics of Programming,TE00CS88,Introduction to Programming,0.7308268547058105,1,1,0.6737841964
+TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,0.6623084545135498,0,2,0.6737841964
+TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,0.6587135791778564,0,3,0.6737841964
+TT00CD77,Basics of Programming,TT00CD93,Android Application Development,0.6450434923171997,0,4,0.6737841964
+TT00CD77,Basics of Programming,TT00CD79,Basics of Web Development,0.622992753982544,0,5,0.6737841964
+TT00CD77,Basics of Programming,TT00CD85,Backend Programming,0.6162034869194031,0,6,0.6737841964
+TT00CD77,Basics of Programming,TT00CD94,Mobile Application Development,0.6133614778518677,0,7,0.6737841964
+TT00CD77,Basics of Programming,TT00DS61,Object-Oriented Programming with Python,0.5996416211128235,0,8,0.6737841964
+TT00CD77,Basics of Programming,TT00CD96,Graphics Programming,0.5975609421730042,0,9,0.6737841964
+TT00CD77,Basics of Programming,TT00CD83,Data Structures and Algorithms,0.5925936102867126,0,10,0.6737841964
+TT00CD78,Frontend Programming,TT00DS73,Front-End Development,0.7181925773620605,1,1,0.6737841964
+TT00CD78,Frontend Programming,TT00CD80,JavaScript Programming,0.6972154378890991,1,2,0.6737841964
+TT00CD78,Frontend Programming,TT00CD85,Backend Programming,0.6737841963768005,0,3,0.6737841964
+TT00CD78,Frontend Programming,TT00CD94,Mobile Application Development,0.6197343468666077,0,4,0.6737841964
+TT00CD78,Frontend Programming,TE00BR86,Back-End Development,0.6156879663467407,0,5,0.6737841964
+TT00CD78,Frontend Programming,TT00CD79,Basics of Web Development,0.5693237781524658,0,6,0.6737841964
+TT00CD78,Frontend Programming,TT00CD77,Basics of Programming,0.5598868727684021,0,7,0.6737841964
+TT00CD78,Frontend Programming,TT00CD92,Mobile Project,0.5509294271469116,0,8,0.6737841964
+TT00CD78,Frontend Programming,TT00CD93,Android Application Development,0.527472198009491,0,9,0.6737841964
+TT00CD78,Frontend Programming,TT00DS75,Mobile Application Development,0.5198816061019897,0,10,0.6737841964
+TT00CD79,Basics of Web Development,TT00CD94,Mobile Application Development,0.6238468885421753,0,1,0.6737841964
+TT00CD79,Basics of Web Development,TT00CD77,Basics of Programming,0.622992753982544,0,2,0.6737841964
+TT00CD79,Basics of Web Development,TT00DS73,Front-End Development,0.6124248504638672,0,3,0.6737841964
+TT00CD79,Basics of Web Development,TT00CD80,JavaScript Programming,0.5979664325714111,0,4,0.6737841964
+TT00CD79,Basics of Web Development,TE00BR86,Back-End Development,0.5890481472015381,0,5,0.6737841964
+TT00CD79,Basics of Web Development,TT00CD85,Backend Programming,0.5841859579086304,0,6,0.6737841964
+TT00CD79,Basics of Web Development,TT00CD78,Frontend Programming,0.5693237781524658,0,7,0.6737841964
+TT00CD79,Basics of Web Development,TT00CE17,Web Application Security Testing,0.5404956340789795,0,8,0.6737841964
+TT00CD79,Basics of Web Development,TT00CD92,Mobile Project,0.5288667678833008,0,9,0.6737841964
+TT00CD79,Basics of Web Development,TT00CD93,Android Application Development,0.5181377530097961,0,10,0.6737841964
+TT00CD80,JavaScript Programming,TT00CD78,Frontend Programming,0.6972154378890991,1,1,0.6737841964
+TT00CD80,JavaScript Programming,TT00CD77,Basics of Programming,0.6623084545135498,0,2,0.6737841964
+TT00CD80,JavaScript Programming,TT00CD94,Mobile Application Development,0.6178098320960999,0,3,0.6737841964
+TT00CD80,JavaScript Programming,TT00CD91,Object Oriented Programming,0.6129266619682312,0,4,0.6737841964
+TT00CD80,JavaScript Programming,TT00CD79,Basics of Web Development,0.5979664325714111,0,5,0.6737841964
+TT00CD80,JavaScript Programming,TT00DS73,Front-End Development,0.5699248313903809,0,6,0.6737841964
+TT00CD80,JavaScript Programming,TT00CD85,Backend Programming,0.5610564351081848,0,7,0.6737841964
+TT00CD80,JavaScript Programming,TE00BR86,Back-End Development,0.5427125096321106,0,8,0.6737841964
+TT00CD80,JavaScript Programming,TE00CS88,Introduction to Programming,0.5373607873916626,0,9,0.6737841964
+TT00CD80,JavaScript Programming,TT00CD93,Android Application Development,0.5330896973609924,0,10,0.6737841964
+TT00CD81,Databases,TE00CS89,Databases,0.7464207410812378,1,1,0.6737841964
+TT00CD81,Databases,TT00CD77,Basics of Programming,0.5726437568664551,0,2,0.6737841964
+TT00CD81,Databases,TT00CD83,Data Structures and Algorithms,0.5586463809013367,0,3,0.6737841964
+TT00CD81,Databases,TT00DB42,Data Structures and Algorithms,0.521133303642273,0,4,0.6737841964
+TT00CD81,Databases,TT00CD85,Backend Programming,0.5143177509307861,0,5,0.6737841964
+TT00CD81,Databases,TT00CD84,Data analytics and artificial intelligence,0.5137007236480713,0,6,0.6737841964
+TT00CD81,Databases,TT00CD93,Android Application Development,0.5125720500946045,0,7,0.6737841964
+TT00CD81,Databases,TT00CD79,Basics of Web Development,0.510353684425354,0,8,0.6737841964
+TT00CD81,Databases,TT00CD71,Linux Basics,0.5103394985198975,0,9,0.6737841964
+TT00CD81,Databases,TT00CD91,Object Oriented Programming,0.5099080801010132,0,10,0.6737841964
+TT00CD83,Data Structures and Algorithms,TT00DB42,Data Structures and Algorithms,0.8457255363464355,1,1,0.6737841964
+TT00CD83,Data Structures and Algorithms,TT00CD77,Basics of Programming,0.5925936102867126,0,2,0.6737841964
+TT00CD83,Data Structures and Algorithms,TT00CE00,Data Analysis and Visualization,0.5813063979148865,0,3,0.6737841964
+TT00CD83,Data Structures and Algorithms,TT00CD84,Data analytics and artificial intelligence,0.573822021484375,0,4,0.6737841964
+TT00CD83,Data Structures and Algorithms,TE00CS88,Introduction to Programming,0.5601721405982971,0,5,0.6737841964
+TT00CD83,Data Structures and Algorithms,TT00CD81,Databases,0.5586463809013367,0,6,0.6737841964
+TT00CD83,Data Structures and Algorithms,TT00CD91,Object Oriented Programming,0.5298893451690674,0,7,0.6737841964
+TT00CD83,Data Structures and Algorithms,TT00CD98,Mathematical Foundations of Machine Learning,0.5283012390136719,0,8,0.6737841964
+TT00CD83,Data Structures and Algorithms,TT00CD80,JavaScript Programming,0.5248515009880066,0,9,0.6737841964
+TT00CD83,Data Structures and Algorithms,TT00DS61,Object-Oriented Programming with Python,0.5061794519424438,0,10,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CE00,Data Analysis and Visualization,0.7047044038772583,1,1,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CE06,Machine Learning Project,0.6715835928916931,0,2,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CE05,Data Analytics Project,0.6540001034736633,0,3,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,0.6149038076400757,0,4,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CE03,Deep Learning,0.6021848917007446,0,5,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CE01,Machine Learning: Classification Methods,0.6015174984931946,0,6,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CD83,Data Structures and Algorithms,0.573822021484375,0,7,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CD98,Mathematical Foundations of Machine Learning,0.5632674694061279,0,8,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CE02,Machine Learning: Regression Methods,0.5404649972915649,0,9,0.6737841964
+TT00CD84,Data analytics and artificial intelligence,TT00CD77,Basics of Programming,0.5294962525367737,0,10,0.6737841964
+TT00CD85,Backend Programming,TE00BR86,Back-End Development,0.7586131691932678,1,1,0.6737841964
+TT00CD85,Backend Programming,TT00CD78,Frontend Programming,0.6737841963768005,0,2,0.6737841964
+TT00CD85,Backend Programming,TT00CD77,Basics of Programming,0.6162034869194031,0,3,0.6737841964
+TT00CD85,Backend Programming,TT00DS73,Front-End Development,0.6079854965209961,0,4,0.6737841964
+TT00CD85,Backend Programming,TT00CD94,Mobile Application Development,0.5988161563873291,0,5,0.6737841964
+TT00CD85,Backend Programming,TT00CD79,Basics of Web Development,0.5841859579086304,0,6,0.6737841964
+TT00CD85,Backend Programming,TT00CD93,Android Application Development,0.5669505596160889,0,7,0.6737841964
+TT00CD85,Backend Programming,TT00CD80,JavaScript Programming,0.5610564351081848,0,8,0.6737841964
+TT00CD85,Backend Programming,TT00CD72,Servers and containers,0.5390158891677856,0,9,0.6737841964
+TT00CD85,Backend Programming,TT00CE17,Web Application Security Testing,0.5330941677093506,0,10,0.6737841964
+TT00CD86,Cyber Security,TT00CE11,Data Security Controls,0.7316275238990784,1,1,0.6737841964
+TT00CD86,Cyber Security,TT00CD87,Information Security Technologies,0.7115885019302368,1,2,0.6737841964
+TT00CD86,Cyber Security,TE00CN56,Internet Networks and Security,0.6732928156852722,0,3,0.6737841964
+TT00CD86,Cyber Security,TT00CE17,Web Application Security Testing,0.6580270528793335,0,4,0.6737841964
+TT00CD86,Cyber Security,TT00CE09,Auditing and Penetration Testing,0.6485379338264465,0,5,0.6737841964
+TT00CD86,Cyber Security,TT00CE12,Security Operations Center,0.6346659064292908,0,6,0.6737841964
+TT00CD86,Cyber Security,TT00CD88,Hardening,0.6257376670837402,0,7,0.6737841964
+TT00CD86,Cyber Security,TT00CE14,Malware Analysis,0.5874677896499634,0,8,0.6737841964
+TT00CD86,Cyber Security,TT00CD70,Data Networks,0.5781020522117615,0,9,0.6737841964
+TT00CD86,Cyber Security,TT00CD75,Windows Basics,0.5662715435028076,0,10,0.6737841964
+TT00CD87,Information Security Technologies,TT00CE11,Data Security Controls,0.7479082345962524,1,1,0.6737841964
+TT00CD87,Information Security Technologies,TT00CD88,Hardening,0.7191510200500488,1,2,0.6737841964
+TT00CD87,Information Security Technologies,TT00CD86,Cyber Security,0.7115885019302368,1,3,0.6737841964
+TT00CD87,Information Security Technologies,TE00CN56,Internet Networks and Security,0.6836251020431519,1,4,0.6737841964
+TT00CD87,Information Security Technologies,TT00CE09,Auditing and Penetration Testing,0.666739284992218,0,5,0.6737841964
+TT00CD87,Information Security Technologies,TT00CE17,Web Application Security Testing,0.6450444459915161,0,6,0.6737841964
+TT00CD87,Information Security Technologies,TT00CE12,Security Operations Center,0.6178990602493286,0,7,0.6737841964
+TT00CD87,Information Security Technologies,TT00CE25,Windows Infrastructure,0.5707395076751709,0,8,0.6737841964
+TT00CD87,Information Security Technologies,TT00CD70,Data Networks,0.564119815826416,0,9,0.6737841964
+TT00CD87,Information Security Technologies,TT00CD75,Windows Basics,0.5544102191925049,0,10,0.6737841964
+TT00CD88,Hardening,TT00CD87,Information Security Technologies,0.7191510200500488,1,1,0.6737841964
+TT00CD88,Hardening,TT00CE11,Data Security Controls,0.6650376319885254,0,2,0.6737841964
+TT00CD88,Hardening,TT00CD86,Cyber Security,0.6257376670837402,0,3,0.6737841964
+TT00CD88,Hardening,TT00CE17,Web Application Security Testing,0.625057578086853,0,4,0.6737841964
+TT00CD88,Hardening,TT00CE09,Auditing and Penetration Testing,0.6137384176254272,0,5,0.6737841964
+TT00CD88,Hardening,TT00CE25,Windows Infrastructure,0.5858824253082275,0,6,0.6737841964
+TT00CD88,Hardening,TT00CD75,Windows Basics,0.5754779577255249,0,7,0.6737841964
+TT00CD88,Hardening,TE00CN56,Internet Networks and Security,0.5562466382980347,0,8,0.6737841964
+TT00CD88,Hardening,TT00CD72,Servers and containers,0.5321716666221619,0,9,0.6737841964
+TT00CD88,Hardening,TT00CD70,Data Networks,0.5290825366973877,0,10,0.6737841964
+TT00CD90,Software Design,TT00CD92,Mobile Project,0.5837460160255432,0,1,0.6737841964
+TT00CD90,Software Design,TT00CD91,Object Oriented Programming,0.5613685250282288,0,2,0.6737841964
+TT00CD90,Software Design,TE00CS88,Introduction to Programming,0.5545207262039185,0,3,0.6737841964
+TT00CD90,Software Design,TT00DS75,Mobile Application Development,0.5402043461799622,0,4,0.6737841964
+TT00CD90,Software Design,TT00CD70,Data Networks,0.53142249584198,0,5,0.6737841964
+TT00CD90,Software Design,TT00CE21,Cloud Architectures and Platforms,0.523959755897522,0,6,0.6737841964
+TT00CD90,Software Design,TT00CE09,Auditing and Penetration Testing,0.5238802433013916,0,7,0.6737841964
+TT00CD90,Software Design,TE00CN56,Internet Networks and Security,0.5217533707618713,0,8,0.6737841964
+TT00CD90,Software Design,TT00DS61,Object-Oriented Programming with Python,0.5186264514923096,0,9,0.6737841964
+TT00CD90,Software Design,TE00CS89,Databases,0.5175473093986511,0,10,0.6737841964
+TT00CD91,Object Oriented Programming,TT00DS61,Object-Oriented Programming with Python,0.7617060542106628,1,1,0.6737841964
+TT00CD91,Object Oriented Programming,TT00CD77,Basics of Programming,0.6587135791778564,0,2,0.6737841964
+TT00CD91,Object Oriented Programming,TT00CD80,JavaScript Programming,0.6129266619682312,0,3,0.6737841964
+TT00CD91,Object Oriented Programming,TE00CS88,Introduction to Programming,0.5668979287147522,0,4,0.6737841964
+TT00CD91,Object Oriented Programming,TT00CD90,Software Design,0.5613685250282288,0,5,0.6737841964
+TT00CD91,Object Oriented Programming,TT00CD93,Android Application Development,0.5585470199584961,0,6,0.6737841964
+TT00CD91,Object Oriented Programming,TT00CD83,Data Structures and Algorithms,0.5298893451690674,0,7,0.6737841964
+TT00CD91,Object Oriented Programming,TT00CD96,Graphics Programming,0.5258829593658447,0,8,0.6737841964
+TT00CD91,Object Oriented Programming,TT00CD81,Databases,0.5099080801010132,0,9,0.6737841964
+TT00CD91,Object Oriented Programming,TT00CD94,Mobile Application Development,0.5098797678947449,0,10,0.6737841964
+TT00CD92,Mobile Project,TT00CD94,Mobile Application Development,0.8309781551361084,1,1,0.6737841964
+TT00CD92,Mobile Project,TT00DS75,Mobile Application Development,0.7887704372406006,1,2,0.6737841964
+TT00CD92,Mobile Project,TT00CD93,Android Application Development,0.6885857582092285,1,3,0.6737841964
+TT00CD92,Mobile Project,TT00CD90,Software Design,0.5837460160255432,0,4,0.6737841964
+TT00CD92,Mobile Project,TT00CE06,Machine Learning Project,0.5615326166152954,0,5,0.6737841964
+TT00CD92,Mobile Project,TT00CD78,Frontend Programming,0.5509294271469116,0,6,0.6737841964
+TT00CD92,Mobile Project,TT00CD77,Basics of Programming,0.5425872802734375,0,7,0.6737841964
+TT00CD92,Mobile Project,TT00CE05,Data Analytics Project,0.5348862409591675,0,8,0.6737841964
+TT00CD92,Mobile Project,TT00DS73,Front-End Development,0.5327636003494263,0,9,0.6737841964
+TT00CD92,Mobile Project,TT00CD79,Basics of Web Development,0.5288667678833008,0,10,0.6737841964
+TT00CD93,Android Application Development,TT00CD94,Mobile Application Development,0.7841508388519287,1,1,0.6737841964
+TT00CD93,Android Application Development,TT00DS75,Mobile Application Development,0.7011479735374451,1,2,0.6737841964
+TT00CD93,Android Application Development,TT00CD92,Mobile Project,0.6885857582092285,1,3,0.6737841964
+TT00CD93,Android Application Development,TT00CD77,Basics of Programming,0.6450434923171997,0,4,0.6737841964
+TT00CD93,Android Application Development,TT00CD85,Backend Programming,0.5669505596160889,0,5,0.6737841964
+TT00CD93,Android Application Development,TT00CD91,Object Oriented Programming,0.5585470199584961,0,6,0.6737841964
+TT00CD93,Android Application Development,TE00CS88,Introduction to Programming,0.5479124784469604,0,7,0.6737841964
+TT00CD93,Android Application Development,TT00CD80,JavaScript Programming,0.5330896973609924,0,8,0.6737841964
+TT00CD93,Android Application Development,TT00CD78,Frontend Programming,0.527472198009491,0,9,0.6737841964
+TT00CD93,Android Application Development,TT00CD96,Graphics Programming,0.5239351391792297,0,10,0.6737841964
+TT00CD94,Mobile Application Development,TT00CD92,Mobile Project,0.8309781551361084,1,1,0.6737841964
+TT00CD94,Mobile Application Development,TT00CD93,Android Application Development,0.7841508388519287,1,2,0.6737841964
+TT00CD94,Mobile Application Development,TT00DS75,Mobile Application Development,0.7801719903945923,1,3,0.6737841964
+TT00CD94,Mobile Application Development,TT00CD79,Basics of Web Development,0.6238468885421753,0,4,0.6737841964
+TT00CD94,Mobile Application Development,TT00CD78,Frontend Programming,0.6197343468666077,0,5,0.6737841964
+TT00CD94,Mobile Application Development,TT00CD80,JavaScript Programming,0.6178098320960999,0,6,0.6737841964
+TT00CD94,Mobile Application Development,TT00CD77,Basics of Programming,0.6133614778518677,0,7,0.6737841964
+TT00CD94,Mobile Application Development,TT00CD85,Backend Programming,0.5988161563873291,0,8,0.6737841964
+TT00CD94,Mobile Application Development,TT00DS73,Front-End Development,0.5705366134643555,0,9,0.6737841964
+TT00CD94,Mobile Application Development,TE00BR86,Back-End Development,0.5572006702423096,0,10,0.6737841964
+TT00CD96,Graphics Programming,TT00CK80,Mathematical Basics of Graphics Programming,0.7220475077629089,1,1,0.6737841964
+TT00CD96,Graphics Programming,TT00CD77,Basics of Programming,0.5975609421730042,0,2,0.6737841964
+TT00CD96,Graphics Programming,TE00CS88,Introduction to Programming,0.5622329115867615,0,3,0.6737841964
+TT00CD96,Graphics Programming,TT00CD91,Object Oriented Programming,0.5258829593658447,0,4,0.6737841964
+TT00CD96,Graphics Programming,TT00CD93,Android Application Development,0.5239351391792297,0,5,0.6737841964
+TT00CD96,Graphics Programming,TT00DS61,Object-Oriented Programming with Python,0.5194479823112488,0,6,0.6737841964
+TT00CD96,Graphics Programming,TT00CD80,JavaScript Programming,0.5148797035217285,0,7,0.6737841964
+TT00CD96,Graphics Programming,TT00CD85,Backend Programming,0.4984838664531708,0,8,0.6737841964
+TT00CD96,Graphics Programming,TT00CD83,Data Structures and Algorithms,0.49799928069114685,0,9,0.6737841964
+TT00CD96,Graphics Programming,TT00CD79,Basics of Web Development,0.4911711513996124,0,10,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CK80,Mathematical Basics of Graphics Programming,0.6083335876464844,0,1,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CE01,Machine Learning: Classification Methods,0.5856319069862366,0,2,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CE06,Machine Learning Project,0.572648286819458,0,3,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CE02,Machine Learning: Regression Methods,0.5663500428199768,0,4,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CD84,Data analytics and artificial intelligence,0.5632674694061279,0,5,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CE03,Deep Learning,0.5590466260910034,0,6,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CE00,Data Analysis and Visualization,0.5475921034812927,0,7,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CD83,Data Structures and Algorithms,0.5283012390136719,0,8,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CD77,Basics of Programming,0.49171698093414307,0,9,0.6737841964
+TT00CD98,Mathematical Foundations of Machine Learning,TT00CD99,Data Sources and Data Preprocessing,0.4758111834526062,0,10,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CE00,Data Analysis and Visualization,0.6427291035652161,0,1,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CD84,Data analytics and artificial intelligence,0.6149038076400757,0,2,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CE05,Data Analytics Project,0.6021004319190979,0,3,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CE01,Machine Learning: Classification Methods,0.5321230888366699,0,4,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CE06,Machine Learning Project,0.5205172300338745,0,5,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CE02,Machine Learning: Regression Methods,0.47647547721862793,0,6,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CD98,Mathematical Foundations of Machine Learning,0.4758111834526062,0,7,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CE03,Deep Learning,0.4561630189418793,0,8,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CD83,Data Structures and Algorithms,0.4519460201263428,0,9,0.6737841964
+TT00CD99,Data Sources and Data Preprocessing,TT00CD77,Basics of Programming,0.449031800031662,0,10,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CD84,Data analytics and artificial intelligence,0.7047044038772583,1,1,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CE05,Data Analytics Project,0.6605821847915649,0,2,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CD99,Data Sources and Data Preprocessing,0.6427291035652161,0,3,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CE01,Machine Learning: Classification Methods,0.6180119514465332,0,4,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CE06,Machine Learning Project,0.5914281010627747,0,5,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CD83,Data Structures and Algorithms,0.5813063979148865,0,6,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CE02,Machine Learning: Regression Methods,0.5674089193344116,0,7,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CD98,Mathematical Foundations of Machine Learning,0.5475921034812927,0,8,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CE14,Malware Analysis,0.5365155339241028,0,9,0.6737841964
+TT00CE00,Data Analysis and Visualization,TT00CE03,Deep Learning,0.5271410346031189,0,10,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CE02,Machine Learning: Regression Methods,0.7137975692749023,1,1,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CE06,Machine Learning Project,0.6387262940406799,0,2,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CE00,Data Analysis and Visualization,0.6180119514465332,0,3,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CD84,Data analytics and artificial intelligence,0.6015174984931946,0,4,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CD98,Mathematical Foundations of Machine Learning,0.5856319069862366,0,5,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CE03,Deep Learning,0.5664220452308655,0,6,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CD99,Data Sources and Data Preprocessing,0.5321230888366699,0,7,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CE05,Data Analytics Project,0.5283728837966919,0,8,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CD91,Object Oriented Programming,0.4706974923610687,0,9,0.6737841964
+TT00CE01,Machine Learning: Classification Methods,TT00CD77,Basics of Programming,0.46430504322052,0,10,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00CE01,Machine Learning: Classification Methods,0.7137975692749023,1,1,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00CE00,Data Analysis and Visualization,0.5674089193344116,0,2,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00CD98,Mathematical Foundations of Machine Learning,0.5663500428199768,0,3,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00CE06,Machine Learning Project,0.5637471079826355,0,4,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00CD84,Data analytics and artificial intelligence,0.5404649972915649,0,5,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00CE03,Deep Learning,0.5104767084121704,0,6,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00CE05,Data Analytics Project,0.5080435276031494,0,7,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00CD99,Data Sources and Data Preprocessing,0.47647547721862793,0,8,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00CD77,Basics of Programming,0.4320231080055237,0,9,0.6737841964
+TT00CE02,Machine Learning: Regression Methods,TT00DS61,Object-Oriented Programming with Python,0.426970899105072,0,10,0.6737841964
+TT00CE03,Deep Learning,TT00CE06,Machine Learning Project,0.620712399482727,0,1,0.6737841964
+TT00CE03,Deep Learning,TT00CD84,Data analytics and artificial intelligence,0.6021848917007446,0,2,0.6737841964
+TT00CE03,Deep Learning,TT00CE01,Machine Learning: Classification Methods,0.5664220452308655,0,3,0.6737841964
+TT00CE03,Deep Learning,TT00CD98,Mathematical Foundations of Machine Learning,0.5590466260910034,0,4,0.6737841964
+TT00CE03,Deep Learning,TT00CD77,Basics of Programming,0.547037661075592,0,5,0.6737841964
+TT00CE03,Deep Learning,TT00CE00,Data Analysis and Visualization,0.5271410346031189,0,6,0.6737841964
+TT00CE03,Deep Learning,TT00CE02,Machine Learning: Regression Methods,0.5104767084121704,0,7,0.6737841964
+TT00CE03,Deep Learning,TT00CD93,Android Application Development,0.5083235502243042,0,8,0.6737841964
+TT00CE03,Deep Learning,TT00CD70,Data Networks,0.5008625984191895,0,9,0.6737841964
+TT00CE03,Deep Learning,TT00CD85,Backend Programming,0.4996398091316223,0,10,0.6737841964
+TT00CE05,Data Analytics Project,TT00CE06,Machine Learning Project,0.7784754633903503,1,1,0.6737841964
+TT00CE05,Data Analytics Project,TT00CE00,Data Analysis and Visualization,0.6605821847915649,0,2,0.6737841964
+TT00CE05,Data Analytics Project,TT00CD84,Data analytics and artificial intelligence,0.6540001034736633,0,3,0.6737841964
+TT00CE05,Data Analytics Project,TT00CD99,Data Sources and Data Preprocessing,0.6021004319190979,0,4,0.6737841964
+TT00CE05,Data Analytics Project,TT00CD92,Mobile Project,0.5348862409591675,0,5,0.6737841964
+TT00CE05,Data Analytics Project,TT00CE01,Machine Learning: Classification Methods,0.5283728837966919,0,6,0.6737841964
+TT00CE05,Data Analytics Project,TT00CE02,Machine Learning: Regression Methods,0.5080435276031494,0,7,0.6737841964
+TT00CE05,Data Analytics Project,TT00DS61,Object-Oriented Programming with Python,0.4718436896800995,0,8,0.6737841964
+TT00CE05,Data Analytics Project,TT00CE14,Malware Analysis,0.468600332736969,0,9,0.6737841964
+TT00CE05,Data Analytics Project,TT00DS75,Mobile Application Development,0.46795621514320374,0,10,0.6737841964
+TT00CE06,Machine Learning Project,TT00CE05,Data Analytics Project,0.7784754633903503,1,1,0.6737841964
+TT00CE06,Machine Learning Project,TT00CD84,Data analytics and artificial intelligence,0.6715835928916931,0,2,0.6737841964
+TT00CE06,Machine Learning Project,TT00CE01,Machine Learning: Classification Methods,0.6387262940406799,0,3,0.6737841964
+TT00CE06,Machine Learning Project,TT00CE03,Deep Learning,0.620712399482727,0,4,0.6737841964
+TT00CE06,Machine Learning Project,TT00CE00,Data Analysis and Visualization,0.5914281010627747,0,5,0.6737841964
+TT00CE06,Machine Learning Project,TT00CD98,Mathematical Foundations of Machine Learning,0.572648286819458,0,6,0.6737841964
+TT00CE06,Machine Learning Project,TT00CE02,Machine Learning: Regression Methods,0.5637471079826355,0,7,0.6737841964
+TT00CE06,Machine Learning Project,TT00CD92,Mobile Project,0.5615326166152954,0,8,0.6737841964
+TT00CE06,Machine Learning Project,TT00DS75,Mobile Application Development,0.5589660406112671,0,9,0.6737841964
+TT00CE06,Machine Learning Project,TT00DS61,Object-Oriented Programming with Python,0.5527505278587341,0,10,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TT00CE17,Web Application Security Testing,0.6938953995704651,1,1,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TT00CD87,Information Security Technologies,0.666739284992218,0,2,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TT00CD86,Cyber Security,0.6485379338264465,0,3,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TT00CE11,Data Security Controls,0.6163007020950317,0,4,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TT00CD88,Hardening,0.6137384176254272,0,5,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TE00CN56,Internet Networks and Security,0.6086369156837463,0,6,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TT00CE16,Reverse Engineering,0.5708792209625244,0,7,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TT00CE12,Security Operations Center,0.5562746524810791,0,8,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TT00CE14,Malware Analysis,0.53005051612854,0,9,0.6737841964
+TT00CE09,Auditing and Penetration Testing,TT00CD90,Software Design,0.5238802433013916,0,10,0.6737841964
+TT00CE11,Data Security Controls,TT00CD87,Information Security Technologies,0.7479082345962524,1,1,0.6737841964
+TT00CE11,Data Security Controls,TT00CD86,Cyber Security,0.7316275238990784,1,2,0.6737841964
+TT00CE11,Data Security Controls,TT00CD88,Hardening,0.6650376319885254,0,3,0.6737841964
+TT00CE11,Data Security Controls,TT00CE17,Web Application Security Testing,0.6486812829971313,0,4,0.6737841964
+TT00CE11,Data Security Controls,TT00CE12,Security Operations Center,0.6215194463729858,0,5,0.6737841964
+TT00CE11,Data Security Controls,TE00CN56,Internet Networks and Security,0.6206526160240173,0,6,0.6737841964
+TT00CE11,Data Security Controls,TT00CE09,Auditing and Penetration Testing,0.6163007020950317,0,7,0.6737841964
+TT00CE11,Data Security Controls,TT00CE25,Windows Infrastructure,0.5729045867919922,0,8,0.6737841964
+TT00CE11,Data Security Controls,TT00CD70,Data Networks,0.5722306966781616,0,9,0.6737841964
+TT00CE11,Data Security Controls,TT00CD75,Windows Basics,0.5685553550720215,0,10,0.6737841964
+TT00CE12,Security Operations Center,TT00CD86,Cyber Security,0.6346659064292908,0,1,0.6737841964
+TT00CE12,Security Operations Center,TT00CE11,Data Security Controls,0.6215194463729858,0,2,0.6737841964
+TT00CE12,Security Operations Center,TT00CD87,Information Security Technologies,0.6178990602493286,0,3,0.6737841964
+TT00CE12,Security Operations Center,TE00CN56,Internet Networks and Security,0.5573242902755737,0,4,0.6737841964
+TT00CE12,Security Operations Center,TT00CE09,Auditing and Penetration Testing,0.5562746524810791,0,5,0.6737841964
+TT00CE12,Security Operations Center,TT00CE17,Web Application Security Testing,0.5378154516220093,0,6,0.6737841964
+TT00CE12,Security Operations Center,TT00CE28,Core Networks,0.5120776891708374,0,7,0.6737841964
+TT00CE12,Security Operations Center,TT00CD88,Hardening,0.49572187662124634,0,8,0.6737841964
+TT00CE12,Security Operations Center,TT00CE14,Malware Analysis,0.49063602089881897,0,9,0.6737841964
+TT00CE12,Security Operations Center,TT00CD75,Windows Basics,0.4864348769187927,0,10,0.6737841964
+TT00CE14,Malware Analysis,TT00CE16,Reverse Engineering,0.6363319158554077,0,1,0.6737841964
+TT00CE14,Malware Analysis,TT00CE17,Web Application Security Testing,0.5965706706047058,0,2,0.6737841964
+TT00CE14,Malware Analysis,TT00CD86,Cyber Security,0.5874677896499634,0,3,0.6737841964
+TT00CE14,Malware Analysis,TT00CE00,Data Analysis and Visualization,0.5365155339241028,0,4,0.6737841964
+TT00CE14,Malware Analysis,TT00CE09,Auditing and Penetration Testing,0.53005051612854,0,5,0.6737841964
+TT00CE14,Malware Analysis,TT00CE11,Data Security Controls,0.5291447043418884,0,6,0.6737841964
+TT00CE14,Malware Analysis,TT00CD88,Hardening,0.5169461965560913,0,7,0.6737841964
+TT00CE14,Malware Analysis,TT00CD87,Information Security Technologies,0.5164801478385925,0,8,0.6737841964
+TT00CE14,Malware Analysis,TT00CD83,Data Structures and Algorithms,0.5014348030090332,0,9,0.6737841964
+TT00CE14,Malware Analysis,TT00CD84,Data analytics and artificial intelligence,0.5011774897575378,0,10,0.6737841964
+TT00CE16,Reverse Engineering,TT00CE14,Malware Analysis,0.6363319158554077,0,1,0.6737841964
+TT00CE16,Reverse Engineering,TT00CE09,Auditing and Penetration Testing,0.5708792209625244,0,2,0.6737841964
+TT00CE16,Reverse Engineering,TT00CE17,Web Application Security Testing,0.5477948784828186,0,3,0.6737841964
+TT00CE16,Reverse Engineering,TT00CD77,Basics of Programming,0.5216994285583496,0,4,0.6737841964
+TT00CE16,Reverse Engineering,TE00CS88,Introduction to Programming,0.5150289535522461,0,5,0.6737841964
+TT00CE16,Reverse Engineering,TT00CD86,Cyber Security,0.5136122107505798,0,6,0.6737841964
+TT00CE16,Reverse Engineering,TT00CD88,Hardening,0.5117014646530151,0,7,0.6737841964
+TT00CE16,Reverse Engineering,TT00CD90,Software Design,0.5103786587715149,0,8,0.6737841964
+TT00CE16,Reverse Engineering,TT00CD87,Information Security Technologies,0.5033125877380371,0,9,0.6737841964
+TT00CE16,Reverse Engineering,TT00CD83,Data Structures and Algorithms,0.4916389584541321,0,10,0.6737841964
+TT00CE17,Web Application Security Testing,TT00CE09,Auditing and Penetration Testing,0.6938953995704651,1,1,0.6737841964
+TT00CE17,Web Application Security Testing,TT00CD86,Cyber Security,0.6580270528793335,0,2,0.6737841964
+TT00CE17,Web Application Security Testing,TT00CE11,Data Security Controls,0.6486812829971313,0,3,0.6737841964
+TT00CE17,Web Application Security Testing,TT00CD87,Information Security Technologies,0.6450444459915161,0,4,0.6737841964
+TT00CE17,Web Application Security Testing,TT00CD88,Hardening,0.625057578086853,0,5,0.6737841964
+TT00CE17,Web Application Security Testing,TT00CE14,Malware Analysis,0.5965706706047058,0,6,0.6737841964
+TT00CE17,Web Application Security Testing,TT00CE16,Reverse Engineering,0.5477948784828186,0,7,0.6737841964
+TT00CE17,Web Application Security Testing,TE00CN56,Internet Networks and Security,0.5465630888938904,0,8,0.6737841964
+TT00CE17,Web Application Security Testing,TT00CD94,Mobile Application Development,0.5419198274612427,0,9,0.6737841964
+TT00CE17,Web Application Security Testing,TT00CD79,Basics of Web Development,0.5404956340789795,0,10,0.6737841964
+TT00CE20,Local Area Networks,TT00CD70,Data Networks,0.7830042839050293,1,1,0.6737841964
+TT00CE20,Local Area Networks,TT00CE28,Core Networks,0.6915226578712463,1,2,0.6737841964
+TT00CE20,Local Area Networks,TE00CN56,Internet Networks and Security,0.6288841962814331,0,3,0.6737841964
+TT00CE20,Local Area Networks,TT00DS35,Introduction to Networks,0.618293821811676,0,4,0.6737841964
+TT00CE20,Local Area Networks,TT00CE25,Windows Infrastructure,0.5431119203567505,0,5,0.6737841964
+TT00CE20,Local Area Networks,TT00CE21,Cloud Architectures and Platforms,0.538118302822113,0,6,0.6737841964
+TT00CE20,Local Area Networks,TT00CD87,Information Security Technologies,0.5346131324768066,0,7,0.6737841964
+TT00CE20,Local Area Networks,TT00CD86,Cyber Security,0.5221072435379028,0,8,0.6737841964
+TT00CE20,Local Area Networks,TT00CD72,Servers and containers,0.5151446461677551,0,9,0.6737841964
+TT00CE20,Local Area Networks,TT00CE11,Data Security Controls,0.5093410015106201,0,10,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TT00CD72,Servers and containers,0.6744142770767212,1,1,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TT00CD70,Data Networks,0.5929883718490601,0,2,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TT00CE28,Core Networks,0.5581216216087341,0,3,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TT00CD86,Cyber Security,0.5532515645027161,0,4,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TT00CE25,Windows Infrastructure,0.5471503734588623,0,5,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TT00CD87,Information Security Technologies,0.5470671653747559,0,6,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TT00CE11,Data Security Controls,0.5452885031700134,0,7,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TT00CE20,Local Area Networks,0.538118302822113,0,8,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TT00CD85,Backend Programming,0.5311598181724548,0,9,0.6737841964
+TT00CE21,Cloud Architectures and Platforms,TE00CN56,Internet Networks and Security,0.5296459197998047,0,10,0.6737841964
+TT00CE25,Windows Infrastructure,TT00CD75,Windows Basics,0.7381158471107483,1,1,0.6737841964
+TT00CE25,Windows Infrastructure,TT00CD88,Hardening,0.5858824253082275,0,2,0.6737841964
+TT00CE25,Windows Infrastructure,TT00CE11,Data Security Controls,0.5729045867919922,0,3,0.6737841964
+TT00CE25,Windows Infrastructure,TE00CN56,Internet Networks and Security,0.5720616579055786,0,4,0.6737841964
+TT00CE25,Windows Infrastructure,TT00CD87,Information Security Technologies,0.5707395076751709,0,5,0.6737841964
+TT00CE25,Windows Infrastructure,TT00CD70,Data Networks,0.5613484382629395,0,6,0.6737841964
+TT00CE25,Windows Infrastructure,TT00CD72,Servers and containers,0.5604740381240845,0,7,0.6737841964
+TT00CE25,Windows Infrastructure,TT00CD76,Scripting and Automatization,0.556777834892273,0,8,0.6737841964
+TT00CE25,Windows Infrastructure,TT00CE21,Cloud Architectures and Platforms,0.5471503734588623,0,9,0.6737841964
+TT00CE25,Windows Infrastructure,TT00CE20,Local Area Networks,0.5431119203567505,0,10,0.6737841964
+TT00CE28,Core Networks,TT00CD70,Data Networks,0.7449620962142944,1,1,0.6737841964
+TT00CE28,Core Networks,TT00CE20,Local Area Networks,0.6915226578712463,1,2,0.6737841964
+TT00CE28,Core Networks,TE00CN56,Internet Networks and Security,0.6092613935470581,0,3,0.6737841964
+TT00CE28,Core Networks,TT00DS35,Introduction to Networks,0.5971180200576782,0,4,0.6737841964
+TT00CE28,Core Networks,TT00CE21,Cloud Architectures and Platforms,0.5581216216087341,0,5,0.6737841964
+TT00CE28,Core Networks,TT00CD87,Information Security Technologies,0.54466712474823,0,6,0.6737841964
+TT00CE28,Core Networks,TT00CD86,Cyber Security,0.533259391784668,0,7,0.6737841964
+TT00CE28,Core Networks,TT00CD85,Backend Programming,0.520585834980011,0,8,0.6737841964
+TT00CE28,Core Networks,TT00CE11,Data Security Controls,0.5183359384536743,0,9,0.6737841964
+TT00CE28,Core Networks,TT00CD88,Hardening,0.5141295194625854,0,10,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TT00CD96,Graphics Programming,0.7220475077629089,1,1,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TT00CD98,Mathematical Foundations of Machine Learning,0.6083335876464844,0,2,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TT00CD77,Basics of Programming,0.5513772368431091,0,3,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TT00CD83,Data Structures and Algorithms,0.4887041747570038,0,4,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TT00CE00,Data Analysis and Visualization,0.4851507544517517,0,5,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TE00CS88,Introduction to Programming,0.4821142256259918,0,6,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TT00CD79,Basics of Web Development,0.4631507098674774,0,7,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TT00CD84,Data analytics and artificial intelligence,0.46201223134994507,0,8,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TT00DB42,Data Structures and Algorithms,0.460538387298584,0,9,0.6737841964
+TT00CK80,Mathematical Basics of Graphics Programming,TT00CD81,Databases,0.4571092128753662,0,10,0.6737841964
+TT00DB42,Data Structures and Algorithms,TT00CD83,Data Structures and Algorithms,0.8457255363464355,1,1,0.6737841964
+TT00DB42,Data Structures and Algorithms,TE00CS88,Introduction to Programming,0.6125127077102661,0,2,0.6737841964
+TT00DB42,Data Structures and Algorithms,TE00CS89,Databases,0.5674231052398682,0,3,0.6737841964
+TT00DB42,Data Structures and Algorithms,TT00CD77,Basics of Programming,0.5414952039718628,0,4,0.6737841964
+TT00DB42,Data Structures and Algorithms,TT00CD84,Data analytics and artificial intelligence,0.5276204347610474,0,5,0.6737841964
+TT00DB42,Data Structures and Algorithms,TT00CD81,Databases,0.521133303642273,0,6,0.6737841964
+TT00DB42,Data Structures and Algorithms,TT00CE00,Data Analysis and Visualization,0.5174580812454224,0,7,0.6737841964
+TT00DB42,Data Structures and Algorithms,TT00CD90,Software Design,0.5096743106842041,0,8,0.6737841964
+TT00DB42,Data Structures and Algorithms,TE00BR86,Back-End Development,0.4811576008796692,0,9,0.6737841964
+TT00DB42,Data Structures and Algorithms,TT00CD70,Data Networks,0.4798623323440552,0,10,0.6737841964
+TT00DS35,Introduction to Networks,TT00CD70,Data Networks,0.7189512848854065,1,1,0.6737841964
+TT00DS35,Introduction to Networks,TE00CN56,Internet Networks and Security,0.6229244470596313,0,2,0.6737841964
+TT00DS35,Introduction to Networks,TT00CE20,Local Area Networks,0.618293821811676,0,3,0.6737841964
+TT00DS35,Introduction to Networks,TT00CE28,Core Networks,0.5971180200576782,0,4,0.6737841964
+TT00DS35,Introduction to Networks,TT00CD86,Cyber Security,0.4701497256755829,0,5,0.6737841964
+TT00DS35,Introduction to Networks,TT00CE25,Windows Infrastructure,0.4622240662574768,0,6,0.6737841964
+TT00DS35,Introduction to Networks,TT00CE11,Data Security Controls,0.4514628052711487,0,7,0.6737841964
+TT00DS35,Introduction to Networks,TT00CD87,Information Security Technologies,0.4508986473083496,0,8,0.6737841964
+TT00DS35,Introduction to Networks,TT00CD77,Basics of Programming,0.440615713596344,0,9,0.6737841964
+TT00DS35,Introduction to Networks,TT00CD88,Hardening,0.4244508445262909,0,10,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TT00CD91,Object Oriented Programming,0.7617060542106628,1,1,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TT00CD77,Basics of Programming,0.5996416211128235,0,2,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TE00CS88,Introduction to Programming,0.5637205839157104,0,3,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TT00CE06,Machine Learning Project,0.5527505278587341,0,4,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TT00CD80,JavaScript Programming,0.5299946069717407,0,5,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TT00CD84,Data analytics and artificial intelligence,0.5246232151985168,0,6,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TT00DS75,Mobile Application Development,0.523408830165863,0,7,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TT00CD93,Android Application Development,0.5222727060317993,0,8,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TT00CD96,Graphics Programming,0.5194479823112488,0,9,0.6737841964
+TT00DS61,Object-Oriented Programming with Python,TT00CD90,Software Design,0.5186264514923096,0,10,0.6737841964
+TT00DS73,Front-End Development,TT00CD78,Frontend Programming,0.7181925773620605,1,1,0.6737841964
+TT00DS73,Front-End Development,TE00BR86,Back-End Development,0.6658197641372681,0,2,0.6737841964
+TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,0.6152393221855164,0,3,0.6737841964
+TT00DS73,Front-End Development,TT00CD79,Basics of Web Development,0.6124248504638672,0,4,0.6737841964
+TT00DS73,Front-End Development,TT00CD85,Backend Programming,0.6079854965209961,0,5,0.6737841964
+TT00DS73,Front-End Development,TT00CD94,Mobile Application Development,0.5705366134643555,0,6,0.6737841964
+TT00DS73,Front-End Development,TT00CD80,JavaScript Programming,0.5699248313903809,0,7,0.6737841964
+TT00DS73,Front-End Development,TT00CD77,Basics of Programming,0.5330258011817932,0,8,0.6737841964
+TT00DS73,Front-End Development,TT00CD92,Mobile Project,0.5327636003494263,0,9,0.6737841964
+TT00DS73,Front-End Development,TE00CS88,Introduction to Programming,0.5153617858886719,0,10,0.6737841964
+TT00DS75,Mobile Application Development,TT00CD92,Mobile Project,0.7887704372406006,1,1,0.6737841964
+TT00DS75,Mobile Application Development,TT00CD94,Mobile Application Development,0.7801719903945923,1,2,0.6737841964
+TT00DS75,Mobile Application Development,TT00CD93,Android Application Development,0.7011479735374451,1,3,0.6737841964
+TT00DS75,Mobile Application Development,TT00DS73,Front-End Development,0.6152393221855164,0,4,0.6737841964
+TT00DS75,Mobile Application Development,TT00CE06,Machine Learning Project,0.5589660406112671,0,5,0.6737841964
+TT00DS75,Mobile Application Development,TE00CS88,Introduction to Programming,0.5413033366203308,0,6,0.6737841964
+TT00DS75,Mobile Application Development,TT00CD90,Software Design,0.5402043461799622,0,7,0.6737841964
+TT00DS75,Mobile Application Development,TT00DS61,Object-Oriented Programming with Python,0.523408830165863,0,8,0.6737841964
+TT00DS75,Mobile Application Development,TT00CD78,Frontend Programming,0.5198816061019897,0,9,0.6737841964
+TT00DS75,Mobile Application Development,TT00CD77,Basics of Programming,0.5188817977905273,0,10,0.6737841964

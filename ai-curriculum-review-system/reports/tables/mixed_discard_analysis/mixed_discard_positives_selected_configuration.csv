@@ -1,0 +1,5 @@
+pair_id,split,course_unit_code_1,course_name_1,course_unit_code_2,course_name_2,review_notes,human_binary,ai_binary,similarity_score,error_type
+TT00CE05__TT00CE06,mixed_discard,TT00CE05,Data Analytics Project,TT00CE06,Machine Learning Project,"Both are AI/DA related projects, same content exists, but not fully overlap",1,1,0.7784754633903503,correct
+TT00CD70__TT00CE28,mixed_discard,TT00CD70,Data Networks,TT00CE28,Core Networks,"Both cover routing protocols (OSPF, BGP), network design, and WAN connectivity as core content.",1,1,0.7439413070678711,correct
+TT00CE09__TT00CE17,mixed_discard,TT00CE09,Auditing and Penetration Testing,TT00CE17,Web Application Security Testing,"Both cover offensive security testing, vulnerability discovery, and exploitation-oriented assessment work.",1,1,0.6928657293319702,correct
+TT00CE20__TT00CE28,mixed_discard,TT00CE20,Local Area Networks,TT00CE28,Core Networks,"Both cover backbone and LAN networking protocols, routing, and network design as core content.",1,1,0.690693199634552,correct

@@ -1,0 +1,2 @@
+final_model_name,final_openai_model_id,final_text_variant,final_text_column,final_similarity_metric,final_selection_rule,final_locked_threshold,course_count,pair_count,above_threshold_pair_count
+openai_text-embedding-3-large,text-embedding-3-large,enriched,embedding_text_enriched,cosine,max_f1,0.6737841964,50,1225,31

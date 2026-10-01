@@ -1,0 +1,32 @@
+pair_id,course_unit_code_1,course_name_1,course_unit_code_2,course_name_2,similarity_score,overlap_flag,final_locked_threshold,final_model_name,final_text_variant,final_similarity_metric,final_selection_rule
+TT00CD83__TT00DB42,TT00CD83,Data Structures and Algorithms,TT00DB42,Data Structures and Algorithms,0.8457255363464355,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD92__TT00CD94,TT00CD92,Mobile Project,TT00CD94,Mobile Application Development,0.8309781551361084,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD92__TT00DS75,TT00CD92,Mobile Project,TT00DS75,Mobile Application Development,0.7887704372406006,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD93__TT00CD94,TT00CD93,Android Application Development,TT00CD94,Mobile Application Development,0.7841508388519287,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD70__TT00CE20,TT00CD70,Data Networks,TT00CE20,Local Area Networks,0.7830042839050293,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD94__TT00DS75,TT00CD94,Mobile Application Development,TT00DS75,Mobile Application Development,0.7801719903945923,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CE05__TT00CE06,TT00CE05,Data Analytics Project,TT00CE06,Machine Learning Project,0.7784754633903503,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD91__TT00DS61,TT00CD91,Object Oriented Programming,TT00DS61,Object-Oriented Programming with Python,0.7617060542106628,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TE00BR86__TT00CD85,TE00BR86,Back-End Development,TT00CD85,Backend Programming,0.7586131691932678,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD87__TT00CE11,TT00CD87,Information Security Technologies,TT00CE11,Data Security Controls,0.7479082345962524,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TE00CS89__TT00CD81,TE00CS89,Databases,TT00CD81,Databases,0.7464207410812378,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD70__TT00CE28,TT00CD70,Data Networks,TT00CE28,Core Networks,0.7449620962142944,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD75__TT00CE25,TT00CD75,Windows Basics,TT00CE25,Windows Infrastructure,0.7381158471107483,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD86__TT00CE11,TT00CD86,Cyber Security,TT00CE11,Data Security Controls,0.7316275238990784,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TE00CS88__TT00CD77,TE00CS88,Introduction to Programming,TT00CD77,Basics of Programming,0.7308268547058105,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD96__TT00CK80,TT00CD96,Graphics Programming,TT00CK80,Mathematical Basics of Graphics Programming,0.7220475077629089,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD87__TT00CD88,TT00CD87,Information Security Technologies,TT00CD88,Hardening,0.7191510200500488,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD70__TT00DS35,TT00CD70,Data Networks,TT00DS35,Introduction to Networks,0.7189512848854065,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD78__TT00DS73,TT00CD78,Frontend Programming,TT00DS73,Front-End Development,0.7181925773620605,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CE01__TT00CE02,TT00CE01,Machine Learning: Classification Methods,TT00CE02,Machine Learning: Regression Methods,0.7137975692749023,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD86__TT00CD87,TT00CD86,Cyber Security,TT00CD87,Information Security Technologies,0.7115885019302368,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TE00CN56__TT00CD70,TE00CN56,Internet Networks and Security,TT00CD70,Data Networks,0.7062230706214905,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD84__TT00CE00,TT00CD84,Data analytics and artificial intelligence,TT00CE00,Data Analysis and Visualization,0.7047044038772583,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD93__TT00DS75,TT00CD93,Android Application Development,TT00DS75,Mobile Application Development,0.7011479735374451,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD78__TT00CD80,TT00CD78,Frontend Programming,TT00CD80,JavaScript Programming,0.6972154378890991,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CE09__TT00CE17,TT00CE09,Auditing and Penetration Testing,TT00CE17,Web Application Security Testing,0.6938953995704651,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CE20__TT00CE28,TT00CE20,Local Area Networks,TT00CE28,Core Networks,0.6915226578712463,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD92__TT00CD93,TT00CD92,Mobile Project,TT00CD93,Android Application Development,0.6885857582092285,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,0.687749981880188,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TE00CN56__TT00CD87,TE00CN56,Internet Networks and Security,TT00CD87,Information Security Technologies,0.6836251020431519,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1
+TT00CD72__TT00CE21,TT00CD72,Servers and containers,TT00CE21,Cloud Architectures and Platforms,0.6744142770767212,1,0.6737841964,openai_text-embedding-3-large,enriched,cosine,max_f1

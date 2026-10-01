@@ -1,0 +1,3 @@
+recommendation_type,model_name,text_variant,similarity_metric,selection_rule,locked_threshold,shortlist_rank,average_precision,roc_auc,dev_f1,dev_f05,test_f1,test_f05,test_precision,test_recall,dev_predicted_positive_count,test_predicted_positive_count
+primary_recommendation,openai_text-embedding-3-large,enriched,cosine,max_f1,0.6737841964,1,0.9395951478041032,0.9948695652173912,0.8947368421052632,0.9239130434782609,0.7692307692307693,0.8928571428571429,1.0,0.625,18,5
+conservative_alternative,openai_text-embedding-3-large,main,cosine,max_f1,0.6599793434,2,0.9274451754385966,0.9959130434782608,0.8717948717948718,0.8854166666666666,0.7692307692307693,0.8928571428571429,1.0,0.625,19,5

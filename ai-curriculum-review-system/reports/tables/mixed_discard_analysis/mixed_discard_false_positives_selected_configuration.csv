@@ -1,0 +1,5 @@
+pair_id,split,course_unit_code_1,course_name_1,course_unit_code_2,course_name_2,review_notes,human_binary,ai_binary,similarity_score,error_type
+TE00CN56__TT00CD87,mixed_discard,TE00CN56,Internet Networks and Security,TT00CD87,Information Security Technologies,,0,1,0.6837022304534912,false_positive
+TT00CD92__TT00CD93,mixed_discard,TT00CD92,Mobile Project,TT00CD93,Android Application Development,Mobile project course versus Android implementation course; strong domain relation but not enough repeated core curriculum.,0,1,0.6885857582092285,false_positive
+TT00CD92__TT00CD94,mixed_discard,TT00CD92,Mobile Project,TT00CD94,Mobile Application Development,Mobile project course versus mobile application development course; project application rather than substantial content redundancy.,0,1,0.8309781551361084,false_positive
+TT00CD92__TT00DS75,mixed_discard,TT00CD92,Mobile Project,TT00DS75,Mobile Application Development,"Mobile project course versus mobile development course; adjacent and practical, but not enough repeated teaching content.",0,1,0.787621021270752,false_positive

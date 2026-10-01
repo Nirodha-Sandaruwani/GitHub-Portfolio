@@ -1,0 +1,9 @@
+model_name,text_variant,similarity_metric,selection_rule,shortlist_rank,dev_tp,dev_fn,dev_tn,dev_fp,dev_positive_detection_rate,dev_negative_detection_rate,dev_false_negative_rate,dev_false_positive_rate,test_tp,test_fn,test_tn,test_fp,test_positive_detection_rate,test_negative_detection_rate,test_false_negative_rate,test_false_positive_rate
+openai_text-embedding-3-large,enriched,cosine,max_f1,1,17,5,572,1,0.7727,0.9983,0.2273,0.0017,5,3,97,0,0.625,1.0,0.375,0.0
+openai_text-embedding-3-large,main,cosine,max_f1,2,16,6,572,1,0.7273,0.9983,0.2727,0.0017,5,3,97,0,0.625,1.0,0.375,0.0
+multilingual-e5-large-instruct,main,cosine,max_f05,3,12,10,573,0,0.5455,1.0,0.4545,0.0,2,6,97,0,0.25,1.0,0.75,0.0
+bge-m3,main,cosine,reviewer_load_target_10,4,9,13,572,1,0.4091,0.9983,0.5909,0.0017,4,4,97,0,0.5,1.0,0.5,0.0
+multilingual-e5-large,main,cosine,max_f05,5,13,9,570,3,0.5909,0.9948,0.4091,0.0052,2,6,97,0,0.25,1.0,0.75,0.0
+tfidf,main,cosine,reviewer_load_target_10,6,9,13,571,2,0.4091,0.9965,0.5909,0.0035,5,3,93,4,0.625,0.9588,0.375,0.0412
+multilingual-e5-base,main,cosine,max_f05,7,9,13,568,5,0.4091,0.9913,0.5909,0.0087,3,5,97,0,0.375,1.0,0.625,0.0
+bm25,main,bm25,max_f05,8,8,14,571,2,0.3636,0.9965,0.6364,0.0035,2,6,97,0,0.25,1.0,0.75,0.0

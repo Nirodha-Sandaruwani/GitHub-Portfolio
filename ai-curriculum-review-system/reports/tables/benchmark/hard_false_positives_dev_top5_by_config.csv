@@ -1,0 +1,166 @@
+pair_id,course_unit_code_1,course_name_1,course_unit_code_2,course_name_2,review_notes,overlap_label_binary,split,model_name,model_type,text_variant,similarity_metric,similarity_score,embedding_dim,encoding_seconds,hard_false_positive_rank
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,bge-m3,sentence_transformer,enriched,cosine,0.8161113262176514,1024.0,95.50440764427185,1
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,bge-m3,sentence_transformer,enriched,cosine,0.7941982746124268,1024.0,95.50440764427185,2
+TT00CD77__TT00CD94,TT00CD77,Basics of Programming,TT00CD94,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,enriched,cosine,0.7842349410057068,1024.0,95.50440764427185,3
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,enriched,cosine,0.7805644273757935,1024.0,95.50440764427185,4
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,bge-m3,sentence_transformer,enriched,cosine,0.7791138887405396,1024.0,95.50440764427185,5
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,bge-m3,sentence_transformer,enriched,dot,0.8161113262176514,1024.0,95.50440764427185,1
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,bge-m3,sentence_transformer,enriched,dot,0.7941982746124268,1024.0,95.50440764427185,2
+TT00CD77__TT00CD94,TT00CD77,Basics of Programming,TT00CD94,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,enriched,dot,0.7842347621917725,1024.0,95.50440764427185,3
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,enriched,dot,0.7805643677711487,1024.0,95.50440764427185,4
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,bge-m3,sentence_transformer,enriched,dot,0.7791137099266052,1024.0,95.50440764427185,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,bge-m3,sentence_transformer,full,cosine,0.82886803150177,1024.0,172.31489849090576,1
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,bge-m3,sentence_transformer,full,cosine,0.81513911485672,1024.0,172.31489849090576,2
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,bge-m3,sentence_transformer,full,cosine,0.8069093227386475,1024.0,172.31489849090576,3
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,bge-m3,sentence_transformer,full,cosine,0.8026382923126221,1024.0,172.31489849090576,4
+TT00CD77__TT00CD94,TT00CD77,Basics of Programming,TT00CD94,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,full,cosine,0.7948514223098755,1024.0,172.31489849090576,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,bge-m3,sentence_transformer,full,dot,0.82886803150177,1024.0,172.31489849090576,1
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,bge-m3,sentence_transformer,full,dot,0.81513911485672,1024.0,172.31489849090576,2
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,bge-m3,sentence_transformer,full,dot,0.8069093227386475,1024.0,172.31489849090576,3
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,bge-m3,sentence_transformer,full,dot,0.8026381731033325,1024.0,172.31489849090576,4
+TT00CD77__TT00CD94,TT00CD77,Basics of Programming,TT00CD94,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,full,dot,0.794851541519165,1024.0,172.31489849090576,5
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,bge-m3,sentence_transformer,main,cosine,0.8191743493080139,1024.0,95.42324447631836,1
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,main,cosine,0.7805643081665039,1024.0,95.42324447631836,2
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,bge-m3,sentence_transformer,main,cosine,0.7742090821266174,1024.0,95.42324447631836,3
+TT00CD77__TT00CD94,TT00CD77,Basics of Programming,TT00CD94,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,main,cosine,0.7735744714736938,1024.0,95.42324447631836,4
+TE00CN56__TT00DS35,TE00CN56,Internet Networks and Security,TT00DS35,Introduction to Networks,,0,dev,bge-m3,sentence_transformer,main,cosine,0.7688955664634705,1024.0,95.42324447631836,5
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,bge-m3,sentence_transformer,main,dot,0.8191744685173035,1024.0,95.42324447631836,1
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,main,dot,0.7805644273757935,1024.0,95.42324447631836,2
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,bge-m3,sentence_transformer,main,dot,0.7742089629173279,1024.0,95.42324447631836,3
+TT00CD77__TT00CD94,TT00CD77,Basics of Programming,TT00CD94,Mobile Application Development,,0,dev,bge-m3,sentence_transformer,main,dot,0.7735742926597595,1024.0,95.42324447631836,4
+TE00CN56__TT00DS35,TE00CN56,Internet Networks and Security,TT00DS35,Introduction to Networks,,0,dev,bge-m3,sentence_transformer,main,dot,0.7688955664634705,1024.0,95.42324447631836,5
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,bm25,bm25,enriched,bm25,404.2701416015625,,0.0670781135559082,1
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,bm25,bm25,enriched,bm25,389.3292541503906,,0.0670781135559082,2
+TT00CD90__TT00CE12,TT00CD90,Software Design,TT00CE12,Security Operations Center,,0,dev,bm25,bm25,enriched,bm25,275.46539306640625,,0.0670781135559082,3
+TE00CN56__TT00CE20,TE00CN56,Internet Networks and Security,TT00CE20,Local Area Networks,,0,dev,bm25,bm25,enriched,bm25,230.8009033203125,,0.0670781135559082,4
+TT00DS61__TT00DS73,TT00DS61,Object-Oriented Programming with Python,TT00DS73,Front-End Development,,0,dev,bm25,bm25,enriched,bm25,230.68685913085938,,0.0670781135559082,5
+TT00CE12__TT00CE17,TT00CE12,Security Operations Center,TT00CE17,Web Application Security Testing,,0,dev,bm25,bm25,full,bm25,990.5091552734375,,0.09020566940307617,1
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,bm25,bm25,full,bm25,953.4041137695312,,0.09020566940307617,2
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,bm25,bm25,full,bm25,664.95458984375,,0.09020566940307617,3
+TT00CD78__TT00CD94,TT00CD78,Frontend Programming,TT00CD94,Mobile Application Development,,0,dev,bm25,bm25,full,bm25,664.6605834960938,,0.09020566940307617,4
+TT00CD90__TT00CE12,TT00CD90,Software Design,TT00CE12,Security Operations Center,,0,dev,bm25,bm25,full,bm25,652.3934936523438,,0.09020566940307617,5
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,bm25,bm25,main,bm25,404.817138671875,,0.07495307922363281,1
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,bm25,bm25,main,bm25,383.9787902832031,,0.07495307922363281,2
+TT00DS61__TT00DS73,TT00DS61,Object-Oriented Programming with Python,TT00DS73,Front-End Development,,0,dev,bm25,bm25,main,bm25,229.5733642578125,,0.07495307922363281,3
+TT00DS61__TT00DS75,TT00DS61,Object-Oriented Programming with Python,TT00DS75,Mobile Application Development,,0,dev,bm25,bm25,main,bm25,228.82513427734375,,0.07495307922363281,4
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,bm25,bm25,main,bm25,226.2007293701172,,0.07495307922363281,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-base,sentence_transformer,enriched,cosine,0.9540742039680481,768.0,29.996070623397827,1
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-base,sentence_transformer,enriched,cosine,0.9456362724304199,768.0,29.996070623397827,2
+TT00CD77__TT00CD80,TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,,0,dev,multilingual-e5-base,sentence_transformer,enriched,cosine,0.9444315433502197,768.0,29.996070623397827,3
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-base,sentence_transformer,enriched,cosine,0.9418683648109436,768.0,29.996070623397827,4
+TT00CD80__TT00CD85,TT00CD80,JavaScript Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-base,sentence_transformer,enriched,cosine,0.9403403997421265,768.0,29.996070623397827,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-base,sentence_transformer,enriched,dot,0.9540743827819824,768.0,29.996070623397827,1
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-base,sentence_transformer,enriched,dot,0.9456362724304199,768.0,29.996070623397827,2
+TT00CD77__TT00CD80,TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,,0,dev,multilingual-e5-base,sentence_transformer,enriched,dot,0.9444315433502197,768.0,29.996070623397827,3
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-base,sentence_transformer,enriched,dot,0.9418683648109436,768.0,29.996070623397827,4
+TT00CD80__TT00CD85,TT00CD80,JavaScript Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-base,sentence_transformer,enriched,dot,0.9403403997421265,768.0,29.996070623397827,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-base,sentence_transformer,main,cosine,0.9493493437767029,768.0,33.878111839294434,1
+TT00CD77__TT00CD80,TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,,0,dev,multilingual-e5-base,sentence_transformer,main,cosine,0.9435825943946838,768.0,33.878111839294434,2
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-base,sentence_transformer,main,cosine,0.9418683052062988,768.0,33.878111839294434,3
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,multilingual-e5-base,sentence_transformer,main,cosine,0.9399004578590393,768.0,33.878111839294434,4
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-base,sentence_transformer,main,cosine,0.9366859793663025,768.0,33.878111839294434,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-base,sentence_transformer,main,dot,0.9493492245674133,768.0,33.878111839294434,1
+TT00CD77__TT00CD80,TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,,0,dev,multilingual-e5-base,sentence_transformer,main,dot,0.9435825943946838,768.0,33.878111839294434,2
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-base,sentence_transformer,main,dot,0.9418683052062988,768.0,33.878111839294434,3
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,multilingual-e5-base,sentence_transformer,main,dot,0.9399004578590393,768.0,33.878111839294434,4
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-base,sentence_transformer,main,dot,0.9366859197616577,768.0,33.878111839294434,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-large,sentence_transformer,enriched,cosine,0.9509162902832031,1024.0,91.31140851974487,1
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,multilingual-e5-large,sentence_transformer,enriched,cosine,0.9465397596359253,1024.0,91.31140851974487,2
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-large,sentence_transformer,enriched,cosine,0.9463122487068176,1024.0,91.31140851974487,3
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-large,sentence_transformer,enriched,cosine,0.9456745386123657,1024.0,91.31140851974487,4
+TT00CD78__TT00CD94,TT00CD78,Frontend Programming,TT00CD94,Mobile Application Development,,0,dev,multilingual-e5-large,sentence_transformer,enriched,cosine,0.9450000524520874,1024.0,91.31140851974487,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-large,sentence_transformer,enriched,dot,0.9509161710739136,1024.0,91.31140851974487,1
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,multilingual-e5-large,sentence_transformer,enriched,dot,0.9465394616127014,1024.0,91.31140851974487,2
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-large,sentence_transformer,enriched,dot,0.9463123083114624,1024.0,91.31140851974487,3
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-large,sentence_transformer,enriched,dot,0.9456746578216553,1024.0,91.31140851974487,4
+TT00CD78__TT00CD94,TT00CD78,Frontend Programming,TT00CD94,Mobile Application Development,,0,dev,multilingual-e5-large,sentence_transformer,enriched,dot,0.9449999332427979,1024.0,91.31140851974487,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-large,sentence_transformer,main,cosine,0.9456745386123657,1024.0,94.87089776992798,1
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-large,sentence_transformer,main,cosine,0.9422733783721924,1024.0,94.87089776992798,2
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,multilingual-e5-large,sentence_transformer,main,cosine,0.9411176443099976,1024.0,94.87089776992798,3
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,multilingual-e5-large,sentence_transformer,main,cosine,0.9391434192657471,1024.0,94.87089776992798,4
+TT00CD80__TT00CD91,TT00CD80,JavaScript Programming,TT00CD91,Object Oriented Programming,,0,dev,multilingual-e5-large,sentence_transformer,main,cosine,0.9349305629730225,1024.0,94.87089776992798,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-large,sentence_transformer,main,dot,0.9456745386123657,1024.0,94.87089776992798,1
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-large,sentence_transformer,main,dot,0.9422732591629028,1024.0,94.87089776992798,2
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,multilingual-e5-large,sentence_transformer,main,dot,0.9411177635192871,1024.0,94.87089776992798,3
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,multilingual-e5-large,sentence_transformer,main,dot,0.9391434192657471,1024.0,94.87089776992798,4
+TT00CD80__TT00CD91,TT00CD80,JavaScript Programming,TT00CD91,Object Oriented Programming,,0,dev,multilingual-e5-large,sentence_transformer,main,dot,0.9349307417869568,1024.0,94.87089776992798,5
+TE00CN56__TT00DS35,TE00CN56,Internet Networks and Security,TT00DS35,Introduction to Networks,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,cosine,0.9595069885253906,1024.0,103.37631392478943,1
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,cosine,0.9585837125778198,1024.0,103.37631392478943,2
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,cosine,0.95685213804245,1024.0,103.37631392478943,3
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,cosine,0.9559454917907715,1024.0,103.37631392478943,4
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,cosine,0.9556896090507507,1024.0,103.37631392478943,5
+TE00CN56__TT00DS35,TE00CN56,Internet Networks and Security,TT00DS35,Introduction to Networks,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,dot,0.9595068693161011,1024.0,103.37631392478943,1
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,dot,0.9585834741592407,1024.0,103.37631392478943,2
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,dot,0.95685213804245,1024.0,103.37631392478943,3
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,dot,0.9559454917907715,1024.0,103.37631392478943,4
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-large-instruct,sentence_transformer,enriched,dot,0.9556896090507507,1024.0,103.37631392478943,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,cosine,0.9556894302368164,1024.0,100.73448514938354,1
+TE00CN56__TT00DS35,TE00CN56,Internet Networks and Security,TT00DS35,Introduction to Networks,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,cosine,0.954761803150177,1024.0,100.73448514938354,2
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,cosine,0.9533578157424927,1024.0,100.73448514938354,3
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,cosine,0.9527900218963623,1024.0,100.73448514938354,4
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,cosine,0.9520957469940186,1024.0,100.73448514938354,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,dot,0.955689549446106,1024.0,100.73448514938354,1
+TE00CN56__TT00DS35,TE00CN56,Internet Networks and Security,TT00DS35,Introduction to Networks,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,dot,0.954761803150177,1024.0,100.73448514938354,2
+TT00CD85__TT00DS73,TT00CD85,Backend Programming,TT00DS73,Front-End Development,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,dot,0.9533578157424927,1024.0,100.73448514938354,3
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,dot,0.9527900218963623,1024.0,100.73448514938354,4
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,multilingual-e5-large-instruct,sentence_transformer,main,dot,0.9520956873893738,1024.0,100.73448514938354,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,openai_text-embedding-3-large,openai,enriched,cosine,0.687749981880188,3072.0,1.9042186737060547,1
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,openai_text-embedding-3-large,openai,enriched,cosine,0.6737841963768005,3072.0,1.9042186737060547,2
+TE00BR86__TT00DS73,TE00BR86,Back-End Development,TT00DS73,Front-End Development,,0,dev,openai_text-embedding-3-large,openai,enriched,cosine,0.6657673120498657,3072.0,1.9042186737060547,3
+TT00CD77__TT00CD80,TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,,0,dev,openai_text-embedding-3-large,openai,enriched,cosine,0.6623084545135498,3072.0,1.9042186737060547,4
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,openai_text-embedding-3-large,openai,enriched,cosine,0.6587135791778564,3072.0,1.9042186737060547,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,openai_text-embedding-3-large,openai,enriched,dot,0.6875317096710205,3072.0,1.9042186737060547,1
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,openai_text-embedding-3-large,openai,enriched,dot,0.6740171909332275,3072.0,1.9042186737060547,2
+TE00BR86__TT00DS73,TE00BR86,Back-End Development,TT00DS73,Front-End Development,,0,dev,openai_text-embedding-3-large,openai,enriched,dot,0.6661087274551392,3072.0,1.9042186737060547,3
+TT00CD77__TT00CD80,TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,,0,dev,openai_text-embedding-3-large,openai,enriched,dot,0.6624433994293213,3072.0,1.9042186737060547,4
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,openai_text-embedding-3-large,openai,enriched,dot,0.6584789156913757,3072.0,1.9042186737060547,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,openai_text-embedding-3-large,openai,full,cosine,0.7400323152542114,3072.0,0.9336776733398438,1
+TT00CD77__TT00CD80,TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,,0,dev,openai_text-embedding-3-large,openai,full,cosine,0.7267964482307434,3072.0,0.9336776733398438,2
+TT00CD84__TT00CE05,TT00CD84,Data analytics and artificial intelligence,TT00CE05,Data Analytics Project,,0,dev,openai_text-embedding-3-large,openai,full,cosine,0.7262072563171387,3072.0,0.9336776733398438,3
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,openai_text-embedding-3-large,openai,full,cosine,0.7136081457138062,3072.0,0.9336776733398438,4
+TT00CD77__TT00CD93,TT00CD77,Basics of Programming,TT00CD93,Android Application Development,,0,dev,openai_text-embedding-3-large,openai,full,cosine,0.6835860013961792,3072.0,0.9336776733398438,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,openai_text-embedding-3-large,openai,full,dot,0.7410044074058533,3072.0,0.9336776733398438,1
+TT00CD77__TT00CD80,TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,,0,dev,openai_text-embedding-3-large,openai,full,dot,0.7265497446060181,3072.0,0.9336776733398438,2
+TT00CD84__TT00CE05,TT00CD84,Data analytics and artificial intelligence,TT00CE05,Data Analytics Project,,0,dev,openai_text-embedding-3-large,openai,full,dot,0.7263707518577576,3072.0,0.9336776733398438,3
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,openai_text-embedding-3-large,openai,full,dot,0.7140082120895386,3072.0,0.9336776733398438,4
+TT00CD77__TT00CD93,TT00CD77,Basics of Programming,TT00CD93,Android Application Development,,0,dev,openai_text-embedding-3-large,openai,full,dot,0.6834390759468079,3072.0,0.9336776733398438,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,openai_text-embedding-3-large,openai,main,cosine,0.687749981880188,3072.0,2.807638645172119,1
+TE00BR86__TT00DS73,TE00BR86,Back-End Development,TT00DS73,Front-End Development,,0,dev,openai_text-embedding-3-large,openai,main,cosine,0.6657768487930298,3072.0,2.807638645172119,2
+TT00CD84__TT00CE05,TT00CD84,Data analytics and artificial intelligence,TT00CE05,Data Analytics Project,,0,dev,openai_text-embedding-3-large,openai,main,cosine,0.6599549651145935,3072.0,2.807638645172119,3
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,openai_text-embedding-3-large,openai,main,cosine,0.6408942937850952,3072.0,2.807638645172119,4
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,openai_text-embedding-3-large,openai,main,cosine,0.6404215693473816,3072.0,2.807638645172119,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,openai_text-embedding-3-large,openai,main,dot,0.6875317096710205,3072.0,2.807638645172119,1
+TE00BR86__TT00DS73,TE00BR86,Back-End Development,TT00DS73,Front-End Development,,0,dev,openai_text-embedding-3-large,openai,main,dot,0.6658613681793213,3072.0,2.807638645172119,2
+TT00CD84__TT00CE05,TT00CD84,Data analytics and artificial intelligence,TT00CE05,Data Analytics Project,,0,dev,openai_text-embedding-3-large,openai,main,dot,0.6598297953605652,3072.0,2.807638645172119,3
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,openai_text-embedding-3-large,openai,main,dot,0.6410235166549683,3072.0,2.807638645172119,4
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,openai_text-embedding-3-large,openai,main,dot,0.6405435800552368,3072.0,2.807638645172119,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,tfidf,tfidf,enriched,cosine,0.4133591055870056,5225.0,0.050122737884521484,1
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,tfidf,tfidf,enriched,cosine,0.3294221758842468,5225.0,0.050122737884521484,2
+TT00CD80__TT00CE17,TT00CD80,JavaScript Programming,TT00CE17,Web Application Security Testing,,0,dev,tfidf,tfidf,enriched,cosine,0.3188950717449188,5225.0,0.050122737884521484,3
+TT00CD78__TT00CE17,TT00CD78,Frontend Programming,TT00CE17,Web Application Security Testing,,0,dev,tfidf,tfidf,enriched,cosine,0.31613755226135254,5225.0,0.050122737884521484,4
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,tfidf,tfidf,enriched,cosine,0.303816556930542,5225.0,0.050122737884521484,5
+TT00CD90__TT00CE12,TT00CD90,Software Design,TT00CE12,Security Operations Center,,0,dev,tfidf,tfidf,enriched,dot,6118.5419921875,5225.0,0.050122737884521484,1
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,tfidf,tfidf,enriched,dot,4410.4345703125,5225.0,0.050122737884521484,2
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,tfidf,tfidf,enriched,dot,4204.04833984375,5225.0,0.050122737884521484,3
+TT00CD90__TT00CE20,TT00CD90,Software Design,TT00CE20,Local Area Networks,,0,dev,tfidf,tfidf,enriched,dot,3872.60546875,5225.0,0.050122737884521484,4
+TT00CE12__TT00CE17,TT00CE12,Security Operations Center,TT00CE17,Web Application Security Testing,,0,dev,tfidf,tfidf,enriched,dot,3700.985595703125,5225.0,0.050122737884521484,5
+TT00CD78__TT00CD85,TT00CD78,Frontend Programming,TT00CD85,Backend Programming,,0,dev,tfidf,tfidf,full,cosine,0.46011313796043396,6510.0,0.06700587272644043,1
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,tfidf,tfidf,full,cosine,0.4594722390174866,6510.0,0.06700587272644043,2
+TT00CD77__TT00CD91,TT00CD77,Basics of Programming,TT00CD91,Object Oriented Programming,,0,dev,tfidf,tfidf,full,cosine,0.43261638283729553,6510.0,0.06700587272644043,3
+TT00CD77__TT00CD80,TT00CD77,Basics of Programming,TT00CD80,JavaScript Programming,,0,dev,tfidf,tfidf,full,cosine,0.4206477999687195,6510.0,0.06700587272644043,4
+TT00CD78__TT00CD94,TT00CD78,Frontend Programming,TT00CD94,Mobile Application Development,,0,dev,tfidf,tfidf,full,cosine,0.4061425030231476,6510.0,0.06700587272644043,5
+TT00CE12__TT00CE17,TT00CE12,Security Operations Center,TT00CE17,Web Application Security Testing,,0,dev,tfidf,tfidf,full,dot,28854.44921875,6510.0,0.06700587272644043,1
+TT00CD90__TT00CE12,TT00CD90,Software Design,TT00CE12,Security Operations Center,,0,dev,tfidf,tfidf,full,dot,22916.1328125,6510.0,0.06700587272644043,2
+TT00CE12__TT00CE20,TT00CE12,Security Operations Center,TT00CE20,Local Area Networks,,0,dev,tfidf,tfidf,full,dot,20157.384765625,6510.0,0.06700587272644043,3
+TT00CD90__TT00CE17,TT00CD90,Software Design,TT00CE17,Web Application Security Testing,,0,dev,tfidf,tfidf,full,dot,15752.6611328125,6510.0,0.06700587272644043,4
+TT00CD90__TT00CE20,TT00CD90,Software Design,TT00CE20,Local Area Networks,,0,dev,tfidf,tfidf,full,dot,15439.076171875,6510.0,0.06700587272644043,5
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,tfidf,tfidf,main,cosine,0.4069877564907074,5023.0,0.05579996109008789,1
+TT00CD84__TT00CD99,TT00CD84,Data analytics and artificial intelligence,TT00CD99,Data Sources and Data Preprocessing,,0,dev,tfidf,tfidf,main,cosine,0.34851834177970886,5023.0,0.05579996109008789,2
+TT00CD78__TT00CE17,TT00CD78,Frontend Programming,TT00CE17,Web Application Security Testing,,0,dev,tfidf,tfidf,main,cosine,0.3201371729373932,5023.0,0.05579996109008789,3
+TT00CD80__TT00CE17,TT00CD80,JavaScript Programming,TT00CE17,Web Application Security Testing,,0,dev,tfidf,tfidf,main,cosine,0.31238242983818054,5023.0,0.05579996109008789,4
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,tfidf,tfidf,main,cosine,0.3089369535446167,5023.0,0.05579996109008789,5
+TT00DS73__TT00DS75,TT00DS73,Front-End Development,TT00DS75,Mobile Application Development,,0,dev,tfidf,tfidf,main,dot,4542.84228515625,5023.0,0.05579996109008789,1
+TT00CD90__TT00CE12,TT00CD90,Software Design,TT00CE12,Security Operations Center,,0,dev,tfidf,tfidf,main,dot,4350.998046875,5023.0,0.05579996109008789,2
+TT00CD71__TT00CD75,TT00CD71,Linux Basics,TT00CD75,Windows Basics,,0,dev,tfidf,tfidf,main,dot,4216.6435546875,5023.0,0.05579996109008789,3
+TT00DS61__TT00DS73,TT00DS61,Object-Oriented Programming with Python,TT00DS73,Front-End Development,,0,dev,tfidf,tfidf,main,dot,3417.37744140625,5023.0,0.05579996109008789,4
+TT00CD71__TT00CD72,TT00CD71,Linux Basics,TT00CD72,Servers and containers,,0,dev,tfidf,tfidf,main,dot,3212.36962890625,5023.0,0.05579996109008789,5
