@@ -154,6 +154,35 @@ st.markdown(
             color: var(--text-dark);
         }}
 
+        /* Streamlit top header */
+        header[data-testid="stHeader"] 
+        {{
+            background: #FCFAF8 !important;
+            border-bottom: 1px solid #ECE7F0 !important;
+        }}
+        
+        /* Right-side Share / icons area 
+        */ [data-testid="stToolbar"] 
+        {{
+            background: transparent !important;
+        }}
+        
+        header[data-testid="stHeader"] button 
+        {{
+            color: #221B45 !important;
+            }}
+            
+        header[data-testid="stHeader"] svg 
+        {{color: #221B45 !important;
+        fill: #221B45 !important;
+        }}
+        
+        /* Remove Streamlit's dark decoration strip if present */
+        [data-testid="stDecoration"] 
+        {{
+            background: #FCFAF8 !important;
+        }}
+
         .block-container {{
             max-width: 1480px;
             padding-top: 2.0rem;
