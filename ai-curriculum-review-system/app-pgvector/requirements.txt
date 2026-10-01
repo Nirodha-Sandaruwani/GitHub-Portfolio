@@ -1,0 +1,9 @@
+openai
+python-dotenv
+sentence-transformers
+scikit-learn
+pandas
+numpy
+matplotlib
+torch
+plotly
